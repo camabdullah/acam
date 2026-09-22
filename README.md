@@ -1,31 +1,32 @@
-# Din Rotası — TYT DKAB hazırlık oyunu
+# Abdullah Çam’la TYT’ye Doğru
 
-Mobil uyumlu, hesap gerektirmeyen bir soru oyunu. 6 konu grubunda 60 özgün, açıklamalı ve beş seçenekli alıştırma içerir.
+[Oyunu aç](https://camabdullah.github.io/acam/)
 
-- 10 soruluk öğrenme turları; süre sınırı yok.
-- Her soru için 30 saniyelik hızlı turlar.
-- Yanlışları ve süresi kaçırılan soruları tekrar çözme.
-- Doğru yanıta 100 puan; 3. ve sonraki ardışık doğrulara 20 puan bonus.
-- Cihaza ve tarayıcıya özel gelişim takibi. Ortak sınıf sıralaması veya öğretmen paneli yoktur.
-- Karışık turda her konu grubundan en az bir soru. Soru ve seçenek sırası rastgele değişir.
-- Harici script, takip aracı, kullanıcı hesabı, ücretli servis veya derleme bağımlılığı içermez.
+Mobil uyumlu DKAB hazırlık oyunu. Her ünitede 40 olmak üzere toplam 200 özgün, açıklamalı ve beş seçenekli soru içerir. 150 soru kavram tanımı veya kısa örnekten kavram bulma üzerinedir.
 
-## Açma
+1. Bilgi ve İnanç
+2. Din ve İslam
+3. İslam ve İbadet
+4. Gençlik ve Değerler
+5. Gönül Coğrafyamız
 
-`index.html` dosyasını doğrudan tarayıcıda açabilir veya GitHub Pages üzerinden yayımlayabilirsiniz. Tüm CSS, JavaScript ve sorular bu tek dosyanın içindedir.
+TYT’ye hazırlanan mevcut 12. sınıf öğrencilerinin 9. sınıfta izlediği 2018 DKAB programı esas alınmıştır. Yeni 9. sınıfların Maarif Modeli üniteleri farklıdır. Sorular özgün alıştırmalardır, çıkmış ÖSYM soruları değildir. MEB konu bağlantıları oyunun kaynaklar alanında yer alır.
 
-GitHub deposunda **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: main → /(root) → Save** seçin. GitHub, yayımlama bitince oyun adresini aynı sayfada gösterir.
+## Oynanış
 
-## İçerik kapsamı
+- Süresiz öğrenme veya soru başına 30 saniyelik hızlı tur.
+- Her tur 10 soru; karışık tur her üniteden 2 soru içerir.
+- Önce çözülmemiş sorular seçilir. Bir ünitede dört tam tur, 40 farklı soruya ulaşmayı sağlar.
+- Doğru yanıt 100 puan; 3. ve sonraki ardışık doğrular 20 puan bonus kazandırır.
+- Yanlışlar tekrar listesine eklenir; doğru çözüldüklerinde listeden çıkar.
+- Gelişim bu cihazdaki tarayıcıda saklanır. Hesap veya kişisel bilgi istenmez.
 
-Bilgi ve İnanç; Din ve İslam; İslam ve İbadet; Ahlak ve Değerler; Vahiy ve Peygamberlik; İnanç ve Yorumlar.
+## Dosyalar
 
-Sorular çıkmış ÖSYM soruları değildir. Bu sürüm tüm TYT müfredatını bitiren eksiksiz bir soru bankası olarak sunulmaz. Konu grupları çalışma amaçlıdır; güncel sınıf/ünite sırası iddiası taşımaz. Kaynak bağlantıları oyun içindeki “Kaynaklar & bilgi” alanında ve yanıt açıklamalarında bulunur. MEB ders materyalleri kavramsal kontrol için kullanılmış, sorular özgün yazılmıştır.
+`index.html` tüm CSS, JavaScript ve soruları içerir; portre için `assets/abdullah-cam.png` dosyası da dağıtılmalıdır. PNG, öğretmenin sağladığı orijinal fotoğrafın biçim dönüşümüdür; yuvarlak görünüm CSS ile uygulanır.
+
+Soru bankasını düzenlemek için `concepts.json` ve `practice.json` dosyalarını güncelleyin. `python3 generate_questions.py` ardından `python3 build.py` çalıştırın. `template.html`, `style.css` ve `app.js` arayüz kaynaklarıdır. Harici paket veya sunucu gerekmez.
 
 ## Veri davranışı
 
-Gelişim `localStorage` içinde `din-rotasi-v1` anahtarıyla tutulur. Bir soruyu tekrar yanıtlamak toplam yanıtlara yeniden eklenir. Yanlış soruyu doğru çözmek onu tekrar listesinden çıkarır. Sayfa yenilenince aktif tur kapanır; önceki yanıtlar korunur. Depolama engellenirse uyarı gösterilir ve oyun oturum boyunca çalışmaya devam eder. Her tarayıcı/cihazın kaydı ayrıdır. Oyun puanları istemci tarafında hesaplanır; resmî sınav sonucu veya güvenli rekabet sıralaması için kullanılmaz.
-
-## Geliştirme
-
-`template.html`, `style.css`, `questions.js`, `app.js` kaynaklarını değiştirip `python3 build.py` çalıştırın. Yayımlanan dosya `index.html` olur; sunucu kurulumu gerekmez. `node --check app.js` ile sözdizimi kontrol edilebilir.
+Geriye uyumluluk için tarayıcı kayıt anahtarı `din-rotasi-v1` olarak korunur. Eski toplam puan ve yanıt sayıları korunur; yeni bankada bulunmayan soru kimlikleri tekrar ve pekiştirme listelerinden çıkarılır. Aktif tur yenilemede kapanır. Depolama engellenirse oyun oturum içinde çalışır ve uyarı gösterir. Oyun puanı resmî sınav sonucu veya güvenli bir yarışma sıralaması değildir.
