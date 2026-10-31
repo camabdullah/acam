@@ -6,7 +6,8 @@ const TOPICS=[
     "icon": "compass",
     "color": "#6b63c3",
     "unit": 1,
-    "count": 40,
+    "grade": 9,
+    "count": 60,
     "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab9/dkab9_%C3%9Cnite1.pdf"
   },
   {
@@ -16,7 +17,8 @@ const TOPICS=[
     "icon": "sun",
     "color": "#c9862a",
     "unit": 2,
-    "count": 40,
+    "grade": 9,
+    "count": 60,
     "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab9/dkab9_%C3%9Cnite2.pdf"
   },
   {
@@ -26,7 +28,8 @@ const TOPICS=[
     "icon": "book",
     "color": "#3b917d",
     "unit": 3,
-    "count": 40,
+    "grade": 9,
+    "count": 60,
     "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab9/dkab9_%C3%9Cnite3.pdf"
   },
   {
@@ -36,7 +39,8 @@ const TOPICS=[
     "icon": "heart",
     "color": "#c46b83",
     "unit": 4,
-    "count": 40,
+    "grade": 9,
+    "count": 60,
     "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab9/dkab9_%C3%9Cnite4.pdf"
   },
   {
@@ -46,8 +50,64 @@ const TOPICS=[
     "icon": "layers",
     "color": "#5488b7",
     "unit": 5,
-    "count": 40,
+    "grade": 9,
+    "count": 60,
     "source": "https://dogm.eba.gov.tr/etkilesimli/icerik/OlcmeTestOnizle21449.html"
+  },
+  {
+    "id": "allah",
+    "title": "Allah-İnsan İlişkisi",
+    "sub": "İsimler, sıfatlar ve dua",
+    "icon": "sun",
+    "color": "#c9862a",
+    "unit": 1,
+    "grade": 10,
+    "count": 50,
+    "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab10/dkab10_%C3%9Cnite1.pdf"
+  },
+  {
+    "id": "peygamber",
+    "title": "Hz. Muhammed ve Gençlik",
+    "sub": "Örnek hayatlar, genç sahabiler",
+    "icon": "heart",
+    "color": "#c46b83",
+    "unit": 2,
+    "grade": 10,
+    "count": 50,
+    "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab10/dkab10_%C3%9Cnite2.pdf"
+  },
+  {
+    "id": "dinhayat",
+    "title": "Din ve Hayat",
+    "sub": "Haklar, aile ve toplumsal hayat",
+    "icon": "layers",
+    "color": "#5488b7",
+    "unit": 3,
+    "grade": 10,
+    "count": 50,
+    "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab10/dkab10_%C3%9Cnite3.pdf"
+  },
+  {
+    "id": "ahlak",
+    "title": "Ahlaki Tutum ve Davranışlar",
+    "sub": "Erdem, tutum ve sorumluluk",
+    "icon": "shield",
+    "color": "#3b917d",
+    "unit": 4,
+    "grade": 10,
+    "count": 50,
+    "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab10/dkab10_%C3%9Cnite4.pdf"
+  },
+  {
+    "id": "yorum",
+    "title": "İslam Düşüncesinde Yorumlar",
+    "sub": "İtikadi, siyasi ve fıkhi yorumlar",
+    "icon": "compass",
+    "color": "#6b63c3",
+    "unit": 5,
+    "grade": 10,
+    "count": 50,
+    "source": "https://dogm.eba.gov.tr/panel/upload/kitap/dkab10/dkab10_%C3%9Cnite5.pdf"
   }
 ];
 const QUESTIONS=[
@@ -58,12 +118,12 @@ const QUESTIONS=[
     "text": "“Ön yargıya kapılmadan doğru değerlendirme yapabilen sağlıklı akıl” açıklaması hangi kavrama aittir?",
     "options": [
       "Selim akıl",
-      "Hakka’l-yakîn",
-      "Ayne’l-yakîn",
-      "Gayb",
-      "Tasdik"
+      "Salim duyular",
+      "Sadık haber",
+      "İlham",
+      "Rüya"
     ],
-    "explanation": "Selim akıl: ön yargıya kapılmadan doğru değerlendirme yapabilen sağlıklı akıl."
+    "explanation": "Selim akıl: Ön yargıya kapılmadan doğru değerlendirme yapabilen sağlıklı akıl. Salim duyular algılar; selim akıl veriler arasında ilişki kurar."
   },
   {
     "id": "bilgi-o01",
@@ -72,12 +132,12 @@ const QUESTIONS=[
     "text": "Ece, bir iddiayı sevdiği biri söyledi diye kabul etmiyor; gerekçelerini tutarlı biçimde değerlendiriyor. Kullanılan bilgi kaynağı hangisidir?",
     "options": [
       "Selim akıl",
-      "Sadık haber",
-      "Tahkikî iman",
       "Salim duyular",
-      "Zan"
+      "Sadık haber",
+      "İlham",
+      "Rüya"
     ],
-    "explanation": "Selim akıl: ön yargıya kapılmadan doğru değerlendirme yapabilen sağlıklı akıl."
+    "explanation": "Selim akıl: Ön yargıya kapılmadan doğru değerlendirme yapabilen sağlıklı akıl. Salim duyular algılar; selim akıl veriler arasında ilişki kurar."
   },
   {
     "id": "bilgi-k02",
@@ -86,12 +146,12 @@ const QUESTIONS=[
     "text": "“Sağlıklı işleyen duyu organları aracılığıyla bilgi edinme imkânı” açıklaması hangi kavrama aittir?",
     "options": [
       "Salim duyular",
+      "Selim akıl",
       "Sadık haber",
-      "Tahkikî iman",
-      "Ayne’l-yakîn",
-      "Zan"
+      "İlham",
+      "Vahiy"
     ],
-    "explanation": "Salim duyular: sağlıklı işleyen duyu organları aracılığıyla bilgi edinme imkânı."
+    "explanation": "Salim duyular: Sağlıklı işleyen duyu organları aracılığıyla bilgi edinme imkânı. "
   },
   {
     "id": "bilgi-o02",
@@ -102,10 +162,10 @@ const QUESTIONS=[
       "Salim duyular",
       "Selim akıl",
       "Sadık haber",
-      "Hakka’l-yakîn",
-      "Ayne’l-yakîn"
+      "İlham",
+      "Vahiy"
     ],
-    "explanation": "Salim duyular: sağlıklı işleyen duyu organları aracılığıyla bilgi edinme imkânı."
+    "explanation": "Salim duyular: Sağlıklı işleyen duyu organları aracılığıyla bilgi edinme imkânı. "
   },
   {
     "id": "bilgi-k03",
@@ -114,12 +174,12 @@ const QUESTIONS=[
     "text": "“Gerçeğe uygun ve güvenilir haber için kullanılan genel ad” açıklaması hangi kavrama aittir?",
     "options": [
       "Sadık haber",
-      "Hakka’l-yakîn",
-      "İlme’l-yakîn",
-      "Tahkikî iman",
-      "Selim akıl"
+      "Selim akıl",
+      "Salim duyular",
+      "İlham",
+      "Zan"
     ],
-    "explanation": "Sadık haber: gerçeğe uygun ve güvenilir haber için kullanılan genel ad."
+    "explanation": "Sadık haber: Gerçeğe uygun ve güvenilir haber için kullanılan genel ad. Her yaygın söylenti sadık haber değildir."
   },
   {
     "id": "bilgi-o03",
@@ -128,12 +188,12 @@ const QUESTIONS=[
     "text": "Öğretmen, mütevatir haberlerle peygamberlerden gelen haberleri aynı üst başlıkta topluyor. Bu başlık hangisidir?",
     "options": [
       "Sadık haber",
-      "Ayne’l-yakîn",
-      "Hakka’l-yakîn",
-      "Tasdik",
-      "İman"
+      "Selim akıl",
+      "Salim duyular",
+      "İlham",
+      "Zan"
     ],
-    "explanation": "Sadık haber: gerçeğe uygun ve güvenilir haber için kullanılan genel ad."
+    "explanation": "Sadık haber: Gerçeğe uygun ve güvenilir haber için kullanılan genel ad. Her yaygın söylenti sadık haber değildir."
   },
   {
     "id": "bilgi-k04",
@@ -142,12 +202,12 @@ const QUESTIONS=[
     "text": "“Allah’ın peygamberlerine bildirdiği ilahî mesaj” açıklaması hangi kavrama aittir?",
     "options": [
       "Vahiy",
-      "Ayne’l-yakîn",
-      "Gayb",
-      "Salim duyular",
+      "Mütevatir haber",
+      "İlham",
+      "Rüya",
       "Zan"
     ],
-    "explanation": "Vahiy: allah’ın peygamberlerine bildirdiği ilahî mesaj."
+    "explanation": "Vahiy: Allah’ın peygamberlerine bildirdiği ilahî mesaj. İlham, vahiy gibi herkes için bağlayıcı dinî delil sayılmaz."
   },
   {
     "id": "bilgi-o04",
@@ -156,12 +216,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci, Kur’an’ın kaynağının insanların kişisel tahminleri olmadığını, Allah’ın bildirmesi olduğunu söylüyor. Hangi kavramı açıklıyor?",
     "options": [
       "Vahiy",
-      "Zan",
-      "Tasdik",
-      "Tahkikî iman",
-      "İman"
+      "Mütevatir haber",
+      "İlham",
+      "Rüya",
+      "Zan"
     ],
-    "explanation": "Vahiy: allah’ın peygamberlerine bildirdiği ilahî mesaj."
+    "explanation": "Vahiy: Allah’ın peygamberlerine bildirdiği ilahî mesaj. İlham, vahiy gibi herkes için bağlayıcı dinî delil sayılmaz."
   },
   {
     "id": "bilgi-k05",
@@ -170,12 +230,12 @@ const QUESTIONS=[
     "text": "“Yalanda birleşmeleri aklen mümkün görülmeyen toplulukların aktardığı haber” açıklaması hangi kavrama aittir?",
     "options": [
       "Mütevatir haber",
-      "İkrar",
-      "Gayb",
-      "Zan",
-      "Salim duyular"
+      "Vahiy",
+      "İlham",
+      "Rüya",
+      "Zan"
     ],
-    "explanation": "Mütevatir haber: yalanda birleşmeleri aklen mümkün görülmeyen toplulukların aktardığı haber."
+    "explanation": "Mütevatir haber: Yalanda birleşmeleri aklen mümkün görülmeyen toplulukların aktardığı haber. Bir haberin internette çok paylaşılması tek başına mütevatir olduğunu göstermez."
   },
   {
     "id": "bilgi-o05",
@@ -184,12 +244,12 @@ const QUESTIONS=[
     "text": "Hiç gitmediği tarihî bir şehrin varlığını, birbirinden bağımsız çok sayıda kişinin kesintisiz aktarımıyla bilen kişi hangi tür habere dayanır?",
     "options": [
       "Mütevatir haber",
-      "Tahkikî iman",
-      "Zan",
-      "Taklidî iman",
-      "Salim duyular"
+      "Vahiy",
+      "İlham",
+      "Rüya",
+      "Zan"
     ],
-    "explanation": "Mütevatir haber: yalanda birleşmeleri aklen mümkün görülmeyen toplulukların aktardığı haber."
+    "explanation": "Mütevatir haber: Yalanda birleşmeleri aklen mümkün görülmeyen toplulukların aktardığı haber. Bir haberin internette çok paylaşılması tek başına mütevatir olduğunu göstermez."
   },
   {
     "id": "bilgi-k06",
@@ -198,12 +258,12 @@ const QUESTIONS=[
     "text": "“Dinî inanç esaslarını gönülden kabul etme” açıklaması hangi kavrama aittir?",
     "options": [
       "İman",
-      "Salim duyular",
-      "Gayb",
-      "Taklidî iman",
-      "Mütevatir haber"
+      "İkrar",
+      "Amel",
+      "Nifak",
+      "Zan"
     ],
-    "explanation": "İman: dinî inanç esaslarını gönülden kabul etme."
+    "explanation": "İman: Dinî inanç esaslarını gönülden kabul etme. İman inanç boyutudur; amel davranış boyutudur."
   },
   {
     "id": "bilgi-o06",
@@ -212,12 +272,12 @@ const QUESTIONS=[
     "text": "Bir kişi, Allah’a ve peygamberin bildirdiği inanç esaslarına içtenlikle bağlandığını ifade ediyor. Bu kabulün genel adı nedir?",
     "options": [
       "İman",
-      "Tahkikî iman",
-      "Vahiy",
-      "Zan",
-      "Salim duyular"
+      "İkrar",
+      "Amel",
+      "Nifak",
+      "Zan"
     ],
-    "explanation": "İman: dinî inanç esaslarını gönülden kabul etme."
+    "explanation": "İman: Dinî inanç esaslarını gönülden kabul etme. İman inanç boyutudur; amel davranış boyutudur."
   },
   {
     "id": "bilgi-k07",
@@ -226,12 +286,12 @@ const QUESTIONS=[
     "text": "“Bir bilgiyi veya inancı kalben doğrulama” açıklaması hangi kavrama aittir?",
     "options": [
       "Tasdik",
-      "Gayb",
       "İkrar",
-      "Mütevatir haber",
-      "Selim akıl"
+      "Tebliğ",
+      "Amel",
+      "Taklit"
     ],
-    "explanation": "Tasdik: bir bilgiyi veya inancı kalben doğrulama."
+    "explanation": "Tasdik: Bir bilgiyi veya inancı kalben doğrulama. Tasdik kalbin onayı, ikrar dil ile açıklamadır."
   },
   {
     "id": "bilgi-o07",
@@ -240,12 +300,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci imanla ilgili olarak dışarıya söylenen sözden önce kalpteki kabulün önemini vurguluyor. Hangi kavramı öne çıkarıyor?",
     "options": [
       "Tasdik",
-      "Sadık haber",
-      "Gayb",
-      "Ayne’l-yakîn",
-      "İlme’l-yakîn"
+      "İkrar",
+      "Tebliğ",
+      "Amel",
+      "Taklit"
     ],
-    "explanation": "Tasdik: bir bilgiyi veya inancı kalben doğrulama."
+    "explanation": "Tasdik: Bir bilgiyi veya inancı kalben doğrulama. Tasdik kalbin onayı, ikrar dil ile açıklamadır."
   },
   {
     "id": "bilgi-k08",
@@ -254,12 +314,12 @@ const QUESTIONS=[
     "text": "“İçten benimsenen inancı sözle ifade etme” açıklaması hangi kavrama aittir?",
     "options": [
       "İkrar",
-      "Gayb",
-      "Selim akıl",
-      "Sadık haber",
-      "Hakka’l-yakîn"
+      "Tasdik",
+      "Tefekkür",
+      "İhlas",
+      "Taklit"
     ],
-    "explanation": "İkrar: i̇çten benimsenen inancı sözle ifade etme."
+    "explanation": "İkrar: İçten benimsenen inancı sözle ifade etme. "
   },
   {
     "id": "bilgi-o08",
@@ -268,12 +328,12 @@ const QUESTIONS=[
     "text": "Bir kişi kalben benimsediği inancını diliyle de açıkladığında hangi eylemi gerçekleştirmiş olur?",
     "options": [
       "İkrar",
-      "Selim akıl",
-      "Ayne’l-yakîn",
-      "Sadık haber",
-      "Hakka’l-yakîn"
+      "Tasdik",
+      "Tefekkür",
+      "İhlas",
+      "Taklit"
     ],
-    "explanation": "İkrar: i̇çten benimsenen inancı sözle ifade etme."
+    "explanation": "İkrar: İçten benimsenen inancı sözle ifade etme. "
   },
   {
     "id": "bilgi-k09",
@@ -282,12 +342,12 @@ const QUESTIONS=[
     "text": "“İnancın gerekçelerini araştırmadan çevreden görerek benimsenmesi” açıklaması hangi kavrama aittir?",
     "options": [
       "Taklidî iman",
-      "Vahiy",
-      "İlme’l-yakîn",
-      "Hakka’l-yakîn",
-      "Gayb"
+      "Tahkikî iman",
+      "İkrar",
+      "Nifak",
+      "Zan"
     ],
-    "explanation": "Taklidî iman: i̇nancın gerekçelerini araştırmadan çevreden görerek benimsenmesi."
+    "explanation": "Taklidî iman: İnancın gerekçelerini araştırmadan çevreden görerek benimsenmesi. "
   },
   {
     "id": "bilgi-o09",
@@ -296,12 +356,12 @@ const QUESTIONS=[
     "text": "Mert, inançlarının dayanakları sorulduğunda yalnızca ailesinden böyle gördüğünü söylüyor. Bu inanç biçimi hangisidir?",
     "options": [
       "Taklidî iman",
-      "Selim akıl",
-      "Hakka’l-yakîn",
-      "Ayne’l-yakîn",
-      "Mütevatir haber"
+      "Tahkikî iman",
+      "İkrar",
+      "Nifak",
+      "Zan"
     ],
-    "explanation": "Taklidî iman: i̇nancın gerekçelerini araştırmadan çevreden görerek benimsenmesi."
+    "explanation": "Taklidî iman: İnancın gerekçelerini araştırmadan çevreden görerek benimsenmesi. "
   },
   {
     "id": "bilgi-k10",
@@ -310,12 +370,12 @@ const QUESTIONS=[
     "text": "“Araştırma ve delillerle bilinçli biçimde temellendirilen iman” açıklaması hangi kavrama aittir?",
     "options": [
       "Tahkikî iman",
-      "Salim duyular",
       "Taklidî iman",
       "İkrar",
-      "İman"
+      "İlham",
+      "Zan"
     ],
-    "explanation": "Tahkikî iman: araştırma ve delillerle bilinçli biçimde temellendirilen iman."
+    "explanation": "Tahkikî iman: Araştırma ve delillerle bilinçli biçimde temellendirilen iman. "
   },
   {
     "id": "bilgi-o10",
@@ -324,12 +384,12 @@ const QUESTIONS=[
     "text": "Zeynep, inandığı esasların gerekçelerini okuyor ve sorularına cevap arıyor. İnancını hangi düzeye taşımaya çalışıyor?",
     "options": [
       "Tahkikî iman",
-      "İman",
-      "Salim duyular",
-      "Selim akıl",
-      "Gayb"
+      "Taklidî iman",
+      "İkrar",
+      "İlham",
+      "Zan"
     ],
-    "explanation": "Tahkikî iman: araştırma ve delillerle bilinçli biçimde temellendirilen iman."
+    "explanation": "Tahkikî iman: Araştırma ve delillerle bilinçli biçimde temellendirilen iman. "
   },
   {
     "id": "bilgi-k11",
@@ -339,11 +399,11 @@ const QUESTIONS=[
     "options": [
       "İlme’l-yakîn",
       "Ayne’l-yakîn",
-      "Taklidî iman",
-      "İman",
-      "Mütevatir haber"
+      "Hakka’l-yakîn",
+      "Zan",
+      "Taklidî iman"
     ],
-    "explanation": "İlme’l-yakîn: doğrudan gözlemden önce güvenilir bilgi ve delille ulaşılan kesinlik."
+    "explanation": "İlme’l-yakîn: Doğrudan gözlemden önce güvenilir bilgi ve delille ulaşılan kesinlik. Duman bilgisinden ateşi bilmek ilmelyakine örnek verilebilir."
   },
   {
     "id": "bilgi-o11",
@@ -352,12 +412,12 @@ const QUESTIONS=[
     "text": "Ali, balın tatlı olduğunu güvenilir bir açıklamadan öğreniyor; henüz balı tatmış değil. Bilginin dayanağı bakımından hangi aşamadadır?",
     "options": [
       "İlme’l-yakîn",
-      "Gayb",
-      "Salim duyular",
-      "Vahiy",
-      "Tahkikî iman"
+      "Ayne’l-yakîn",
+      "Hakka’l-yakîn",
+      "Zan",
+      "Taklidî iman"
     ],
-    "explanation": "İlme’l-yakîn: doğrudan gözlemden önce güvenilir bilgi ve delille ulaşılan kesinlik."
+    "explanation": "İlme’l-yakîn: Doğrudan gözlemden önce güvenilir bilgi ve delille ulaşılan kesinlik. Duman bilgisinden ateşi bilmek ilmelyakine örnek verilebilir."
   },
   {
     "id": "bilgi-k12",
@@ -366,12 +426,12 @@ const QUESTIONS=[
     "text": "“Bir şeyi bizzat görüp gözlemleyerek elde edilen kesinlik” açıklaması hangi kavrama aittir?",
     "options": [
       "Ayne’l-yakîn",
-      "Tahkikî iman",
       "İlme’l-yakîn",
-      "İman",
-      "Selim akıl"
+      "Hakka’l-yakîn",
+      "Zan",
+      "Taklidî iman"
     ],
-    "explanation": "Ayne’l-yakîn: bir şeyi bizzat görüp gözlemleyerek elde edilen kesinlik."
+    "explanation": "Ayne’l-yakîn: Bir şeyi bizzat görüp gözlemleyerek elde edilen kesinlik. "
   },
   {
     "id": "bilgi-o12",
@@ -380,12 +440,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci anlatılan şelaleyi kendi gözleriyle görünce varlığından gözlem yoluyla emin oluyor. Hangi kesinlik aşaması örneklenir?",
     "options": [
       "Ayne’l-yakîn",
+      "İlme’l-yakîn",
       "Hakka’l-yakîn",
       "Zan",
-      "Sadık haber",
-      "Tahkikî iman"
+      "Taklidî iman"
     ],
-    "explanation": "Ayne’l-yakîn: bir şeyi bizzat görüp gözlemleyerek elde edilen kesinlik."
+    "explanation": "Ayne’l-yakîn: Bir şeyi bizzat görüp gözlemleyerek elde edilen kesinlik. "
   },
   {
     "id": "bilgi-k13",
@@ -394,12 +454,12 @@ const QUESTIONS=[
     "text": "“Bir gerçeği bizzat yaşayarak ve deneyimleyerek bilme” açıklaması hangi kavrama aittir?",
     "options": [
       "Hakka’l-yakîn",
+      "İlme’l-yakîn",
+      "Ayne’l-yakîn",
       "Zan",
-      "Taklidî iman",
-      "Tahkikî iman",
-      "Vahiy"
+      "Taklidî iman"
     ],
-    "explanation": "Hakka’l-yakîn: bir gerçeği bizzat yaşayarak ve deneyimleyerek bilme."
+    "explanation": "Hakka’l-yakîn: Bir gerçeği bizzat yaşayarak ve deneyimleyerek bilme. "
   },
   {
     "id": "bilgi-o13",
@@ -408,12 +468,12 @@ const QUESTIONS=[
     "text": "Deniz, balın tadını anlatımlardan öğrenmekle yetinmeyip kendisi tadıyor. Bu doğrudan yaşantı hangi kesinlik aşamasına örnektir?",
     "options": [
       "Hakka’l-yakîn",
-      "Salim duyular",
-      "İman",
-      "Sadık haber",
+      "İlme’l-yakîn",
+      "Ayne’l-yakîn",
+      "Zan",
       "Taklidî iman"
     ],
-    "explanation": "Hakka’l-yakîn: bir gerçeği bizzat yaşayarak ve deneyimleyerek bilme."
+    "explanation": "Hakka’l-yakîn: Bir gerçeği bizzat yaşayarak ve deneyimleyerek bilme. "
   },
   {
     "id": "bilgi-k14",
@@ -422,12 +482,12 @@ const QUESTIONS=[
     "text": "“Kesin kanıta ulaşılmadan benimsenen tahmin veya kanaat” açıklaması hangi kavrama aittir?",
     "options": [
       "Zan",
-      "Mütevatir haber",
-      "Vahiy",
-      "Tasdik",
-      "Selim akıl"
+      "İlme’l-yakîn",
+      "Ayne’l-yakîn",
+      "Hakka’l-yakîn",
+      "Mütevatir haber"
     ],
-    "explanation": "Zan: kesin kanıta ulaşılmadan benimsenen tahmin veya kanaat."
+    "explanation": "Zan: Kesin kanıta ulaşılmadan benimsenen tahmin veya kanaat. "
   },
   {
     "id": "bilgi-o14",
@@ -436,12 +496,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci, hiçbir kanıt görmediği hâlde kayıp defteri arkadaşının aldığını düşünüyor. Bu düşüncenin bilgi değeri hangi kavramla açıklanır?",
     "options": [
       "Zan",
-      "Tahkikî iman",
-      "Salim duyular",
-      "Selim akıl",
-      "Gayb"
+      "İlme’l-yakîn",
+      "Ayne’l-yakîn",
+      "Hakka’l-yakîn",
+      "Mütevatir haber"
     ],
-    "explanation": "Zan: kesin kanıta ulaşılmadan benimsenen tahmin veya kanaat."
+    "explanation": "Zan: Kesin kanıta ulaşılmadan benimsenen tahmin veya kanaat. "
   },
   {
     "id": "bilgi-k15",
@@ -450,12 +510,12 @@ const QUESTIONS=[
     "text": "“Duyularla doğrudan kavranamayan varlık ve olaylar alanı” açıklaması hangi kavrama aittir?",
     "options": [
       "Gayb",
-      "İkrar",
-      "Tahkikî iman",
-      "Taklidî iman",
+      "Şehadet âlemi",
+      "Mütevatir haber",
+      "Salim duyular",
       "Selim akıl"
     ],
-    "explanation": "Gayb: duyularla doğrudan kavranamayan varlık ve olaylar alanı."
+    "explanation": "Gayb: Duyularla doğrudan kavranamayan varlık ve olaylar alanı. "
   },
   {
     "id": "bilgi-o15",
@@ -464,152 +524,432 @@ const QUESTIONS=[
     "text": "Bir derste meleklerin varlığı ile ahiretin deney ve gözlem sınırlarını aşan yönü ele alınıyor. Bu alan hangi kavramla adlandırılır?",
     "options": [
       "Gayb",
-      "İman",
-      "Tahkikî iman",
+      "Şehadet âlemi",
+      "Mütevatir haber",
       "Salim duyular",
-      "Ayne’l-yakîn"
+      "Selim akıl"
     ],
-    "explanation": "Gayb: duyularla doğrudan kavranamayan varlık ve olaylar alanı."
+    "explanation": "Gayb: Duyularla doğrudan kavranamayan varlık ve olaylar alanı. "
   },
   {
     "id": "bilgi-p01",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "Bir öğrenci suyun kaynamasını gözlemliyor, ölçümlerini karşılaştırıyor ve bir sonuca ulaşıyor. Bu süreçte birlikte kullandığı bilgi kaynakları hangileridir?",
+    "text": "Bir öğrenci aynı haberin beş sitede yayımlandığını görür. Araştırınca sitelerin tamamının tek bir anonim hesaptan alıntı yaptığını fark eder. Haberin güvenilirliğini değerlendirirken öncelikle hangi noktaya dikkat etmelidir?",
     "options": [
-      "Salim duyular ve selim akıl",
-      "Vahiy ve rüya",
-      "İlham ve sezgi",
-      "Yalnızca doğru haber",
-      "Yalnızca vahiy"
+      "Aktarımların bağımsız ve doğrulanabilir kaynaklara dayanmasına",
+      "Haberi aktaran sitelerin ziyaretçi sayılarının toplamına",
+      "Haber başlığının gündemdeki tartışmalarla uyumuna",
+      "Yayımlanma saatlerinin birbirine yakın olmasına",
+      "Haberde kullanılan görsellerin etkileyiciliğine"
     ],
-    "explanation": "Gözlem duyularla, verilerden sonuç çıkarma ise akılla gerçekleşir."
+    "explanation": "Bir haberin çok yerde tekrarlanması bağımsız doğrulama değildir. Tek kaynağın çoğaltılması, çok sayıda bağımsız aktarımın yerini tutmaz."
   },
   {
     "id": "bilgi-p02",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "İslam düşüncesinde aşağıdakilerden hangisi herkes için bağlayıcı bir bilgi kaynağı sayılmaz?",
+    "text": "Bir öğrenci tutulmanın saatini takvimden öğrenir, teleskopla tutulmayı gözlemler ve elde ettiği ölçümleri karşılaştırarak yorumlar. Bu üç aşamada başvurduğu bilgi yolları sırasıyla hangileridir?",
     "options": [
-      "Kişinin gördüğü rüya",
-      "Selim akıl",
-      "Salim duyular",
-      "Vahiy",
-      "Güvenilirliği doğrulanmış haber"
+      "Haber — duyular — akıl",
+      "Akıl — haber — duyular",
+      "Duyular — akıl — haber",
+      "Haber — akıl — duyular",
+      "Duyular — haber — akıl"
     ],
-    "explanation": "Rüya kişisel bir yaşantıdır; tek başına herkesi bağlayan bir dinî delil oluşturmaz."
+    "explanation": "Takvim aracılığıyla öğrenme haber, gözlem duyu, ölçümlerden sonuç çıkarma akıl yoluyla gerçekleşir. Gözlem ile çıkarım aynı aşama değildir."
   },
   {
     "id": "bilgi-p03",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "İnancını yalnızca çevresinde gördüklerini benimseyerek sürdüren, dayanakları üzerinde düşünmeyen birinin imanı hangi kavramla adlandırılır?",
+    "text": "Zeynep, ailesinden öğrendiği inanç esaslarını benimsemektedir. Sonradan bu esasların dayanaklarını okuyup sorularını uzmanlarına yöneltir. Öğretmeni onun bir inançtan başka bir inanca geçmediğini, kabulünü temellendirdiğini söyler. Burada hangi değişim vurgulanır?",
     "options": [
-      "Taklidî iman",
-      "Tahkikî iman",
-      "İhsan",
-      "İhlas",
-      "Salih amel"
+      "Taklidî imandan tahkikî imana yönelme",
+      "İkrardan tasdiki terk etmeye yönelme",
+      "İmandan yalnızca duyu bilgisine yönelme",
+      "Tahkikî imandan taklidî imana yönelme",
+      "Salih amelden dinî sorumluluğu kaldırmaya yönelme"
     ],
-    "explanation": "Taklidî imanda çevreden edinilen kabul öne çıkar; tahkikî iman araştırma ve delillendirmeyle güçlenir."
+    "explanation": "Araştırma ve delillendirme, benimsenmiş inancı bilinçli hâle getirir. Bu süreç imanın terk edilmesi değil tahkik yönünün güçlenmesidir."
   },
   {
     "id": "bilgi-p04",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "Bir genç, inandığı esasların gerekçelerini araştırıyor ve sorularına bilinçli cevaplar bulmaya çalışıyor. Bu yaklaşım en çok hangisiyle ilişkilidir?",
+    "text": "Bir kimsenin inandığını söylemesi, söylediği şeyi iç dünyasında da benimsediğini tek başına göstermez. İmanın değerlendirilmesinde dildeki beyan ile kalpteki kabulün ayrı ayrı ele alınması gerekir. Bu açıklamada hangi iki kavramın ayrımı yapılmaktadır?",
     "options": [
-      "Tahkikî iman",
-      "Taklidî iman",
-      "Taassup",
-      "Riya",
-      "Zan"
+      "İkrar — tasdik",
+      "İman — takva",
+      "Vahiy — nübüvvet",
+      "Zan — şüphe",
+      "İhlas — ibadet"
     ],
-    "explanation": "Tahkik, inancın gerekçelerini sorgulayıp araştırarak bilinçli bir kanaate ulaşmayı ifade eder."
+    "explanation": "İkrar inancı dil ile açıklama, tasdik kalben doğrulamadır. İhlas samimiyeti anlatır; dilde beyan ile kalpte kabul ayrımının doğrudan karşılığı değildir."
   },
   {
     "id": "bilgi-p05",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "Bir haberi paylaşmadan önce kaynağını ve doğruluğunu kontrol eden kişi hangi ilkeyi gözetmektedir?",
+    "text": "Bir öğretmen, deneyle ölçülemeyen her iddianın bu gerekçeyle yanlış sayılamayacağını; iddianın ait olduğu alanın ve bilgi kaynağının dikkate alınması gerektiğini belirtir. Bu yaklaşım aşağıdakilerden hangisini destekler?",
     "options": [
-      "Bilginin güvenilirliğini araştırma",
-      "Çoğunluğun her zaman haklı olduğunu kabul etme",
-      "Her duyduğuna inanma",
-      "Kişisel kanaati kesin bilgi sayma",
-      "Bilgiye ulaşmayı gereksiz görme"
+      "Bilgi yönteminin araştırılan konunun niteliğine göre değerlendirilmesini",
+      "Deneysel bulguların dinî haberlerin yerini almasını",
+      "Kişisel kanaatin araştırmada temel ölçüt yapılmasını",
+      "Gözlenemeyen konuların akıl yürütmenin dışında tutulmasını",
+      "Farklı alanlardaki iddiaların aynı kanıtla temellendirilmesini"
     ],
-    "explanation": "Bir haberin yaygın olması doğru olduğunu göstermez; kaynağının ve içeriğinin doğrulanması gerekir."
+    "explanation": "Her alan aynı yöntemle araştırılmaz; gayba ilişkin dinî bilgi ile fiziksel gözlem ayrı değerlendirilir. Bu, kişisel kanaatin kanıt yerine geçmesi demek değildir."
   },
   {
     "id": "bilgi-p06",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "Yalan üzerinde birleşmeleri aklen mümkün görülmeyen çok sayıda kişinin aktardığı haber hangi kavramla ifade edilir?",
+    "text": "Laboratuvarda bir rengin yanlış görülmesi üzerine öğrenci ışık koşullarını değiştirip ölçüm aletini kontrol eder. Sonucu yeniden değerlendirirken duyuları bütünüyle reddetmez. Bu tutum hangi anlayışla uyumludur?",
     "options": [
-      "Mütevatir haber",
-      "İlham",
-      "Rüya",
-      "Keşif",
-      "Zan"
+      "Duyusal bilginin sağlıklı koşullarda elde edilip denetlenmesiyle",
+      "Duyuların doğru haberle özdeş kabul edilmesiyle",
+      "İlk izlenimin deney sonucundan üstün tutulmasıyla",
+      "Ölçümün kişisel beklentiye göre yorumlanmasıyla",
+      "Duyusal verinin akıl yürütmeye ihtiyaç bırakmamasıyla"
     ],
-    "explanation": "Mütevatir haberin ayırt edici yönü, aktarımın çok sayıda bağımsız kişi tarafından güvenilir biçimde yapılmasıdır."
+    "explanation": "Salim duyular, sağlıklı işleyişi ve uygun gözlem koşullarını gerektirir. Bir yanılmanın düzeltilmesi, duyuların tümden geçersiz sayılmasını gerektirmez."
   },
   {
     "id": "bilgi-p07",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "İslam’a göre insanın, duyularının erişemediği ahiret hayatı hakkında bilgi edinmesinde temel kaynak hangisidir?",
+    "text": "Bir kişi bir ilçenin varlığını oraya gitmeden bilir. Bu bilgi, farklı dönemlerden gelen belgeler, birbirinden bağımsız tanıklıklar ve kesintisiz aktarımlarla desteklenmektedir. Burada özellikle hangi bilgi türünün imkânı gösterilir?",
     "options": [
-      "Vahiy",
-      "Kişisel tahmin",
-      "Laboratuvar deneyi",
-      "Rastlantı",
-      "Geleneksel söylenti"
+      "Doğru haberle edinilen bilgi",
+      "Kişisel tecrübeyle edinilen bilgi",
+      "Varsayımsal benzetmeyle edinilen bilgi",
+      "Sezgisel tahminle edinilen bilgi",
+      "Duyusal yanılsamayla edinilen bilgi"
     ],
-    "explanation": "Ahiretin ayrıntıları deney ve gözlem alanının dışındadır; bu alandaki dinî bilgi vahye dayanır."
+    "explanation": "Doğrudan görülmeyen bir yer hakkında güvenilir aktarımla bilgi edinilebilir. Kişi kendisi gitmediği için bu örnek kişisel tecrübe değildir."
   },
   {
     "id": "bilgi-p08",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "Ön yargılardan uzak biçimde düşünebilen, doğruyu yanlıştan ayırmada kullanılan akıl için hangi kavram kullanılır?",
+    "text": "Bir öğrenci dinî bir hüküm için gördüğü rüyayı gerekçe gösterir. Arkadaşı rüyanın kişi açısından anlamlı olabileceğini ancak herkesi bağlayan bir hükmün bunun üzerine kurulamayacağını belirtir. İkinci öğrenci hangi ayrımı yapmaktadır?",
     "options": [
-      "Selim akıl",
-      "Salim duyular",
-      "Mütevatir haber",
-      "Taklidî iman",
-      "İlham"
+      "Öznel yaşantı ile ortak dinî delil arasındaki ayrımı",
+      "Güvenilir haber ile bilimsel gözlem arasındaki ayrımı",
+      "İkrar ile sözlü anlatım arasındaki ayrımı",
+      "Mütevatir haber ile tarihî belge arasındaki ayrımı",
+      "Akıl yürütme ile mantıksal tutarlılık arasındaki ayrımı"
     ],
-    "explanation": "Selim akıl, sağlıklı değerlendirme yapabilen akıldır. Salim duyular ise sağlıklı işleyen duyu organlarıyla ilgilidir."
+    "explanation": "Rüya kişisel deneyimdir; başkaları için bağlayıcı dinî hüküm kaynağı yapılamaz. Bunun kişinin yaşantısındaki anlamıyla karıştırılmaması gerekir."
   },
   {
     "id": "bilgi-p09",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "“Bir iddiaya inananların sayısının çokluğu, o iddiayı tek başına doğru yapmaz.” Bu cümle aşağıdakilerden hangisini öne çıkarır?",
+    "text": "Ece, bir araştırmacının görüşünü değerlendirirken onun toplumsal konumundan önce kanıtlarını, kavramları nasıl kullandığını ve çıkarımlarının tutarlılığını inceler. Bu değerlendirme biçimi hangi bilgi kaynağının doğru kullanımına örnektir?",
     "options": [
-      "İddianın kanıtlarını değerlendirmeyi",
-      "Haber kaynaklarını tümüyle reddetmeyi",
-      "Yalnızca sezgiye dayanmayı",
-      "Araştırmadan karar vermeyi",
-      "Duyuları bilgi kaynağı saymamayı"
+      "Selim akıl",
+      "Mütevatir haber",
+      "Vahiy",
+      "İlham",
+      "İkrar"
     ],
-    "explanation": "Doğruya ulaşmak için popülerliğe değil, gerekçe ve kanıtlara bakılır."
+    "explanation": "Kanıtları ve çıkarımların tutarlılığını incelemek aklın işlevidir. Araştırmacının sözünü aktarmak haber olsa da burada vurgulanan aktarımı değerlendirme işlemidir."
   },
   {
     "id": "bilgi-p10",
     "topic": "bilgi",
     "kind": "Pekiştirme",
-    "text": "İmanın özüyle ilgili aşağıdaki açıklamalardan hangisi doğrudur?",
+    "text": "Bir haberi paylaşan öğrenci, yanlış olduğu ortaya çıkınca iyi niyetli olduğunu ve bu yüzden sorumlu tutulmaması gerektiğini söyler. Bilgi ahlakı açısından bu savunmanın eksikliği hangisidir?",
     "options": [
-      "İnanç esaslarını kalben doğrulamaktır.",
-      "Yalnızca toplumsal bir gruba katılmaktır.",
-      "Her konuda hiç soru sormamaktır.",
-      "Yalnızca sözlü bir iddiadan ibarettir.",
-      "Sadece gelenekleri tekrar etmektir."
+      "İyi niyetin doğruluğu araştırma sorumluluğunu ortadan kaldırmaması",
+      "Haberin ahlaki değerinin paylaşım hızına bağlı olması",
+      "Yanlış haberin yalnızca ilk yazanı ilgilendirmesi",
+      "Kaynağı belirtilen bilginin denetlenmesine gerek kalmaması",
+      "Kişisel güven duygusunun haberin doğruluğunu sağlaması"
     ],
-    "explanation": "İmanın özünde kalbin tasdiki bulunur; sözlü beyan bu kabulün dışa yansımasıdır."
+    "explanation": "İyi niyet doğrulama yükümlülüğünü kaldırmaz. Yanlışın yayılmasına katkı veren kişinin de dikkat ve özen sorumluluğu vardır."
+  },
+  {
+    "id": "bilgi-p11",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci ilk açıklamasını desteklemeyen verileri araştırmasından çıkarır. Başka bir öğrenci ise aynı verilere dayanarak kanaatini değiştirir. İkinci öğrencinin tutumu hangi ilkeyle daha yakından ilişkilidir?",
+    "options": [
+      "Bilgi karşısında zihinsel açıklık",
+      "İnancı çevreden devralma",
+      "İddiayı yaygınlaştırma",
+      "Beyan ile yetinme",
+      "Duygusal bağlılığı sürdürme"
+    ],
+    "explanation": "Yeni kanıtları dikkate alarak kanaati gözden geçirmek zihinsel açıklıktır. İnanç veya görüşte kararlılık, karşı veriyi görmezden gelmek anlamına gelmez."
+  },
+  {
+    "id": "bilgi-p12",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi, uzaktaki bir ateşin varlığını dumanından çıkarır; sonra ateşi görür; en sonunda yakınına giderek sıcaklığını hisseder. Bu örnekte bilgi kesinliğinin aşamaları hangi sıradadır?",
+    "options": [
+      "İlme’l-yakîn — ayne’l-yakîn — hakka’l-yakîn",
+      "Ayne’l-yakîn — ilme’l-yakîn — hakka’l-yakîn",
+      "Hakka’l-yakîn — ayne’l-yakîn — ilme’l-yakîn",
+      "İlme’l-yakîn — hakka’l-yakîn — ayne’l-yakîn",
+      "Ayne’l-yakîn — hakka’l-yakîn — ilme’l-yakîn"
+    ],
+    "explanation": "Delilden bilme ilme’l-yakîn, görme ayne’l-yakîn, doğrudan yaşama hakka’l-yakîn ile örneklenir. Aşamalar bilgi kaynağının niteliğine göre ayrılır."
+  },
+  {
+    "id": "bilgi-p13",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Arkadaşının toplantıya gelmemesini kendisine kırıldığı şeklinde yorumlayan bir öğrenci, daha sonra arkadaşının hastanede olduğunu öğrenir. İlk değerlendirmesinin bilgi değeri hangi kavramla açıklanır?",
+    "options": [
+      "Zan",
+      "Tasdik",
+      "Vahiy",
+      "İkrar",
+      "Mütevatir haber"
+    ],
+    "explanation": "Yeterli kanıta dayanmayan kanaat zandır. Tasdik bir şeyi doğrulama eylemidir; örneğin asıl sorunu doğrulama için yeterli dayanağın bulunmamasıdır."
+  },
+  {
+    "id": "bilgi-p14",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci ahiret inancını araştırırken mikroskopla inceleme yapmanın uygun olmayacağını, Kur’an’ın bu konudaki açıklamalarına başvurması gerektiğini söyler. Burada konunun hangi özelliği belirleyicidir?",
+    "options": [
+      "Gayb alanına ilişkin olması",
+      "Toplumsal uzlaşmayla oluşması",
+      "Kişisel gözlemle sınırlı olması",
+      "Dilsel gelenekten ibaret olması",
+      "Coğrafi koşullarla değişmesi"
+    ],
+    "explanation": "Ahiret, duyularla doğrudan incelenen fiziksel alanın dışında ele alınır. Dinî bilginin kaynağı bu konuda vahiydir; konu toplumsal uzlaşmayla üretilmiş sayılmaz."
+  },
+  {
+    "id": "bilgi-p15",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir sınıfta öğrenciler şu görüşleri tartışır: Güvenilir haber insanın kendi gözlemi dışındaki alanlarda bilgi sağlar; akıl haberin tutarlılığını inceler; duyular gözlem yapılabilen alanlarda veri sunar. Bu görüşlerin ortak sonucu hangisidir?",
+    "options": [
+      "Bilgi kaynaklarının birbirini tamamlayabilmesi",
+      "Bilgi kaynaklarının aynı işlevi yerine getirmesi",
+      "Haberin değerlendirmeden bağımsız güvenilir olması",
+      "Akıl yürütmenin gözlemden üstün sayılması",
+      "Gözlemin geçmiş olaylara doğrudan erişim sağlaması"
+    ],
+    "explanation": "Kaynaklar farklı işlevlerle birbirini destekleyebilir. Tamamlayıcılık işlevlerinin aynı olduğu anlamına gelmez."
+  },
+  {
+    "id": "bilgi-p16",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir genç Allah’a inandığını belirtirken davranışlarının başkalarını etkilediğini de düşünür; verdiği sözü tutmaya, haksız kazançtan kaçınmaya çalışır. Bu örnek en çok hangi ilişkiyi açıklamaktadır?",
+    "options": [
+      "İnancın ahlaki davranışa yön vermesini",
+      "İkrarın tasdikin yerine geçmesini",
+      "Toplumsal alışkanlığın vahiy oluşturmasını",
+      "İbadetin bilgi kaynaklarını belirlemesini",
+      "Duyuların gaybı görünür kılmasını"
+    ],
+    "explanation": "İnanç, kişinin sorumluluk bilincini ve davranışlarını etkileyebilir. Parçada dilde beyanın kalpte kabulün yerine geçmesi değil inancın hayata yansıması anlatılır."
+  },
+  {
+    "id": "bilgi-p17",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi güven duyduğu birinin söylediği haberi kabul eder. Aynı konuda çelişkili belgeler çıkınca kaynağa yeniden başvurup belgeleri karşılaştırır. Bu kişinin yaklaşımından hangi sonuca ulaşılabilir?",
+    "options": [
+      "Güvenin araştırmayla desteklenmesi gerektiğini kabul etmektedir.",
+      "Sözlü bilginin yazılı belgeden daha güvenilir olduğunu savunmaktadır.",
+      "İlk kanaatini korumayı araştırmanın amacı saymaktadır.",
+      "Çelişkinin bulunduğu konuda hüküm verilemeyeceğini düşünmektedir.",
+      "Kaynak kişinin niyetini haberin tek ölçütü yapmaktadır."
+    ],
+    "explanation": "Kaynağa güven önemlidir fakat çelişkili bulguların araştırılması gerekir. Kişi kaynaklar arasında peşinen bir üstünlük kurmamaktadır."
+  },
+  {
+    "id": "bilgi-p18",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci görmediği tarihî bir olayın olmadığını ileri sürer. Öğretmeni, olayı doğrulayan belgeleri ve bağımsız tanıklıkları gösterir. Öğretmenin eleştirdiği düşünce yanlışı hangisidir?",
+    "options": [
+      "Bilgiyi kişinin doğrudan gözlemledikleriyle sınırlandırma",
+      "Aktarımların kaynağını araştırma",
+      "Tarihî belgeleri karşılaştırma",
+      "İddiayla kanıtın ilişkisini inceleme",
+      "Kanaatleri gerekçeleriyle açıklama"
+    ],
+    "explanation": "İnsanın bilgisi kendi gözlemledikleriyle sınırlı değildir. Güvenilir haber ve belgeler geçmişe ilişkin bilgi sağlayabilir."
+  },
+  {
+    "id": "bilgi-p19",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir tartışmada öğrenciler birbirlerinin gerekçelerini dinler, kullandıkları kavramları açıklar ve yanlış anlaşılan noktaları düzeltir. Bu ortamın tahkikî imanın gelişmesine katkısı aşağıdakilerden hangisiyle açıklanır?",
+    "options": [
+      "İnançla ilgili soruların bilinçli biçimde ele alınmasını sağlaması",
+      "Çevrenin kabulünü kişisel araştırmanın yerine geçirmesi",
+      "İnancın doğruluğunu konuşmacı sayısıyla belirlemesi",
+      "Tartışmadaki duygusal yoğunluğu kesin delil sayması",
+      "Gündelik alışkanlıkları dinî delile dönüştürmesi"
+    ],
+    "explanation": "Gerekçeleri konuşmak, soruları araştırmak ve kavramları açıklamak bilinçli temellendirmeyi destekler. Çoğunluğun kabulü tek başına tahkik değildir."
+  },
+  {
+    "id": "bilgi-p20",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir araştırmada gözlem verileri açıkça yazılır ancak bu verilerden çıkarılan yorumlar ayrıca gösterilir. Böylece okur neyin tespit, neyin çıkarım olduğunu ayırt eder. Bu uygulamanın bilgi bakımından temel yararı hangisidir?",
+    "options": [
+      "Bilginin dayanağını ve akıl yürütme sürecini denetlenebilir kılması",
+      "Gözlem ile yorum arasındaki bütün farklılıkları kaldırması",
+      "Araştırmacının yorumunu doğrudan vahiy düzeyine çıkarması",
+      "Aktarılan bilginin kaynak kişiden bağımsızlaşmasını engellemesi",
+      "Kanaatlerin tarihî bilgi olarak kabulünü sağlaması"
+    ],
+    "explanation": "Veri ile yorumun ayrılması denetlenebilirliği artırır. Yorum, verinin kendisi değildir; bu ayrım araştırmacının çıkarımını sınamayı mümkün kılar."
+  },
+  {
+    "id": "bilgi-p21",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci internette okuduğu dinî açıklamayı değerlendirmek için metnin hangi kaynağa dayandığını ve ilgili ifadenin bağlamını araştırır. Onun bu yöntemi özellikle hangi sorunu azaltır?",
+    "options": [
+      "Bağlamından koparılan bilginin yanlış anlaşılmasını",
+      "Farklı kaynakların birbirinden ayırt edilmesini",
+      "Araştırma konusunun anlaşılır hâle gelmesini",
+      "Bir iddianın gerekçelerinin görünür olmasını",
+      "Güvenilir bilgiye ulaşmak için emek harcanmasını"
+    ],
+    "explanation": "Kaynak ve bağlam araştırması yanlış anlamayı azaltır. Diğer seçenekler yöntemin yararlı sonuçları veya doğal gerekleridir; azaltılması gereken sorun değildir."
+  },
+  {
+    "id": "bilgi-p22",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi kalben benimsediği inancı açıklamak için uygun fırsat bulamadığını söyler. Başka bir kişi ise içten inanmadığı hâlde çevresine inanıyor gibi görünür. Bu iki durum birlikte düşünüldüğünde hangi sonuca ulaşılır?",
+    "options": [
+      "Dış beyan ile iç kabulün aynı şey olmadığına",
+      "İnancın toplumsal çevreden etkilenmediğine",
+      "İkrarın düşünmeyi gereksiz kıldığına",
+      "İmanın gözlemle ölçülebilen bir özellik olduğuna",
+      "İnançla davranış arasında bağ kurulamayacağına"
+    ],
+    "explanation": "Kalpteki kabul ile dilde ifade farklı boyutlardır. Bu ayrım, imanın kişinin dış görünüşüne indirgenemeyeceğini gösterir."
+  },
+  {
+    "id": "bilgi-p23",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir öğretmen Bakara suresinin 23. ayetindeki Kur’an’a ilişkin meydan okumanın, muhatapları düşünmeye ve iddialarını sınamaya davet ettiğini açıklar. Bu yorumda hangi yaklaşım öne çıkmaktadır?",
+    "options": [
+      "İnançla ilgili iddiaların düşünsel değerlendirmeye açılması",
+      "İnancın kişinin çevresine uyumundan ibaret sayılması",
+      "Bilginin duygusal beğeniyle sınırlandırılması",
+      "Gözlemin dinî bilgi için tek ölçüt kabul edilmesi",
+      "Sözlü geleneğin araştırmadan üstün tutulması"
+    ],
+    "explanation": "Ayetteki meydan okuma, iddia karşısında düşünme ve değerlendirme çağrısı olarak ele alınır. Bu yaklaşım çevreyi sorgulamadan taklit etmekten farklıdır."
+  },
+  {
+    "id": "bilgi-p24",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci yalnızca kendi görüşünü destekleyen kaynakları toplar; farklı bir görüşle karşılaşınca kaynağın kişiliğini eleştirir. Bu tutumun selim akıl kullanımı açısından temel eksikliği hangisidir?",
+    "options": [
+      "Gerekçeleri değerlendirmek yerine kişiye yönelmesi",
+      "Görüşünü yazılı olarak ifade etmesi",
+      "Birden çok kaynaktan yararlanması",
+      "Konu hakkında bir kanaate sahip olması",
+      "Kaynakların birbirinden farklı olması"
+    ],
+    "explanation": "İddia, kanıt ve çıkarım incelenmelidir. Kişiye yönelik eleştiri, görüşün dayanağını değerlendirmek yerine geçmez."
+  },
+  {
+    "id": "bilgi-p25",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir haberin doğrulanması için kaynak kişinin olayı görüp görmediği, aktarım sırasında bilgi eklenip eklenmediği ve başka kanıtların bulunup bulunmadığı araştırılır. Bu işlemlerin ortak amacı nedir?",
+    "options": [
+      "Haberin gerçeğe uygunluğunu sınamak",
+      "Haberin yayılma hızını hesaplamak",
+      "Aktarıcının toplumsal statüsünü yükseltmek",
+      "Dinleyicilerin beğenilerini tespit etmek",
+      "Haberin edebî niteliğini geliştirmek"
+    ],
+    "explanation": "Tanıklık, aktarım ve diğer kanıtların incelenmesi haberin doğruluğunu araştırır. Haber değeri popülerlikle değil gerçeğe uygunlukla ilgilidir."
+  },
+  {
+    "id": "bilgi-p26",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi inançla ilgili sorular sormanın inancı zayıflatacağını düşünür. Öğretmeni, samimi soruların güvenilir kaynak ve doğru yöntemle araştırılmasının inancı bilinçli hâle getirebileceğini belirtir. Öğretmen hangi kavramı öne çıkarmaktadır?",
+    "options": [
+      "Tahkikî iman",
+      "Taklidî iman",
+      "Mütevatir haber",
+      "Duyusal bilgi",
+      "Örf ve âdet"
+    ],
+    "explanation": "Tahkikî iman araştırmayla temellenen bilinçli kabuldür. Soru sormak tek başına inancın reddi anlamına gelmez."
+  },
+  {
+    "id": "bilgi-p27",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci deney sonuçlarını arkadaşına anlatır. Dinleyen öğrenci bu bilgiyi öğretmeninin onayladığı raporla karşılaştırır. Deneyi yapan için gözlem olan bilgi, dinleyen açısından öncelikle hangi yolla edinilmektedir?",
+    "options": [
+      "Haber",
+      "Doğrudan tecrübe",
+      "İlham",
+      "Sezgi",
+      "Vahiy"
+    ],
+    "explanation": "Aynı bilgi onu gözlemleyen için duyusal, başkasının aktarımından öğrenen için haber yoluyla edinilmiş olabilir. Kaynağın konumu önemlidir."
+  },
+  {
+    "id": "bilgi-p28",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir iddia doğru olabilecekmiş gibi görünse de yeterli kanıt bulunmadığı için öğrenci kararını erteler ve araştırmayı sürdürür. Bu tutum aşağıdakilerden hangisini gösterir?",
+    "options": [
+      "Kanaat ile kesin bilgi arasındaki farkı gözettiğini",
+      "Doğru bilgiye ulaşmayı mümkün görmediğini",
+      "Haber kaynaklarını peşinen geçersiz saydığını",
+      "İddiayı reddetmek için kanıta gerek duymadığını",
+      "Toplumsal kabulü kesin delil saydığını"
+    ],
+    "explanation": "Yeterli dayanak bulunmadığında hükmü ertelemek, kesinlik düzeylerini ayırt etmektir. Bu tavır bilginin mümkün olmadığını iddia etmek değildir."
+  },
+  {
+    "id": "bilgi-p29",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir öğretmen, bir ağacın büyümesini gözlemlemek ile yaratılışın anlamını sorgulamanın farklı fakat ilişkilendirilebilir sorular olduğunu söyler. Bu sözden hangi çıkarım yapılabilir?",
+    "options": [
+      "Olguların açıklanması ile anlam arayışı birbirini dışlamak zorunda değildir.",
+      "Anlam arayışı ölçüm sonuçlarının doğruluğunu tek başına belirler.",
+      "Gözlem yapan kişinin dinî bilgiye ihtiyacı kalmaz.",
+      "Dinî açıklamalar araştırmanın teknik yöntemini belirler.",
+      "Aynı olaya ilişkin bütün sorular aynı tür cevabı gerektirir."
+    ],
+    "explanation": "Bir olayın nasıl gerçekleştiği ile anlamı farklı düzeyde sorulardır. Farklı soru türleri farklı yöntemlerle ele alınabilir ve ilişkilendirilebilir."
+  },
+  {
+    "id": "bilgi-p30",
+    "topic": "bilgi",
+    "kind": "Pekiştirme",
+    "text": "Bir genç inandığı ilkeleri açıklarken hem dayandığı kaynakları gösterir hem de bu ilkelerin hayatındaki sorumluluklarla bağını kurar. Böyle bir anlatımda hangi iki boyut birlikte öne çıkar?",
+    "options": [
+      "Bilginin temellendirilmesi ve davranışa yansıması",
+      "Kanaatin yaygınlaşması ve çevrenin taklit edilmesi",
+      "Gözlemin sınırlandırılması ve haberin dışlanması",
+      "İkrarın biçimi ve toplumsal statünün korunması",
+      "Duygusal beğeni ve kişisel üstünlük iddiası"
+    ],
+    "explanation": "Kaynakları göstermek temellendirmeyi, sorumlulukla bağ kurmak bilginin hayata yansımasını ifade eder. Salt yaygınlık veya biçimsel beyan burada belirleyici değildir."
   },
   {
     "id": "din-k01",
@@ -618,12 +958,12 @@ const QUESTIONS=[
     "text": "“İnsanın inanç ve yaşayışına yön veren ilahî ilkeler bütünü” açıklaması hangi kavrama aittir?",
     "options": [
       "Din",
-      "Dua",
-      "Kelime-i şehadet",
-      "Melek",
-      "Hanif"
+      "Kültür",
+      "Medeniyet",
+      "Ahlak",
+      "Örf ve âdet"
     ],
-    "explanation": "Din: i̇nsanın inanç ve yaşayışına yön veren ilahî ilkeler bütünü."
+    "explanation": "Din: İnsanın inanç ve yaşayışına yön veren ilahî ilkeler bütünü. "
   },
   {
     "id": "din-o01",
@@ -632,12 +972,12 @@ const QUESTIONS=[
     "text": "Bir açıklamada insanın Allah’la, kendisiyle ve çevresiyle ilişkisini düzenleyen ilahî rehberlikten söz ediliyor. Hangi genel kavram ele alınmaktadır?",
     "options": [
       "Din",
-      "Mümin",
-      "Dua",
-      "Şirk",
-      "Kelime-i şehadet"
+      "Kültür",
+      "Medeniyet",
+      "Ahlak",
+      "Örf ve âdet"
     ],
-    "explanation": "Din: i̇nsanın inanç ve yaşayışına yön veren ilahî ilkeler bütünü."
+    "explanation": "Din: İnsanın inanç ve yaşayışına yön veren ilahî ilkeler bütünü. "
   },
   {
     "id": "din-k02",
@@ -646,12 +986,12 @@ const QUESTIONS=[
     "text": "“Allah’a teslimiyet ve O’nun rehberliğine uygun yaşama esasına dayanan din” açıklaması hangi kavrama aittir?",
     "options": [
       "İslam",
-      "Şirk",
-      "Tevhit",
-      "Ahiret",
-      "Melek"
+      "Yahudilik",
+      "Hristiyanlık",
+      "Budizm",
+      "Hinduizm"
     ],
-    "explanation": "İslam: allah’a teslimiyet ve O’nun rehberliğine uygun yaşama esasına dayanan din."
+    "explanation": "İslam: Allah’a teslimiyet ve O’nun rehberliğine uygun yaşama esasına dayanan din. "
   },
   {
     "id": "din-o02",
@@ -660,12 +1000,12 @@ const QUESTIONS=[
     "text": "Bir genç yalnızca içten inanmanın değil, bu kabulü Allah’ın emirlerine uyan davranışlarla göstermenin de önemini anlatıyor. İmanın yaşantıya yansıyan yönünü hangi kavramla ilişkilendirir?",
     "options": [
       "İslam",
-      "Kelime-i şehadet",
-      "Fıtrat",
-      "Tevhit",
-      "Melek"
+      "Yahudilik",
+      "Hristiyanlık",
+      "Budizm",
+      "Hinduizm"
     ],
-    "explanation": "İslam: allah’a teslimiyet ve O’nun rehberliğine uygun yaşama esasına dayanan din."
+    "explanation": "İslam: Allah’a teslimiyet ve O’nun rehberliğine uygun yaşama esasına dayanan din. "
   },
   {
     "id": "din-k03",
@@ -674,12 +1014,12 @@ const QUESTIONS=[
     "text": "“Allah’ın birliğini ve eşsizliğini kabul etme” açıklaması hangi kavrama aittir?",
     "options": [
       "Tevhit",
-      "Tevekkül",
-      "Fıtrat",
-      "Din",
-      "Esmâ-i hüsnâ"
+      "Şirk",
+      "Nifak",
+      "Deizm",
+      "Nübüvvet"
     ],
-    "explanation": "Tevhit: allah’ın birliğini ve eşsizliğini kabul etme."
+    "explanation": "Tevhit: Allah’ın birliğini ve eşsizliğini kabul etme. "
   },
   {
     "id": "din-o03",
@@ -688,12 +1028,12 @@ const QUESTIONS=[
     "text": "Bir kişi, Allah’a ibadet ederken hiçbir varlığı O’na denk veya ortak görmediğini belirtiyor. Hangi inanç ilkesini ifade ediyor?",
     "options": [
       "Tevhit",
-      "Fıtrat",
-      "Ahiret",
-      "İslam",
-      "Din"
+      "Şirk",
+      "Nifak",
+      "Deizm",
+      "Nübüvvet"
     ],
-    "explanation": "Tevhit: allah’ın birliğini ve eşsizliğini kabul etme."
+    "explanation": "Tevhit: Allah’ın birliğini ve eşsizliğini kabul etme. "
   },
   {
     "id": "din-k04",
@@ -702,12 +1042,12 @@ const QUESTIONS=[
     "text": "“İnsanın yaratılıştan getirdiği doğal yapı ve hakikate yatkınlık” açıklaması hangi kavrama aittir?",
     "options": [
       "Fıtrat",
-      "Kelime-i tevhid",
-      "İslam",
-      "Şirk",
-      "Tevekkül"
+      "Mizaç",
+      "Karakter",
+      "Örf ve âdet",
+      "Taklit"
     ],
-    "explanation": "Fıtrat: i̇nsanın yaratılıştan getirdiği doğal yapı ve hakikate yatkınlık."
+    "explanation": "Fıtrat: İnsanın yaratılıştan getirdiği doğal yapı ve hakikate yatkınlık. "
   },
   {
     "id": "din-o04",
@@ -716,12 +1056,12 @@ const QUESTIONS=[
     "text": "Bir öğretmen, insanın anlam arayışını ve inanmaya yatkınlığını doğuştan gelen özellikleriyle açıklıyor. Hangi kavramı kullanıyor?",
     "options": [
       "Fıtrat",
-      "Ahiret",
-      "Şirk",
-      "Tevhit",
-      "Kelime-i tevhid"
+      "Mizaç",
+      "Karakter",
+      "Örf ve âdet",
+      "Taklit"
     ],
-    "explanation": "Fıtrat: i̇nsanın yaratılıştan getirdiği doğal yapı ve hakikate yatkınlık."
+    "explanation": "Fıtrat: İnsanın yaratılıştan getirdiği doğal yapı ve hakikate yatkınlık. "
   },
   {
     "id": "din-k05",
@@ -730,12 +1070,12 @@ const QUESTIONS=[
     "text": "“Ortak koşmadan tek Allah’a yönelen kişi” açıklaması hangi kavrama aittir?",
     "options": [
       "Hanif",
-      "İslam",
-      "Şirk",
-      "Dua",
-      "Din"
+      "Müşrik",
+      "Münafık",
+      "Deist",
+      "Ateist"
     ],
-    "explanation": "Hanif: ortak koşmadan tek Allah’a yönelen kişi."
+    "explanation": "Hanif: Ortak koşmadan tek Allah’a yönelen kişi. "
   },
   {
     "id": "din-o05",
@@ -744,12 +1084,12 @@ const QUESTIONS=[
     "text": "Putperestliğin yaygın olduğu bir ortamda putları reddedip tek Allah’a yönelen kişi hangi kavramla nitelendirilir?",
     "options": [
       "Hanif",
-      "Kelime-i şehadet",
-      "Ahiret",
-      "Melek",
-      "Nübüvvet"
+      "Müşrik",
+      "Münafık",
+      "Deist",
+      "Ateist"
     ],
-    "explanation": "Hanif: ortak koşmadan tek Allah’a yönelen kişi."
+    "explanation": "Hanif: Ortak koşmadan tek Allah’a yönelen kişi. "
   },
   {
     "id": "din-k06",
@@ -758,12 +1098,12 @@ const QUESTIONS=[
     "text": "“Allah’ın güzel isimlerinin genel adı” açıklaması hangi kavrama aittir?",
     "options": [
       "Esmâ-i hüsnâ",
-      "Ahiret",
-      "Melek",
-      "Nübüvvet",
-      "Tevekkül"
+      "Kelime-i tevhid",
+      "Kelime-i şehadet",
+      "Sünnet",
+      "Suhuf"
     ],
-    "explanation": "Esmâ-i hüsnâ: allah’ın güzel isimlerinin genel adı."
+    "explanation": "Esmâ-i hüsnâ: Allah’ın güzel isimlerinin genel adı. "
   },
   {
     "id": "din-o06",
@@ -772,12 +1112,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci Rahmân, Rahîm ve Alîm isimlerini tek başlık altında topluyor. Kullanacağı başlık hangisidir?",
     "options": [
       "Esmâ-i hüsnâ",
-      "Şirk",
-      "Fıtrat",
-      "Tevekkül",
-      "Nübüvvet"
+      "Kelime-i tevhid",
+      "Kelime-i şehadet",
+      "Sünnet",
+      "Suhuf"
     ],
-    "explanation": "Esmâ-i hüsnâ: allah’ın güzel isimlerinin genel adı."
+    "explanation": "Esmâ-i hüsnâ: Allah’ın güzel isimlerinin genel adı. "
   },
   {
     "id": "din-k07",
@@ -786,12 +1126,12 @@ const QUESTIONS=[
     "text": "“İslam’ın inanç esaslarını gönülden benimseyen kişi” açıklaması hangi kavrama aittir?",
     "options": [
       "Mümin",
-      "Esmâ-i hüsnâ",
-      "Tevekkül",
-      "Din",
-      "Şirk"
+      "Müşrik",
+      "Münafık",
+      "Kâfir",
+      "Deist"
     ],
-    "explanation": "Mümin: i̇slam’ın inanç esaslarını gönülden benimseyen kişi."
+    "explanation": "Mümin: İslam’ın inanç esaslarını gönülden benimseyen kişi. "
   },
   {
     "id": "din-o07",
@@ -800,12 +1140,12 @@ const QUESTIONS=[
     "text": "Allah’ın birliğini ve peygamberlerin bildirdiklerini içtenlikle kabul eden kişiye hangi ad verilir?",
     "options": [
       "Mümin",
-      "Nübüvvet",
-      "Dua",
-      "Din",
-      "Kelime-i şehadet"
+      "Müşrik",
+      "Münafık",
+      "Kâfir",
+      "Deist"
     ],
-    "explanation": "Mümin: i̇slam’ın inanç esaslarını gönülden benimseyen kişi."
+    "explanation": "Mümin: İslam’ın inanç esaslarını gönülden benimseyen kişi. "
   },
   {
     "id": "din-k08",
@@ -814,12 +1154,12 @@ const QUESTIONS=[
     "text": "“Allah’a ortak koşma” açıklaması hangi kavrama aittir?",
     "options": [
       "Şirk",
-      "Fıtrat",
-      "Din",
       "Tevhit",
-      "İslam"
+      "Nifak",
+      "İhlas",
+      "Haniflik"
     ],
-    "explanation": "Şirk: allah’a ortak koşma."
+    "explanation": "Şirk: Allah’a ortak koşma. Şirk ortak koşmadır; küfür daha geniş biçimde iman esaslarını reddetmeyi anlatır."
   },
   {
     "id": "din-o08",
@@ -828,12 +1168,12 @@ const QUESTIONS=[
     "text": "Bir kişi Allah’ın varlığını kabul etmekle birlikte başka bir varlığa da ilahlık atfediyor. Bu anlayış hangi kavramla ifade edilir?",
     "options": [
       "Şirk",
-      "Nübüvvet",
-      "Kelime-i şehadet",
-      "Esmâ-i hüsnâ",
-      "Fıtrat"
+      "Tevhit",
+      "Nifak",
+      "İhlas",
+      "Haniflik"
     ],
-    "explanation": "Şirk: allah’a ortak koşma."
+    "explanation": "Şirk: Allah’a ortak koşma. Şirk ortak koşmadır; küfür daha geniş biçimde iman esaslarını reddetmeyi anlatır."
   },
   {
     "id": "din-k09",
@@ -842,12 +1182,12 @@ const QUESTIONS=[
     "text": "“Dünya hayatından sonra yeniden dirilişle başlayan hayat” açıklaması hangi kavrama aittir?",
     "options": [
       "Ahiret",
-      "Mümin",
-      "Dua",
-      "Fıtrat",
-      "Melek"
+      "Berzah",
+      "Dünya",
+      "Kader",
+      "Hicret"
     ],
-    "explanation": "Ahiret: dünya hayatından sonra yeniden dirilişle başlayan hayat."
+    "explanation": "Ahiret: Dünya hayatından sonra yeniden dirilişle başlayan hayat. "
   },
   {
     "id": "din-o09",
@@ -856,12 +1196,12 @@ const QUESTIONS=[
     "text": "Yaptığı davranışların hesabını ölümden sonra vereceğine inanan öğrenci, hangi inanç alanına vurgu yapmaktadır?",
     "options": [
       "Ahiret",
-      "Nübüvvet",
-      "Dua",
-      "Din",
-      "Mümin"
+      "Berzah",
+      "Dünya",
+      "Kader",
+      "Hicret"
     ],
-    "explanation": "Ahiret: dünya hayatından sonra yeniden dirilişle başlayan hayat."
+    "explanation": "Ahiret: Dünya hayatından sonra yeniden dirilişle başlayan hayat. "
   },
   {
     "id": "din-k10",
@@ -870,12 +1210,12 @@ const QUESTIONS=[
     "text": "“Allah’ın seçtiği insanlara peygamberlik görevi vermesi” açıklaması hangi kavrama aittir?",
     "options": [
       "Nübüvvet",
-      "Hanif",
-      "Fıtrat",
-      "Esmâ-i hüsnâ",
-      "İslam"
+      "Velayet",
+      "İmamet",
+      "Hilafet",
+      "İçtihat"
     ],
-    "explanation": "Nübüvvet: allah’ın seçtiği insanlara peygamberlik görevi vermesi."
+    "explanation": "Nübüvvet: Allah’ın seçtiği insanlara peygamberlik görevi vermesi. "
   },
   {
     "id": "din-o10",
@@ -884,12 +1224,12 @@ const QUESTIONS=[
     "text": "Allah’ın insanlara rehberlik etmesi için elçiler seçmesi hangi dinî kavramla ilişkilidir?",
     "options": [
       "Nübüvvet",
-      "Mümin",
-      "Dua",
-      "Kelime-i şehadet",
-      "Kelime-i tevhid"
+      "Velayet",
+      "İmamet",
+      "Hilafet",
+      "İçtihat"
     ],
-    "explanation": "Nübüvvet: allah’ın seçtiği insanlara peygamberlik görevi vermesi."
+    "explanation": "Nübüvvet: Allah’ın seçtiği insanlara peygamberlik görevi vermesi. "
   },
   {
     "id": "din-k11",
@@ -898,12 +1238,12 @@ const QUESTIONS=[
     "text": "“Allah’ın emirlerini yerine getiren, duyularla görülmeyen varlık türü” açıklaması hangi kavrama aittir?",
     "options": [
       "Melek",
-      "Hanif",
-      "Mümin",
-      "Tevhit",
-      "Kelime-i şehadet"
+      "Peygamber",
+      "İnsan",
+      "Cin",
+      "Sufi"
     ],
-    "explanation": "Melek: allah’ın emirlerini yerine getiren, duyularla görülmeyen varlık türü."
+    "explanation": "Melek: Allah’ın emirlerini yerine getiren, duyularla görülmeyen varlık türü. "
   },
   {
     "id": "din-o11",
@@ -912,12 +1252,12 @@ const QUESTIONS=[
     "text": "Bir derste Cebrail’in vahyi peygamberlere ulaştırma görevi anlatılıyor. Cebrail hangi varlık türündendir?",
     "options": [
       "Melek",
-      "Ahiret",
-      "Şirk",
-      "Hanif",
-      "Tevekkül"
+      "Peygamber",
+      "İnsan",
+      "Cin",
+      "Sufi"
     ],
-    "explanation": "Melek: allah’ın emirlerini yerine getiren, duyularla görülmeyen varlık türü."
+    "explanation": "Melek: Allah’ın emirlerini yerine getiren, duyularla görülmeyen varlık türü. "
   },
   {
     "id": "din-k12",
@@ -927,11 +1267,11 @@ const QUESTIONS=[
     "options": [
       "Kelime-i tevhid",
       "Kelime-i şehadet",
-      "Dua",
-      "Hanif",
-      "Ahiret"
+      "Tekbir",
+      "Salavat",
+      "Besmele"
     ],
-    "explanation": "Kelime-i tevhid: allah’tan başka ilah olmadığını ve Muhammed’in O’nun elçisi olduğunu bildiren temel söz."
+    "explanation": "Kelime-i tevhid: Allah’tan başka ilah olmadığını ve Muhammed’in O’nun elçisi olduğunu bildiren temel söz. "
   },
   {
     "id": "din-o12",
@@ -940,12 +1280,12 @@ const QUESTIONS=[
     "text": "Lâ ilâhe illallah, Muhammedün resûlullah ifadesinin özel adı hangisidir?",
     "options": [
       "Kelime-i tevhid",
-      "Şirk",
       "Kelime-i şehadet",
-      "Ahiret",
-      "Tevekkül"
+      "Tekbir",
+      "Salavat",
+      "Besmele"
     ],
-    "explanation": "Kelime-i tevhid: allah’tan başka ilah olmadığını ve Muhammed’in O’nun elçisi olduğunu bildiren temel söz."
+    "explanation": "Kelime-i tevhid: Allah’tan başka ilah olmadığını ve Muhammed’in O’nun elçisi olduğunu bildiren temel söz. "
   },
   {
     "id": "din-k13",
@@ -954,12 +1294,12 @@ const QUESTIONS=[
     "text": "“Allah’ın birliğine ve Muhammed’in kulluğu ile elçiliğine tanıklığı bildiren söz” açıklaması hangi kavrama aittir?",
     "options": [
       "Kelime-i şehadet",
-      "Şirk",
-      "Hanif",
-      "Tevhit",
-      "Ahiret"
+      "Kelime-i tevhid",
+      "Tekbir",
+      "Salavat",
+      "Besmele"
     ],
-    "explanation": "Kelime-i şehadet: allah’ın birliğine ve Muhammed’in kulluğu ile elçiliğine tanıklığı bildiren söz."
+    "explanation": "Kelime-i şehadet: Allah’ın birliğine ve Muhammed’in kulluğu ile elçiliğine tanıklığı bildiren söz. "
   },
   {
     "id": "din-o13",
@@ -968,12 +1308,12 @@ const QUESTIONS=[
     "text": "Eşhedü diye başlayarak Allah’ın birliğine ve Hz. Muhammed’in elçiliğine tanıklığını açıklayan kişi hangi ifadeyi söylemektedir?",
     "options": [
       "Kelime-i şehadet",
-      "Şirk",
-      "Melek",
-      "İslam",
-      "Mümin"
+      "Kelime-i tevhid",
+      "Tekbir",
+      "Salavat",
+      "Besmele"
     ],
-    "explanation": "Kelime-i şehadet: allah’ın birliğine ve Muhammed’in kulluğu ile elçiliğine tanıklığı bildiren söz."
+    "explanation": "Kelime-i şehadet: Allah’ın birliğine ve Muhammed’in kulluğu ile elçiliğine tanıklığı bildiren söz. "
   },
   {
     "id": "din-k14",
@@ -982,12 +1322,12 @@ const QUESTIONS=[
     "text": "“İnsanın Allah’a yönelerek O’na dileğini ve yakarışını sunması” açıklaması hangi kavrama aittir?",
     "options": [
       "Dua",
-      "Tevhit",
-      "Esmâ-i hüsnâ",
-      "Hanif",
-      "Kelime-i şehadet"
+      "Tefekkür",
+      "Tebliğ",
+      "İçtihat",
+      "Riya"
     ],
-    "explanation": "Dua: i̇nsanın Allah’a yönelerek O’na dileğini ve yakarışını sunması."
+    "explanation": "Dua: İnsanın Allah’a yönelerek O’na dileğini ve yakarışını sunması. "
   },
   {
     "id": "din-o14",
@@ -996,12 +1336,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci bir zorluk karşısında Allah’a seslenip yardımını diliyor. Bu yöneliş hangi kavramdır?",
     "options": [
       "Dua",
-      "Fıtrat",
-      "Ahiret",
-      "Tevekkül",
-      "Melek"
+      "Tefekkür",
+      "Tebliğ",
+      "İçtihat",
+      "Riya"
     ],
-    "explanation": "Dua: i̇nsanın Allah’a yönelerek O’na dileğini ve yakarışını sunması."
+    "explanation": "Dua: İnsanın Allah’a yönelerek O’na dileğini ve yakarışını sunması. "
   },
   {
     "id": "din-k15",
@@ -1010,12 +1350,12 @@ const QUESTIONS=[
     "text": "“Gerekli çabayı gösterip tedbir aldıktan sonra Allah’a güvenme” açıklaması hangi kavrama aittir?",
     "options": [
       "Tevekkül",
-      "Ahiret",
-      "Hanif",
-      "Nübüvvet",
-      "Mümin"
+      "Tedbirsizlik",
+      "Kadercilik",
+      "Karamsarlık",
+      "Taklit"
     ],
-    "explanation": "Tevekkül: gerekli çabayı gösterip tedbir aldıktan sonra Allah’a güvenme."
+    "explanation": "Tevekkül: Gerekli çabayı gösterip tedbir aldıktan sonra Allah’a güvenme. "
   },
   {
     "id": "din-o15",
@@ -1024,152 +1364,432 @@ const QUESTIONS=[
     "text": "Çiftçi tarlasını ekiyor, suluyor ve bakımını yapıyor; ardından sonucu Allah’a bırakıyor. Bu tutum hangi kavramı örnekler?",
     "options": [
       "Tevekkül",
-      "Melek",
-      "Şirk",
-      "Esmâ-i hüsnâ",
-      "Dua"
+      "Tedbirsizlik",
+      "Kadercilik",
+      "Karamsarlık",
+      "Taklit"
     ],
-    "explanation": "Tevekkül: gerekli çabayı gösterip tedbir aldıktan sonra Allah’a güvenme."
+    "explanation": "Tevekkül: Gerekli çabayı gösterip tedbir aldıktan sonra Allah’a güvenme. "
   },
   {
     "id": "din-p01",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "İslam’da Allah’ın bir ve eşsiz olduğuna inanmayı ifade eden temel ilke hangisidir?",
+    "text": "İslam’ın insana hitabı, kişinin neye inanacağıyla sınırlı kalmaz; ailesiyle ilişkisini, alışverişteki tutumunu ve çevreye karşı sorumluluğunu da kapsar. Bu açıklama dinin hangi özelliğini öne çıkarır?",
     "options": [
-      "Tevhit",
-      "Şirk",
-      "Riya",
-      "Taassup",
-      "İsraf"
+      "İnanç ile hayatın farklı alanları arasında bağ kurmasını",
+      "Toplumsal geleneklerle aynı kaynaktan doğmasını",
+      "İnsanın kişisel tercihlerine göre oluşmasını",
+      "Sorumluluğu dinî törenlerle sınırlandırmasını",
+      "Ahlaki ilkeleri coğrafi şartlara göre belirlemesini"
     ],
-    "explanation": "Tevhit, Allah’ın birliğini ve eşsizliğini kabul etmektir."
+    "explanation": "Din, inanç, ibadet ve ahlakı hayatla ilişkilendirir. Toplumsal geleneklerden etkilenebilen din anlayışı ile dinin kaynağı birbirine karıştırılmamalıdır."
   },
   {
     "id": "din-p02",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "İnsanın doğuştan sahip olduğu özellikleri ve hakikati kabul etmeye elverişli yaratılışını anlatan kavram hangisidir?",
+    "text": "Farklı dönemlerde yaşamış peygamberlerin toplumlarına yönelik uygulamalarında farklılıklar bulunmasına rağmen Allah’ın birliğine çağrıları ortaktır. Bu bilgiden aşağıdakilerden hangisine ulaşılır?",
     "options": [
-      "Fıtrat",
-      "Mezhep",
-      "İçtihat",
-      "İcma",
-      "Hicret"
+      "Tevhit ilkesinin ilahî dinlerin ortak inanç temeli olduğuna",
+      "Bütün peygamberlerin aynı toplumda görev yaptığına",
+      "İbadetlerin uygulanışının tarih boyunca değişmediğine",
+      "Peygamberlerin ahlaki sorumlulukları kaldırdığına",
+      "Dinî ilkelerin toplumların ortak kararıyla oluştuğuna"
     ],
-    "explanation": "Fıtrat, insanın yaratılıştan getirdiği yapıyı ve yatkınlıkları ifade eder."
+    "explanation": "Peygamberlerin ortak çağrısı tek Allah’a yönelmedir. Ortak inanç temeli, tarihî uygulamaların tüm ayrıntılarının aynı olması demek değildir."
   },
   {
     "id": "din-p03",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "Allah’a ortak koşmadan, batıl inançlardan uzak durarak O’na yönelen kişi hangi kavramla nitelendirilir?",
+    "text": "Bir öğretmen insanın anlam arayışını, iyiyi istemesini ve yüce bir varlığa yönelme eğilimini ele alır. Bunları belirli bir toplumun sonradan koyduğu kurallardan önce insanın yaratılışındaki imkânlarla ilişkilendirir. Hangi kavram açıklanmaktadır?",
     "options": [
-      "Hanif",
-      "Münafık",
-      "Müşrik",
-      "Müsrif",
-      "Müfteri"
+      "Fıtrat",
+      "Örf",
+      "İkrar",
+      "Şeriat",
+      "Mezhep"
     ],
-    "explanation": "Hanif, şirkten uzaklaşıp tek Allah’a yönelen kişidir; Hanefî ise bir fıkıh mezhebine mensubiyeti belirtir."
+    "explanation": "Fıtrat, insanın yaratılıştan getirdiği yapı ve yatkınlıklardır. Örf toplum içinde oluşup aktarılan uygulamalardır."
   },
   {
     "id": "din-p04",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "İslam’a göre kişinin davranışlarından sorumlu tutulabilmesi en doğrudan hangi iki özelliğiyle ilişkilidir?",
+    "text": "Bir genç, Allah’a bağlılığın kendi iradesini kullanmamak anlamına gelmediğini; seçimlerini ilahî rehberliği dikkate alarak yapması gerektiğini söyler. Bu söz hangi anlayışı destekler?",
     "options": [
-      "Akıl ve özgür irade",
-      "Servet ve makam",
-      "Soy ve aile",
-      "Yaşadığı ülke ve iklim",
-      "Fiziksel güç ve görünüş"
+      "Teslimiyetin bilinçli ve sorumlu tercihlerle birlikte düşünülmesini",
+      "Teslimiyetin tedbir almadan sonucu beklemek sayılmasını",
+      "İradeli tercihin dinî bağlılığı ortadan kaldırmasını",
+      "Davranışın değerinin çevrenin takdirine bağlanmasını",
+      "İnanç esaslarının kişisel beğenilerle belirlenmesini"
     ],
-    "explanation": "İnsan, aklıyla değerlendirebildiği ve iradesiyle seçebildiği davranışlarından sorumlu olur."
+    "explanation": "İslam’daki teslimiyet sorumluluğu ve iradeyi dışlamaz. Tedbiri bırakmak tevekkül olmadığı gibi bilinçli tercih de teslimiyete aykırı değildir."
   },
   {
     "id": "din-p05",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "İslam’ın insanı hem bireysel hem toplumsal yönüyle ele alması aşağıdakilerden hangisini destekler?",
+    "text": "Putlara saygının yaygın olduğu bir çevrede bir kişi, yaratılmış nesnelere ilahlık verilmesini reddederek tek Allah’a yönelir. Bu kişinin tutumunu niteleyen en uygun kavram hangisidir?",
     "options": [
-      "Dinî hayatın ahlak ve sosyal ilişkilerle de bağlantılı olduğunu",
-      "Dinin yalnızca törenlerden oluştuğunu",
-      "Ahlakın dinle hiçbir ilişkisi bulunmadığını",
-      "Sorumluluğun yalnızca başkalarına ait olduğunu",
-      "Toplumsal adaletin önemsiz olduğunu"
+      "Haniflik",
+      "Nifak",
+      "Ruhbanlık",
+      "Taassup",
+      "Riya"
     ],
-    "explanation": "İslam’ın ilkeleri ibadetlerin yanında insan ilişkilerini ve ahlaki davranışları da kapsar."
+    "explanation": "Haniflik şirkten uzaklaşarak tek Allah’a yönelmeyi anlatır. Taassup ise bir görüşe delilleri gözetmeden bağlanmadır."
   },
   {
     "id": "din-p06",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "Bir kimsenin Allah’a inanmakla birlikte başka varlıklara da ilahlık atfetmesi hangi kavramla ifade edilir?",
+    "text": "Bir konuşmacı Allah’a inanmanın yanında bazı varlıklara da bağımsız ilahî güç atfedilebileceğini savunur. Bu görüşün tevhit inancıyla uyuşmamasının temel gerekçesi hangisidir?",
     "options": [
-      "Şirk",
-      "Tevhit",
-      "İhlas",
-      "İhsan",
-      "Takva"
+      "İlahlıkta Allah’a ortak kabul etmesi",
+      "Peygamberlerin insan oluşunu benimsemesi",
+      "İnsanın iradesini kullanmasına yer vermesi",
+      "Evrenin araştırılmasını gerekli görmesi",
+      "Duanın insan hayatındaki etkisini kabul etmesi"
     ],
-    "explanation": "Şirk, Allah’a ortak koşmaktır; tevhitle bağdaşmaz."
+    "explanation": "Tevhit, Allah’ın ilahlıkta bir ve eşsiz oluşudur. Başka varlıklara bağımsız ilahlık atfetmek şirk kapsamındadır."
   },
   {
     "id": "din-p07",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "“İman, ibadet ve ahlak birbirini tamamlar.” Buna uygun davranış hangisidir?",
+    "text": "Bir öğrenci dinî bağlılığı bir kimlik beyanından ibaret sayar. Arkadaşı ise iman, ibadet ve ahlakın birbirini tamamladığını; sözün davranışta da karşılık bulması gerektiğini söyler. İkinci öğrenci neyi vurgular?",
     "options": [
-      "İbadet ederken insan haklarına da özen göstermek",
-      "İbadetleri başkalarını küçük görmek için kullanmak",
-      "İnancı davranışlardan tamamen ayırmak",
-      "Dürüstlüğü yalnızca kazanç sağladığında önemsemek",
-      "Yardımı sırf övülmek için yapmak"
+      "Dinî hayatın bütünlüğünü",
+      "Din ile kültürün özdeşliğini",
+      "İkrarın tasdikten bağımsız yeterliliğini",
+      "Ahlakın inançtan etkilenmediğini",
+      "İbadetlerin toplumsal alışkanlık oluşunu"
     ],
-    "explanation": "İnanç ve ibadet, günlük hayatta adalet ve güzel ahlakla bütünleşmelidir."
+    "explanation": "İman, ibadet ve ahlakın birlikte ele alınması dinî hayatın bütünlüğünü gösterir. Bu boyutlar birbirinin yerine geçmez."
   },
   {
     "id": "din-p08",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "Bir öğrenci sınava düzenli hazırlanıyor, elinden geleni yaptıktan sonra sonucu Allah’a bırakıyor. Bu tutum hangisine örnektir?",
+    "text": "Bir öğrenci Kur’an’ın Allah’tan geldiğini, peygamberin ise kendisine bildirilen mesajı insanlara ulaştırdığını açıklar. Bu açıklamada peygamberin hangi görevi vurgulanmaktadır?",
     "options": [
-      "Tevekkül",
-      "Tembellik",
-      "Kadercilik adına çabayı bırakma",
-      "Riya",
-      "İsraf"
+      "Tebliğ",
+      "Tekvin",
+      "Tasdik",
+      "Tevhit",
+      "Takdir"
     ],
-    "explanation": "Tevekkül, gereken çabayı ve tedbiri gösterdikten sonra Allah’a güvenmektir."
+    "explanation": "Tebliğ ilahî mesajı insanlara ulaştırmaktır. Tekvin yaratmayla ilgili ilahî sıfattır; peygamberin görevi olarak kullanılamaz."
   },
   {
     "id": "din-p09",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "İslam inancında Allah’ın güzel isimlerini ifade eden kavram hangisidir?",
+    "text": "Bir kişi yaptığı haksızlığın dünyada bilinmediğini düşünerek rahatlamak ister. Ancak ölümden sonra yaptıklarından sorumlu tutulacağına ilişkin inancı onu hakkı iade etmeye yöneltir. Burada hangi inanç esası özellikle etkili olmuştur?",
     "options": [
-      "Esmâ-i hüsnâ",
-      "Efâl-i mükellefîn",
-      "Sünnetullah",
-      "Siyer",
-      "Esbâb-ı nüzûl"
+      "Ahirete iman",
+      "Kitaplara iman",
+      "Meleklere iman",
+      "Peygamberlere iman",
+      "Allah’ın birliğine iman"
     ],
-    "explanation": "Esmâ-i hüsnâ, Allah’ı tanımaya yardımcı olan güzel isimlerdir."
+    "explanation": "Yapılanların ölümden sonra hesabının verilmesi ahiret inancıyla ilgilidir. Diğer esaslarla ilişkiler kurulabilse de parçanın belirleyici vurgusu hesap ve ölüm sonrasıdır."
   },
   {
     "id": "din-p10",
     "topic": "din",
     "kind": "Pekiştirme",
-    "text": "“İnsan, seçim yapabildiği için yaptıklarının sonuçlarını da üstlenmelidir.” Bu düşüncede hangi ilişki vurgulanır?",
+    "text": "Bir öğrenci Rahmân, Rahîm ve Alîm gibi isimlerin Allah’ı tanımaya yardımcı olduğunu öğrenir. Bu isimlerin farklı olması Allah’ın birden fazla olduğu anlamına gelmez. Bu açıklamada hangi ilişki kurulmaktadır?",
     "options": [
-      "Özgürlük ve sorumluluk",
-      "Servet ve itibar",
-      "Gelenek ve coğrafya",
-      "Ticaret ve üretim",
-      "Sanat ve mimari"
+      "İsimlerin çeşitliliği ile ilahî birliğin birlikte düşünülmesi",
+      "İlahî isimlerin peygamberler tarafından oluşturulması",
+      "Allah’ın insan özellikleriyle sınırlandırılması",
+      "İsimlerin dinî hükümlerle aynı anlamda kullanılması",
+      "Allah’ın tanınmasının duyusal gözlemle sınırlandırılması"
     ],
-    "explanation": "Seçme imkânı, kişinin davranışları için hesap verme sorumluluğunu beraberinde getirir."
+    "explanation": "Esmâ-i hüsnâ tek Allah’ın farklı yetkinliklerini bildirir. İsimlerin çokluğu ilahların çokluğu anlamına gelmez."
+  },
+  {
+    "id": "din-p11",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi yardım isterken duasının kendi çabasına eşlik etmesi gerektiğini düşünür. Bu nedenle iş arar, eğitim alır ve yaptığı başvuruların sonucunu Allah’a güvenerek bekler. Bu örnek hangi kavramların doğru birlikteliğini gösterir?",
+    "options": [
+      "Dua, emek ve tevekkül",
+      "Dua, riya ve taklit",
+      "İkrar, israf ve ihlas",
+      "Şükür, zan ve gösteriş",
+      "Teslimiyet, atalet ve ihmal"
+    ],
+    "explanation": "Dua ve tevekkül çabayı dışlamaz; kişi elinden geleni yapar ve Allah’a güvenir. Atalet ile tedbiri terk etmek tevekkül sayılmaz."
+  },
+  {
+    "id": "din-p12",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci, Hz. Muhammed’in son peygamber oluşunun diğer peygamberlere imanı gereksiz kıldığını öne sürer. Öğretmeni İslam’da peygamberlerin getirdiği ortak mesaja dikkat çeker. Hangi düzeltme yapılmalıdır?",
+    "options": [
+      "Bütün peygamberlere iman, İslam’ın inanç esaslarındandır.",
+      "Peygamberlere iman, tarih bilgisiyle aynı anlamdadır.",
+      "Önceki peygamberlerin tamamı aynı kitabı getirmiştir.",
+      "Her peygamber farklı bir ilaha çağrıda bulunmuştur.",
+      "Peygamberler arasındaki fark, ahiretin varlığına ilişkindir."
+    ],
+    "explanation": "İslam bütün peygamberleri Allah’ın elçileri olarak kabul etmeyi esas alır. Son peygambere iman önceki elçilerin reddini gerektirmez."
+  },
+  {
+    "id": "din-p13",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "İnsanların aynı temel ihtiyaç ve yeteneklerle dünyaya gelmesine rağmen farklı dinî ve kültürel çevrelerde yetişmesi, bazı anlayışlarının farklılaşmasına yol açar. Bu bilgi fıtrat hakkında hangi sonucu destekler?",
+    "options": [
+      "Yaratılıştan gelen yatkınlığın çevresel etkilerle birlikte geliştiğini",
+      "Fıtratın doğrudan bir toplumun geleneklerini belirlediğini",
+      "İnanç tercihlerinin insanın iradesinden bağımsız olduğunu",
+      "Toplumsal çevrenin insanın hiçbir yönünü etkilemediğini",
+      "Bütün insanların aynı dinî bilgiyle doğduğunu"
+    ],
+    "explanation": "Fıtrat yaratılış özelliğidir; bireyin bilgi ve tercihlerinin gelişiminde çevre de etkilidir. Fıtrat belirli bir kültürün ayrıntılarını doğuştan bilmek değildir."
+  },
+  {
+    "id": "din-p14",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "İslam’ın şartlarını anlatan bir öğrenci namaz, oruç, zekât ve haccı sayar; bunların yanında İslam’a girişin temel beyanını da eklemesi gerektiğini fark eder. Hangi ifadeyi eklemelidir?",
+    "options": [
+      "Kelime-i şehadet getirmeyi",
+      "Meleklerin görevlerini sıralamayı",
+      "Ahiret kavramlarını açıklamayı",
+      "Peygamberlerin isimlerini ezberlemeyi",
+      "İlahî kitapları tarih sırasına koymayı"
+    ],
+    "explanation": "İslam’ın beş şartı bağlamındaki temel beyan kelime-i şehadettir. Diğer seçenekler inançla ilgili bilgi etkinlikleridir."
+  },
+  {
+    "id": "din-p15",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir genç yalnızca korktuğunda Allah’a yönelmediğini; sevinçte şükretmek, hata yaptığında bağışlanma dilemek ve doğru karar için yardım istemek üzere de dua ettiğini söyler. Bu söz duanın hangi özelliğini ortaya koyar?",
+    "options": [
+      "İnsanın farklı yaşantılarında Allah’la bağını sürdürmesini",
+      "İbadetin dinî hükümlerden bağımsız oluşunu",
+      "Duanın belirli bir toplumsal sınıfa ait oluşunu",
+      "Allah’ın insanın ihtiyacını duayla öğrenmesini",
+      "Duanın yalnızca toplu yapılınca anlam kazanmasını"
+    ],
+    "explanation": "Dua istek, şükür ve bağışlanma gibi farklı yönelişlerle Allah’la ilişkiyi canlı tutar. Allah’ın bir ihtiyacı öğrenmesi için yapılan bildirim değildir."
+  },
+  {
+    "id": "din-p16",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi inanç esaslarını doğru bildiği hâlde bu inancı kalben kabul etmediğini belirtir. Bu durum, dinî bilgi ile iman arasındaki hangi farkı gösterir?",
+    "options": [
+      "Bilmenin, gönülden benimsemeyle aynı şey olmadığını",
+      "İmanın öğrenilen bilgilerle hiçbir ilişkisinin bulunmadığını",
+      "İkrarın bilgi edinmekten önce gerçekleştiğini",
+      "İnanç esaslarının kişisel yorumla oluştuğunu",
+      "Duyusal bilginin dinî bilgiden üstün olduğunu"
+    ],
+    "explanation": "İman yalnızca konu hakkında bilgi sahibi olmak değil kalben kabul etmektir. Bilgi imanı destekleyebilir fakat bilmek ile benimsemek özdeş değildir."
+  },
+  {
+    "id": "din-p17",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci Allah’ın birliğine inanmakla bütün insanların aynı kültürel özelliklere sahip olması arasında zorunlu bağ kurar. Arkadaşı inanç ortaklığının dil, giyim ve sanat çeşitliliğiyle bağdaşabileceğini belirtir. Hangi ayrım yapılmaktadır?",
+    "options": [
+      "Ortak dinî esaslar ile kültürel biçimler arasındaki ayrım",
+      "İman ile kalpte tasdik arasındaki ayrım",
+      "Nübüvvet ile peygamberlik arasındaki ayrım",
+      "Dua ile Allah’a yönelme arasındaki ayrım",
+      "Tevhit ile Allah’ın birliği arasındaki ayrım"
+    ],
+    "explanation": "Ortak dinî esaslar kültürlerin bütün ayrıntılarını aynılaştırmaz. Diğer seçenekler burada ayrılan alanları değil yakın veya eş anlamlı ifadeleri içerir."
+  },
+  {
+    "id": "din-p18",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi dinin insanı iyiliğe yönelttiğini söylerken, diğer insanlara zarar vermemeyi ve onların haklarını korumayı da bu iyiliğin içinde değerlendirir. Bu yaklaşımda dinin hangi boyutu öne çıkar?",
+    "options": [
+      "Ahlaki sorumluluk kazandırması",
+      "Tarihî olayları sıralaması",
+      "Coğrafi sınırları belirlemesi",
+      "Bireysel yetenekleri eşitlemesi",
+      "Kültürel ürünleri tek biçime sokması"
+    ],
+    "explanation": "Hakları gözetmek dinin ahlak ve sorumluluk boyutudur. Dinin toplumsal etkisi kültürleri tek biçime sokmak anlamına gelmez."
+  },
+  {
+    "id": "din-p19",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğretmen insanların ilahî mesajı doğru anlayıp uygulayabilmeleri için kendileri gibi bir insan olan peygamberin örnekliğine ihtiyaç duyduklarını anlatır. Bu açıklamada peygamberliğin hangi yönü vurgulanır?",
+    "options": [
+      "Mesajın yaşantıyla gösterilmesi",
+      "İnsanın sorumluluktan çıkarılması",
+      "Vahyin toplumsal kararla üretilmesi",
+      "İlahî bilginin gözlemle oluşturulması",
+      "İnanç esaslarının coğrafyayla sınırlandırılması"
+    ],
+    "explanation": "Peygamberler mesajı tebliğ ederken hayatlarıyla da örnek olur. Örnek oluşları insanların sorumluluğunu kaldırmaz, doğru uygulamayı görünür kılar."
+  },
+  {
+    "id": "din-p20",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci inancın zorlamayla içten benimsetilemeyeceğini; insanın anlaması ve özgürce yönelmesinin önemli olduğunu savunur. Bu yaklaşım özellikle imanın hangi boyutuna dayanır?",
+    "options": [
+      "Kalbî kabulün iradeyle ilişkisine",
+      "İbadetlerin toplu yapılmasına",
+      "Kültürün kuşaklar arasında aktarılmasına",
+      "Haberin toplumda yaygınlaşmasına",
+      "Dinî kavramların ezberlenmesine"
+    ],
+    "explanation": "İçten kabul zorlamayla üretilemez; imanda kişinin iradeli yönelişi önemlidir. Toplumsal beyan ile kalpte benimseme aynı şey değildir."
+  },
+  {
+    "id": "din-p21",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci, İslam’ın tevhit, nübüvvet ve ahiret başlıklarını birlikte ele alırken Allah’ın rehberliği, peygamberlerin görevi ve insanın hesap verme sorumluluğu arasında bağ kurar. Bu üç başlığın sıralı karşılığı hangisidir?",
+    "options": [
+      "Allah’ın birliği — peygamberlik — ölüm sonrası hayat",
+      "Peygamberlik — ölüm sonrası hayat — Allah’ın birliği",
+      "Ölüm sonrası hayat — Allah’ın birliği — peygamberlik",
+      "Allah’ın birliği — ölüm sonrası hayat — peygamberlik",
+      "Peygamberlik — Allah’ın birliği — ölüm sonrası hayat"
+    ],
+    "explanation": "Tevhit Allah’ın birliğini, nübüvvet peygamberliği, ahiret ölüm sonrası hayatı anlatır. Birbirleriyle ilişkili olmaları kavramsal farklarını kaldırmaz."
+  },
+  {
+    "id": "din-p22",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci insanların kendi anlayışlarını dinin kendisiyle özdeşleştirmemesi gerektiğini; bir uygulamanın dinî dayanağı ile toplumsal alışkanlık yönünün araştırılmasını önerir. Bu öneri hangi beceriyi gerektirir?",
+    "options": [
+      "Din ile dinin kültürel yorumunu ayırt etmeyi",
+      "Kültürel aktarımı dinî delil saymayı",
+      "Toplumsal kabulü vahyin ölçütü yapmayı",
+      "İnancı gündelik alışkanlığa indirgemeyi",
+      "Kişisel kanaati ilahî hükümle eşitlemeyi"
+    ],
+    "explanation": "Dinî esaslarla insanların bunları anlaması ve kültürel uygulamalar farklı düzeylerdir. Toplumda yaygın olmak tek başına dinî dayanak oluşturmaz."
+  },
+  {
+    "id": "din-p23",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci meleklerin varlığını inkâr etmeksizin, onları insanlara özgü biyolojik ihtiyaçlarla tarif etmenin doğru olmadığını belirtir. Bu tutum hangi ilkeye dayanır?",
+    "options": [
+      "Gaybî varlıkların özelliklerini güvenilir dinî bilgiyle açıklamaya",
+      "Gözle görülmeyenleri insan örneğine göre biçimlendirmeye",
+      "Duyusal tecrübeyi vahyin yerine koymaya",
+      "İnanç esaslarını toplumsal hayal gücüyle üretmeye",
+      "Bilgi eksikliğini kesin inkârın gerekçesi saymaya"
+    ],
+    "explanation": "Melekler hakkındaki bilgi vahye dayanır; insanın özellikleri kıyasla onlara aktarılamaz. Gayb konusunda bilgi sınırını gözetmek gerekir."
+  },
+  {
+    "id": "din-p24",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci sınava çalışıp kendine uygun bir plan yapar; sonucu beklerken başarısının emek ve şartlarla ilgili olduğunu bilir, Allah’a güvenini de korur. Bu davranışa ilişkin en uygun değerlendirme hangisidir?",
+    "options": [
+      "Sorumluluk bilinciyle tevekkülü birleştirmektedir.",
+      "Sonucu önceden kesinleştirdiğini düşünmektedir.",
+      "Kişisel emeğin etkisini dinî bağlılıktan ayırmaktadır.",
+      "İbadeti başarının otomatik güvencesi saymaktadır.",
+      "Gerekli hazırlığın yerini duayla doldurmaktadır."
+    ],
+    "explanation": "Tevekkül gerekli çaba ve tedbirle birlikte Allah’a güvendir. Dua sonucu garanti eden bir teknik veya çalışmanın yerine geçen uygulama değildir."
+  },
+  {
+    "id": "din-p25",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi Allah’ın varlığını kabul etmekle birlikte bütün dinî rehberliği gereksiz görür. Öğretmen bu tutumun yalnızca Allah’ın varlığını tartışmakla açıklanamayacağını, peygamberlik ve vahiy konusundaki kabulün de incelenmesi gerektiğini söyler. Hangi kavramlar öne çıkar?",
+    "options": [
+      "Nübüvvet ve vahiy",
+      "Mizaç ve karakter",
+      "Örf ve âdet",
+      "Mubah ve mekruh",
+      "Kültür ve medeniyet"
+    ],
+    "explanation": "İlahî rehberlik peygamberlik ve vahiy kavramlarıyla ilişkilidir. Allah’ın varlığını kabul etmek ile bütün inanç esaslarını benimsemek aynı kapsamda değildir."
+  },
+  {
+    "id": "din-p26",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir genç dinin yalnızca ölümden sonraki hayatla ilgili olduğunu düşünür. Arkadaşı dinin dürüst ticaret, aile ilişkileri ve yardımlaşmayla ilgili ilkelerini hatırlatır. Bu hatırlatma hangi sonucu destekler?",
+    "options": [
+      "Dünya hayatındaki sorumlulukların da dinî yönelişin parçası olduğunu",
+      "Ahiret inancının toplumsal ilişkilerden bağımsız olduğunu",
+      "İbadet hükümlerinin kültürel alışkanlıklardan doğduğunu",
+      "Dinî bağlılığın belirli mesleklerde zorunlu olduğunu",
+      "Gündelik hayatın dinî ilkelerin kaynağı olduğunu"
+    ],
+    "explanation": "Dünya ve ahiret sorumluluğu ilişkilidir. Dinin gündelik hayata yön vermesi, ilkelerinin gündelik alışkanlıklardan üretildiği anlamına gelmez."
+  },
+  {
+    "id": "din-p27",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci Nahl suresinin 36. ayetinde peygamberlerin Allah’a kulluğa ve sahte ilahlardan uzaklaşmaya çağırdığı mesajını inceler. Bu iki yön birlikte hangi inanç ilkesini açıklamaktadır?",
+    "options": [
+      "Tevhit",
+      "Nübüvvetin sona ermesi",
+      "Ahiretin aşamaları",
+      "Kaderin gerçekleşmesi",
+      "Meleklerin görevleri"
+    ],
+    "explanation": "Allah’a kulluk ve sahte ilahları reddetme, tevhidin olumlu ve olumsuz yönlerini birlikte gösterir. Ayetin burada ele alınan mesajı peygamberliğin sona ermesi değildir."
+  },
+  {
+    "id": "din-p28",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci insanın güven ve anlam ihtiyacının dinî yönelişi anlamaya yardımcı olduğunu, fakat bir inancın doğruluğunun sadece kişiye huzur vermesiyle kanıtlanamayacağını söyler. Bu yaklaşım hangi ayrımı yapar?",
+    "options": [
+      "Dinin insan hayatındaki işlevi ile inancın temellendirilmesini",
+      "Dua ile Allah’a yönelmeyi",
+      "İslam ile Allah’a teslimiyeti",
+      "Tevhit ile ortak koşmamayı",
+      "Ahiret ile ölüm sonrası sorumluluğu"
+    ],
+    "explanation": "Bir inancın psikolojik etkisi ile doğruluğunun gerekçeleri farklı sorulardır. Fayda, anlam ve huzur tek başına doğruluk delili sayılamaz."
+  },
+  {
+    "id": "din-p29",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi dinî kavramları yalnızca sözcük olarak ezberlemeyi yeterli bulur. Öğretmeni, kavramın anlamını günlük bir sorumlulukla ilişkilendirmesini ister. Bu isteğin temel amacı hangisidir?",
+    "options": [
+      "Bilginin bilinçli kabul ve davranışla ilişkilendirilmesini sağlamak",
+      "Kavramların dilsel biçimini içeriğinin önüne geçirmek",
+      "Bütün dinî sorumlulukları kişisel tercihe bırakmak",
+      "İnanç esaslarını toplumsal beğeniye göre değiştirmek",
+      "Gündelik örnekleri vahyin kaynağı olarak göstermek"
+    ],
+    "explanation": "Dinî öğrenme ezberin ötesinde anlamayı ve hayatla bağ kurmayı içerir. Günlük örnekler açıklama aracıdır, vahyin kaynağı değildir."
+  },
+  {
+    "id": "din-p30",
+    "topic": "din",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci dua, ibadet ve ahlaki davranışların her birinin Allah’la ilişkiyi sürdürmede yeri olduğunu söyler. Ona göre dua eden kişinin insan haklarına duyarsız kalması bu ilişkinin bütünlüğünü zedeler. Bu görüşün dayanağı hangisidir?",
+    "options": [
+      "Allah’a yöneliş ile insanlara karşı sorumluluğun birlikte değerlendirilmesi",
+      "Dinî sorumluluğun toplumsal takdirle belirlenmesi",
+      "Ahlakın ibadetlerin biçim şartlarının yerine geçirilmesi",
+      "İmanın yalnızca sözle açıklanmasının yeterli sayılması",
+      "İnsanlarla ilişkinin dinî hayatın dışında tutulması"
+    ],
+    "explanation": "Dinî yöneliş ibadet ve ahlakı birlikte kapsar. Ahlaki sorumluluk ibadetin biçim şartının yerine geçmez; onunla birlikte düşünülür."
   },
   {
     "id": "ibadet-k01",
@@ -1178,12 +1798,12 @@ const QUESTIONS=[
     "text": "“Allah’a kulluk amacıyla dinin emirlerine uyup yasaklarından kaçınma” açıklaması hangi kavrama aittir?",
     "options": [
       "İbadet",
-      "Mekruh",
-      "Vacip",
-      "Mubah",
-      "Riya"
+      "Örf ve âdet",
+      "Riya",
+      "İsraf",
+      "Tecessüs"
     ],
-    "explanation": "İbadet: allah’a kulluk amacıyla dinin emirlerine uyup yasaklarından kaçınma."
+    "explanation": "İbadet: Allah’a kulluk amacıyla dinin emirlerine uyup yasaklarından kaçınma. İbadet yalnız belirli törenlerle sınırlı değildir."
   },
   {
     "id": "ibadet-o01",
@@ -1192,12 +1812,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci, Allah’ın rızasını gözeterek yaptığı meşru ve yararlı işlerin de kulluk kapsamına girdiğini söylüyor. Hangi kavramın geniş anlamını açıklıyor?",
     "options": [
       "İbadet",
-      "Mendup",
-      "Mubah",
+      "Örf ve âdet",
       "Riya",
-      "Mekruh"
+      "İsraf",
+      "Tecessüs"
     ],
-    "explanation": "İbadet: allah’a kulluk amacıyla dinin emirlerine uyup yasaklarından kaçınma."
+    "explanation": "İbadet: Allah’a kulluk amacıyla dinin emirlerine uyup yasaklarından kaçınma. İbadet yalnız belirli törenlerle sınırlı değildir."
   },
   {
     "id": "ibadet-k02",
@@ -1206,12 +1826,12 @@ const QUESTIONS=[
     "text": "“Bir işi hangi amaçla yapacağını kalben belirleme” açıklaması hangi kavrama aittir?",
     "options": [
       "Niyet",
-      "Farz-ı ayn",
-      "Farz-ı kifaye",
-      "Nafile",
-      "Mendup"
+      "Tasdik",
+      "İkrar",
+      "İhsan",
+      "Tefekkür"
     ],
-    "explanation": "Niyet: bir işi hangi amaçla yapacağını kalben belirleme."
+    "explanation": "Niyet: Bir işi hangi amaçla yapacağını kalben belirleme. "
   },
   {
     "id": "ibadet-o02",
@@ -1220,12 +1840,12 @@ const QUESTIONS=[
     "text": "Bir kişi yaptığı yardımın amacını kendi içinde belirleyerek işe başlıyor. Davranışa yön veren bu iç karar hangisidir?",
     "options": [
       "Niyet",
-      "Nafile",
-      "Mendup",
-      "Mekruh",
-      "Mükellef"
+      "Tasdik",
+      "İkrar",
+      "İhsan",
+      "Tefekkür"
     ],
-    "explanation": "Niyet: bir işi hangi amaçla yapacağını kalben belirleme."
+    "explanation": "Niyet: Bir işi hangi amaçla yapacağını kalben belirleme. "
   },
   {
     "id": "ibadet-k03",
@@ -1234,12 +1854,12 @@ const QUESTIONS=[
     "text": "“Söz ve davranışlarda yalnızca Allah’ın rızasını gözeten samimiyet” açıklaması hangi kavrama aittir?",
     "options": [
       "İhlas",
-      "Sünnet",
-      "Mükellef",
-      "Mendup",
-      "Farz"
+      "Riya",
+      "Nifak",
+      "İkrar",
+      "Zan"
     ],
-    "explanation": "İhlas: söz ve davranışlarda yalnızca Allah’ın rızasını gözeten samimiyet."
+    "explanation": "İhlas: Söz ve davranışlarda yalnızca Allah’ın rızasını gözeten samimiyet. İhlas gösterişten arınmış niyet, ihsan Allah'ın gördüğünün bilinciyle davranmaktır."
   },
   {
     "id": "ibadet-o03",
@@ -1248,12 +1868,12 @@ const QUESTIONS=[
     "text": "Yardım yaptığı duyulmasa da bundan memnun olan kişi, yalnız Allah’ın rızasını amaçlıyor. Hangi ilke öne çıkar?",
     "options": [
       "İhlas",
-      "Vacip",
-      "İbadet",
-      "Sünnet",
-      "Farz"
+      "Riya",
+      "Nifak",
+      "İkrar",
+      "Zan"
     ],
-    "explanation": "İhlas: söz ve davranışlarda yalnızca Allah’ın rızasını gözeten samimiyet."
+    "explanation": "İhlas: Söz ve davranışlarda yalnızca Allah’ın rızasını gözeten samimiyet. İhlas gösterişten arınmış niyet, ihsan Allah'ın gördüğünün bilinciyle davranmaktır."
   },
   {
     "id": "ibadet-k04",
@@ -1263,11 +1883,11 @@ const QUESTIONS=[
     "options": [
       "Riya",
       "İhlas",
-      "Sünnet",
-      "Mükellef",
-      "Mekruh"
+      "Kibir",
+      "Haset",
+      "Takva"
     ],
-    "explanation": "Riya: i̇badet ve iyilikleri insanların beğenisini kazanmak için gösterişe dönüştürme."
+    "explanation": "Riya: İbadet ve iyilikleri insanların beğenisini kazanmak için gösterişe dönüştürme. "
   },
   {
     "id": "ibadet-o04",
@@ -1276,12 +1896,12 @@ const QUESTIONS=[
     "text": "Bir kişi yardım yapmaktan çok, herkesin kendisini yardımsever olarak övmesini önemsiyor. Hangi davranış örnekleniyor?",
     "options": [
       "Riya",
-      "Farz-ı kifaye",
-      "Haram",
-      "Farz",
-      "Mükellef"
+      "İhlas",
+      "Kibir",
+      "Haset",
+      "Takva"
     ],
-    "explanation": "Riya: i̇badet ve iyilikleri insanların beğenisini kazanmak için gösterişe dönüştürme."
+    "explanation": "Riya: İbadet ve iyilikleri insanların beğenisini kazanmak için gösterişe dönüştürme. "
   },
   {
     "id": "ibadet-k05",
@@ -1290,12 +1910,12 @@ const QUESTIONS=[
     "text": "“Dinî emir ve yasaklardan sorumlu olan kişi” açıklaması hangi kavrama aittir?",
     "options": [
       "Mükellef",
-      "Farz",
-      "Vacip",
-      "Niyet",
-      "Farz-ı kifaye"
+      "Müçtehit",
+      "Müfessir",
+      "Muhaddis",
+      "Müezzin"
     ],
-    "explanation": "Mükellef: dinî emir ve yasaklardan sorumlu olan kişi."
+    "explanation": "Mükellef: Dinî emir ve yasaklardan sorumlu olan kişi. "
   },
   {
     "id": "ibadet-o05",
@@ -1304,12 +1924,12 @@ const QUESTIONS=[
     "text": "Akıl sağlığı yerinde ve ergenlik çağına ulaşmış bir Müslümanın dinî sorumluluğu anlatılıyor. Bu kişi için hangi kavram kullanılır?",
     "options": [
       "Mükellef",
-      "İbadet",
-      "Vacip",
-      "Farz-ı kifaye",
-      "Mendup"
+      "Müçtehit",
+      "Müfessir",
+      "Muhaddis",
+      "Müezzin"
     ],
-    "explanation": "Mükellef: dinî emir ve yasaklardan sorumlu olan kişi."
+    "explanation": "Mükellef: Dinî emir ve yasaklardan sorumlu olan kişi. "
   },
   {
     "id": "ibadet-k06",
@@ -1318,12 +1938,12 @@ const QUESTIONS=[
     "text": "“Yapılması kesin ve bağlayıcı biçimde emredilen davranışın genel hükmü” açıklaması hangi kavrama aittir?",
     "options": [
       "Farz",
-      "Mükellef",
       "Vacip",
-      "Riya",
-      "Mubah"
+      "Sünnet",
+      "Mubah",
+      "Mekruh"
     ],
-    "explanation": "Farz: yapılması kesin ve bağlayıcı biçimde emredilen davranışın genel hükmü."
+    "explanation": "Farz: Yapılması kesin ve bağlayıcı biçimde emredilen davranışın genel hükmü. "
   },
   {
     "id": "ibadet-o06",
@@ -1332,12 +1952,12 @@ const QUESTIONS=[
     "text": "Öğretmen, yapılması kesin olarak istenen ibadetleri kişinin veya toplumun sorumluluğu bakımından ikiye ayırıyor. Bu iki türün ortak üst başlığı hangisidir?",
     "options": [
       "Farz",
-      "Mükellef",
-      "Mendup",
-      "İhlas",
-      "Niyet"
+      "Vacip",
+      "Sünnet",
+      "Mubah",
+      "Mekruh"
     ],
-    "explanation": "Farz: yapılması kesin ve bağlayıcı biçimde emredilen davranışın genel hükmü."
+    "explanation": "Farz: Yapılması kesin ve bağlayıcı biçimde emredilen davranışın genel hükmü. "
   },
   {
     "id": "ibadet-k07",
@@ -1346,12 +1966,12 @@ const QUESTIONS=[
     "text": "“Gerekli şartları taşıyan her mükellefin bizzat yerine getirmesi gereken farz” açıklaması hangi kavrama aittir?",
     "options": [
       "Farz-ı ayn",
-      "İhlas",
-      "Haram",
-      "Riya",
-      "Mekruh"
+      "Farz-ı kifaye",
+      "Vacip",
+      "Mendup",
+      "Mubah"
     ],
-    "explanation": "Farz-ı ayn: gerekli şartları taşıyan her mükellefin bizzat yerine getirmesi gereken farz."
+    "explanation": "Farz-ı ayn: Gerekli şartları taşıyan her mükellefin bizzat yerine getirmesi gereken farz. "
   },
   {
     "id": "ibadet-o07",
@@ -1360,12 +1980,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci, başkasının namaz kılmasının kendi beş vakit namaz sorumluluğunu kaldırmadığını öğreniyor. Bu yükümlülüğün türü hangisidir?",
     "options": [
       "Farz-ı ayn",
-      "Riya",
-      "Niyet",
+      "Farz-ı kifaye",
       "Vacip",
-      "İhlas"
+      "Mendup",
+      "Mubah"
     ],
-    "explanation": "Farz-ı ayn: gerekli şartları taşıyan her mükellefin bizzat yerine getirmesi gereken farz."
+    "explanation": "Farz-ı ayn: Gerekli şartları taşıyan her mükellefin bizzat yerine getirmesi gereken farz. "
   },
   {
     "id": "ibadet-k08",
@@ -1374,12 +1994,12 @@ const QUESTIONS=[
     "text": "“Yeterli sayıda kişinin yapmasıyla diğerlerinden sorumluluğun kalktığı farz” açıklaması hangi kavrama aittir?",
     "options": [
       "Farz-ı kifaye",
+      "Farz-ı ayn",
       "Vacip",
-      "Niyet",
-      "Mubah",
-      "Riya"
+      "Mendup",
+      "Mubah"
     ],
-    "explanation": "Farz-ı kifaye: yeterli sayıda kişinin yapmasıyla diğerlerinden sorumluluğun kalktığı farz."
+    "explanation": "Farz-ı kifaye: Yeterli sayıda kişinin yapmasıyla diğerlerinden sorumluluğun kalktığı farz. "
   },
   {
     "id": "ibadet-o08",
@@ -1388,12 +2008,12 @@ const QUESTIONS=[
     "text": "Bir cenazenin namazını bir grup Müslüman kıldığında bu görevin diğerleri üzerindeki sorumluluğu kalkıyor. Hangi tür farz söz konusudur?",
     "options": [
       "Farz-ı kifaye",
-      "Haram",
+      "Farz-ı ayn",
+      "Vacip",
       "Mendup",
-      "Niyet",
-      "Mekruh"
+      "Mubah"
     ],
-    "explanation": "Farz-ı kifaye: yeterli sayıda kişinin yapmasıyla diğerlerinden sorumluluğun kalktığı farz."
+    "explanation": "Farz-ı kifaye: Yeterli sayıda kişinin yapmasıyla diğerlerinden sorumluluğun kalktığı farz. "
   },
   {
     "id": "ibadet-k09",
@@ -1402,12 +2022,12 @@ const QUESTIONS=[
     "text": "“Hanefî anlayışında farz kadar kesin delile dayanmayan fakat yapılması bağlayıcı olan yükümlülük” açıklaması hangi kavrama aittir?",
     "options": [
       "Vacip",
-      "İhlas",
-      "Farz-ı kifaye",
+      "Farz",
+      "Sünnet",
       "Mubah",
-      "Riya"
+      "Mekruh"
     ],
-    "explanation": "Vacip: hanefî anlayışında farz kadar kesin delile dayanmayan fakat yapılması bağlayıcı olan yükümlülük."
+    "explanation": "Vacip: Hanefî anlayışında farz kadar kesin delile dayanmayan fakat yapılması bağlayıcı olan yükümlülük. Farz-vacip ayrımı mezhepler arasında aynı biçimde kullanılmaz."
   },
   {
     "id": "ibadet-o09",
@@ -1416,12 +2036,12 @@ const QUESTIONS=[
     "text": "Bir öğretmen, Hanefî mezhebinde vitir namazının farzdan ayrı bir bağlayıcı hükümle nitelendirildiğini anlatıyor. Bu hüküm hangisidir?",
     "options": [
       "Vacip",
-      "Riya",
-      "Farz-ı kifaye",
-      "Nafile",
-      "Mubah"
+      "Farz",
+      "Sünnet",
+      "Mubah",
+      "Mekruh"
     ],
-    "explanation": "Vacip: hanefî anlayışında farz kadar kesin delile dayanmayan fakat yapılması bağlayıcı olan yükümlülük."
+    "explanation": "Vacip: Hanefî anlayışında farz kadar kesin delile dayanmayan fakat yapılması bağlayıcı olan yükümlülük. Farz-vacip ayrımı mezhepler arasında aynı biçimde kullanılmaz."
   },
   {
     "id": "ibadet-k10",
@@ -1430,12 +2050,12 @@ const QUESTIONS=[
     "text": "“İbadet hükümleri bağlamında Hz. Peygamber’in farz ve vacip dışında yaptığı veya tavsiye ettiği davranış” açıklaması hangi kavrama aittir?",
     "options": [
       "Sünnet",
+      "Farz",
+      "Vacip",
       "Mubah",
-      "Haram",
-      "İhlas",
-      "Mükellef"
+      "Mekruh"
     ],
-    "explanation": "Sünnet: i̇badet hükümleri bağlamında Hz. Peygamber’in farz ve vacip dışında yaptığı veya tavsiye ettiği davranış."
+    "explanation": "Sünnet: İbadet hükümleri bağlamında Hz. Peygamber’in farz ve vacip dışında yaptığı veya tavsiye ettiği davranış. "
   },
   {
     "id": "ibadet-o10",
@@ -1444,12 +2064,12 @@ const QUESTIONS=[
     "text": "Bir Müslüman, sabah namazının farzından önce Hz. Peygamber’in devam ettiği iki rekâtı kılıyor. Bu namaz hangi hükümle adlandırılır?",
     "options": [
       "Sünnet",
-      "Mekruh",
-      "Mükellef",
-      "İhlas",
-      "Riya"
+      "Farz",
+      "Vacip",
+      "Mubah",
+      "Mekruh"
     ],
-    "explanation": "Sünnet: i̇badet hükümleri bağlamında Hz. Peygamber’in farz ve vacip dışında yaptığı veya tavsiye ettiği davranış."
+    "explanation": "Sünnet: İbadet hükümleri bağlamında Hz. Peygamber’in farz ve vacip dışında yaptığı veya tavsiye ettiği davranış. "
   },
   {
     "id": "ibadet-k11",
@@ -1458,12 +2078,12 @@ const QUESTIONS=[
     "text": "“Yapılması tavsiye edilen, terk edilmesi dinen kınanmayan davranış” açıklaması hangi kavrama aittir?",
     "options": [
       "Mendup",
-      "Farz-ı ayn",
-      "Riya",
-      "Farz-ı kifaye",
-      "Mubah"
+      "Farz",
+      "Vacip",
+      "Haram",
+      "Mekruh"
     ],
-    "explanation": "Mendup: yapılması tavsiye edilen, terk edilmesi dinen kınanmayan davranış."
+    "explanation": "Mendup: Yapılması tavsiye edilen, terk edilmesi dinen kınanmayan davranış. Müstehap ve nafile terimleriyle yakın anlamlarda kullanılır; terimlerin kapsamı fıkıh ekolüne göre değişebilir."
   },
   {
     "id": "ibadet-o11",
@@ -1472,12 +2092,12 @@ const QUESTIONS=[
     "text": "Bir kişi bağlayıcı bir emir olmadığı hâlde güzel görülen bir davranışı seçiyor. Yapılmaması kınanmayan bu tavsiyenin hükmü hangisidir?",
     "options": [
       "Mendup",
+      "Farz",
+      "Vacip",
       "Haram",
-      "Farz-ı kifaye",
-      "Mükellef",
-      "Niyet"
+      "Mekruh"
     ],
-    "explanation": "Mendup: yapılması tavsiye edilen, terk edilmesi dinen kınanmayan davranış."
+    "explanation": "Mendup: Yapılması tavsiye edilen, terk edilmesi dinen kınanmayan davranış. Müstehap ve nafile terimleriyle yakın anlamlarda kullanılır; terimlerin kapsamı fıkıh ekolüne göre değişebilir."
   },
   {
     "id": "ibadet-k12",
@@ -1486,12 +2106,12 @@ const QUESTIONS=[
     "text": "“Yapılması veya yapılmaması dinen serbest bırakılan davranış” açıklaması hangi kavrama aittir?",
     "options": [
       "Mubah",
-      "Mükellef",
-      "Sünnet",
-      "Mendup",
+      "Farz",
+      "Vacip",
+      "Haram",
       "Mekruh"
     ],
-    "explanation": "Mubah: yapılması veya yapılmaması dinen serbest bırakılan davranış."
+    "explanation": "Mubah: Yapılması veya yapılmaması dinen serbest bırakılan davranış. "
   },
   {
     "id": "ibadet-o12",
@@ -1500,12 +2120,12 @@ const QUESTIONS=[
     "text": "Sağlığına zarar vermeyen helal yiyeceklerden hangisini yiyeceği konusunda kişi serbesttir. Bu serbestlik hangi hükümdür?",
     "options": [
       "Mubah",
-      "Sünnet",
-      "Mekruh",
-      "Mendup",
-      "İhlas"
+      "Farz",
+      "Vacip",
+      "Haram",
+      "Mekruh"
     ],
-    "explanation": "Mubah: yapılması veya yapılmaması dinen serbest bırakılan davranış."
+    "explanation": "Mubah: Yapılması veya yapılmaması dinen serbest bırakılan davranış. "
   },
   {
     "id": "ibadet-k13",
@@ -1514,12 +2134,12 @@ const QUESTIONS=[
     "text": "“Yapılması kesin biçimde yasaklanmış davranış” açıklaması hangi kavrama aittir?",
     "options": [
       "Haram",
-      "Riya",
-      "İbadet",
-      "Nafile",
-      "Farz-ı kifaye"
+      "Farz",
+      "Vacip",
+      "Mubah",
+      "Mendup"
     ],
-    "explanation": "Haram: yapılması kesin biçimde yasaklanmış davranış."
+    "explanation": "Haram: Yapılması kesin biçimde yasaklanmış davranış. "
   },
   {
     "id": "ibadet-o13",
@@ -1528,12 +2148,12 @@ const QUESTIONS=[
     "text": "Bir kişi, başkasının malını çalmanın dinen kesin yasak olduğunu öğreniyor. Bu fiilin hükmü nedir?",
     "options": [
       "Haram",
-      "Mükellef",
       "Farz",
+      "Vacip",
       "Mubah",
-      "İhlas"
+      "Mendup"
     ],
-    "explanation": "Haram: yapılması kesin biçimde yasaklanmış davranış."
+    "explanation": "Haram: Yapılması kesin biçimde yasaklanmış davranış. "
   },
   {
     "id": "ibadet-k14",
@@ -1542,12 +2162,12 @@ const QUESTIONS=[
     "text": "“Dinen yapılması hoş görülmeyen, kaçınılması istenen davranış” açıklaması hangi kavrama aittir?",
     "options": [
       "Mekruh",
-      "Mendup",
-      "Riya",
-      "Niyet",
-      "Farz-ı ayn"
+      "Farz",
+      "Vacip",
+      "Mubah",
+      "Mendup"
     ],
-    "explanation": "Mekruh: dinen yapılması hoş görülmeyen, kaçınılması istenen davranış."
+    "explanation": "Mekruh: Dinen yapılması hoş görülmeyen, kaçınılması istenen davranış. "
   },
   {
     "id": "ibadet-o14",
@@ -1556,12 +2176,12 @@ const QUESTIONS=[
     "text": "Bir açıklamada kesin yasakla aynı düzeyde olmayan fakat uzak durulması istenen bir davranış ele alınıyor. Hangi hüküm kastedilir?",
     "options": [
       "Mekruh",
-      "Vacip",
-      "Sünnet",
       "Farz",
-      "Haram"
+      "Vacip",
+      "Mubah",
+      "Mendup"
     ],
-    "explanation": "Mekruh: dinen yapılması hoş görülmeyen, kaçınılması istenen davranış."
+    "explanation": "Mekruh: Dinen yapılması hoş görülmeyen, kaçınılması istenen davranış. "
   },
   {
     "id": "ibadet-k15",
@@ -1570,12 +2190,12 @@ const QUESTIONS=[
     "text": "“Zorunlu ibadetlerin dışında gönüllü olarak yapılan ek ibadetlerin genel adı” açıklaması hangi kavrama aittir?",
     "options": [
       "Nafile",
-      "İhlas",
-      "Haram",
-      "Mubah",
-      "Mekruh"
+      "Farz-ı ayn",
+      "Farz-ı kifaye",
+      "Vacip",
+      "Haram"
     ],
-    "explanation": "Nafile: zorunlu ibadetlerin dışında gönüllü olarak yapılan ek ibadetlerin genel adı."
+    "explanation": "Nafile: Zorunlu ibadetlerin dışında gönüllü olarak yapılan ek ibadetlerin genel adı. "
   },
   {
     "id": "ibadet-o15",
@@ -1584,152 +2204,432 @@ const QUESTIONS=[
     "text": "Bir öğrenci farz ibadetlerinin yanında gönüllü ek namaz ve oruçları aynı genel başlıkta topluyor. Bu başlık hangisidir?",
     "options": [
       "Nafile",
-      "Mubah",
-      "Mekruh",
-      "Mükellef",
-      "Riya"
+      "Farz-ı ayn",
+      "Farz-ı kifaye",
+      "Vacip",
+      "Haram"
     ],
-    "explanation": "Nafile: zorunlu ibadetlerin dışında gönüllü olarak yapılan ek ibadetlerin genel adı."
+    "explanation": "Nafile: Zorunlu ibadetlerin dışında gönüllü olarak yapılan ek ibadetlerin genel adı. "
   },
   {
     "id": "ibadet-p01",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "Bir kişi, bir iyiliği yalnızca Allah’ın rızasını gözeterek yapıyor. İbadette hangi temel ilke öne çıkmaktadır?",
+    "text": "Bir öğrenci, ibadetin namaz ve oruçtan ibaret olup olmadığını sorar. Öğretmeni, Allah’ın rızası gözetilerek yapılan meşru ve yararlı davranışların da geniş anlamda kulluk kapsamında değerlendirildiğini belirtir. Bu açıklamaya en uygun örnek hangisidir?",
     "options": [
-      "İhlas",
-      "Riya",
-      "Gösteriş",
-      "Taassup",
-      "İsraf"
+      "İnsanların hakkını gözeterek dürüstçe çalışmak",
+      "Övülmek amacıyla yardım duyurusu yapmak",
+      "Kazancın kaynağını önemsemeden bağışta bulunmak",
+      "Toplumun beğenisini dinî hükmün ölçüsü saymak",
+      "Farzları başkalarının yerine getirmesine güvenmek"
     ],
-    "explanation": "İhlas, davranışın samimi biçimde Allah’ın rızası için yapılmasıdır."
+    "explanation": "Geniş anlamda ibadet, meşru işte Allah’ın rızasını gözetmeyi kapsar. Gösteriş ve başkasının hakkını ihlal, iyi görünen sonucun ardında meşrulaşmaz."
   },
   {
     "id": "ibadet-p02",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "İbadetin geniş anlamını en iyi yansıtan davranış hangisidir?",
+    "text": "İki kişi aynı miktarda yardım yapar. İlki ihtiyaç sahibine destek olmayı ve Allah’ın rızasını amaçlar; ikincisi ise yardımın karşılığında övgü bekler. Davranışların dinî değeri bakımından hangi unsur özellikle farklılaşmaktadır?",
     "options": [
-      "Allah’ın rızasını gözeterek ihtiyaç sahibine yardım etmek",
-      "Yalnızca kazanç için başkasını yanıltmak",
-      "Övülmek için yardım ediyor görünmek",
-      "Sorumluluklardan kaçmak",
-      "İnsanları değersiz görmek"
+      "İhlas",
+      "Miktar",
+      "Zaman",
+      "Mekân",
+      "Hüküm"
     ],
-    "explanation": "İbadet yalnızca belirli ritüellerle sınırlı değildir; iyi niyetle yapılan meşru ve faydalı işler de bu kapsamda değerlendirilir."
+    "explanation": "Dışarıdan benzer görünen davranışlarda samimiyet ve amaç farklı olabilir. İhlas Allah’ın rızasını gözetmeyi, riya insanların övgüsünü amaçlamayı anlatır."
   },
   {
     "id": "ibadet-p03",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "Dinen yapılması kesin ve bağlayıcı biçimde emredilen davranış hangi kavramla adlandırılır?",
+    "text": "Bir kimse yaptığı ibadetin amacını kalbinde belirler. Başka biri ise ibadeti insanların takdirini kazanma kaygısından uzak tutmaya çalışır. İlk ve ikinci durumda sırasıyla hangi kavramlar öne çıkar?",
     "options": [
-      "Farz",
-      "Mubah",
-      "Mekruh",
-      "Haram",
-      "Nafile"
+      "Niyet — ihlas",
+      "İhlas — niyet",
+      "Riya — niyet",
+      "Takva — riya",
+      "İkrar — taklit"
     ],
-    "explanation": "Farz, yerine getirilmesi kesin olarak istenen yükümlülüktür."
+    "explanation": "Niyet işin hangi amaçla yapıldığını belirleme, ihlas bu amacı Allah’ın rızasına yönelten samimiyettir. İki kavram ilişkili fakat özdeş değildir."
   },
   {
     "id": "ibadet-p04",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "Yeterli sayıda Müslüman yerine getirdiğinde diğerlerinden sorumluluğun kalktığı görev hangisidir?",
+    "text": "Bir öğrenci cenaze namazının toplumda yeterli kimse tarafından kılınmasıyla diğerlerinin sorumluluğunun kalktığını; beş vakit namazın ise şartları taşıyan her mükellefe ait olduğunu öğrenir. Sıralı hüküm türleri hangileridir?",
     "options": [
-      "Farz-ı kifaye",
-      "Farz-ı ayn",
-      "Mubah",
-      "Mekruh",
-      "Nafile"
+      "Farz-ı kifaye — farz-ı ayn",
+      "Farz-ı ayn — farz-ı kifaye",
+      "Vacip — mendup",
+      "Sünnet — vacip",
+      "Nafile — farz-ı ayn"
     ],
-    "explanation": "Farz-ı kifaye toplumsal nitelikte bir yükümlülüktür. Cenaze namazı buna örnektir."
+    "explanation": "Toplumsal yükümlülüğü yeterli kimsenin yapması farz-ı kifaye, bizzat kişiye ait yükümlülük farz-ı ayndır. Her ikisi de farzın türüdür."
   },
   {
     "id": "ibadet-p05",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "Dinen yapılması da yapılmaması da serbest bırakılan davranışlar hangi başlıkta yer alır?",
+    "text": "Bir öğrenci vitir namazının hükmünü araştırırken Hanefî fıkhında farzdan ayrı, bağlayıcı bir hüküm kategorisiyle karşılaşır. Bu sınıflandırmada hangi kavram söz konusudur?",
     "options": [
-      "Mubah",
-      "Haram",
-      "Farz",
       "Vacip",
+      "Mendup",
+      "Mubah",
+      "Nafile",
       "Mekruh"
     ],
-    "explanation": "Mubah davranışlarda esas itibarıyla yapma veya yapmama serbestliği vardır."
+    "explanation": "Hanefî fıkhında vitir namazı vaciptir. Mezhebe özgü sınıflandırma belirtilmelidir; diğer mezheplerin terim kullanımıyla karıştırılmamalıdır."
   },
   {
     "id": "ibadet-p06",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "İbadet yükümlülüğüyle ilgili “mükellef” kavramı temel olarak kimi ifade eder?",
+    "text": "Akıl sağlığı yerinde ve ergenlik çağına ulaşmış bir Müslümanın dinî emir ve yasaklardan sorumlu oluşu anlatılır. Bu kişinin yükümlülüğünü ifade eden kavram hangisidir?",
     "options": [
-      "Akıl sağlığı yerinde ve ergenlik çağına ulaşmış kişiyi",
-      "Yalnızca din görevlilerini",
-      "Yalnızca varlıklı kişileri",
-      "Yaşı ne olursa olsun herkesi",
-      "Sadece yolculuk yapanları"
+      "Mükellefiyet",
+      "Medeniyet",
+      "Nübüvvet",
+      "Mütevatirlik",
+      "Ruhbanlık"
     ],
-    "explanation": "Mükellefiyetin temel şartları akıl ve ergenliktir; belirli ibadetlerde ayrıca özel şartlar bulunur."
+    "explanation": "Mükellefiyet dinî sorumluluk durumudur; akıl ve ergenlik temel şartlardandır. Peygamberlik anlamındaki nübüvvet farklı bir görevdir."
   },
   {
     "id": "ibadet-p07",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "Dinen yapılması kesin olarak yasaklanmış davranışın hükmü hangisidir?",
+    "text": "Bir kişi ibadetini doğru öğrenmek için temel kaynaklara ve güvenilir açıklamalara başvurur. Yaygın bir uygulamanın sırf çevresinde yapılıyor diye dinî dayanak kazanmayacağını söyler. Hangi ibadet ilkesi vurgulanmaktadır?",
     "options": [
-      "Haram",
-      "Mubah",
-      "Müstehap",
-      "Sünnet",
-      "Nafile"
+      "Kur’an ve sünnete uygunluk",
+      "Toplumsal görünürlük",
+      "Bireysel beğeniye uyarlama",
+      "Maddi karşılığı artırma",
+      "Geleneksel yaygınlık"
     ],
-    "explanation": "Haram, yapılmaması kesin biçimde istenen davranıştır."
+    "explanation": "İbadetin şekil ve esaslarında güvenilir dinî dayanak aranır. Toplumsal yaygınlık bir uygulamanın kendiliğinden dinî delil olmasını sağlamaz."
   },
   {
     "id": "ibadet-p08",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "Bir öğrencinin oruç tutarken kötü sözden ve haksızlıktan da uzak durması hangi sonucu gösterir?",
+    "text": "Bir kimse günlük sorumluluklarını aksatacak, sağlığını zorlayacak ve ailesinin haklarını ihmal edecek biçimde nafile ibadetler yapmaya çalışır. Bu tutum öncelikle hangi ilke bakımından değerlendirilmelidir?",
     "options": [
-      "İbadetin ahlaki gelişimi desteklediğini",
-      "İbadetin yalnızca aç kalmak olduğunu",
-      "İbadette niyetin gereksizliğini",
-      "Ahlakın yalnızca dış görünüş olduğunu",
-      "İbadetin insan ilişkilerini etkilemediğini"
+      "İbadet hayatında denge ve ölçü",
+      "İbadetlerin toplumsal görünürlüğü",
+      "Duanın sözlü yapılması",
+      "Hükümlerin tarihî sırası",
+      "Mezhep aidiyetinin açıklanması"
     ],
-    "explanation": "İbadetin amaçlarından biri öz denetimi güçlendirmek ve davranışları güzelleştirmektir."
+    "explanation": "Nafile ibadetler diğer hakları ihmal etmeyi meşrulaştırmaz. Denge, Allah’a kulluğu kişinin bedeni ve çevresine karşı sorumluluklarıyla birlikte düşünmektir."
   },
   {
     "id": "ibadet-p09",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "Zorunlu ibadetlerin dışında, gönüllü olarak yapılan ek ibadetler için hangi genel kavram kullanılır?",
+    "text": "Bir genç yardımını duyurmak istemez. Bir kampanyada başkalarını da iyiliğe teşvik etmek için katkısının açıklanmasının gerekebileceğini öğrenir. Bu durumda riyadan söz edebilmek için özellikle neye bakılmalıdır?",
     "options": [
-      "Nafile",
-      "Farz-ı ayn",
-      "Haram",
-      "Mekruh",
-      "Mükellef"
+      "Davranışın ardındaki asıl amaca",
+      "Yardımın nakit olup olmamasına",
+      "Duyurunun yazılı veya sözlü oluşuna",
+      "Bağışın günün hangi saatinde yapıldığına",
+      "Yardım edilen kişinin yaşına"
     ],
-    "explanation": "Nafile, kişinin zorunlu olmadığı hâlde gönüllü yaptığı ibadetleri ifade eder."
+    "explanation": "Bir iyiliğin görünür olması tek başına riya demek değildir. Belirleyici olan kişinin Allah’ın rızası yerine insanların takdirini temel amaç edinmesidir."
   },
   {
     "id": "ibadet-p10",
     "topic": "ibadet",
     "kind": "Pekiştirme",
-    "text": "Bir kişi yardım yaparken “Beni herkes görsün ve övsün.” diye düşünüyor. Bu tutum ibadetin hangi yönünü zedeler?",
+    "text": "Bir öğrenci mubah davranışların dinen serbest olduğunu öğrenince bunların her durumda sorumsuzca yapılabileceğini düşünür. Öğretmeni, meşru bir tüketimin israf ve zarar boyutuyla ayrıca değerlendirilebileceğini söyler. Hangi sonuç çıkarılabilir?",
     "options": [
-      "Samimiyetini",
-      "Yapıldığı yerin büyüklüğünü",
-      "Kullanılan eşyanın türünü",
-      "Yardım alanın yaşını",
-      "Günün saatini"
+      "Serbestliğin kullanımı da ahlaki sorumluluklarla ilişkilidir.",
+      "Mubah ile haram aynı hükmün farklı adlarıdır.",
+      "Dinin serbest bıraktığı davranışlar ibadet sayılır.",
+      "Ahlaki sorumluluk yalnızca farzlara ilişkindir.",
+      "Mubah hükmü kişinin niyetine hiç bağlı değildir."
     ],
-    "explanation": "İnsanların beğenisini temel amaç hâline getirmek riyadır ve ihlasla bağdaşmaz."
+    "explanation": "Bir davranışın aslen serbest olması, kullanımındaki israfı veya zararı meşrulaştırmaz. Niyet, sonuç ve diğer yükümlülükler birlikte dikkate alınır."
+  },
+  {
+    "id": "ibadet-p11",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir kimse zorunlu ibadetlerini başkasının yapmasının kendi sorumluluğunu kaldıracağını düşünür. Öğretmeni özellikle namaz örneğinden hareketle bunun doğru olmadığını açıklar. Hangi kavram düzeltmenin temelidir?",
+    "options": [
+      "Farz-ı ayn",
+      "Farz-ı kifaye",
+      "Mendup",
+      "Nafile",
+      "Mubah"
+    ],
+    "explanation": "Beş vakit namaz, şartlarını taşıyan kişinin kendisinin yerine getirmesi gereken farz-ı ayndır. Farz-ı kifayedeki toplumsal sorumlulukla karıştırılmamalıdır."
+  },
+  {
+    "id": "ibadet-p12",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir genç, verdiği sözde durmanın ve kazancında dürüst olmanın Allah’a kullukla bağını kurar. Buna karşılık bunların namazın yerini aldığını ileri sürmez. Bu anlayış nasıl değerlendirilmelidir?",
+    "options": [
+      "İbadetin geniş anlamını kabul ederken özel yükümlülükleri korumaktadır.",
+      "Ahlaki davranışları biçimsel ibadetlerin alternatifi saymaktadır.",
+      "Farzları kültürel alışkanlığa dönüştürmektedir.",
+      "İbadetin değerini toplumsal saygınlıkla ölçmektedir.",
+      "Bütün davranışları hüküm bakımından eşitlemektedir."
+    ],
+    "explanation": "Geniş anlamda kulluk ahlaki davranışları kapsar; bu durum namaz gibi belirli farzları kaldırmaz. Tamamlayıcılık birbirinin yerine geçme değildir."
+  },
+  {
+    "id": "ibadet-p13",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci yaptığı iyiliklerde beklediği övgüyü alamayınca yardım etmeyi bırakır. Aynı ihtiyaç devam ettiği hâlde davranışını sürdürmemesi hangi soruna işaret eder?",
+    "options": [
+      "İnsanların takdirini amaç edinmeye",
+      "İhtiyaç sahibinin hakkını gözetmeye",
+      "Meşru amaç için niyet etmeye",
+      "İbadette ölçülü davranmaya",
+      "Mubahı tercihe bağlı görmeye"
+    ],
+    "explanation": "Övgüye bağlı devam eden yardım, gösteriş kaygısına işaret eder. İhlaslı davranışta asıl amaç dış takdir değil Allah’ın rızasıdır."
+  },
+  {
+    "id": "ibadet-p14",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi yapması kesin biçimde emredilen yükümlülüğü, gönüllü olarak yaptığı ek ibadetle aynı düzeyde değerlendirir. Bu yaklaşımın temel eksikliği hangisidir?",
+    "options": [
+      "Bağlayıcılık derecelerini ayırt etmemesi",
+      "İbadetin kişisel sorumluluk içerdiğini kabul etmesi",
+      "İyiliğe gönüllü katkıyı önemsemesi",
+      "Dinî bilgiyi öğrenmeye çalışması",
+      "İbadetlerin ahlaki etkisini araştırması"
+    ],
+    "explanation": "Farz ile nafile arasında bağlayıcılık farkı vardır. Nafileyi önemsemek farzın zorunluluğunu gölgelememelidir."
+  },
+  {
+    "id": "ibadet-p15",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci, bir davranışın yapılmasının tavsiye edildiğini fakat terk edilmesinin dinî kınama gerektirmediğini öğrenir. Hükmü açıklamak için hangi terim uygundur?",
+    "options": [
+      "Mendup",
+      "Farz",
+      "Haram",
+      "Vacip",
+      "Mekruh"
+    ],
+    "explanation": "Mendup yapılması teşvik edilen davranıştır. Vacip bağlayıcıdır; mekruh ise yapılması hoş karşılanmayan davranışlar için kullanılır."
+  },
+  {
+    "id": "ibadet-p16",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi bir işi yapmakla yapmamak arasında dinen serbest bırakılmıştır. Bu serbestlik, işi yapmanın zorunlu veya sakıncalı olduğu anlamına gelmez. Hangi hüküm tarif edilmektedir?",
+    "options": [
+      "Mubah",
+      "Mendup",
+      "Mekruh",
+      "Vacip",
+      "Haram"
+    ],
+    "explanation": "Mubah, yapılması ve yapılmaması bakımından serbest bırakılan davranıştır. Mendupta yapmaya yönelik teşvik, mekruhta kaçınmaya yönelik değerlendirme bulunur."
+  },
+  {
+    "id": "ibadet-p17",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci ibadetlerin insanı kötülükten uzaklaştırıcı yönünü araştırır. Namaz kılarken dürüstlüğe ve başkalarının hakkına duyarlılığının da gelişmesi gerektiğini düşünür. Burada ibadetin hangi yönü öne çıkmaktadır?",
+    "options": [
+      "Ahlaki olgunlaşmaya katkısı",
+      "Fıkhi hükümlerin sınıflandırılması",
+      "İbadet zamanlarının hesaplanması",
+      "Niyetin dil ile açıklanması",
+      "Mekânın mimari özellikleri"
+    ],
+    "explanation": "İbadet insanın davranışlarına ve ahlaki duyarlılığına yön verir. Parça ibadetin teknik şartlarından çok hayatı dönüştürücü etkisini ele alır."
+  },
+  {
+    "id": "ibadet-p18",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci yaptığı ibadetin başkalarınca görülmediğinde de anlamlı olduğunu; Allah’ın kendi yönelişini bildiğini düşünür. Bu düşünce hangi ilkeyi doğrudan güçlendirir?",
+    "options": [
+      "İhlas",
+      "İsraf",
+      "Taassup",
+      "İhmal",
+      "Taklit"
+    ],
+    "explanation": "İbadetin değerini görünürlükten bağımsız olarak Allah’ın rızasıyla ilişkilendirmek ihlası destekler. Toplumsal beğeni bu yaklaşımın ölçütü değildir."
+  },
+  {
+    "id": "ibadet-p19",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğretmen namaz ve oruç gibi ibadetlerin biçimlerinin kaynaklara dayandığını; topluma yararlı her meşru davranışın ise uygun niyetle geniş anlamda kullukla ilişkilendirilebileceğini anlatır. Hangi kavramsal ayrım yapılmaktadır?",
+    "options": [
+      "Özel anlamda ibadet — geniş anlamda ibadet",
+      "Farz-ı ayn — farz-ı kifaye",
+      "Haram — mekruh",
+      "Sünnet — mendup",
+      "İkrar — tasdik"
+    ],
+    "explanation": "Belirli biçimleri olan ibadetlerle geniş anlamda kulluk ayrılır. Farz-ı ayn ve farz-ı kifaye ise yükümlülüğün kişisel veya toplumsal oluşuna ilişkin farklı bir ayrımdır."
+  },
+  {
+    "id": "ibadet-p20",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi ibadetin sadece alışkanlıkla yapılmasını yeterli görür. Öğretmeni hangi amaçla yaptığını bilmesinin ve yaptığı şeyin anlamı üzerinde düşünmesinin önemini anlatır. Bu yönlendirmeyle ne amaçlanır?",
+    "options": [
+      "İbadet bilincinin güçlenmesi",
+      "İbadetlerin toplumsal törene indirgenmesi",
+      "Şekil şartlarının tamamen kaldırılması",
+      "Dinî hükümlerin kişiye göre oluşturulması",
+      "Alışkanlığın dinî kaynağa dönüştürülmesi"
+    ],
+    "explanation": "İbadet bilinci amaç ve anlamın farkında olmayı içerir. Anlamı önemsemek ibadetin kaynaklarda yer alan biçim şartlarını kaldırmak değildir."
+  },
+  {
+    "id": "ibadet-p21",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci davranışları sınıflandırırken farz, vacip, sünnet, mubah ve haram gibi kavramları kullanır. Bunları iman esaslarıyla aynı başlık altında toplaması öğretmeni tarafından düzeltilir. Bu kavramlar hangi alanla ilgilidir?",
+    "options": [
+      "Dinî davranışların hükümleriyle",
+      "Allah’ın isimleriyle",
+      "Peygamberlik sıfatlarıyla",
+      "Bilginin kesinlik dereceleriyle",
+      "Ahiret hayatının aşamalarıyla"
+    ],
+    "explanation": "Bu kavramlar davranışların dinî hüküm ve bağlayıcılık derecelerini anlatır. İnanç esasları veya ilahî sıfatların sınıflandırılması değildir."
+  },
+  {
+    "id": "ibadet-p22",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir kimse güzel bir amaç için başkasının hakkını ihlal eden bir yöntem kullanır ve niyetinin iyi olduğunu söyler. İbadet ve ahlak ilkeleri açısından hangi değerlendirme uygundur?",
+    "options": [
+      "İyi amaç, gayrimeşru yöntemi kendiliğinden meşru kılmaz.",
+      "Niyetin varlığı yöntemin değerlendirilmesini gereksizleştirir.",
+      "Yararlı sonuç, hak ihlalini nafile hükmüne dönüştürür.",
+      "Toplumun takdiri yöntemin dinî hükmünü belirler.",
+      "Yardım miktarı, yöntemin meşruluğundan önce gelir."
+    ],
+    "explanation": "İbadet ve iyilikte niyet kadar yöntemin meşruluğu da önemlidir. Başkasının hakkı iyi amaç gerekçesiyle ihlal edilemez."
+  },
+  {
+    "id": "ibadet-p23",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir genç ibadetlerini yerine getirirken kimseden karşılık istemediğini, fakat ibadet sorumluluğuna da kayıtsız kalmadığını söyler. Bu tutum hangi iki ilkenin birlikte gözetilmesine örnektir?",
+    "options": [
+      "Samimiyet ve sorumluluk",
+      "Gösteriş ve alışkanlık",
+      "Taklit ve üstünlük",
+      "İhmal ve teslimiyet",
+      "Zan ve ölçüsüzlük"
+    ],
+    "explanation": "İhlas dış karşılık beklememeyi, sorumluluk ise yükümlülüğü önemsemeyi gerektirir. Karşılıksızlık, davranışın önemsenmediği anlamına gelmez."
+  },
+  {
+    "id": "ibadet-p24",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci toplum yararına yapılan bütün faaliyetleri farz-ı kifaye sayar. Öğretmeni bu hükmün, dinen bağlayıcı olup yeterli kimse tarafından yapılınca diğerlerinden düşen belirli yükümlülükleri ifade ettiğini belirtir. Hangi örnek bu açıklamaya uygundur?",
+    "options": [
+      "Cenaze namazının bir grup tarafından kılınması",
+      "Bir kişinin farz namazını evde kılması",
+      "Bir kişinin serbest zamanında yürüyüş yapması",
+      "Bir öğrencinin gönüllü ek oruç tutması",
+      "Bir yolcunun yerel yemekleri tatması"
+    ],
+    "explanation": "Farz-ı kifaye belirli bir toplumsal yükümlülüktür; toplum yararı taşıyan her davranış otomatik olarak bu hükmü almaz. Cenaze namazı klasik örneğidir."
+  },
+  {
+    "id": "ibadet-p25",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci, ibadetin Allah’a bir yarar sağlamak için yapılmadığını; insanın sorumluluk, şükür ve kulluk bilincini geliştirdiğini anlatır. Bu görüş hangi sonucu destekler?",
+    "options": [
+      "İbadetin insanın manevi ve ahlaki gelişimiyle ilgili olduğunu",
+      "İbadetin hükmünün kişinin yarar hesabıyla belirlendiğini",
+      "İbadetin sadece psikolojik rahatlık amacı taşıdığını",
+      "Allah’ın ibadete insan gibi ihtiyaç duyduğunu",
+      "Bireysel faydanın bütün dinî şartların yerine geçtiğini"
+    ],
+    "explanation": "Allah ibadete muhtaç değildir; ibadetin faydaları insana yöneliktir. Bu fayda, ibadeti yalnızca rahatlama aracına indirgemeyi gerektirmez."
+  },
+  {
+    "id": "ibadet-p26",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi kazandığı nimeti yalnızca kendi başarısı olarak görmemeye; nimetin sahibine yönelip onu yerinde kullanmaya çalışır. Bu yönelişin ibadetle ilişkisi hangi kavramla daha iyi açıklanır?",
+    "options": [
+      "Şükür",
+      "Riya",
+      "Taassup",
+      "Zan",
+      "Kibir"
+    ],
+    "explanation": "Şükür nimeti fark etme, Allah’a yönelme ve nimeti uygun biçimde kullanma boyutlarını içerir. Kibir ise başarıyı üstünlük iddiasına dönüştürür."
+  },
+  {
+    "id": "ibadet-p27",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci Maûn suresini incelerken ibadetin görünür biçimiyle yetinilip ihtiyaç sahiplerine duyarsız kalınmasının eleştirildiğini fark eder. Bu mesaj hangi yargıyla ilişkilidir?",
+    "options": [
+      "İbadet ile toplumsal duyarlılığın birlikte gözetilmesi gerekir.",
+      "İbadetin geçerliliği yardımın ilanına bağlıdır.",
+      "Maddi yardım bütün özel ibadetlerin yerine geçer.",
+      "Yoksulluk ibadetin şartlarından biridir.",
+      "Sorumluluk yalnızca maddi imkânı olanlara aittir."
+    ],
+    "explanation": "Maûn suresinde gösteriş ve yardımdan kaçınma eleştirilir. Sosyal duyarlılık ibadetle birlikte düşünülür; namazın yerine geçen bir uygulama sayılmaz."
+  },
+  {
+    "id": "ibadet-p28",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci dinî bakımdan hoş görülmeyen bir davranışla kesin biçimde yasaklanan bir davranışı aynı kelimeyle anlatır. Öğretmeni bu iki hüküm arasındaki farkı öğrenmesini ister. Hangi kavram çiftini araştırmalıdır?",
+    "options": [
+      "Mekruh — haram",
+      "Farz — vacip",
+      "Sünnet — nafile",
+      "Niyet — ihlas",
+      "Mubah — mendup"
+    ],
+    "explanation": "Mekruh kaçınılması istenen hoş karşılanmayan davranışı, haram kesin yasağı ifade eder. Farz ve vacip ise yapılması istenen yükümlülüklerdir."
+  },
+  {
+    "id": "ibadet-p29",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir genç farz ibadetlerinin yanında gönüllü ek ibadetlere de yer verir. Ancak yaptığı ek ibadetleri başkalarından üstün olduğunun delili saymaz. Bu yaklaşım hangi iki hususu birlikte göstermektedir?",
+    "options": [
+      "Nafile ibadete yönelme ve kibirden kaçınma",
+      "Farz sorumluluğunu başkasına devretme ve taklit",
+      "Mubahı yasaklama ve toplumsal baskı",
+      "İbadeti övgüye bağlama ve riya",
+      "Dinî hükmü değiştirme ve taassup"
+    ],
+    "explanation": "Gönüllü ek ibadetler nafiledir; bunlar kişiye üstünlük taslama hakkı vermez. İbadet ahlaki tevazuyla birlikte düşünülür."
+  },
+  {
+    "id": "ibadet-p30",
+    "topic": "ibadet",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci ibadetin değerlendirilmesinde yalnızca dış görünüşe bakar. Öğretmeni kaynağa uygunluk, niyet ve samimiyetin de ele alınmasını ister. Bu açıklamanın temel sonucu hangisidir?",
+    "options": [
+      "İbadetin biçim, amaç ve içtenlik boyutlarıyla bütüncül değerlendirilmesi",
+      "İbadetin görünür yönünün önem taşımadığının kabul edilmesi",
+      "Samimiyetin meşru olmayan davranışı ibadete dönüştürmesi",
+      "Dinî hükümlerin toplumun beğenisiyle belirlenmesi",
+      "Niyetin sözlü ilanının ibadetin bütün şartlarını karşılaması"
+    ],
+    "explanation": "İbadet ne salt dış biçime ne de salt iyi niyete indirgenir. Meşruluk, kaynaklara uygunluk ve samimiyet birlikte dikkate alınır."
   },
   {
     "id": "genclik-k01",
@@ -1739,11 +2639,11 @@ const QUESTIONS=[
     "options": [
       "Değer",
       "Örf ve âdet",
-      "Cömertlik",
-      "Şecaat",
-      "Hikmet"
+      "Mizaç",
+      "Şahsiyet",
+      "Duygu"
     ],
-    "explanation": "Değer: i̇nsanların önem verdiği, iyi ve doğru sayarak davranışlarına ölçü yaptığı ilke."
+    "explanation": "Değer: İnsanların önem verdiği, iyi ve doğru sayarak davranışlarına ölçü yaptığı ilke. "
   },
   {
     "id": "genclik-o01",
@@ -1752,12 +2652,12 @@ const QUESTIONS=[
     "text": "Bir sınıf, dürüstlük ve dayanışmayı kararlarının temel ölçüsü olarak belirliyor. Bu ilkeler hangi genel kavram altında toplanır?",
     "options": [
       "Değer",
-      "İffet",
-      "Liyakat",
-      "Adalet",
-      "Örf ve âdet"
+      "Örf ve âdet",
+      "Mizaç",
+      "Şahsiyet",
+      "Duygu"
     ],
-    "explanation": "Değer: i̇nsanların önem verdiği, iyi ve doğru sayarak davranışlarına ölçü yaptığı ilke."
+    "explanation": "Değer: İnsanların önem verdiği, iyi ve doğru sayarak davranışlarına ölçü yaptığı ilke. "
   },
   {
     "id": "genclik-k02",
@@ -1766,12 +2666,12 @@ const QUESTIONS=[
     "text": "“Bir toplumda kuşaktan kuşağa aktarılan yerleşmiş davranış ve uygulamalar” açıklaması hangi kavrama aittir?",
     "options": [
       "Örf ve âdet",
-      "Erdem",
-      "Ahlak",
-      "Adalet",
-      "Liyakat"
+      "Mizaç",
+      "İçtihat",
+      "Vahiy",
+      "Fıtrat"
     ],
-    "explanation": "Örf ve âdet: bir toplumda kuşaktan kuşağa aktarılan yerleşmiş davranış ve uygulamalar."
+    "explanation": "Örf ve âdet: Bir toplumda kuşaktan kuşağa aktarılan yerleşmiş davranış ve uygulamalar. "
   },
   {
     "id": "genclik-o02",
@@ -1780,12 +2680,12 @@ const QUESTIONS=[
     "text": "Bir aile, bayramlarda büyüklerini ziyaret etme uygulamasını nesilden nesile sürdürüyor. Bu toplumsal aktarım hangi kavramla açıklanır?",
     "options": [
       "Örf ve âdet",
-      "Ahlak",
-      "İsraf",
-      "Karakter",
-      "Değer"
+      "Mizaç",
+      "İçtihat",
+      "Vahiy",
+      "Fıtrat"
     ],
-    "explanation": "Örf ve âdet: bir toplumda kuşaktan kuşağa aktarılan yerleşmiş davranış ve uygulamalar."
+    "explanation": "Örf ve âdet: Bir toplumda kuşaktan kuşağa aktarılan yerleşmiş davranış ve uygulamalar. "
   },
   {
     "id": "genclik-k03",
@@ -1794,12 +2694,12 @@ const QUESTIONS=[
     "text": "“İyi ve kötü davranışları değerlendiren ilke ve tutumlar alanı” açıklaması hangi kavrama aittir?",
     "options": [
       "Ahlak",
-      "Cimrilik",
+      "Mizaç",
+      "Hukuk",
       "Örf ve âdet",
-      "İffet",
-      "Liyakat"
+      "Medeniyet"
     ],
-    "explanation": "Ahlak: i̇yi ve kötü davranışları değerlendiren ilke ve tutumlar alanı."
+    "explanation": "Ahlak: İyi ve kötü davranışları değerlendiren ilke ve tutumlar alanı. "
   },
   {
     "id": "genclik-o03",
@@ -1808,12 +2708,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci doğru söylemekle yalan söylemek arasındaki iyi-kötü ayrımını inceliyor. Hangi alanı ele almaktadır?",
     "options": [
       "Ahlak",
-      "Cömertlik",
+      "Mizaç",
+      "Hukuk",
       "Örf ve âdet",
-      "Adalet",
-      "Cimrilik"
+      "Medeniyet"
     ],
-    "explanation": "Ahlak: i̇yi ve kötü davranışları değerlendiren ilke ve tutumlar alanı."
+    "explanation": "Ahlak: İyi ve kötü davranışları değerlendiren ilke ve tutumlar alanı. "
   },
   {
     "id": "genclik-k04",
@@ -1822,12 +2722,12 @@ const QUESTIONS=[
     "text": "“İnsanı ahlaken iyi kılan üstün nitelik, fazilet” açıklaması hangi kavrama aittir?",
     "options": [
       "Erdem",
-      "Cömertlik",
-      "İffet",
-      "Şecaat",
-      "Hikmet"
+      "Mizaç",
+      "Alışkanlık",
+      "Örf ve âdet",
+      "Duygu"
     ],
-    "explanation": "Erdem: i̇nsanı ahlaken iyi kılan üstün nitelik, fazilet."
+    "explanation": "Erdem: İnsanı ahlaken iyi kılan üstün nitelik, fazilet. "
   },
   {
     "id": "genclik-o04",
@@ -1836,12 +2736,12 @@ const QUESTIONS=[
     "text": "Bilgelik, cesaret ve dürüstlük gibi ahlaken övülen özellikler hangi ortak adla nitelendirilir?",
     "options": [
       "Erdem",
-      "İffet",
-      "Liyakat",
-      "Hikmet",
-      "Cimrilik"
+      "Mizaç",
+      "Alışkanlık",
+      "Örf ve âdet",
+      "Duygu"
     ],
-    "explanation": "Erdem: i̇nsanı ahlaken iyi kılan üstün nitelik, fazilet."
+    "explanation": "Erdem: İnsanı ahlaken iyi kılan üstün nitelik, fazilet. "
   },
   {
     "id": "genclik-k05",
@@ -1850,12 +2750,12 @@ const QUESTIONS=[
     "text": "“Bireyi kendine özgü kılan düşünce, duygu, tutum ve davranış özelliklerinin bütünü” açıklaması hangi kavrama aittir?",
     "options": [
       "Kişilik",
-      "Erdem",
-      "İffet",
-      "Adalet",
-      "İsraf"
+      "Değer",
+      "Örf ve âdet",
+      "Ahlak ilkesi",
+      "Erdem"
     ],
-    "explanation": "Kişilik: bireyi kendine özgü kılan düşünce, duygu, tutum ve davranış özelliklerinin bütünü."
+    "explanation": "Kişilik: Bireyi kendine özgü kılan düşünce, duygu, tutum ve davranış özelliklerinin bütünü. "
   },
   {
     "id": "genclik-o05",
@@ -1864,12 +2764,12 @@ const QUESTIONS=[
     "text": "Bir psikolog, bir genci yalnızca tek bir huyuyla değil, değerleri ve duygularıyla bir bütün olarak değerlendiriyor. İncelediği geniş kavram hangisidir?",
     "options": [
       "Kişilik",
-      "Cimrilik",
-      "İffet",
-      "İsraf",
-      "Adalet"
+      "Değer",
+      "Örf ve âdet",
+      "Ahlak ilkesi",
+      "Erdem"
     ],
-    "explanation": "Kişilik: bireyi kendine özgü kılan düşünce, duygu, tutum ve davranış özelliklerinin bütünü."
+    "explanation": "Kişilik: Bireyi kendine özgü kılan düşünce, duygu, tutum ve davranış özelliklerinin bütünü. "
   },
   {
     "id": "genclik-k06",
@@ -1878,12 +2778,12 @@ const QUESTIONS=[
     "text": "“Kişinin duygusal tepkilerinin hızı, şiddeti ve sürekliliğiyle ilgili yapısı” açıklaması hangi kavrama aittir?",
     "options": [
       "Mizaç",
-      "İffet",
-      "Erdem",
-      "Hikmet",
-      "Değer"
+      "Karakter",
+      "Değer",
+      "Örf ve âdet",
+      "Erdem"
     ],
-    "explanation": "Mizaç: kişinin duygusal tepkilerinin hızı, şiddeti ve sürekliliğiyle ilgili yapısı."
+    "explanation": "Mizaç: Kişinin duygusal tepkilerinin hızı, şiddeti ve sürekliliğiyle ilgili yapısı. Kişilik yalnız mizaçtan oluşmaz; öğrenme ve çevreyle de gelişir."
   },
   {
     "id": "genclik-o06",
@@ -1892,12 +2792,12 @@ const QUESTIONS=[
     "text": "Aynı olayda biri hemen heyecanlanırken diğeri daha sakin kalıyor. Duygusal tepki farklılığı hangi kavramla ilişkilidir?",
     "options": [
       "Mizaç",
-      "Hikmet",
-      "Adalet",
-      "Cömertlik",
-      "Liyakat"
+      "Karakter",
+      "Değer",
+      "Örf ve âdet",
+      "Erdem"
     ],
-    "explanation": "Mizaç: kişinin duygusal tepkilerinin hızı, şiddeti ve sürekliliğiyle ilgili yapısı."
+    "explanation": "Mizaç: Kişinin duygusal tepkilerinin hızı, şiddeti ve sürekliliğiyle ilgili yapısı. Kişilik yalnız mizaçtan oluşmaz; öğrenme ve çevreyle de gelişir."
   },
   {
     "id": "genclik-k07",
@@ -1906,12 +2806,12 @@ const QUESTIONS=[
     "text": "“Kişinin zaman içinde benimsediği ahlaki tutum ve alışkanlıklar” açıklaması hangi kavrama aittir?",
     "options": [
       "Karakter",
-      "Hikmet",
-      "İffet",
-      "Adalet",
-      "Cömertlik"
+      "Mizaç",
+      "Örf ve âdet",
+      "Duygu",
+      "Yetenek"
     ],
-    "explanation": "Karakter: kişinin zaman içinde benimsediği ahlaki tutum ve alışkanlıklar."
+    "explanation": "Karakter: Kişinin zaman içinde benimsediği ahlaki tutum ve alışkanlıklar. "
   },
   {
     "id": "genclik-o07",
@@ -1920,12 +2820,12 @@ const QUESTIONS=[
     "text": "Farklı duygusal yapılara sahip iki öğrenci, her koşulda sözünü tutma alışkanlığında birleşiyor. Ahlaki bakımdan ortak olan yönleri hangisidir?",
     "options": [
       "Karakter",
-      "İsraf",
-      "Cömertlik",
-      "Adalet",
-      "Örf ve âdet"
+      "Mizaç",
+      "Örf ve âdet",
+      "Duygu",
+      "Yetenek"
     ],
-    "explanation": "Karakter: kişinin zaman içinde benimsediği ahlaki tutum ve alışkanlıklar."
+    "explanation": "Karakter: Kişinin zaman içinde benimsediği ahlaki tutum ve alışkanlıklar. "
   },
   {
     "id": "genclik-k08",
@@ -1934,12 +2834,12 @@ const QUESTIONS=[
     "text": "“Hakları gözetme ve herkese hakkını verme” açıklaması hangi kavrama aittir?",
     "options": [
       "Adalet",
-      "İsraf",
-      "Şecaat",
-      "Karakter",
-      "Hikmet"
+      "Cömertlik",
+      "Vefa",
+      "İffet",
+      "Şecaat"
     ],
-    "explanation": "Adalet: hakları gözetme ve herkese hakkını verme."
+    "explanation": "Adalet: Hakları gözetme ve herkese hakkını verme. "
   },
   {
     "id": "genclik-o08",
@@ -1948,12 +2848,12 @@ const QUESTIONS=[
     "text": "Bir hakem yakın arkadaşının takımını kayırmadan kuralları iki tarafa da uyguluyor. Hangi temel değer öne çıkar?",
     "options": [
       "Adalet",
-      "Kişilik",
-      "İsraf",
-      "Ahlak",
-      "Cömertlik"
+      "Cömertlik",
+      "Vefa",
+      "İffet",
+      "Şecaat"
     ],
-    "explanation": "Adalet: hakları gözetme ve herkese hakkını verme."
+    "explanation": "Adalet: Hakları gözetme ve herkese hakkını verme. "
   },
   {
     "id": "genclik-k09",
@@ -1962,12 +2862,12 @@ const QUESTIONS=[
     "text": "“Bilgi ve düşünceyi yerinde, doğru ve isabetli biçimde kullanma” açıklaması hangi kavrama aittir?",
     "options": [
       "Hikmet",
-      "İsraf",
-      "Erdem",
-      "Ahlak",
-      "Adalet"
+      "Şecaat",
+      "İffet",
+      "Cömertlik",
+      "Vefa"
     ],
-    "explanation": "Hikmet: bilgi ve düşünceyi yerinde, doğru ve isabetli biçimde kullanma."
+    "explanation": "Hikmet: Bilgi ve düşünceyi yerinde, doğru ve isabetli biçimde kullanma. "
   },
   {
     "id": "genclik-o09",
@@ -1976,12 +2876,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci karar vermeden önce bilgileri değerlendiriyor, sonuçları düşünüyor ve en uygun yolu seçiyor. Hangi temel erdem örneklenir?",
     "options": [
       "Hikmet",
-      "Karakter",
-      "İsraf",
-      "Kişilik",
-      "Örf ve âdet"
+      "Şecaat",
+      "İffet",
+      "Cömertlik",
+      "Vefa"
     ],
-    "explanation": "Hikmet: bilgi ve düşünceyi yerinde, doğru ve isabetli biçimde kullanma."
+    "explanation": "Hikmet: Bilgi ve düşünceyi yerinde, doğru ve isabetli biçimde kullanma. "
   },
   {
     "id": "genclik-k10",
@@ -1990,12 +2890,12 @@ const QUESTIONS=[
     "text": "“İstek ve arzuları aklın ve dinin ölçüleri içinde tutma” açıklaması hangi kavrama aittir?",
     "options": [
       "İffet",
-      "Cimrilik",
-      "Adalet",
       "Hikmet",
-      "Liyakat"
+      "Şecaat",
+      "Cömertlik",
+      "Vefa"
     ],
-    "explanation": "İffet: i̇stek ve arzuları aklın ve dinin ölçüleri içinde tutma."
+    "explanation": "İffet: İstek ve arzuları aklın ve dinin ölçüleri içinde tutma. "
   },
   {
     "id": "genclik-o10",
@@ -2004,12 +2904,12 @@ const QUESTIONS=[
     "text": "Bir genç, yapabileceği her şeyi yapmanın doğru olmadığını bilerek arzularını denetliyor. Hangi temel değerle hareket ediyor?",
     "options": [
       "İffet",
-      "Mizaç",
-      "İsraf",
       "Hikmet",
-      "Örf ve âdet"
+      "Şecaat",
+      "Cömertlik",
+      "Vefa"
     ],
-    "explanation": "İffet: i̇stek ve arzuları aklın ve dinin ölçüleri içinde tutma."
+    "explanation": "İffet: İstek ve arzuları aklın ve dinin ölçüleri içinde tutma. "
   },
   {
     "id": "genclik-k11",
@@ -2018,12 +2918,12 @@ const QUESTIONS=[
     "text": "“Doğru olanı savunurken ölçülü ve bilinçli cesaret gösterme” açıklaması hangi kavrama aittir?",
     "options": [
       "Şecaat",
-      "Cömertlik",
-      "Kişilik",
-      "Adalet",
-      "Erdem"
+      "Hikmet",
+      "İffet",
+      "Kanaat",
+      "Tevazu"
     ],
-    "explanation": "Şecaat: doğru olanı savunurken ölçülü ve bilinçli cesaret gösterme."
+    "explanation": "Şecaat: Doğru olanı savunurken ölçülü ve bilinçli cesaret gösterme. "
   },
   {
     "id": "genclik-o11",
@@ -2032,12 +2932,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci, haksızlığa uğrayan arkadaşını kavga çıkarmadan cesaretle savunuyor. Hangi temel erdem öne çıkar?",
     "options": [
       "Şecaat",
-      "Değer",
       "Hikmet",
-      "Adalet",
-      "Kişilik"
+      "İffet",
+      "Kanaat",
+      "Tevazu"
     ],
-    "explanation": "Şecaat: doğru olanı savunurken ölçülü ve bilinçli cesaret gösterme."
+    "explanation": "Şecaat: Doğru olanı savunurken ölçülü ve bilinçli cesaret gösterme. "
   },
   {
     "id": "genclik-k12",
@@ -2046,12 +2946,12 @@ const QUESTIONS=[
     "text": "“Bir görevi üstlenmek için gerekli yeterlilik ve ehliyet” açıklaması hangi kavrama aittir?",
     "options": [
       "Liyakat",
-      "Örf ve âdet",
-      "Değer",
-      "Erdem",
-      "Mizaç"
+      "Vefa",
+      "Sadakat",
+      "Cömertlik",
+      "Gıpta"
     ],
-    "explanation": "Liyakat: bir görevi üstlenmek için gerekli yeterlilik ve ehliyet."
+    "explanation": "Liyakat: Bir görevi üstlenmek için gerekli yeterlilik ve ehliyet. "
   },
   {
     "id": "genclik-o12",
@@ -2060,12 +2960,12 @@ const QUESTIONS=[
     "text": "Okul temsilcisi, görevi akrabasına değil gerekli bilgi ve beceriye sahip kişiye veriyor. Hangi ilkeyi gözetiyor?",
     "options": [
       "Liyakat",
-      "Cimrilik",
-      "Ahlak",
-      "Kişilik",
-      "Cömertlik"
+      "Vefa",
+      "Sadakat",
+      "Cömertlik",
+      "Gıpta"
     ],
-    "explanation": "Liyakat: bir görevi üstlenmek için gerekli yeterlilik ve ehliyet."
+    "explanation": "Liyakat: Bir görevi üstlenmek için gerekli yeterlilik ve ehliyet. "
   },
   {
     "id": "genclik-k13",
@@ -2074,12 +2974,12 @@ const QUESTIONS=[
     "text": "“Kaynakları ihtiyaç ve ölçüyü aşacak biçimde tüketme” açıklaması hangi kavrama aittir?",
     "options": [
       "İsraf",
-      "Mizaç",
-      "İffet",
-      "Değer",
-      "Örf ve âdet"
+      "Cimrilik",
+      "Kanaat",
+      "İsar",
+      "Cömertlik"
     ],
-    "explanation": "İsraf: kaynakları ihtiyaç ve ölçüyü aşacak biçimde tüketme."
+    "explanation": "İsraf: Kaynakları ihtiyaç ve ölçüyü aşacak biçimde tüketme. "
   },
   {
     "id": "genclik-o13",
@@ -2088,12 +2988,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci yiyebileceğinden çok daha fazla yemek alıp fazlasını çöpe atıyor. Hangi davranış ortaya çıkmaktadır?",
     "options": [
       "İsraf",
-      "Mizaç",
-      "Şecaat",
-      "Cömertlik",
-      "Hikmet"
+      "Cimrilik",
+      "Kanaat",
+      "İsar",
+      "Cömertlik"
     ],
-    "explanation": "İsraf: kaynakları ihtiyaç ve ölçüyü aşacak biçimde tüketme."
+    "explanation": "İsraf: Kaynakları ihtiyaç ve ölçüyü aşacak biçimde tüketme. "
   },
   {
     "id": "genclik-k14",
@@ -2102,12 +3002,12 @@ const QUESTIONS=[
     "text": "“İmkânı olduğu hâlde gerekli ve yerinde harcamadan ya da paylaşmadan kaçınma” açıklaması hangi kavrama aittir?",
     "options": [
       "Cimrilik",
-      "Şecaat",
-      "Hikmet",
-      "Örf ve âdet",
-      "İffet"
+      "Kanaat",
+      "İsraf",
+      "İsar",
+      "Cömertlik"
     ],
-    "explanation": "Cimrilik: i̇mkânı olduğu hâlde gerekli ve yerinde harcamadan ya da paylaşmadan kaçınma."
+    "explanation": "Cimrilik: İmkânı olduğu hâlde gerekli ve yerinde harcamadan ya da paylaşmadan kaçınma. "
   },
   {
     "id": "genclik-o14",
@@ -2116,12 +3016,12 @@ const QUESTIONS=[
     "text": "Bir kişi maddi imkânı yeterli olduğu hâlde yerine getirmesi gereken yardımı sırf malı eksilmesin diye yapmıyor. Hangi tutum söz konusudur?",
     "options": [
       "Cimrilik",
-      "Örf ve âdet",
-      "Kişilik",
-      "Mizaç",
-      "Ahlak"
+      "Kanaat",
+      "İsraf",
+      "İsar",
+      "Cömertlik"
     ],
-    "explanation": "Cimrilik: i̇mkânı olduğu hâlde gerekli ve yerinde harcamadan ya da paylaşmadan kaçınma."
+    "explanation": "Cimrilik: İmkânı olduğu hâlde gerekli ve yerinde harcamadan ya da paylaşmadan kaçınma. "
   },
   {
     "id": "genclik-k15",
@@ -2130,12 +3030,12 @@ const QUESTIONS=[
     "text": "“İmkânlarını yerinde ve gönüllü biçimde başkalarıyla paylaşma” açıklaması hangi kavrama aittir?",
     "options": [
       "Cömertlik",
-      "Erdem",
-      "İsraf",
       "Cimrilik",
-      "Kişilik"
+      "İsraf",
+      "Haset",
+      "Kanaat"
     ],
-    "explanation": "Cömertlik: i̇mkânlarını yerinde ve gönüllü biçimde başkalarıyla paylaşma."
+    "explanation": "Cömertlik: İmkânlarını yerinde ve gönüllü biçimde başkalarıyla paylaşma. "
   },
   {
     "id": "genclik-o15",
@@ -2144,152 +3044,432 @@ const QUESTIONS=[
     "text": "Bir genç, kendi ihtiyaçlarını da gözeterek harçlığından düzenli yardım ayırıyor. Ölçülü paylaşımı hangi değerle açıklanır?",
     "options": [
       "Cömertlik",
-      "Şecaat",
-      "İffet",
-      "Mizaç",
-      "Ahlak"
+      "Cimrilik",
+      "İsraf",
+      "Haset",
+      "Kanaat"
     ],
-    "explanation": "Cömertlik: i̇mkânlarını yerinde ve gönüllü biçimde başkalarıyla paylaşma."
+    "explanation": "Cömertlik: İmkânlarını yerinde ve gönüllü biçimde başkalarıyla paylaşma. "
   },
   {
     "id": "genclik-p01",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "Bir gencin öfkelenmesi çabuk olsa da öfkeliyken hakaret etmemeyi alışkanlık hâline getirmesi hangi iki kavramın farklılığını gösterir?",
+    "text": "Bir öğrenci düşüncelerini hızla dile getirirken arkadaşı daha sakin davranır. Buna rağmen ikisi de sınavda dürüst olmayı ve verdikleri sözleri tutmayı önemser. İlk farklılık ve ortak ahlaki tutum sırasıyla hangi kavramlarla açıklanır?",
     "options": [
-      "Mizaç ve karakter",
-      "İsraf ve cimrilik",
-      "Örf ve âdet",
-      "Hikmet ve bilgi kaynağı",
-      "Kültür ve medeniyet"
+      "Mizaç — karakter",
+      "Karakter — mizaç",
+      "Örf — kişilik",
+      "Değer — yetenek",
+      "Kültür — alışkanlık"
     ],
-    "explanation": "Çabuk öfkelenme duygusal tepki yapısıyla, hakaret etmemeyi benimseme ise ahlaki tutumla ilgilidir. Mizaç, kişinin ahlaki seçimlerini zorunlu olarak belirlemez."
+    "explanation": "Duygusal tepki biçimi mizaçla, benimsenmiş ahlaki tutarlılık karakterle ilgilidir. Mizaç farklılığı aynı erdemleri benimsemeye engel değildir."
   },
   {
     "id": "genclik-p02",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "Aşağıdakilerden hangisi adaletin her durumda herkese aynı miktarı vermek anlamına gelmediğini gösterir?",
+    "text": "Bir okul kulübü yardım bütçesini paylaştırırken herkese aynı miktarı vermek yerine ihtiyaçları, belirlenmiş ölçütleri ve kişilerin haklarını dikkate alır. Bu uygulama hangi anlayışı örnekler?",
     "options": [
-      "Desteği öğrencilerin ihtiyaçları ve hakları gözetilerek dağıtmak",
-      "Yardımı yalnızca arkadaşlara ayırmak",
-      "Hak sahibini dış görünüşüne göre seçmek",
-      "Karar verirken kuralları gizlemek",
-      "Yakınlarına ayrıcalık tanımak"
+      "Adaletin hakkı ve ihtiyacı gözeterek değerlendirilmesini",
+      "Adaletin kişisel yakınlığa göre kurulmasını",
+      "Eşitliğin her durumda aynı sonucu gerektirmesini",
+      "Liyakatin yardım miktarıyla belirlenmesini",
+      "Cömertliğin kurallardan bağımsız olmasını"
     ],
-    "explanation": "Adalet, hakları ve ilgili koşulları gözetmektir. Farklı ihtiyaçlar karşısında uygun desteğin değişmesi adaletle bağdaşabilir."
+    "explanation": "Adalet herkese hakkını vermektir; farklı ihtiyaçlara aynı miktar vermek her durumda adil olmayabilir. Ölçütlerin nesnel olması gerekir."
   },
   {
     "id": "genclik-p03",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "Şecaat erdemini hem korkaklıktan hem de düşüncesizce tehlikeye atılmaktan ayıran özellik hangisidir?",
+    "text": "Bir öğrenci arkadaşına yapılan zorbalığa sessiz kalmaz; öğretmeninden destek alarak durumu bildirir ve arkadaşını yalnız bırakmaz. Öfkeyle kavga çıkarmak yerine hakkı kararlılıkla savunması hangi erdemi gösterir?",
     "options": [
-      "Cesaretin akıl ve ölçüyle birleşmesi",
-      "Her tartışmada güç kullanılması",
-      "Tehlikenin her koşulda aranması",
-      "Haksızlık karşısında sürekli susulması",
-      "Sonuçların hiç düşünülmemesi"
+      "Şecaat",
+      "Tahakküm",
+      "Hırs",
+      "Taassup",
+      "Kibir"
     ],
-    "explanation": "Şecaat, haklı olanı savunan ölçülü cesarettir; düşüncesiz saldırganlık veya gereksiz risk alma değildir."
+    "explanation": "Şecaat ölçülü cesarettir. Hakkı savunmak ile kontrolsüz saldırganlık farklıdır; yardım istemek cesaretin eksikliği sayılmaz."
   },
   {
     "id": "genclik-p04",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "İffet kavramıyla ilgili hangi açıklama daha kapsayıcıdır?",
+    "text": "Bir genç anlık isteği çok güçlü olsa da başkasının hakkını çiğneyen bir davranıştan vazgeçer. İsteklerini bütünüyle yok etmeyi değil doğru sınırlar içinde yönetmeyi amaçlar. Bu tutum hangi erdemle ilgilidir?",
     "options": [
-      "İnsanın isteklerini ve davranışlarını ahlaki ölçüler içinde yönetmesidir.",
-      "Yalnızca belli bir cinsiyetin sorumluluğudur.",
-      "Sadece dış görünüşle ilgilidir.",
-      "Her isteğin hemen karşılanmasıdır.",
-      "İnsanın hiçbir arzu taşımamasıdır."
+      "İffet",
+      "Cömertlik",
+      "Şecaat",
+      "Liyakat",
+      "Vefa"
     ],
-    "explanation": "İffet tüm insanlarla ilgilidir; arzuları yok etmekten çok onları aklın ve dinin ölçüleri içinde denetlemeyi anlatır."
+    "explanation": "İffet arzu ve isteklerin ölçülü yönetilmesidir. İsteklerin varlığını reddetmek veya hakkı cesaretle savunmakla aynı kavram değildir."
   },
   {
     "id": "genclik-p05",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "Bir öğrenci çok bilgi ezberliyor fakat hangi bilgiyi nerede kullanacağını düşünmüyor. Bilgisini doğru kararlara dönüştürebilmesi için hangi erdemi geliştirmesi beklenir?",
+    "text": "Bir öğrenci önemli bir karar vermeden önce konuya ilişkin bilgileri toplar, seçeneklerin sonuçlarını tartar ve uygun olanı seçer. Bilgiyi yerinde kullanma yönü özellikle hangi erdemi örneklemektedir?",
     "options": [
       "Hikmet",
-      "İsraf",
-      "Cimrilik",
-      "Riya",
-      "Taassup"
+      "Şecaat",
+      "Cömertlik",
+      "Sabır",
+      "Vefa"
     ],
-    "explanation": "Hikmet, bilgi sahibi olmanın yanında bilgiyi doğru yerde ve isabetli biçimde kullanmayı gerektirir."
+    "explanation": "Hikmet bilgiyi isabetle kullanıp yerinde karar verebilmeyi içerir. Sabır süreci sürdürmeye katkı sağlayabilir fakat vurgulanan doğru değerlendirmedir."
   },
   {
     "id": "genclik-p06",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "Din ile örf ve âdet ilişkisi için hangi değerlendirme uygundur?",
+    "text": "Bir genç harçlığından yardım ayırırken hem zorunlu ihtiyaçlarını karşılar hem de ihtiyacı olana destek olur. Harcamasını başkalarına üstünlük göstermek için artırmaz. Bu davranış hangi değerle açıklanır?",
     "options": [
-      "Yerleşmiş uygulamalar ahlaki ve dinî ilkeler bakımından değerlendirilebilir.",
-      "Eski olan her uygulama zorunlu olarak doğrudur.",
-      "Gelenekler hiçbir koşulda değişmez.",
-      "Toplumda yaygın olan her şey dinin emridir.",
-      "Bütün gelenekler koşulsuz reddedilmelidir."
+      "Cömertlik",
+      "İsraf",
+      "Savurganlık",
+      "Gösteriş",
+      "Cimrilik"
     ],
-    "explanation": "Örf ve âdetler toplumsal birikimin parçasıdır. Dinin ve ahlakın temel ilkeleriyle uyumu değerlendirilir; yaygınlık tek başına doğruluk ölçüsü olmaz."
+    "explanation": "Cömertlik imkânları yerinde paylaşmaktır. Ölçüsüz harcama veya övgü amacı, aynı erdemin güçlenmiş biçimi sayılmaz."
   },
   {
     "id": "genclik-p07",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "İsrâ suresinin 23–29. ayetlerindeki ilkeler düşünüldüğünde hangi davranış bu öğütlerle uyumludur?",
+    "text": "Bir öğrenci yapabileceğinden fazla görev üstlenerek herkesin takdirini kazanmak ister. Sonunda söz verdiği işleri yarım bırakır. Arkadaşı az ama yerine getirilebilir söz vermenin daha doğru olduğunu söyler. Hangi değer öne çıkar?",
     "options": [
-      "Anne babaya saygılı davranıp ihtiyaç sahipleriyle ölçülü paylaşmak",
-      "Anne babayı kırıcı sözlerle küçümsemek",
-      "Bütün imkânları gösteriş için tüketmek",
-      "İmkânı varken paylaşmaktan kaçınmak",
-      "Yardıma ihtiyacı olanları azarlamak"
+      "Sorumluluk",
+      "Görünürlük",
+      "Rekabet",
+      "İddialılık",
+      "Çekingenlik"
     ],
-    "explanation": "Bu ayetlerde anne babaya iyi davranma, yakınların ve ihtiyaç sahiplerinin hakkını gözetme, israf ve cimrilikten uzak durma gibi ilkeler yer alır."
+    "explanation": "Sorumluluk üstlenilen görevi imkânları değerlendirerek yerine getirmektir. Çok görev almak tek başına sorumluluk göstergesi değildir."
   },
   {
     "id": "genclik-p08",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "İmkânlarını ne gereksiz yere tüketen ne de paylaşmaktan kaçınan bir kişi, hangi iki uç tutum arasında ölçülü davranmaktadır?",
+    "text": "Bir sınıf temsilcisi görevi yakın arkadaşına vermek yerine ilgili alanda bilgili ve çalışkan bir öğrenciyi seçer. Yakınlığını karara karıştırmaması hangi ilkeye uygundur?",
     "options": [
-      "İsraf ve cimrilik",
-      "Adalet ve hikmet",
-      "İffet ve şecaat",
-      "Dürüstlük ve güven",
-      "Saygı ve merhamet"
+      "Liyakat",
+      "Müsamaha",
+      "Kanaat",
+      "Merhamet",
+      "Tevazu"
     ],
-    "explanation": "Ölçülü harcama ve cömertlik, savurganlığa düşmeden paylaşmayı; gerekli harcamaları da cimrilik nedeniyle engellememeyi gerektirir."
+    "explanation": "Liyakat göreve uygun bilgi ve yeterliliği gözetmektir. Merhamet ve hoşgörü önemli olmakla birlikte görevlendirmenin doğrudan ölçütü değildir."
   },
   {
     "id": "genclik-p09",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "Bir gencin dürüstlüğü yalnızca konuşmalarında övmesi, ancak çıkarı zedelendiğinde yalan söylemesi hangi açıdan eksiktir?",
+    "text": "Bir ailede bayramlaşma biçimi kuşaklar boyunca aktarılır. Öğrenci bu uygulamanın bir toplumsal gelenek olduğunu, bütün ayrıntılarının dinî emir sayılmaması gerektiğini belirtir. Hangi ayrımı yapmaktadır?",
     "options": [
-      "Değeri davranışa dönüştürme",
-      "Bilgiyi duyularla edinme",
-      "Coğrafi bölgeyi tanıma",
-      "Mizaç farklılığını gözleme",
-      "İbadetin vaktini öğrenme"
+      "Örf ve âdet ile dinî hüküm arasındaki ayrımı",
+      "Kişilik ile bireysel özellik arasındaki ayrımı",
+      "Cömertlik ile paylaşma arasındaki ayrımı",
+      "Adalet ile hakkı gözetme arasındaki ayrımı",
+      "Mizaç ile duygusal tepki arasındaki ayrımı"
     ],
-    "explanation": "Değerlerin benimsenmesi davranışlarla görünür olur. Dürüstlük, sadece yarar sağladığında değil zor durumda da gözetilmelidir."
+    "explanation": "Örf ve âdet toplumsal aktarım ürünüdür. Dinle uyumlu gelenekler bulunabilir fakat her kültürel ayrıntı dinî yükümlülük olmaz."
   },
   {
     "id": "genclik-p10",
     "topic": "genclik",
     "kind": "Pekiştirme",
-    "text": "Bir görev için seçilen kişi yetenekli olsa bile seçim sürecinde diğer adayların haklarının ihlal edilmesi hangi iki ilkenin birlikte gözetilmesi gerektiğini gösterir?",
+    "text": "Bir genç katılmadığı bir görüşü dinlerken konuşmacıyı küçümsemez; gerekçelerini eleştirir ve kendi görüşünü saygıyla açıklar. Bu tutumun en uygun değerlendirmesi hangisidir?",
     "options": [
-      "Liyakat ve adalet",
-      "İsraf ve riya",
-      "Cimrilik ve gösteriş",
-      "Zan ve taklit",
-      "Mizaç ve coğrafya"
+      "Saygının düşünsel eleştiriyle birlikte sürdürülebileceğini göstermesi",
+      "Hoşgörünün bütün iddiaları doğru saymayı gerektirmesi",
+      "Eleştirinin kişinin onurunu zedelemeden yapılamaması",
+      "Nezaketin görüş belirtmekten vazgeçmek anlamına gelmesi",
+      "Farklı görüşlerin toplumsal bağları zorunlu olarak koparması"
     ],
-    "explanation": "Liyakat görev için yeterliliği, adalet ise hakların korunmasını vurgular. İyi bir seçim süreci her iki ilkeyi de gözetir."
+    "explanation": "Saygı, her görüşü kabul etmek değildir. İddialar eleştirilirken kişinin onuru korunabilir."
+  },
+  {
+    "id": "genclik-p11",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci başarısını anlatırken öğretmeninin, ailesinin ve arkadaşlarının katkılarını da belirtir. Kendi emeğini yok saymadan başkalarına üstünlük taslamaktan kaçınır. Hangi değer öne çıkmaktadır?",
+    "options": [
+      "Tevazu",
+      "Çekingenlik",
+      "Kararsızlık",
+      "İhmal",
+      "Rekabet"
+    ],
+    "explanation": "Tevazu kendini üstün görmeden imkân ve katkıların farkında olmaktır. Kendi emeğini bütünüyle reddetmek veya görüşünü söyleyememek değildir."
+  },
+  {
+    "id": "genclik-p12",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi arkadaşının başarısını öğrendiğinde onun başarısının sona ermesini ister. Başka biri ise bu başarıdan ilham alarak kendini geliştirmeye çalışır. Bu iki tutum sırasıyla hangi kavramlardır?",
+    "options": [
+      "Haset — gıpta",
+      "Gıpta — haset",
+      "Tevazu — kibir",
+      "Sabır — şükür",
+      "Kanaat — cömertlik"
+    ],
+    "explanation": "Haset başkasındaki iyiliğin kaybolmasını istemektir. Gıpta o iyiliğin kişide de bulunmasını istemek olup başkasının kaybını amaçlamaz."
+  },
+  {
+    "id": "genclik-p13",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci arkadaşı hakkında duyduğu doğrulanmamış bilgiyi paylaşmayı reddeder. Arkadaşının mahremiyetini ve itibarını, araları iyi olmasa da korur. Bu davranış özellikle hangi sorumluluğu gösterir?",
+    "options": [
+      "İnsan onurunu ve kul hakkını gözetmeyi",
+      "Yakın ilişkiye göre doğruyu değiştirmeyi",
+      "Yaygın bilgiyi kesin delil kabul etmeyi",
+      "Eleştiriyi bütünüyle yasaklamayı",
+      "Toplumsal beğeniyi artırmayı"
+    ],
+    "explanation": "Kişinin onurunu korumak yakınlığa bağlı değildir. Doğrulanmamış ithamların yayılması hak ihlaline yol açabilir."
+  },
+  {
+    "id": "genclik-p14",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir genç yanlış davranışı nedeniyle uyarıldığında mazeret üretmek yerine hatasını kabul eder, verdiği zararı telafi etmeye çalışır. Bu tutumda hangi değerler birlikte görülmektedir?",
+    "options": [
+      "Dürüstlük ve sorumluluk",
+      "Gösteriş ve rekabet",
+      "Taassup ve cesaret",
+      "Cimrilik ve kanaat",
+      "Öfke ve kararlılık"
+    ],
+    "explanation": "Hatasını kabul etmek dürüstlüğü, zararı gidermeye çalışmak sorumluluğu gösterir. Pişmanlık telafi çabasından bağımsız düşünülmemelidir."
+  },
+  {
+    "id": "genclik-p15",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci, yaşlı anne babasına yardımcı olmanın yanında onlarla konuşurken incitici ifadelerden kaçınmaya da dikkat eder. İsrâ suresinin 23-24. ayetlerinin mesajı açısından hangi ilke öne çıkar?",
+    "options": [
+      "İyiliğin maddi destekle birlikte saygılı iletişimi de kapsaması",
+      "Aile içindeki görevlerin ekonomik katkıyla sınırlı olması",
+      "Yaşlılara saygının aynı görüşte olmayı gerektirmesi",
+      "Kişisel ihtiyaçların ahlaki sorumlulukları kaldırması",
+      "Ebeveyne yardımın toplumsal takdire bağlı olması"
+    ],
+    "explanation": "Ayette ebeveyne iyilik ve güzel söz vurgulanır. İyilik yalnızca maddi destek sağlamakla sınırlı değildir."
+  },
+  {
+    "id": "genclik-p16",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir genç elindeki imkânları harcarken ne gerekli yardımdan kaçınır ne de gösteriş için bütçesini aşar. İsrâ suresinin 29. ayetinin mesajıyla ilişkilendirildiğinde hangi tutum örneklenir?",
+    "options": [
+      "Harcama ve paylaşmada ölçülülük",
+      "Malı biriktirmeyi tek amaç edinme",
+      "İyiliğin miktarını saygınlıkla belirleme",
+      "İhtiyaçları çevrenin beğenisine göre tanımlama",
+      "Bütün harcamaları aynı hükümde görme"
+    ],
+    "explanation": "Cimrilik ve savurganlık arasında ölçü gözetilir. Ölçülülük paylaşmaktan vazgeçmek veya sosyal beğeni için harcamak değildir."
+  },
+  {
+    "id": "genclik-p17",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci değerleri bildiğini söyler; fakat kimsenin görmediği zamanlarda kuralları çiğner. Öğretmeni değerlerin kişinin davranışına yön verdiğinde benimsendiğinin anlaşılacağını belirtir. Burada hangi fark vurgulanır?",
+    "options": [
+      "Değeri tanımak ile içselleştirmek arasındaki fark",
+      "Mizaç ile doğuştan gelen özellik arasındaki fark",
+      "Örf ile kuşaklar arası aktarım arasındaki fark",
+      "Karakter ile ahlaki tutum arasındaki fark",
+      "Adalet ile hakkı teslim etmek arasındaki fark"
+    ],
+    "explanation": "Değerin kavramsal bilgisi ile davranış ölçütü hâline gelmesi farklıdır. İçselleştirme dış denetim olmadığında da tutarlılık gerektirir."
+  },
+  {
+    "id": "genclik-p18",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir genç arkadaşlarının ısrarına rağmen sınavda kopya çekmeyi kabul etmez; arkadaşlarına da kırıcı olmadan itiraz eder. Bu örnekte hangi iki değer birlikte öne çıkar?",
+    "options": [
+      "Dürüstlük ve nezaket",
+      "Rekabet ve gösteriş",
+      "İtaat ve taassup",
+      "Çekingenlik ve ihmal",
+      "Hırs ve üstünlük"
+    ],
+    "explanation": "Kopyaya karşı çıkmak dürüstlüğü, bunu incitmeden yapmak nezaketi gösterir. Akran baskısına direnmek ilişkileri aşağılamayı gerektirmez."
+  },
+  {
+    "id": "genclik-p19",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci karşılaştığı güçlükler üzerine çalışmayı bırakmak yerine planını yenileyip emek vermeyi sürdürür. Haksızlığa uğradığında da hakkını uygun yollarla arar. Bu davranış hangi sabır anlayışına uygundur?",
+    "options": [
+      "Etkin çaba ve kararlılıkla zorluğa dayanma",
+      "Yanlış uygulamalara itiraz etmeden razı olma",
+      "Sonucu değiştirecek bütün tedbirlerden vazgeçme",
+      "Duyguları ve ihtiyaçları yok sayma",
+      "Sorumluluğu başkalarına devrederek bekleme"
+    ],
+    "explanation": "Sabır pasif kalmak değildir; zorluk karşısında doğru çabayı sürdürmeyi içerir. Hakkını aramak sabra aykırı sayılmaz."
+  },
+  {
+    "id": "genclik-p20",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir kulüp yaptığı yardımı paylaşırken yardım alan kişinin kimliğini açık etmez. Çünkü amacın iyiliği duyurmak kadar onun onurunu da korumak olduğunu düşünür. Bu yaklaşım hangi değerin gözetildiğini gösterir?",
+    "options": [
+      "Mahremiyete saygı",
+      "Toplumsal rekabet",
+      "Kişisel itibar arayışı",
+      "Denetimden kaçınma",
+      "Geleneksel bağlılık"
+    ],
+    "explanation": "İhtiyaç sahibinin onuru ve kişisel bilgileri korunur. Yardımı şeffaf yürütmek kimliğin herkesle paylaşılmasını gerektirmez."
+  },
+  {
+    "id": "genclik-p21",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğretmen dinin değerlerin oluşmasına kaynaklık ettiğini, aile ve çevrenin de bunların öğrenilmesinde etkili olduğunu belirtir. Bu açıklamadan hangi sonuç çıkarılabilir?",
+    "options": [
+      "Değerlerin öğrenilmesinde birden fazla etken rol oynar.",
+      "Değerler yalnızca hukuk kurallarından oluşur.",
+      "Aileden öğrenilen her davranış ahlaken doğrudur.",
+      "Dinî değerler davranışları etkilemez.",
+      "Toplumsal çevre bireyin iradesini ortadan kaldırır."
+    ],
+    "explanation": "Din, aile, çevre ve eğitim değerlerin öğrenilmesinde etkilidir. Etkilenme, kişinin değerlendirme ve seçme sorumluluğunu kaldırmaz."
+  },
+  {
+    "id": "genclik-p22",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci güzel konuşmayı önemli bulur ancak yaptığı hatayı gizlemek için bu becerisini kullanır. Öğretmeni yeteneğin tek başına erdem sayılmayacağını söyler. Bu görüşün gerekçesi hangisidir?",
+    "options": [
+      "Erdemin becerinin ahlaken doğru amaçla kullanımını gerektirmesi",
+      "Becerilerin insanın gelişimine katkıda bulunmaması",
+      "Ahlaki tutumların öğrenilemez olması",
+      "Konuşma yeteneğinin mizaçla ilgisinin bulunmaması",
+      "Bilginin davranışlara yansıtılamaması"
+    ],
+    "explanation": "Bir beceri iyi veya kötü amaçla kullanılabilir. Erdem, ahlaken iyi niteliği ve doğru kullanımı ifade eder."
+  },
+  {
+    "id": "genclik-p23",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci arkadaşının sırrını saklama sözü vermiştir; fakat arkadaşının güvenliğini tehdit eden ciddi bir durum öğrendiğinde güvenilir bir yetişkinden yardım ister. Bu davranış nasıl değerlendirilmelidir?",
+    "options": [
+      "Değerleri bağlam ve sorumluluklar içinde birlikte gözetmektedir.",
+      "Sözünde durmayı bütün durumlarda değersiz saymaktadır.",
+      "Arkadaşlık bağını kişisel kazanca dönüştürmektedir.",
+      "Mahremiyetin hiçbir durumda önem taşımadığını savunmaktadır.",
+      "Yakınlığı hak ihlalinin gerekçesi olarak kullanmaktadır."
+    ],
+    "explanation": "Mahremiyet ve sözünde durma önemlidir; ciddi güvenlik riski karşısında yardım istemek de sorumluluktur. Değerler bağlamdan koparılarak uygulanmamalıdır."
+  },
+  {
+    "id": "genclik-p24",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi dürüstlüğü yalnızca kendisine yakın insanlara karşı uygular. Başkaları söz konusu olduğunda aynı ilkeye bağlı kalmaz. Bu tutum ahlaki açıdan hangi eksikliği taşır?",
+    "options": [
+      "İlkenin kişilere göre tutarsız uygulanması",
+      "Duygusal tepkilerin mizaçtan etkilenmesi",
+      "Görevlerin yeterliliğe göre verilmesi",
+      "Ahlaki davranışın bilgi gerektirmesi",
+      "Kültürel çeşitliliğin tanınması"
+    ],
+    "explanation": "Ahlaki ilkenin değeri yakınlığa göre değişmemelidir. Dürüstlüğü seçici biçimde uygulamak tutarlılık sorununa yol açar."
+  },
+  {
+    "id": "genclik-p25",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir genç uzun zamandır kendisine destek olan arkadaşını, çevresi değiştiğinde de arayıp sorar. Eski ilişkisini kişisel yararı kalmadığı gerekçesiyle terk etmez. Hangi değer örneklenmektedir?",
+    "options": [
+      "Vefa",
+      "İffet",
+      "Şecaat",
+      "Kanaat",
+      "Liyakat"
+    ],
+    "explanation": "Vefa iyiliği ve dostluğu unutmadan bağı sürdürmektir. Liyakat göreve uygunlukla, kanaat sahip olunanı değerlendirirken ölçülü olmakla ilgilidir."
+  },
+  {
+    "id": "genclik-p26",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci başarıya ulaşınca daha önce aldığı destekleri hatırlar, elindeki imkânları yerinde kullanır ve emeğini sürdürür. Bu davranışta şükür hangi biçimde anlaşılmaktadır?",
+    "options": [
+      "Nimeti fark etmenin davranışla tamamlanması",
+      "Başarıyı yalnızca kişisel üstünlük sayma",
+      "Yeni çaba göstermeyi gereksiz bulma",
+      "Destek verenlerin katkılarını küçümseme",
+      "İmkânları gösteriş için tüketme"
+    ],
+    "explanation": "Şükür nimeti bilme, Allah’a yönelme ve nimeti yerinde kullanmayla ilgilidir. Çabayı terk etmek veya üstünlük taslamak değildir."
+  },
+  {
+    "id": "genclik-p27",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir genç arkadaşının sözünü yanlış anladığını fark edince özür diler ve onu dinlemek için zaman ayırır. İlk yargısını korumak yerine hatasını düzeltmesi hangi tutuma örnektir?",
+    "options": [
+      "Öz eleştiri",
+      "Taassup",
+      "Kibir",
+      "Haset",
+      "Riya"
+    ],
+    "explanation": "Öz eleştiri kişinin kendi tutumunu değerlendirmesi ve yanlışını düzeltmesidir. Kararlılık ile hatada ısrar birbirine karıştırılmamalıdır."
+  },
+  {
+    "id": "genclik-p28",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi ihtiyaç duymadığı eşyaları sırf indirimde diye satın alır; çoğunu kullanmadan elden çıkarır. Harcama gücünün bulunması davranışın ölçülü olduğunu göstermemektedir. Hangi kavramla değerlendirilmelidir?",
+    "options": [
+      "İsraf",
+      "Kanaat",
+      "Cömertlik",
+      "Tutumluluk",
+      "Zühd"
+    ],
+    "explanation": "İsraf kaynakların ihtiyaç ve ölçüyü aşacak biçimde kullanılmasıdır. Ödeme gücü, gereksiz tüketimi kendiliğinden ölçülü kılmaz."
+  },
+  {
+    "id": "genclik-p29",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci, ahlaklı olmayı toplumun o anda beğendiği davranışı yapmak olarak tanımlar. Öğretmeni bir grubun haksızlığı alkışlayabileceğini hatırlatır. Öğretmenin itirazı hangi düşünceye dayanır?",
+    "options": [
+      "Toplumsal onayın tek başına ahlaki doğruluk ölçütü olamayacağına",
+      "Ahlaki değerlerin toplumsal ilişkilerle ilgisiz olduğuna",
+      "İnsanların davranışlarının değerlendirilemeyeceğine",
+      "Geleneklerin her durumda terk edilmesi gerektiğine",
+      "Dinî sorumluluğun yalnızca bireysel ibadetleri kapsadığına"
+    ],
+    "explanation": "Bir davranışın beğenilmesi onun hakka ve ahlaka uygunluğunu kanıtlamaz. Ahlaki değerlendirmede hak, adalet ve sorumluluk da gözetilir."
+  },
+  {
+    "id": "genclik-p30",
+    "topic": "genclik",
+    "kind": "Pekiştirme",
+    "text": "Bir sınıf ortak değerlerini belirlerken dürüstlük, adalet ve yardımlaşma konusunda anlaşır. Ancak bunların afişte yazılı kalmaması için karar süreçlerine ve günlük ilişkilere uygulanmasını ister. Bu isteğin amacı nedir?",
+    "options": [
+      "Değerleri davranış ölçütüne dönüştürmek",
+      "Ortak değerleri kişisel beğenilere indirgemek",
+      "Ahlaki sorumluluğu yalnızca yöneticilere yüklemek",
+      "Değerlerin öğrenilmesini ezberle sınırlandırmak",
+      "Kişisel özellikler arasındaki bütün farkları kaldırmak"
+    ],
+    "explanation": "Değerler uygulamada davranışa yön verdiğinde içselleşir. Ortak değerleri benimsemek bireysel özelliklerin ortadan kalkması demek değildir."
   },
   {
     "id": "gonul-k01",
@@ -2298,12 +3478,12 @@ const QUESTIONS=[
     "text": "“Bir toplumun tarih içinde oluşturup aktardığı maddi ve manevi birikim” açıklaması hangi kavrama aittir?",
     "options": [
       "Kültür",
-      "Endülüs",
-      "Maveraünnehir",
-      "Ümmet",
-      "Kudüs"
+      "Örf ve âdet",
+      "Kolektif hafıza",
+      "Sanat",
+      "Toplumsal kurum"
     ],
-    "explanation": "Kültür: bir toplumun tarih içinde oluşturup aktardığı maddi ve manevi birikim."
+    "explanation": "Kültür: Bir toplumun tarih içinde oluşturup aktardığı maddi ve manevi birikim. "
   },
   {
     "id": "gonul-o01",
@@ -2312,12 +3492,12 @@ const QUESTIONS=[
     "text": "Bir araştırmacı bir toplumun dilini, yemeklerini, geleneklerini ve sanatını birlikte inceliyor. Hangi birikimi araştırıyor?",
     "options": [
       "Kültür",
-      "Ümmet",
-      "Türkistan",
-      "Medine",
-      "Horasan"
+      "Örf ve âdet",
+      "Kolektif hafıza",
+      "Sanat",
+      "Toplumsal kurum"
     ],
-    "explanation": "Kültür: bir toplumun tarih içinde oluşturup aktardığı maddi ve manevi birikim."
+    "explanation": "Kültür: Bir toplumun tarih içinde oluşturup aktardığı maddi ve manevi birikim. "
   },
   {
     "id": "gonul-k02",
@@ -2326,12 +3506,12 @@ const QUESTIONS=[
     "text": "“Farklı toplumların katkısıyla gelişen ortak düşünce, kurum ve hayat birikimi” açıklaması hangi kavrama aittir?",
     "options": [
       "Medeniyet",
+      "Devlet",
       "Ümmet",
-      "Hicaz",
-      "Kudüs",
-      "Türkistan"
+      "Millet",
+      "Kültürel kimlik"
     ],
-    "explanation": "Medeniyet: farklı toplumların katkısıyla gelişen ortak düşünce, kurum ve hayat birikimi."
+    "explanation": "Medeniyet: Farklı toplumların katkısıyla gelişen ortak düşünce, kurum ve hayat birikimi. "
   },
   {
     "id": "gonul-o02",
@@ -2340,12 +3520,12 @@ const QUESTIONS=[
     "text": "Bir sergi, birçok milletin katkı yaptığı bilim, eğitim ve hukuk kurumlarını ortak bir çerçevede ele alıyor. Bu geniş çerçeve hangi kavramdır?",
     "options": [
       "Medeniyet",
-      "Maveraünnehir",
-      "Türkistan",
-      "Tevhit",
-      "Balkanlar"
+      "Devlet",
+      "Ümmet",
+      "Millet",
+      "Kültürel kimlik"
     ],
-    "explanation": "Medeniyet: farklı toplumların katkısıyla gelişen ortak düşünce, kurum ve hayat birikimi."
+    "explanation": "Medeniyet: Farklı toplumların katkısıyla gelişen ortak düşünce, kurum ve hayat birikimi. "
   },
   {
     "id": "gonul-k03",
@@ -2354,12 +3534,12 @@ const QUESTIONS=[
     "text": "“İslam’ın rehberliğinde farklı toplumların oluşturduğu maddi ve manevi birikim” açıklaması hangi kavrama aittir?",
     "options": [
       "İslam medeniyeti",
-      "Tevhit",
-      "Ümmet",
-      "Takva",
-      "Hicaz"
+      "Helen medeniyeti",
+      "Hint medeniyeti",
+      "Çin medeniyeti",
+      "Aztek medeniyeti"
     ],
-    "explanation": "İslam medeniyeti: i̇slam’ın rehberliğinde farklı toplumların oluşturduğu maddi ve manevi birikim."
+    "explanation": "İslam medeniyeti: İslam’ın rehberliğinde farklı toplumların oluşturduğu maddi ve manevi birikim. "
   },
   {
     "id": "gonul-o03",
@@ -2368,12 +3548,12 @@ const QUESTIONS=[
     "text": "Müslüman toplumların farklı coğrafyalarda ortaya koyduğu mimari, ilim, sanat ve kurumlar aynı başlıkta inceleniyor. Bu başlık hangisidir?",
     "options": [
       "İslam medeniyeti",
-      "Medine",
-      "Balkanlar",
-      "Maveraünnehir",
-      "Kudüs"
+      "Helen medeniyeti",
+      "Hint medeniyeti",
+      "Çin medeniyeti",
+      "Aztek medeniyeti"
     ],
-    "explanation": "İslam medeniyeti: i̇slam’ın rehberliğinde farklı toplumların oluşturduğu maddi ve manevi birikim."
+    "explanation": "İslam medeniyeti: İslam’ın rehberliğinde farklı toplumların oluşturduğu maddi ve manevi birikim. "
   },
   {
     "id": "gonul-k04",
@@ -2382,12 +3562,12 @@ const QUESTIONS=[
     "text": "“İslam medeniyetinin inanç temelindeki Allah’ın birliği ilkesi” açıklaması hangi kavrama aittir?",
     "options": [
       "Tevhit",
-      "Endülüs",
-      "Maveraünnehir",
-      "Hicaz",
-      "Medeniyet"
+      "Şirk",
+      "Nifak",
+      "Deizm",
+      "Nübüvvet"
     ],
-    "explanation": "Tevhit: i̇slam medeniyetinin inanç temelindeki Allah’ın birliği ilkesi."
+    "explanation": "Tevhit: İslam medeniyetinin inanç temelindeki Allah’ın birliği ilkesi. "
   },
   {
     "id": "gonul-o04",
@@ -2396,12 +3576,12 @@ const QUESTIONS=[
     "text": "İslam medeniyetinin merkezinde Allah’a ortak koşmadan yönelme düşüncesi yer alır. Bu düşüncenin adı nedir?",
     "options": [
       "Tevhit",
-      "Hicaz",
-      "Maveraünnehir",
-      "Medine",
-      "İslam medeniyeti"
+      "Şirk",
+      "Nifak",
+      "Deizm",
+      "Nübüvvet"
     ],
-    "explanation": "Tevhit: i̇slam medeniyetinin inanç temelindeki Allah’ın birliği ilkesi."
+    "explanation": "Tevhit: İslam medeniyetinin inanç temelindeki Allah’ın birliği ilkesi. "
   },
   {
     "id": "gonul-k05",
@@ -2410,12 +3590,12 @@ const QUESTIONS=[
     "text": "“Aynı peygamberin getirdiği dine bağlı olan inanç topluluğu” açıklaması hangi kavrama aittir?",
     "options": [
       "Ümmet",
-      "Medine",
-      "Tevhit",
-      "Balkanlar",
-      "Hicaz"
+      "Millet",
+      "Kabile",
+      "Devlet",
+      "Hanedan"
     ],
-    "explanation": "Ümmet: aynı peygamberin getirdiği dine bağlı olan inanç topluluğu."
+    "explanation": "Ümmet: Aynı peygamberin getirdiği dine bağlı olan inanç topluluğu. "
   },
   {
     "id": "gonul-o05",
@@ -2424,12 +3604,12 @@ const QUESTIONS=[
     "text": "Farklı diller konuşan Müslümanların aynı peygambere bağlılık etrafında bir topluluk oluşturması hangi kavramla anlatılır?",
     "options": [
       "Ümmet",
-      "Takva",
-      "Kudüs",
-      "Medine",
-      "Horasan"
+      "Millet",
+      "Kabile",
+      "Devlet",
+      "Hanedan"
     ],
-    "explanation": "Ümmet: aynı peygamberin getirdiği dine bağlı olan inanç topluluğu."
+    "explanation": "Ümmet: Aynı peygamberin getirdiği dine bağlı olan inanç topluluğu. "
   },
   {
     "id": "gonul-k06",
@@ -2438,12 +3618,12 @@ const QUESTIONS=[
     "text": "“Mekke ve Medine’nin bulunduğu tarihî bölge” açıklaması hangi kavrama aittir?",
     "options": [
       "Hicaz",
-      "İslam medeniyeti",
-      "Ümmet",
-      "Türkistan",
-      "Kudüs"
+      "Horasan",
+      "Endülüs",
+      "Maveraünnehir",
+      "Balkanlar"
     ],
-    "explanation": "Hicaz: mekke ve Medine’nin bulunduğu tarihî bölge."
+    "explanation": "Hicaz: Mekke ve Medine’nin bulunduğu tarihî bölge. "
   },
   {
     "id": "gonul-o06",
@@ -2452,12 +3632,12 @@ const QUESTIONS=[
     "text": "Bir ziyaret programı Mekke ve Medine’yi aynı tarihî bölge başlığı altında topluyor. Hangi bölge söz konusudur?",
     "options": [
       "Hicaz",
-      "Türkistan",
+      "Horasan",
       "Endülüs",
-      "Kudüs",
-      "Anadolu"
+      "Maveraünnehir",
+      "Balkanlar"
     ],
-    "explanation": "Hicaz: mekke ve Medine’nin bulunduğu tarihî bölge."
+    "explanation": "Hicaz: Mekke ve Medine’nin bulunduğu tarihî bölge. "
   },
   {
     "id": "gonul-k07",
@@ -2466,12 +3646,12 @@ const QUESTIONS=[
     "text": "“Hz. Muhammed’in hicret ettiği, eski adı Yesrib olan şehir” açıklaması hangi kavrama aittir?",
     "options": [
       "Medine",
-      "İslam medeniyeti",
-      "Türkistan",
+      "Mekke",
       "Kudüs",
-      "Anadolu"
+      "Şam",
+      "Bağdat"
     ],
-    "explanation": "Medine: hz. Muhammed’in hicret ettiği, eski adı Yesrib olan şehir."
+    "explanation": "Medine: Hz. Muhammed’in hicret ettiği, eski adı Yesrib olan şehir. "
   },
   {
     "id": "gonul-o07",
@@ -2480,12 +3660,12 @@ const QUESTIONS=[
     "text": "Hicret sonrasında Mescid-i Nebevî’nin inşa edildiği şehir hangi seçenektedir?",
     "options": [
       "Medine",
-      "Türkistan",
+      "Mekke",
       "Kudüs",
-      "Takva",
-      "Ümmet"
+      "Şam",
+      "Bağdat"
     ],
-    "explanation": "Medine: hz. Muhammed’in hicret ettiği, eski adı Yesrib olan şehir."
+    "explanation": "Medine: Hz. Muhammed’in hicret ettiği, eski adı Yesrib olan şehir. "
   },
   {
     "id": "gonul-k08",
@@ -2494,12 +3674,12 @@ const QUESTIONS=[
     "text": "“Mescid-i Aksâ’nın bulunduğu tarihî şehir” açıklaması hangi kavrama aittir?",
     "options": [
       "Kudüs",
-      "Balkanlar",
-      "Ümmet",
-      "Medeniyet",
-      "Hicaz"
+      "Mekke",
+      "Medine",
+      "Şam",
+      "Bağdat"
     ],
-    "explanation": "Kudüs: mescid-i Aksâ’nın bulunduğu tarihî şehir."
+    "explanation": "Kudüs: Mescid-i Aksâ’nın bulunduğu tarihî şehir. "
   },
   {
     "id": "gonul-o08",
@@ -2508,12 +3688,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci Mescid-i Aksâ’yı ziyaret etmek için hangi şehri araştırmalıdır?",
     "options": [
       "Kudüs",
-      "Endülüs",
+      "Mekke",
       "Medine",
-      "Maveraünnehir",
-      "Balkanlar"
+      "Şam",
+      "Bağdat"
     ],
-    "explanation": "Kudüs: mescid-i Aksâ’nın bulunduğu tarihî şehir."
+    "explanation": "Kudüs: Mescid-i Aksâ’nın bulunduğu tarihî şehir. "
   },
   {
     "id": "gonul-k09",
@@ -2522,12 +3702,12 @@ const QUESTIONS=[
     "text": "“İber Yarımadası’ndaki Müslüman varlığı ve mirası için kullanılan tarihî ad” açıklaması hangi kavrama aittir?",
     "options": [
       "Endülüs",
-      "Balkanlar",
       "Hicaz",
-      "Kültür",
-      "Takva"
+      "Horasan",
+      "Balkanlar",
+      "Anadolu"
     ],
-    "explanation": "Endülüs: i̇ber Yarımadası’ndaki Müslüman varlığı ve mirası için kullanılan tarihî ad."
+    "explanation": "Endülüs: İber Yarımadası’ndaki Müslüman varlığı ve mirası için kullanılan tarihî ad. "
   },
   {
     "id": "gonul-o09",
@@ -2536,12 +3716,12 @@ const QUESTIONS=[
     "text": "Kurtuba ve Gırnata’daki İslam medeniyeti izlerini inceleyen öğrenci hangi coğrafyayı çalışmaktadır?",
     "options": [
       "Endülüs",
-      "Tevhit",
-      "Kudüs",
-      "Medeniyet",
-      "Hicaz"
+      "Hicaz",
+      "Horasan",
+      "Balkanlar",
+      "Anadolu"
     ],
-    "explanation": "Endülüs: i̇ber Yarımadası’ndaki Müslüman varlığı ve mirası için kullanılan tarihî ad."
+    "explanation": "Endülüs: İber Yarımadası’ndaki Müslüman varlığı ve mirası için kullanılan tarihî ad. "
   },
   {
     "id": "gonul-k10",
@@ -2550,12 +3730,12 @@ const QUESTIONS=[
     "text": "“Orta Asya’da Türk topluluklarının yaşadığı geniş tarihî coğrafya” açıklaması hangi kavrama aittir?",
     "options": [
       "Türkistan",
+      "Hicaz",
+      "Endülüs",
       "Anadolu",
-      "Takva",
-      "Balkanlar",
-      "Ümmet"
+      "Balkanlar"
     ],
-    "explanation": "Türkistan: orta Asya’da Türk topluluklarının yaşadığı geniş tarihî coğrafya."
+    "explanation": "Türkistan: Orta Asya’da Türk topluluklarının yaşadığı geniş tarihî coğrafya. "
   },
   {
     "id": "gonul-o10",
@@ -2564,12 +3744,12 @@ const QUESTIONS=[
     "text": "Hoca Ahmed Yesevî’nin yaşadığı Yesi şehri ve çevresinin içinde yer aldığı geniş tarihî Türk yurdu hangi adla anılır?",
     "options": [
       "Türkistan",
-      "İslam medeniyeti",
-      "Balkanlar",
-      "Takva",
-      "Kudüs"
+      "Hicaz",
+      "Endülüs",
+      "Anadolu",
+      "Balkanlar"
     ],
-    "explanation": "Türkistan: orta Asya’da Türk topluluklarının yaşadığı geniş tarihî coğrafya."
+    "explanation": "Türkistan: Orta Asya’da Türk topluluklarının yaşadığı geniş tarihî coğrafya. "
   },
   {
     "id": "gonul-k11",
@@ -2578,12 +3758,12 @@ const QUESTIONS=[
     "text": "“Ceyhun ile Seyhun nehirleri arasındaki tarihî bölge” açıklaması hangi kavrama aittir?",
     "options": [
       "Maveraünnehir",
+      "Horasan",
+      "Hicaz",
       "Endülüs",
-      "Tevhit",
-      "Ümmet",
-      "Kültür"
+      "Balkanlar"
     ],
-    "explanation": "Maveraünnehir: ceyhun ile Seyhun nehirleri arasındaki tarihî bölge."
+    "explanation": "Maveraünnehir: Ceyhun ile Seyhun nehirleri arasındaki tarihî bölge. "
   },
   {
     "id": "gonul-o11",
@@ -2592,12 +3772,12 @@ const QUESTIONS=[
     "text": "Bir tarih atlası Ceyhun ve Seyhun arasındaki alanı özel bir adla gösteriyor. Bu ad hangisidir?",
     "options": [
       "Maveraünnehir",
-      "Kudüs",
-      "İslam medeniyeti",
-      "Medine",
+      "Horasan",
+      "Hicaz",
+      "Endülüs",
       "Balkanlar"
     ],
-    "explanation": "Maveraünnehir: ceyhun ile Seyhun nehirleri arasındaki tarihî bölge."
+    "explanation": "Maveraünnehir: Ceyhun ile Seyhun nehirleri arasındaki tarihî bölge. "
   },
   {
     "id": "gonul-k12",
@@ -2606,12 +3786,12 @@ const QUESTIONS=[
     "text": "“Nişabur, Merv ve Herat gibi merkezlerle anılan tarihî bölge” açıklaması hangi kavrama aittir?",
     "options": [
       "Horasan",
-      "Medine",
+      "Maveraünnehir",
+      "Hicaz",
       "Endülüs",
-      "Medeniyet",
-      "Hicaz"
+      "Balkanlar"
     ],
-    "explanation": "Horasan: nişabur, Merv ve Herat gibi merkezlerle anılan tarihî bölge."
+    "explanation": "Horasan: Nişabur, Merv ve Herat gibi merkezlerle anılan tarihî bölge. "
   },
   {
     "id": "gonul-o12",
@@ -2620,12 +3800,12 @@ const QUESTIONS=[
     "text": "Anadolu’ya gelen bazı erenlerin çıkış yurdu olarak anlatılan, Nişabur ve Merv gibi merkezleri kapsayan tarihî bölge hangisidir?",
     "options": [
       "Horasan",
-      "Medine",
-      "Medeniyet",
-      "Kültür",
-      "Tevhit"
+      "Maveraünnehir",
+      "Hicaz",
+      "Endülüs",
+      "Balkanlar"
     ],
-    "explanation": "Horasan: nişabur, Merv ve Herat gibi merkezlerle anılan tarihî bölge."
+    "explanation": "Horasan: Nişabur, Merv ve Herat gibi merkezlerle anılan tarihî bölge. "
   },
   {
     "id": "gonul-k13",
@@ -2634,12 +3814,12 @@ const QUESTIONS=[
     "text": "“Konya, Sivas ve Kayseri gibi Selçuklu mirası taşıyan şehirlerin yer aldığı coğrafya” açıklaması hangi kavrama aittir?",
     "options": [
       "Anadolu",
-      "Takva",
-      "Tevhit",
-      "Horasan",
-      "Endülüs"
+      "Balkanlar",
+      "Hicaz",
+      "Endülüs",
+      "Horasan"
     ],
-    "explanation": "Anadolu: konya, Sivas ve Kayseri gibi Selçuklu mirası taşıyan şehirlerin yer aldığı coğrafya."
+    "explanation": "Anadolu: Konya, Sivas ve Kayseri gibi Selçuklu mirası taşıyan şehirlerin yer aldığı coğrafya. "
   },
   {
     "id": "gonul-o13",
@@ -2648,12 +3828,12 @@ const QUESTIONS=[
     "text": "Bir öğrenci Konya’daki Selçuklu eserlerini ve Mevlânâ’nın yaşadığı çevreyi araştırıyor. Hangi coğrafyayı incelemektedir?",
     "options": [
       "Anadolu",
-      "Medine",
-      "Tevhit",
-      "Kudüs",
-      "İslam medeniyeti"
+      "Balkanlar",
+      "Hicaz",
+      "Endülüs",
+      "Horasan"
     ],
-    "explanation": "Anadolu: konya, Sivas ve Kayseri gibi Selçuklu mirası taşıyan şehirlerin yer aldığı coğrafya."
+    "explanation": "Anadolu: Konya, Sivas ve Kayseri gibi Selçuklu mirası taşıyan şehirlerin yer aldığı coğrafya. "
   },
   {
     "id": "gonul-k14",
@@ -2662,12 +3842,12 @@ const QUESTIONS=[
     "text": "“Bosna-Hersek ve Arnavutluk gibi ülkelerin bulunduğu Güneydoğu Avrupa bölgesi” açıklaması hangi kavrama aittir?",
     "options": [
       "Balkanlar",
-      "Kültür",
-      "Medine",
-      "Takva",
-      "Medeniyet"
+      "Anadolu",
+      "Hicaz",
+      "Horasan",
+      "Maveraünnehir"
     ],
-    "explanation": "Balkanlar: bosna-Hersek ve Arnavutluk gibi ülkelerin bulunduğu Güneydoğu Avrupa bölgesi."
+    "explanation": "Balkanlar: Bosna-Hersek ve Arnavutluk gibi ülkelerin bulunduğu Güneydoğu Avrupa bölgesi. "
   },
   {
     "id": "gonul-o14",
@@ -2676,12 +3856,12 @@ const QUESTIONS=[
     "text": "Saraybosna ve Mostar’daki Osmanlı mirasını araştıran bir grup hangi bölgeye odaklanmaktadır?",
     "options": [
       "Balkanlar",
-      "Ümmet",
-      "İslam medeniyeti",
-      "Kudüs",
-      "Kültür"
+      "Anadolu",
+      "Hicaz",
+      "Horasan",
+      "Maveraünnehir"
     ],
-    "explanation": "Balkanlar: bosna-Hersek ve Arnavutluk gibi ülkelerin bulunduğu Güneydoğu Avrupa bölgesi."
+    "explanation": "Balkanlar: Bosna-Hersek ve Arnavutluk gibi ülkelerin bulunduğu Güneydoğu Avrupa bölgesi. "
   },
   {
     "id": "gonul-k15",
@@ -2690,12 +3870,12 @@ const QUESTIONS=[
     "text": "“Allah’a karşı sorumluluk bilinciyle davranıp kötülükten sakınma” açıklaması hangi kavrama aittir?",
     "options": [
       "Takva",
-      "Ümmet",
-      "Kültür",
-      "Hicaz",
-      "Balkanlar"
+      "Riya",
+      "Nifak",
+      "Zan",
+      "Gıpta"
     ],
-    "explanation": "Takva: allah’a karşı sorumluluk bilinciyle davranıp kötülükten sakınma."
+    "explanation": "Takva: Allah’a karşı sorumluluk bilinciyle davranıp kötülükten sakınma. "
   },
   {
     "id": "gonul-o15",
@@ -2704,151 +3884,8901 @@ const QUESTIONS=[
     "text": "Hucurât suresi 13. ayette insanın Allah katındaki değerinin soyuna değil sorumluluk bilincine bağlı olduğu belirtilir. Bu ölçü hangi kavramdır?",
     "options": [
       "Takva",
-      "Endülüs",
-      "Kültür",
-      "Maveraünnehir",
-      "Kudüs"
+      "Riya",
+      "Nifak",
+      "Zan",
+      "Gıpta"
     ],
-    "explanation": "Takva: allah’a karşı sorumluluk bilinciyle davranıp kötülükten sakınma."
+    "explanation": "Takva: Allah’a karşı sorumluluk bilinciyle davranıp kötülükten sakınma. "
   },
   {
     "id": "gonul-p01",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Kültür ve medeniyet ilişkisini en uygun açıklayan ifade hangisidir?",
+    "text": "Bir sergide Türkçe, Arapça ve Farsça kaleme alınmış bilim ve edebiyat eserleri aynı tarihî mirasın örnekleri olarak sunulur. Eserlerin farklı dillerde olması hangi sonucu destekler?",
     "options": [
-      "Farklı kültürlerin katkıları ortak bir medeniyet birikimini zenginleştirebilir.",
-      "Bir medeniyette yalnızca tek dil bulunabilir.",
-      "Kültür yalnızca binalardan oluşur.",
-      "Medeniyet toplumsal kurumları kapsamaz.",
-      "Farklı kültürlerin etkileşmesi mümkün değildir."
+      "İslam medeniyetinin farklı toplumların katkılarıyla geliştiğini",
+      "Ortak medeniyetin tek bir devletin sınırlarıyla belirlendiğini",
+      "Edebiyat eserlerinin dinî değerlerden etkilenmediğini",
+      "Farklı dillerdeki eserlerin ortak miras sayılamayacağını",
+      "Medeniyetin yalnızca yazılı ürünlerden oluştuğunu"
     ],
-    "explanation": "Kültürler toplumların birikimini yansıtır; farklı toplumların bilim, sanat ve kurumlara katkıları ortak medeniyet içinde buluşabilir."
+    "explanation": "Ortak medeniyet farklı dil ve toplumların katkılarını kapsar. Siyasi sınır veya tek dil şartı, bu çok katmanlı birikimi açıklamaz."
   },
   {
     "id": "gonul-p02",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "İslam medeniyetinde Arapça, Farsça ve Türkçe eserlerin bulunması hangi yargıyı destekler?",
+    "text": "Bir öğrenci bir toplumun yemeklerini, gündelik geleneklerini ve halk oyunlarını inceler. Ardından farklı toplumların katkısıyla gelişen ortak eğitim kurumlarını araştırır. Bu iki incelemenin ana kavramları sırasıyla hangileridir?",
     "options": [
-      "Medeniyetin farklı dil ve toplumların katkısıyla geliştiğini",
-      "Bütün toplumların aynı dili konuşmak zorunda olduğunu",
-      "Medeniyetin yalnızca bir millete ait olduğunu",
-      "Dil farklılıklarının her zaman çatışma doğurduğunu",
-      "Bilimsel üretimin tek şehirle sınırlı olduğunu"
+      "Kültür — medeniyet",
+      "Medeniyet — kültür",
+      "Ümmet — devlet",
+      "Coğrafya — mizaç",
+      "Din — örf"
     ],
-    "explanation": "Bu dillerdeki eserler, ortak inanç ve değerler etrafında farklı toplumların ilim ve edebiyat üretimine katkısını gösterir."
+    "explanation": "Topluma özgü aktarılmış yaşam unsurları kültür, farklı toplumları kapsayan ortak kurum ve birikim medeniyet başlığıyla ele alınır. Aralarında ilişki bulunması aynı kapsamda oldukları anlamına gelmez."
   },
   {
     "id": "gonul-p03",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Hucurât suresi 13. ayette insanların farklı halklar ve kabileler olarak yaratılması hangi amaçla ilişkilendirilir?",
+    "text": "Bir araştırmacı Mekke’de Kâbe’yi, Medine’de Mescid-i Nebevî’yi inceler. Bu şehirleri kapsayan tarihî bölgeyi raporunun başlığına yazacaktır. Hangi ad uygundur?",
     "options": [
-      "Birbirlerini tanımaları",
-      "Soylarına göre üstünlük kurmaları",
-      "Her toplumun diğerinden kopması",
-      "Dış görünüşe göre değer kazanmaları",
-      "Mal varlığına göre sınıflanmaları"
+      "Hicaz",
+      "Şam",
+      "Horasan",
+      "Mağrip",
+      "Maveraünnehir"
     ],
-    "explanation": "Ayette farklılıkların tanışmaya vesile olduğu belirtilir; Allah katındaki değer ölçüsü soy veya servet değil takvadır."
+    "explanation": "Mekke ve Medine Hicaz’dadır. Şam bölgesi ile Hicaz aynı tarihî coğrafya değildir."
   },
   {
     "id": "gonul-p04",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Hucurât suresi 13. ayet bağlamında hangi üstünlük iddiası eleştirilir?",
+    "text": "Bir öğrenci Kurtuba’daki ilim hayatı ile Gırnata’daki mimari mirası aynı araştırmada ele alır. Bu çalışmanın coğrafi çerçevesi hangisidir?",
     "options": [
-      "Bir insanın yalnızca soyundan dolayı daha değerli sayılması",
-      "İnsanın sorumluluğunu gözetmesi",
-      "Farklı toplumların birbirini tanıması",
-      "İnsanların ortak kökeninin hatırlanması",
-      "Ahlaki duyarlılığın önemsenmesi"
+      "Endülüs",
+      "Mağrip",
+      "Horasan",
+      "Hicaz",
+      "Türkistan"
     ],
-    "explanation": "Ayette insanların ortak kökeni hatırlatılır ve değer ölçüsü takva olarak açıklanır. Soy, dil veya ırk tek başına üstünlük sebebi değildir."
+    "explanation": "Kurtuba ve Gırnata İber Yarımadası’ndaki Endülüs mirasıyla ilişkilidir. Mağrip Kuzey Afrika’nın batı kesimidir."
   },
   {
     "id": "gonul-p05",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Aşağıdaki şehir ve tarihî coğrafya eşleştirmelerinden hangisi doğrudur?",
+    "text": "Bir grup öğrenci Saraybosna ve Mostar’daki cami, köprü ve vakıf eserlerini araştırır. Araştırmalarını hangi bölge başlığı altında sunmalıdırlar?",
     "options": [
-      "Kurtuba — Endülüs",
-      "Mekke — Balkanlar",
-      "Saraybosna — Hicaz",
-      "Konya — İber Yarımadası",
-      "Medine — Anadolu"
+      "Balkanlar",
+      "Anadolu",
+      "Horasan",
+      "Maveraünnehir",
+      "Hint alt kıtası"
     ],
-    "explanation": "Kurtuba, İber Yarımadası’ndaki Endülüs medeniyetinin önemli merkezlerindendir. Mekke ve Medine Hicaz’da, Konya Anadolu’da, Saraybosna Balkanlar’dadır."
+    "explanation": "Saraybosna ve Mostar Balkan coğrafyasında, bugünkü Bosna-Hersek’te yer alır. Anadolu ile tarihî bağları aynı coğrafi bölge oldukları anlamına gelmez."
   },
   {
     "id": "gonul-p06",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Hicaz ile Medine arasındaki ilişki hangi ifadeyle doğru açıklanır?",
+    "text": "Bir tarih atlasında Ceyhun ile Seyhun nehirleri arasındaki ilim merkezleri gösterilir. Öğrenci bu bölgenin Türkistan’ın daha geniş tarihî çerçevesi içinde anıldığını öğrenir. Hangi özel bölge araştırılmaktadır?",
     "options": [
-      "Hicaz bir bölge, Medine bu bölgedeki şehirlerden biridir.",
-      "İkisi aynı şehrin farklı adlarıdır.",
-      "Medine bir kıta, Hicaz bir ülkedir.",
-      "Hicaz yalnızca bir kişinin adıdır.",
-      "İkisi de Endülüs’te bulunur."
+      "Maveraünnehir",
+      "Horasan",
+      "Hicaz",
+      "Mağrip",
+      "Endülüs"
     ],
-    "explanation": "Hicaz, Mekke ve Medine’yi içeren tarihî bölgedir. Bölge adı ile şehir adı birbirine karıştırılmamalıdır."
+    "explanation": "Ceyhun ve Seyhun arasındaki bölge Maveraünnehir olarak anılır. Horasan yakın ve ilişkili bir havza olsa da bu tanımın karşılığı değildir."
   },
   {
     "id": "gonul-p07",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Horasan, Anadolu ve Rumeli erenlerinin farklı bölgelerde insanlara rehberlik etmesi en çok hangi süreci örnekler?",
+    "text": "Bir öğrenci Nişabur, Merv ve Herat gibi tarihî merkezlerden Anadolu’ya uzanan kültürel aktarımı inceler. Çıkış coğrafyasını belirtmek için hangi adı kullanmalıdır?",
     "options": [
-      "Dinî ve ahlaki değerlerin coğrafyalar arasında aktarılmasını",
-      "Bütün yerel dillerin zorunlu olarak ortadan kalkmasını",
-      "Bilimin yalnızca tek bölgede gelişmesini",
-      "Kültürler arasındaki bütün bağların kesilmesini",
-      "Medeniyetin sadece askerî olaylardan oluşmasını"
+      "Horasan",
+      "Hicaz",
+      "Endülüs",
+      "Mağrip",
+      "Balkanlar"
     ],
-    "explanation": "Erenlerin irşat, eğitim ve örnek yaşayışları ortak değerlerin farklı coğrafyalara taşınmasına katkı sağlamıştır."
+    "explanation": "Nişabur, Merv ve Herat tarihî Horasan havzasıyla ilişkilidir. Bu havzadan Anadolu’ya uzanan bağlar kültürel aktarımın örneklerindendir."
   },
   {
     "id": "gonul-p08",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Bir öğrenci ortak İslam medeniyeti içindeki camilerin farklı bölgelerde değişik mimari özellikler taşıdığını görüyor. Bundan hangi sonuca ulaşabilir?",
+    "text": "Bir öğrenci Mescid-i Aksâ’nın bulunduğu şehrin farklı dinlerin tarihî hafızasında da önemli yer tuttuğunu öğrenir. Bu şehir hangisidir?",
     "options": [
-      "Ortak değerler yerel kültürlerle farklı biçimlerde ifade edilebilir.",
-      "İnanç ortaklığı bütün mimari biçimleri aynı yapar.",
-      "Mimari hiçbir kültürel iz taşımaz.",
-      "Farklı yapılar ortak bir medeniyette yer alamaz.",
-      "Yerel malzeme ve sanat birikimi önemsizdir."
+      "Kudüs",
+      "Mekke",
+      "Medine",
+      "Şam",
+      "Kahire"
     ],
-    "explanation": "Ortak işlev ve değerler korunurken yerel malzeme, sanat ve gelenekler mimaride çeşitlilik oluşturabilir."
+    "explanation": "Mescid-i Aksâ Kudüs’tedir. Mekke’de Kâbe, Medine’de Mescid-i Nebevî bulunur."
   },
   {
     "id": "gonul-p09",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Ceyhun ile Seyhun arasındaki bölgeyi inceleyen öğrenci Türkistan ile Maveraünnehir kavramlarını nasıl ilişkilendirmelidir?",
+    "text": "Bir sergide Bağdat’taki ilim ortamı anlatılırken tercüme, araştırma ve farklı alanlardaki çalışmaların aynı merkezde buluşması vurgulanır. Bu anlatım medeniyetin hangi yönünü öne çıkarır?",
     "options": [
-      "Maveraünnehir, daha geniş Türkistan coğrafyası içinde anılan tarihî bir bölgedir.",
-      "İki ad da yalnızca Mekke şehrini belirtir.",
-      "Türkistan Avrupa’da, Maveraünnehir Amerika’dadır.",
-      "Maveraünnehir bir akarsu, Türkistan bir kişi adıdır.",
-      "Bu kavramların tarihî coğrafyayla ilgisi yoktur."
+      "Bilgi üretimi ve birikimler arası etkileşim",
+      "Siyasi sınırların değişmeden korunması",
+      "Yerel geleneklerin tek biçime dönüştürülmesi",
+      "Coğrafi genişliğin değer ölçütü yapılması",
+      "İlim hayatının toplumsal ihtiyaçtan ayrılması"
     ],
-    "explanation": "Türkistan daha geniş bir tarihî coğrafyayı anlatır. Maveraünnehir ise özellikle Ceyhun ve Seyhun arasındaki alanın adıdır."
+    "explanation": "Tercüme ve araştırma, farklı birikimlerden yararlanarak bilgi üretmeye işaret eder. Medeniyet yalnızca siyasi sınırlar veya fetihlerle açıklanamaz."
   },
   {
     "id": "gonul-p10",
     "topic": "gonul",
     "kind": "Pekiştirme",
-    "text": "Farklı milletlerden Müslümanların aynı inanç topluluğunda yer almasıyla ilgili hangi yargı ümmet kavramına uygundur?",
+    "text": "Bir gezi programında Mısır’daki Kahire ile Kuzey Afrika’nın batısındaki Fas ve Tunus merkezleri birlikte incelenmektedir. Bu programın genel coğrafi çerçevesi hangisidir?",
     "options": [
-      "Ortak dinî aidiyet farklı dil ve kültürlerin varlığıyla bağdaşabilir.",
-      "Ümmet olmak aynı soydan gelmeyi gerektirir.",
-      "Ümmet yalnızca bir şehrin sakinleridir.",
-      "Ümmet üyeliğinin ölçüsü servettir.",
-      "Ümmet olmak bütün yerel gelenekleri aynılaştırır."
+      "Kuzey Afrika",
+      "Hicaz",
+      "Maveraünnehir",
+      "Anadolu",
+      "Hint alt kıtası"
     ],
-    "explanation": "Ümmet ortak peygamber ve inanç etrafındaki topluluğu anlatır; ortak bir soy, dil veya milliyet şartı değildir."
+    "explanation": "Mısır ve Mağrip Kuzey Afrika havzasında ele alınır. Mağrip özellikle bu bölgenin batı kesimini ifade eder."
+  },
+  {
+    "id": "gonul-p11",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci Tac Mahal’i araştırırken bu eserin İslam medeniyetinin Asya’nın güneyindeki izlerinden biri olduğunu öğrenir. Çalışmasına hangi havzayı eklemelidir?",
+    "options": [
+      "Hint alt kıtası",
+      "Maveraünnehir",
+      "Hicaz",
+      "Endülüs",
+      "Balkanlar"
+    ],
+    "explanation": "Tac Mahal Hindistan’ın Agra şehrindedir ve Hint alt kıtası mirasıyla ilişkilidir. Orta Asya’daki Maveraünnehir farklı bir havzadır."
+  },
+  {
+    "id": "gonul-p12",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci Konya’daki Selçuklu eserlerini ve Kayseri’deki eğitim yapılarının işlevlerini inceler. Aynı çalışmada Mevlânâ’nın yaşadığı kültürel ortamı da ele alır. Hangi coğrafyaya odaklanmaktadır?",
+    "options": [
+      "Anadolu",
+      "Horasan",
+      "Hicaz",
+      "Mağrip",
+      "Endülüs"
+    ],
+    "explanation": "Konya ve Kayseri Anadolu’dadır. Horasan’la kültürel ilişkiler bu şehirlerin Horasan’da olduğu anlamına gelmez."
+  },
+  {
+    "id": "gonul-p13",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir genç Hoca Ahmed Yesevî’nin yaşadığı Yesi şehrinden başlayarak Türk topluluklarının İslam’la ilişkisini araştırır. Bu şehrin içinde yer aldığı geniş tarihî coğrafya hangisidir?",
+    "options": [
+      "Türkistan",
+      "Mağrip",
+      "Endülüs",
+      "Hicaz",
+      "Balkanlar"
+    ],
+    "explanation": "Yesi, Türkistan tarihî coğrafyası içinde anılır. Maveraünnehir ise bu geniş çevrede belirli bir nehirler arası bölgeyi ifade eder."
+  },
+  {
+    "id": "gonul-p14",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir araştırma farklı toplumların camilerinde aynı ibadet yönelişinin, farklı malzeme ve süsleme gelenekleriyle ifade edildiğini gösterir. Bu durumdan hangi sonuca ulaşılır?",
+    "options": [
+      "İnanç ortaklığı yerel sanat çeşitliliğiyle bağdaşabilir.",
+      "Mimari farklılıklar ortak medeniyeti ortadan kaldırır.",
+      "Yerel malzeme yapının kullanım amacını zorunlu olarak değiştirir.",
+      "Ortak inanç bütün yapıların aynı planı taşımasını gerektirir.",
+      "Sanat üretimi kültürel çevreden bağımsız gelişir."
+    ],
+    "explanation": "Ortak dinî işlev farklı kültürel biçimlerle ifade edilebilir. Birlik, bütün mimari ayrıntıların aynı olması anlamına gelmez."
+  },
+  {
+    "id": "gonul-p15",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci İslam medeniyetinin mirasını yalnızca saray ve camilerle anlatır. Öğretmeni kütüphane, hastane, eğitim kurumu ve vakıf hizmetlerini de araştırmasını ister. Bu yönlendirmenin amacı nedir?",
+    "options": [
+      "Medeniyeti kurum ve toplumsal hizmetleriyle birlikte ele almak",
+      "Mimari eserleri medeniyetin dışında bırakmak",
+      "Medeniyeti tek bir sanat dalıyla açıklamak",
+      "Dinî yapıların tarihî önemini reddetmek",
+      "Kültürel mirası siyasi unvanlarla sınırlandırmak"
+    ],
+    "explanation": "Medeniyet mimari eserlerle birlikte bilim, eğitim, sağlık ve sosyal kurumları kapsar. Yeni örnekler eklemek dinî mimariyi değersizleştirmez."
+  },
+  {
+    "id": "gonul-p16",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir tüccarın farklı ülkelerde dürüst alışverişi ve insanlarla kurduğu güven ilişkisi, çevresinin İslam’ı tanımasında etkili olur. Bu örnek hangi sürece dikkat çeker?",
+    "options": [
+      "Örnek davranış ve sosyal temasla kültürel aktarım",
+      "Siyasi egemenliğin kültürel etkinin tek şartı olması",
+      "Ticari kazancın dinî değeri belirlemesi",
+      "Ortak dilin bulunmadığı yerde iletişimin kurulamaması",
+      "İlim faaliyetlerinin ticaretten bütünüyle ayrı gelişmesi"
+    ],
+    "explanation": "Medeniyetin yayılışında tüccarlar, âlimler ve gönül insanları gibi farklı aktörler rol oynayabilir. Kültürel etki yalnızca siyasi yönetimle sınırlı değildir."
+  },
+  {
+    "id": "gonul-p17",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir grup öğrenci farklı ülkelerden akranlarıyla ortak tarihî eserler üzerine çalışma yapar. Birbirlerinin dillerini ve geleneklerini tanırken ortak bağlarının da farkına varır. Bu etkinlik hangi amaca en çok hizmet eder?",
+    "options": [
+      "Gönül coğrafyasıyla tarihî ve kültürel bağları güçlendirmeye",
+      "Yerel kültürleri tek bir gelenekte eritmeye",
+      "Geçmişi yalnızca askerî başarılarla anlatmaya",
+      "Dinî aidiyeti bir milliyetle sınırlandırmaya",
+      "Coğrafi farklılıkların değer farkı olduğunu göstermeye"
+    ],
+    "explanation": "Karşılıklı tanıma ve ortak mirası araştırma kültürel bağları güçlendirir. Bağ kurmak farklılıkları silmeyi gerektirmez."
+  },
+  {
+    "id": "gonul-p18",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğretmen Hucurât suresinin 13. ayetindeki farklı topluluklara ayrılma mesajını incelerken öğrencilerden bu çeşitliliğin amacını düşünmelerini ister. Hangi yorum ayetin mesajıyla uyumludur?",
+    "options": [
+      "Farklılıkların karşılıklı tanışma ve ilişki kurmaya vesile olması",
+      "Soy farklılıklarının ahlaki üstünlüğü belirlemesi",
+      "Aynı kültürden gelmenin takvanın yerine geçmesi",
+      "Bir topluluğa mensubiyetin sorumluluğu kaldırması",
+      "Diller arasındaki farkın insan onurunu derecelendirmesi"
+    ],
+    "explanation": "Ayette farklı toplulukların tanışması ve takva ölçüsü vurgulanır. Soy ve dil, insanlara ahlaki üstünlük veren ölçütler değildir."
+  },
+  {
+    "id": "gonul-p19",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir kişi kendi milletinin kökeni nedeniyle başka topluluklardan daha değerli olduğunu savunur. Hucurât suresinin 13. ayetinin mesajı açısından bu görüşe hangi itiraz yapılmalıdır?",
+    "options": [
+      "Değer ölçüsünün soy yerine takva ve sorumluluk bilinciyle ilişkilendirilmesi",
+      "İnsanların bütün kültürel farklarını terk etmesi gerektiği",
+      "Toplumsal aidiyetlerin öğrenilmesinin anlamsız olduğu",
+      "Farklı dillerin ortak bir medeniyette yer alamayacağı",
+      "Ahlaki davranışların insanın değerini etkileyemeyeceği"
+    ],
+    "explanation": "Ayette üstünlük soy ve kabileyle değil takvayla ilişkilendirilir. Bu ölçü kültürel kimliğin reddi değil onun üstünlük gerekçesi yapılmamasıdır."
+  },
+  {
+    "id": "gonul-p20",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Farklı milletlerden Müslümanların ortak bir peygambere ve inanç esaslarına bağlılığı anlatılır. Ancak bu ortaklık onların aynı devlete vatandaş olması anlamına gelmez. Hangi kavram açıklanmaktadır?",
+    "options": [
+      "Ümmet",
+      "Milliyet",
+      "Vatandaşlık",
+      "Hanedan",
+      "Kabile"
+    ],
+    "explanation": "Ümmet ortak dinî aidiyeti ifade eder. Siyasi vatandaşlık, soy veya aynı hanedana bağlılıkla özdeş değildir."
+  },
+  {
+    "id": "gonul-p21",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir müzede farklı dönemlerde yaşamış Müslüman toplumların eserleri birlikte sergilenir. Öğrenci, devletlerin değişmesine rağmen bazı ilim ve sanat geleneklerinin sürdüğünü fark eder. Hangi sonuca ulaşabilir?",
+    "options": [
+      "Medeniyet birikimi siyasi yapıların ömrünü aşabilir.",
+      "Medeniyet yalnızca tek bir devletin eserlerinden oluşur.",
+      "Siyasi değişim kültürel aktarımı tamamen durdurur.",
+      "Ortak miras tarihî dönemler arasındaki farkları kaldırır.",
+      "Sanat geleneği onu üreten toplumlardan bağımsız doğar."
+    ],
+    "explanation": "Kurum ve bilgi birikimi farklı siyasi dönemlere aktarılabilir. Bu süreklilik dönemler arasında hiçbir fark olmadığı anlamına gelmez."
+  },
+  {
+    "id": "gonul-p22",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci aynı medeniyet içinde farklı bölgelerde gelişmiş tıp, matematik ve edebiyat eserlerini inceler. Çalışmasının temel sonucu aşağıdakilerden hangisi olabilir?",
+    "options": [
+      "Ortak birikimin çok merkezli katkılarla zenginleşmesi",
+      "Bilgi üretiminin tek bir dilde mümkün olması",
+      "Coğrafi uzaklığın etkileşimi zorunlu olarak engellemesi",
+      "Medeniyetin yalnızca sanat ürünlerinden oluşması",
+      "Yerel katkıların ortak kimliği ortadan kaldırması"
+    ],
+    "explanation": "Çeşitli merkezlerin katkıları ortak birikimi zenginleştirir. Ortak medeniyet tek merkez, tek dil veya tek üretim alanı gerektirmez."
+  },
+  {
+    "id": "gonul-p23",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci eski bir camiyi onarmayı önerirken yalnızca duvarları korumayı değil, yapının geçmişteki eğitim ve dayanışma işlevlerini de anlatmayı ister. Bu öneri neyi gözetmektedir?",
+    "options": [
+      "Kültürel mirasın maddi ve manevi boyutlarını birlikte korumayı",
+      "Tarihî yapıyı güncel bir gelir kaynağına indirgemeyi",
+      "Yapının işlevini mimari görünüşünden bağımsız saymayı",
+      "Geçmişin araştırılmasını restorasyonun dışında tutmayı",
+      "Mirası yalnızca kullanılan taşın yaşıyla değerlendirmeyi"
+    ],
+    "explanation": "Maddi yapı ile taşıdığı anlam ve toplumsal hafıza birlikte mirastır. Sadece fiziksel onarım, anlamın aktarılması ihtiyacını karşılamayabilir."
+  },
+  {
+    "id": "gonul-p24",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir araştırmacı İslam medeniyetinin farklı coğrafyalarıyla ilgili anlatısında âlimleri, tüccarları, sanatçıları ve gönül insanlarını da ele alır. Bu tercih hangi yaklaşımı yansıtır?",
+    "options": [
+      "Medeniyetin oluşumunu çok yönlü insan faaliyetleriyle açıklamayı",
+      "Medeniyeti yalnızca yöneticilerin kararlarına bağlamayı",
+      "Kültürel etkiyi askerî hareketlerle özdeşleştirmeyi",
+      "Bilimsel üretimi dinî hayatın dışında tutmayı",
+      "Yerel toplumları ortak mirastan ayırmayı"
+    ],
+    "explanation": "Medeniyet çok sayıda toplumsal aktörün katkısıyla gelişir. Farklı aktörleri dikkate almak onu yalnızca siyasi veya askerî süreçlere indirgememektir."
+  },
+  {
+    "id": "gonul-p25",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir genç farklı ülkelerin Müslüman toplumlarını incelerken geleneklerindeki her farkı dinî ayrılık olarak yorumlar. Öğretmeni, değişik kültürel biçimlerin ortak inanç esaslarıyla bağdaşabileceğini hatırlatır. Hangi hata düzeltilmektedir?",
+    "options": [
+      "Kültürel farklılığı doğrudan inanç farklılığı sayma",
+      "Yerel geleneklerin tarihini araştırma",
+      "Ortak dinî kavramları karşılaştırma",
+      "Mimari biçimlerin çevreyle ilişkisini inceleme",
+      "Tarihî dönemlerin birbirini etkilediğini kabul etme"
+    ],
+    "explanation": "Kültürler arasındaki bütün farklılıklar inanç ayrılığı değildir. Aynı inanç farklı dil, sanat ve geleneklerle ifade edilebilir."
+  },
+  {
+    "id": "gonul-p26",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğretmen öğrencilerden tarihî bir eseri incelerken bulunduğu yer, yapılış amacı, kullanılan malzeme ve toplumsal işlev hakkında bilgi toplamalarını ister. Bu yöntem hangi anlayışa uygundur?",
+    "options": [
+      "Mirası kendi tarihî ve kültürel bağlamında değerlendirmeye",
+      "Bir eserin değerini yalnızca büyüklüğüyle ölçmeye",
+      "Bütün eserleri bugünkü kullanımına göre adlandırmaya",
+      "Mimariyi çevresel koşullardan bağımsız incelemeye",
+      "Yerel katkıları medeniyetin dışında bırakmaya"
+    ],
+    "explanation": "Yer, zaman, amaç ve işlev eserin bağlamını anlamaya yardım eder. Tek bir görsel özellik kültürel mirasın bütün anlamını açıklamaz."
+  },
+  {
+    "id": "gonul-p27",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir çalışma Horasan’dan Anadolu’ya, Anadolu’dan Balkanlar’a uzanan irşat ve eğitim ilişkilerini ele alır. Aynı kişinin adı farklı bölgelerin hafızasında anılabilmektedir. Bu durum neye işaret eder?",
+    "options": [
+      "Gönül insanlarının bölgeler arası kültürel bağlara katkısına",
+      "Kültürel aktarımın devlet sınırları içinde kalmasına",
+      "Aynı ismin geçtiği şehirlerin aynı bölgede olmasına",
+      "Dinî rehberliğin yalnızca yazılı eserle aktarılmasına",
+      "Yerel kültürlerin tarih boyunca değişmeden kalmasına"
+    ],
+    "explanation": "Erenlerin eğitim, irşat ve örnek yaşayışları farklı coğrafyalar arasında bağ kurmuştur. Kültürel etki çağdaş siyasi sınırlarla sınırlanamaz."
+  },
+  {
+    "id": "gonul-p28",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci medeniyet mirasını anlatırken hem cami ve köprüleri hem de adalet, yardımlaşma ve ilim anlayışını ele alır. Bu tercih hangi düşünceye dayanır?",
+    "options": [
+      "Medeniyetin maddi eserlerle değer ve kurumları birlikte içermesine",
+      "Medeniyetin yalnızca kişisel duygulardan oluşmasına",
+      "Kültürün maddi ürünleri kapsayamamasına",
+      "İnanç esaslarının bütün yerel ayrıntıları belirlemesine",
+      "Sanat ürünlerinin toplumsal işlev taşımamasına"
+    ],
+    "explanation": "Medeniyet hem görünür eserleri hem bunları anlamlandıran kurum, düşünce ve değerleri kapsar. Maddi-manevi boyutlar birbirinden kopuk değildir."
+  },
+  {
+    "id": "gonul-p29",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir gezi planında önce Kudüs, ardından Bağdat ve son olarak Kurtuba incelenecektir. Öğrenci son şehrin de Yakın Doğu’da bulunduğunu sanır. Hangi düzeltme yapılmalıdır?",
+    "options": [
+      "Kurtuba, Endülüs havzasındaki İber Yarımadası’ndadır.",
+      "Kurtuba, Hicaz havzasındaki şehirlerden biridir.",
+      "Kurtuba, Horasan havzasının batı merkezidir.",
+      "Kurtuba, Hint alt kıtasının kuzeyindedir.",
+      "Kurtuba, Balkanlar’ın Adriyatik kıyısındadır."
+    ],
+    "explanation": "Kurtuba bugünkü İspanya’dadır; Endülüs medeniyetinin önemli merkezidir. Kudüs ve Bağdat’la ortak miras ilişkisi aynı coğrafi bölgede oluşlarını gerektirmez."
+  },
+  {
+    "id": "gonul-p30",
+    "topic": "gonul",
+    "kind": "Pekiştirme",
+    "text": "Bir öğrenci ortak kültürel mirası korumanın yalnızca geçmişe hayranlık duymak olmadığını; eserleri araştırma, doğru tanıtma ve gelecek kuşaklara aktarma sorumluluğu içerdiğini söyler. Hangi etkinlik bu düşünceye en uygundur?",
+    "options": [
+      "Yerel bir tarihî eserin kaynaklara dayanan tanıtımını hazırlamak",
+      "Bir eseri araştırmadan sosyal medyada övmek",
+      "Yapının işlevini yalnızca dış görünüşünden tahmin etmek",
+      "Ortak mirası bir topluluğun üstünlüğünün delili saymak",
+      "Eserin adını bilmenin korunması için yeterli olduğunu düşünmek"
+    ],
+    "explanation": "Araştırma ve doğru tanıtım, mirasın bilinçli aktarımını sağlar. Hayranlık veya adını bilme tek başına koruma ve tanıtma sorumluluğunu karşılamaz."
+  },
+  {
+    "id": "allah-p01",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, canlıların ihtiyaçlarıyla çevrelerindeki imkânlar arasındaki ilişkiyi inceliyor. Arıların bitkileri tozlaştırması, su döngüsü ve ışığın canlılar üzerindeki etkisini birlikte değerlendirerek evrendeki uyumdan yaratıcıya ulaşıyor. Bu yaklaşım hangi delile örnektir?",
+    "options": [
+      "Gaye ve nizam delili",
+      "Ekmel varlık delili",
+      "Taklidî iman",
+      "Mütevatir haber",
+      "Dinî tecrübe delili"
+    ],
+    "explanation": "Gaye ve nizam delili, evrendeki düzen ve işlevsel uyumdan hareket eder. Ekmel varlık delilinde ise dış dünyadaki düzen yerine zihindeki en yetkin varlık düşüncesi başlangıç noktasıdır."
+  },
+  {
+    "id": "allah-p02",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Çiçeklerle onları tozlaştıran canlılar arasındaki uyumu inceleyen biri, bu ilişkinin belirli işlevler gördüğünü vurgulayarak yaratıcıya ulaşır. Hangi delili kullanmaktadır?",
+    "options": [
+      "Gaye ve nizam delili",
+      "Ontolojik delil",
+      "Dinî tecrübe delili",
+      "Hudûs delili",
+      "Ahlak delili"
+    ],
+    "explanation": "İşlev, uyum ve amaçtan hareket eden açıklama gaye ve nizam, yani teleolojik delildir."
+  },
+  {
+    "id": "allah-p03",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir düşünür, dış dünyadaki örnekleri incelemek yerine zihindeki en yetkin varlık kavramını çözümleyerek Allah’ın varlığına ilişkin bir gerekçe geliştirir. Bu yaklaşım hangisidir?",
+    "options": [
+      "Ekmel varlık delili",
+      "Teleolojik delil",
+      "Kozmolojik delil",
+      "Dinî tecrübe delili",
+      "Tarihî delil"
+    ],
+    "explanation": "Ekmel varlık delili, zihindeki en yetkin varlık düşüncesinden hareket eder; ontolojik delil adıyla da bilinir. Gaye ve nizam delilinden farklı olarak dış dünyadaki düzene dayanmaz."
+  },
+  {
+    "id": "allah-p04",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç hatalarının sorumluluğunu düşünürken Allah’ın rahmetinden ümidini kesmiyor. Bağışlanma umudunu da aynı hataları sürdürmek için gerekçe yapmıyor. Bu dengeli tutumda hangi iki kavram birlikte gözetilmektedir?",
+    "options": [
+      "Havf ve reca",
+      "Şükür ve kanaat",
+      "İkrar ve tasdik",
+      "İnfak ve isar",
+      "Gıpta ve tevazu"
+    ],
+    "explanation": "Havf sorumluluğunu yerine getirememe endişesini, reca Allah’ın rahmetini ümit etmeyi anlatır. Sorumlulukla ümit birlikte korunur; biri diğerini ortadan kaldırmaz."
+  },
+  {
+    "id": "allah-p05",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci gaye ve nizam deliliyle ekmel varlık delilini karşılaştırıyor. Birincisinin evrendeki işlevsel uyuma, ikincisinin ise zihindeki en yetkin varlık fikrine dayandığını söylüyor. Bu karşılaştırma hangi farkı ortaya koymaktadır?",
+    "options": [
+      "Delillerin hareket noktalarının farklı olmasını",
+      "Delillerden birinin Allah’ın sıfatlarını bütünüyle reddetmesini",
+      "İki delilin farklı ilah anlayışlarını zorunlu olarak benimsemesini",
+      "Delillerden birinin insanın düşünmesini gereksiz saymasını",
+      "İki delilin de kişisel sezgiyi tek bağlayıcı kaynak kabul etmesini"
+    ],
+    "explanation": "İki delil Allah’ın varlığını temellendirmeye yönelirken farklı başlangıç noktaları kullanır. Bu yöntem farkı, farklı bir ilah anlayışı benimsedikleri anlamına gelmez."
+  },
+  {
+    "id": "allah-p06",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir araştırmacı fizik yasalarını öğrenmenin yaratıcıya inanmayla çelişmediğini, yasaların işleyişi ile varlığın anlamının farklı sorular olduğunu söyler. Bu görüş hangisini destekler?",
+    "options": [
+      "Bilimsel açıklamayla dinî anlamlandırmanın farklı boyutları ele alabileceğini",
+      "Dinin doğa olaylarının ölçümünü üstlendiğini",
+      "Bilimsel yöntemin ahiret hakkında deney yaptığını",
+      "Dinî inancın gözlem yapmayı gereksizleştirdiğini",
+      "Doğa yasalarının insan tercihlerine göre değiştiğini"
+    ],
+    "explanation": "Bilim işleyişi araştırır; dinî anlamlandırma amaç ve yaratıcıyla ilişki gibi başka boyutlara da yönelir."
+  },
+  {
+    "id": "allah-p07",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın varlığının bir başlangıcı olmadığını belirten bir açıklama hangi sıfatı konu edinir?",
+    "options": [
+      "Kıdem",
+      "Beka",
+      "Vahdaniyet",
+      "Hayat",
+      "Tekvin"
+    ],
+    "explanation": "Kıdem başlangıçsızlığı, beka ise sonunun bulunmamasını ifade eder."
+  },
+  {
+    "id": "allah-p08",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, Allah’ın varlığının sona ermeyeceğini vurgulamak istiyor. Hangi sıfatı seçmelidir?",
+    "options": [
+      "Beka",
+      "Kıdem",
+      "İrade",
+      "İlim",
+      "Vücut"
+    ],
+    "explanation": "Beka sonsuzluğu ifade eder. Kıdem geçmişe yönelik başlangıçsızlıktır."
+  },
+  {
+    "id": "allah-p09",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "İhlâs suresindeki birlik vurgusunu Allah’ın sıfatlarıyla ilişkilendiren biri öncelikle hangi kavrama ulaşır?",
+    "options": [
+      "Vahdaniyet",
+      "Kudret",
+      "Semi",
+      "Basar",
+      "Tekvin"
+    ],
+    "explanation": "Vahdaniyet Allah’ın birliğini ve eşsizliğini ifade eder; kudret güç yetirmesidir."
+  },
+  {
+    "id": "allah-p10",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın yaratılmış varlıklara benzemediği söylenirken hangi sıfat açıklanır?",
+    "options": [
+      "Muhalefetün lil-havadis",
+      "Kıyam binefsihi",
+      "Kelam",
+      "İrade",
+      "Hayat"
+    ],
+    "explanation": "Muhalefetün lil-havadis yaratılmışlara benzememeyi; kıyam binefsihi var olmak için başkasına muhtaç olmamayı anlatır."
+  },
+  {
+    "id": "allah-p11",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Allah’ın varlığını sürdürmek için başka bir varlığa dayanmadığını öğrenir. Bu bilgi hangi sıfatla ilişkilidir?",
+    "options": [
+      "Kıyam binefsihi",
+      "Muhalefetün lil-havadis",
+      "Tekvin",
+      "Basar",
+      "Semi"
+    ],
+    "explanation": "Kıyam binefsihi bağımsız var oluşu ifade eder; benzememe ayrı bir sıfattır."
+  },
+  {
+    "id": "allah-p12",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın gizli ve açık her şeyi bildiğine inanan kişi, kimse görmese de davranışlarını denetler. Bu inançta öne çıkan sıfat hangisidir?",
+    "options": [
+      "İlim",
+      "Kelam",
+      "Tekvin",
+      "Beka",
+      "Vahdaniyet"
+    ],
+    "explanation": "Bilmek ilim sıfatıdır. Basar görmeyi, semi işitmeyi ifade eder."
+  },
+  {
+    "id": "allah-p13",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Allah’ın duaları işitmesini ilgili sıfatla eşleştirecektir. Doğru eşleştirme hangisidir?",
+    "options": [
+      "Semi — işitme",
+      "Basar — işitme",
+      "Kelam — işitme",
+      "İrade — işitme",
+      "Tekvin — işitme"
+    ],
+    "explanation": "Semi işitme, basar görme sıfatıdır; kelam ise konuşmadır."
+  },
+  {
+    "id": "allah-p14",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın görünen ve görünmeyen her şeyi görmesi hangi sıfatla ifade edilir?",
+    "options": [
+      "Basar",
+      "Semi",
+      "İlim",
+      "Kelam",
+      "İrade"
+    ],
+    "explanation": "Basar görmedir. İlim daha genel olarak bilmeyi anlatsa da soruda özellikle görme niteliği sorulur."
+  },
+  {
+    "id": "allah-p15",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Peygamberlere vahiy gönderilmesi, Allah’ın hangi sıfatının doğrudan yansıması olarak ele alınır?",
+    "options": [
+      "Kelam",
+      "Hayat",
+      "Beka",
+      "Vahdaniyet",
+      "Kıyam binefsihi"
+    ],
+    "explanation": "Kelam Allah’ın konuşması ve mesaj bildirmesiyle ilgilidir; vahiy bu bağlamda değerlendirilir."
+  },
+  {
+    "id": "allah-p16",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın dilediğini dilemesi ile dilediğini gerçekleştirmeye güç yetirmesi sırasıyla hangi sıfatlardır?",
+    "options": [
+      "İrade — kudret",
+      "Kudret — ilim",
+      "Tekvin — kelam",
+      "İlim — hayat",
+      "Kelam — irade"
+    ],
+    "explanation": "İrade dilemek, kudret güç yetirmektir. Tekvin ise yaratmayı ifade eder."
+  },
+  {
+    "id": "allah-p17",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Varlıkların yaratılmasını konu alan bir açıklamada hangi sıfat merkezdedir?",
+    "options": [
+      "Tekvin",
+      "İrade",
+      "Basar",
+      "Semi",
+      "Kelam"
+    ],
+    "explanation": "Tekvin yaratmadır; irade yaratmayı dileme boyutunu ifade eder."
+  },
+  {
+    "id": "allah-p18",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir tabloda vücut, kıdem, beka ve vahdaniyet aynı grupta verilmiştir. Bu grubun adı hangisidir?",
+    "options": [
+      "Zatî sıfatlar",
+      "Subutî sıfatlar",
+      "Peygamber sıfatları",
+      "İbadetin şartları",
+      "Bilgi kaynakları"
+    ],
+    "explanation": "Bu sıfatlar Allah’ın zatına özgü niteliklerdir; ilim ve kudret gibi sıfatlar subutî gruptadır."
+  },
+  {
+    "id": "allah-p19",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Hayat, ilim, semi, basar ve kudret sıfatlarını ortak başlıkta toplayan öğrenci hangi başlığı kullanmalıdır?",
+    "options": [
+      "Subutî sıfatlar",
+      "Zatî sıfatlar",
+      "Dinî hükümler",
+      "İman dereceleri",
+      "Beşerî ihtiyaçlar"
+    ],
+    "explanation": "Bunlar subutî sıfatlardır. İnsan için kullanılan benzer sözcükler Allah’ın sıfatlarının sınırsızlığıyla eşitlik kurmaz."
+  },
+  {
+    "id": "allah-p20",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğretmen, Allah’ın bilmesiyle insanın bilmesi arasında kelime benzerliği olsa da nitelik ve sınır bakımından eşitlik bulunmadığını açıklar. Bu açıklama hangi hatayı önler?",
+    "options": [
+      "Allah’ı yaratılmışlara benzetmeyi",
+      "Dinî kavramların anlamını araştırmayı",
+      "Dua ederken isimlerini kullanmayı",
+      "Evren hakkında gözlem yapmayı",
+      "İnsanın bilgisini geliştirmeyi"
+    ],
+    "explanation": "Allah’ın bilgisi sınırsızdır; insanın bilgisi sınırlı ve öğrenmeye bağlıdır. Sözcük ortaklığı nitelik eşitliği oluşturmaz."
+  },
+  {
+    "id": "allah-p21",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın güzel isimlerini öğrenen bir öğrenci bunları yalnız ezberlemeyi yeterli bulmaz; isimlerin anlamları üzerinde düşünür. Bu çalışmanın temel amacı hangisidir?",
+    "options": [
+      "Allah’ı tanıma bilincini derinleştirmek",
+      "Yaratıcının fiziksel görünümünü belirlemek",
+      "Gelecekteki olayları hesaplamak",
+      "İbadetlerin zamanını değiştirmek",
+      "Dinî hükümleri kişiselleştirmek"
+    ],
+    "explanation": "Esmâ-i hüsnâ Allah’ı isimleri üzerinden tanımaya yardımcı olur; fiziksel tasvir amacı taşımaz."
+  },
+  {
+    "id": "allah-p22",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Rahmân ismini öğrenen biri, canlıların yaşamını sürdürebilmesine imkân veren nimetleri düşünür. Bu isimde hangi anlam öne çıkar?",
+    "options": [
+      "Merhametin kuşatıcılığı",
+      "Gizli bilgilerin açığa çıkması",
+      "Yaratılmışların bağımsızlığı",
+      "Güç kullanımının sınırlılığı",
+      "İnsanın kusursuzluğu"
+    ],
+    "explanation": "Rahmân engin ve kuşatıcı merhameti ifade eder; insanın kusursuzluğu gibi bir anlam taşımaz."
+  },
+  {
+    "id": "allah-p23",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç hata yaptıktan sonra umutsuzluğa kapılmak yerine pişman olur, davranışını düzeltir ve bağışlanmayı diler. Allah’ın hangi ismi bu yönelişe özellikle umut verir?",
+    "options": [
+      "Gafûr",
+      "Rezzâk",
+      "Musavvir",
+      "Basîr",
+      "Mütekebbir"
+    ],
+    "explanation": "Gafûr çok bağışlayandır. Bağışlanma ümidi hatada ısrar etmeyi değil tövbe ve düzeltmeyi destekler."
+  },
+  {
+    "id": "allah-p24",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın canlıların rızkını vermesi hangi isimle doğrudan ifade edilir?",
+    "options": [
+      "Rezzâk",
+      "Alîm",
+      "Semî",
+      "Kuddûs",
+      "Musavvir"
+    ],
+    "explanation": "Rezzâk rızık verendir; Alîm her şeyi bilendir."
+  },
+  {
+    "id": "allah-p25",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrencinin Allah’ın her şeyi hikmetle yaptığını vurgulamak için kullanacağı isim hangisidir?",
+    "options": [
+      "Hakîm",
+      "Semî",
+      "Evvel",
+      "Âhir",
+      "Gafûr"
+    ],
+    "explanation": "Hakîm hüküm ve işlerinde hikmet sahibi olmayı anlatır; Semî işitmeyi ifade eder."
+  },
+  {
+    "id": "allah-p26",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Yaratılmış varlıklara biçim ve özellikler verilmesi düşünülürken Allah’ın hangi ismi özellikle ilişkilidir?",
+    "options": [
+      "Musavvir",
+      "Tevvâb",
+      "Gafûr",
+      "Semî",
+      "Afuv"
+    ],
+    "explanation": "Musavvir varlıklara biçim verendir. Tevvâb tövbeleri kabul etmeyle ilgilidir."
+  },
+  {
+    "id": "allah-p27",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi duasında Allah’ın tövbeleri kabul ettiğini belirten ismine yer verir. Hangi ismi kullanır?",
+    "options": [
+      "Tevvâb",
+      "Rezzâk",
+      "Basîr",
+      "Hâlık",
+      "Azîz"
+    ],
+    "explanation": "Tevvâb tövbeleri kabul edendir; Hâlık yaratandır."
+  },
+  {
+    "id": "allah-p28",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci başarılı olunca kendini her şeyin tek sahibi saymak yerine emeğini ve kendisine sunulan imkânları birlikte değerlendirir. Bu tutum hangi davranışı besler?",
+    "options": [
+      "Şükür",
+      "Tecessüs",
+      "Taassup",
+      "Gıybet",
+      "İsraf"
+    ],
+    "explanation": "Şükür nimetin farkına varıp onu uygun biçimde kullanmayı da içerir; emek vermeyi dışlamaz."
+  },
+  {
+    "id": "allah-p29",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi çok istediği bir sonucun gerçekleşmesi için dua ediyor, aynı zamanda gereken hazırlıkları yapıyor. Bu örnek dua hakkında hangi yargıyı destekler?",
+    "options": [
+      "Dua insanın çabasına eşlik edebilir.",
+      "Dua hazırlık ihtiyacını ortadan kaldırır.",
+      "Dua sonucu insanın iradesine bağlar.",
+      "Dua başkalarının sorumluluğunu üstlenir.",
+      "Dua yalnız başarıdan sonra yapılır."
+    ],
+    "explanation": "Dua ve fiilî çaba birbirini tamamlayabilir. Dua sonucu belirleme yetkisi vermez."
+  },
+  {
+    "id": "allah-p30",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Hatasını kabul eden birinin, zarar verdiği kişiden özür dilemesi ve zararı gidermesi tövbenin hangi yönünü gösterir?",
+    "options": [
+      "Pişmanlığın davranışta karşılık bulmasını",
+      "Pişmanlığın geçmişi değiştirmesini",
+      "Özrün sorumluluğu başkasına aktarmasını",
+      "Duygunun sonuçtan bağımsız olmasını",
+      "Bağışlanmanın çabayı gereksiz kılmasını"
+    ],
+    "explanation": "Tövbe içten pişmanlığın yanında hatayı bırakma ve mümkünse zararı onarma yönelimi taşır."
+  },
+  {
+    "id": "allah-p31",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Kur’an okurken anlamı üzerinde düşünmek ve hayatına yön verecek ilkeleri belirlemek hangi yaklaşımı yansıtır?",
+    "options": [
+      "Vahyi anlayarak hayatla ilişkilendirme",
+      "Vahyi tarihî bilgiyle sınırlandırma",
+      "Anlamı kişisel isteğe göre değiştirme",
+      "Okumayı toplumsal ilişkilerden ayırma",
+      "Dinî bilgiyi ezberle eşitleme"
+    ],
+    "explanation": "Kur’an’la irtibat anlamı kavrama ve yaşama yöneliktir; yalnızca ezber ya da tarih bilgisi değildir."
+  },
+  {
+    "id": "allah-p32",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç yalnız zorlandığında değil, sevinç duyduğunda da Allah’a yönelir. Bu örnek hangi düşünceyi destekler?",
+    "options": [
+      "Allah ile ilişkinin hayatın farklı hâllerini kapsadığını",
+      "Duanın ihtiyaç istemekten ibaret olduğunu",
+      "Şükrün ancak maddi kazançla ilgili olduğunu",
+      "İbadetin sıkıntı dönemlerine ait olduğunu",
+      "Sevinçte sorumluluğun sona erdiğini"
+    ],
+    "explanation": "Dua, şükür ve ibadet insanın hem sevinç hem sıkıntı anlarında Allah’a yönelmesini sağlar."
+  },
+  {
+    "id": "allah-p33",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın insana yakınlığını anlatan ayetler, bir öğrenci tarafından fiziksel mesafe ölçüsü gibi yorumlanır. Öğretmenin hangi düzeltmesi daha uygundur?",
+    "options": [
+      "Yakınlık ilgi, bilgi ve yöneliş bağlamında anlaşılmalıdır.",
+      "Yakınlık belli bir coğrafyada bulunmayı gerektirir.",
+      "Yakınlık yalnız gece saatlerinde gerçekleşir.",
+      "Yakınlık insanın fiziksel gücüne bağlıdır.",
+      "Yakınlık bütün ibadetlerin aynı biçimde yapılmasıdır."
+    ],
+    "explanation": "Dinî metindeki yakınlık, Allah’ı mekânda bir cisme dönüştürecek biçimde yorumlanmaz."
+  },
+  {
+    "id": "allah-p34",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir sınıfta Allah-insan ilişkisinin yalnız istemekten ibaret olmadığı tartışılır. Hangi davranış bu ilişkiye farklı bir boyut ekler?",
+    "options": [
+      "Nimetleri fark ederek şükretmek",
+      "Başarısını çevresine anlatmak",
+      "Hedeflerini sık sık değiştirmek",
+      "İmkânlarını başkalarıyla kıyaslamak",
+      "Zamanını ayrıntılı planlamak"
+    ],
+    "explanation": "Şükür Allah’a yönelişin bir boyutudur; dua yalnızca talep listesi olarak düşünülemez."
+  },
+  {
+    "id": "allah-p35",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "İhlâs suresinin mesajlarını özetleyen bir öğrenci hangi cümleyi kurarsa surenin ana fikrini doğru yansıtır?",
+    "options": [
+      "Allah biriciktir, hiçbir varlıkla eş tutulamaz.",
+      "Allah’ın varlığı başka varlıklara dayanır.",
+      "Allah’ın nitelikleri insanınkilerle ölçülür.",
+      "Allah’ın birliği çoklu ilah anlayışıyla açıklanır.",
+      "Allah’ın bağımsızlığı yaratılmışların bağımsızlığıdır."
+    ],
+    "explanation": "Sure tevhit, Allah’ın hiçbir şeye muhtaç olmaması ve eşsizliği üzerinde durur."
+  },
+  {
+    "id": "allah-p36",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın varlığını kabul eden fakat evrendeki işleyişi incelemeyi değersiz sayan birine hangi değerlendirme daha uygundur?",
+    "options": [
+      "Tefekkür, yaratılmışlar üzerinde dikkatle düşünmeyi içerir.",
+      "Tefekkür, gözlem yerine varsayım üretmektir.",
+      "Tefekkür, her olaya aynı açıklamayı vermektir.",
+      "Tefekkür, düşünceyi kişisel duyguya indirmektir.",
+      "Tefekkür, neden sorusunu terk etmektir."
+    ],
+    "explanation": "Tefekkür evren ve insan hakkında düşünmeyi teşvik eder; araştırmayı gereksiz kılmaz."
+  },
+  {
+    "id": "allah-p37",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Birinin Allah’ın merhametine güvenerek bilinçli biçimde haksızlık yapmayı sürdürmesi hangi açıdan sorunludur?",
+    "options": [
+      "Ümidi ahlaki sorumluluktan koparması",
+      "Allah’ın isimlerini öğrenmesi",
+      "İnsanlarla ilişki kurması",
+      "Geleceğe yönelik hedef belirlemesi",
+      "Hataların değişebileceğine inanması"
+    ],
+    "explanation": "Merhamet ve bağışlanma ümidi kötülükte ısrarın gerekçesi yapılamaz; tövbe yön değişikliğini gerektirir."
+  },
+  {
+    "id": "allah-p38",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç yaptığı hatanın asla bağışlanamayacağını düşünerek düzeltme çabasından vazgeçer. İslam’ın tövbe anlayışına uygun yaklaşım hangisidir?",
+    "options": [
+      "Pişmanlıkla birlikte iyileştirme adımlarına yönelmek",
+      "Geçmişi inkâr ederek sorumluluktan uzaklaşmak",
+      "Hatasını başkalarının hatalarıyla haklılaştırmak",
+      "Pişmanlığı bütün davranışların yerine koymak",
+      "Sorunu gizleyerek yok saymak"
+    ],
+    "explanation": "Tövbe umudu, sorumlulukla birlikte düşünülür; umutsuzluk düzeltme imkânını kapatmamalıdır."
+  },
+  {
+    "id": "allah-p39",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir araştırmada arıların bitkilerle ilişkisi, yağış döngüsü ve canlıların gereksinimleri birlikte değerlendirilir. Bu örnekten dinî düşünceye geçerken hangi soru gaye ve nizam (teleolojik) bir sorudur?",
+    "options": [
+      "Bu ilişkilerde nasıl bir işlevsel uyum vardır?",
+      "Varlık kavramı zihinde nasıl kurulmaktadır?",
+      "Kişi dua ederken ne hissetmektedir?",
+      "Geçmişte hangi topluluklar yaşamıştır?",
+      "Bir sözün aktarım zinciri nasıldır?"
+    ],
+    "explanation": "Teleolojik soru uyum, işlev ve amaca yönelir; kişisel yaşantı dinî tecrübenin alanıdır."
+  },
+  {
+    "id": "allah-p40",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir tartışmada Allah’ın varlığını delillendirme ile Allah’ın isimlerini öğrenme aynı şey sayılır. Doğru ayrım hangisidir?",
+    "options": [
+      "İlki varlık sorusuna, ikincisi tanıma ve niteliklere odaklanır.",
+      "İlki ibadet biçimlerine, ikincisi tarih sırasına odaklanır.",
+      "İlki ahlak kurallarına, ikincisi coğrafi konuma odaklanır.",
+      "İlki kelime köklerine, ikincisi nüfus bilgisine odaklanır.",
+      "İlki kişisel alışkanlığa, ikincisi siyasi tarihe odaklanır."
+    ],
+    "explanation": "Varlığın delilleri var olma sorusuna cevap arar; isim ve sıfatlar Allah’ı tanıma konusunu derinleştirir."
+  },
+  {
+    "id": "allah-p41",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci dua ederken ne istediğini düşünür ve isteğinin başkalarının hakkına zarar verip vermediğini değerlendirir. Bu tutum neyi gösterir?",
+    "options": [
+      "Dua bilinciyle ahlaki duyarlılığın birlikte gelişmesini",
+      "Duanın başkasının iradesini geçersiz kılmasını",
+      "İnsanın her isteğinin doğru kabul edilmesini",
+      "Duanın toplumsal sonuçlardan ayrı tutulmasını",
+      "İsteğin gerçekleşmesinin haklılık ölçüsü olmasını"
+    ],
+    "explanation": "Dua bilinci insanın talebini de ahlaki ölçülerle değerlendirmesine yardımcı olabilir."
+  },
+  {
+    "id": "allah-p42",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın bütün varlıkların kendisine muhtaç olduğu, kendisinin ise hiçbir şeye muhtaç olmadığı belirtiliyor. İhlâs suresindeki hangi kavram bu anlamla ilişkilidir?",
+    "options": [
+      "Samed",
+      "Hayy",
+      "Semî",
+      "Gafûr",
+      "Hâdî"
+    ],
+    "explanation": "Samed her şeyin kendisine muhtaç olduğu, kendisi hiçbir şeye muhtaç olmayan anlamıyla açıklanır."
+  },
+  {
+    "id": "allah-p43",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın diri olması hangi sıfattır?",
+    "options": [
+      "Hayat",
+      "Vücut",
+      "Beka",
+      "İrade",
+      "Tekvin"
+    ],
+    "explanation": "Hayat diri olmayı ifade eder; vücut var olmak, beka ise sonu olmamaktır."
+  },
+  {
+    "id": "allah-p44",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Allah’ın var olmasıyla bir olmasını karıştırmaktadır. Doğru eşleştirme hangisidir?",
+    "options": [
+      "Vücut — var olma; vahdaniyet — bir olma",
+      "Vücut — bir olma; kıdem — var olma",
+      "Beka — var olma; ilim — bir olma",
+      "Hayat — var olma; irade — bir olma",
+      "Kudret — var olma; tekvin — bir olma"
+    ],
+    "explanation": "Vücut varlık, vahdaniyet birlik anlamındadır. Sıfatların ayırt edici anlamları korunmalıdır."
+  },
+  {
+    "id": "allah-p45",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın isimlerini insan davranışlarına rehberlik açısından düşünmek isteyen biri hangi sonuca ulaşabilir?",
+    "options": [
+      "Merhamet bilinci insanı canlılara şefkat göstermeye yöneltebilir.",
+      "İlahî isimler insanı sorumluluktan bağımsızlaştırır.",
+      "İnsan Allah’ın bütün niteliklerini aynı düzeyde kazanabilir.",
+      "İsimleri bilmek davranışın sonuçlarını önemsizleştirir.",
+      "Bağışlayıcılığı bilmek başkasının hakkını sona erdirir."
+    ],
+    "explanation": "İsimlerin anlamı ahlaki farkındalığı besler; bu, insanın ilahî sıfatlara eşitlenmesi değildir."
+  },
+  {
+    "id": "allah-p46",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Allah’a yönelişi yalnız dille yapılan duaya indirger. Hangi örnek bu indirgemeyi aşar?",
+    "options": [
+      "İbadet ederek ve nimeti yerinde kullanarak yönelmek",
+      "Duanın cümle sayısını artırarak sonuç beklemek",
+      "Dinî sözcükleri anlamından bağımsız tekrarlamak",
+      "Başkasının davranışına bakarak kendi hatasını unutmak",
+      "Dileğinin gerçekleşmesini inancın tek ölçüsü saymak"
+    ],
+    "explanation": "Allah’la irtibat dua, ibadet, Kur’an okuma ve tövbe gibi farklı boyutlar taşır."
+  },
+  {
+    "id": "allah-p47",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişinin zorluk yaşadığında yardım istemesi, tedbir alması ve dua etmesi hangi bütünlüğü gösterir?",
+    "options": [
+      "Maddi imkânlarla manevi yönelişi birlikte değerlendirme",
+      "Manevi yönelişle neden sonuç ilişkisini kaldırma",
+      "Tedbir almayı inancın alternatifi olarak görme",
+      "Yardım istemeyi sorumluluktan kaçış sayma",
+      "Sonucu yalnız çevresindeki insanlara bağlama"
+    ],
+    "explanation": "Dua, yardım ve tedbir bir arada bulunabilir; birbirlerini dışlamaları gerekmez."
+  },
+  {
+    "id": "allah-p48",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci gaye ve nizam (teleolojik) delili anlatırken sadece evrenin var olduğunu söyler. Açıklamasını tamamlamak için hangi vurguyu eklemelidir?",
+    "options": [
+      "Varlıklar arasındaki düzen ve amaçlı uyumu",
+      "İnsanın yaşadığı pişmanlık duygusunu",
+      "En yetkin varlık kavramının tanımını",
+      "Dinî metinlerin kronolojik sırasını",
+      "İnsanların farklı inançlarını"
+    ],
+    "explanation": "Teleolojik delilin ayırt edici öğesi salt varlık değil, düzene ve gayeye ilişkin değerlendirmedir."
+  },
+  {
+    "id": "allah-p49",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Bir insanın nimetleri kendi çıkarına göre sınırsız kullanma hakkı olduğunu düşünmesi şükür anlayışıyla neden bağdaşmaz?",
+    "options": [
+      "Şükür nimeti sorumlulukla kullanmayı da gerektirir.",
+      "Şükür nimetin varlığını unutmayı gerektirir.",
+      "Şükür çalışmanın değerini azaltır.",
+      "Şükür bütün istekleri aynılaştırır.",
+      "Şükür paylaşmayı kazanca bağlar."
+    ],
+    "explanation": "Şükür sözle teşekkürün ötesinde nimetin uygun ve sorumlu kullanımını içerir."
+  },
+  {
+    "id": "allah-p50",
+    "topic": "allah",
+    "kind": "Kavram ve yorum",
+    "text": "Allah’ın hem ilmini hem merhametini birlikte düşünen bir genç hangi tutumu geliştirmeye yönelir?",
+    "options": [
+      "Davranışlarını denetlerken hatasını düzeltme ümidini korumak",
+      "Hatasını gizlemenin onu önemsiz kıldığını düşünmek",
+      "Başarısını insan değerinin tek ölçüsü saymak",
+      "Bağışlanmayı başkalarının hakkından bağımsız görmek",
+      "Duygusal yakınlığı sorumluluğun yerine koymak"
+    ],
+    "explanation": "İlim bilinci sorumluluğu, merhamet bilinci ise ümit ve tövbeyi destekler; ikisi birlikte düşünülür."
+  },
+  {
+    "id": "peygamber-p01",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in, gençlere önemli görevler verirken soylarını değil yetenek ve sorumluluklarını dikkate alması hangi ilkeyi gösterir?",
+    "options": [
+      "Liyakat",
+      "Nesep üstünlüğü",
+      "Maddi ayrıcalık",
+      "Siyasi yakınlık",
+      "Yaş hiyerarşisi"
+    ],
+    "explanation": "Liyakat, görevin gerektirdiği yeterliliği esas almaktır; akrabalık veya servet ölçüsü değildir."
+  },
+  {
+    "id": "peygamber-p02",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğretmen, öğrencisinin hata yapma ihtimalini düşünerek ona hiçbir sorumluluk vermez. Hz. Muhammed’in gençlerle ilişkisi dikkate alındığında hangi öneri daha uygundur?",
+    "options": [
+      "Rehberlik ederek yeteneğine uygun görev vermek",
+      "Sorumluluk için kusursuzlaşmasını beklemek",
+      "Görevi aile durumuna göre dağıtmak",
+      "Tüm görevleri aynı öğrenciye bırakmak",
+      "Öğrenmeyi yalnız dinlemeyle sınırlamak"
+    ],
+    "explanation": "Gençlere güvenilmesi gelişim imkânı sağlar. Rehberlik, sorumluluk vermenin alternatifinden çok tamamlayıcısıdır."
+  },
+  {
+    "id": "peygamber-p03",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in gençleri dinlemesi ve sorularına ciddiyetle cevap vermesi, günümüz eğitiminde en doğrudan hangi yaklaşıma örnek olabilir?",
+    "options": [
+      "Gencin görüşünü değerli gören iletişime",
+      "Tek yönlü bilgi aktarımına",
+      "Soruları başarıya göre sıralamaya",
+      "İletişimi resmî görevlerle sınırlamaya",
+      "Yaşı düşüncenin tek ölçüsü saymaya"
+    ],
+    "explanation": "Dinlenmek ve soru sorabilmek gencin muhatap alınmasıdır; tek yönlü iletişimden ayrılır."
+  },
+  {
+    "id": "peygamber-p04",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Üsâme b. Zeyd’in genç yaşta ordu komutanlığıyla görevlendirilmesi hangi mesajı öne çıkarır?",
+    "options": [
+      "Yeterliliğin yaşa ilişkin ön yargılardan üstün tutulmasını",
+      "Askerî görevin akrabalık yoluyla aktarılmasını",
+      "Sorumluluğun toplumsal itibardan bağımsız olmamasını",
+      "Gençlerin yalnız akranlarını yönetebilmesini",
+      "Tecrübenin hiçbir değer taşımamasını"
+    ],
+    "explanation": "Örnek, ehliyetli gence güvenilmesini gösterir; tecrübenin değersiz olduğu anlamına gelmez."
+  },
+  {
+    "id": "peygamber-p05",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Mus‘ab b. Umeyr’in Medine’de İslam’ı öğretmekle görevlendirilmesi hangi beceriyle özellikle ilişkilidir?",
+    "options": [
+      "İnsanlarla iletişim kurarak öğretme",
+      "Ticari anlaşmaları denetleme",
+      "Orduyu savaşta yönetme",
+      "Vahiy metinlerini çoğaltma",
+      "Bina yapımını planlama"
+    ],
+    "explanation": "Mus‘ab Medine’ye öğretici ve tebliğci olarak gönderilmiştir; farklı genç sahabilerin görevleri karıştırılmamalıdır."
+  },
+  {
+    "id": "peygamber-p06",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Muaz b. Cebel’in Yemen’e gönderilmesi bağlamında hangi nitelik öne çıkar?",
+    "options": [
+      "Dinî bilgiyle sorumluluk üstlenme",
+      "Şiir yoluyla kabileleri tanıtma",
+      "Ticaret yollarını haritalama",
+      "Tarım ürünlerini sınıflama",
+      "Mimari yapıları onarma"
+    ],
+    "explanation": "Muaz dinî bilgisi ve öğreticiliğiyle tanınır; Yemen görevi bu yeterlilik bağlamındadır."
+  },
+  {
+    "id": "peygamber-p07",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Zeyd b. Sâbit’in vahiy kâtipliği yapması ve dil öğrenmesi hangi temaya örnektir?",
+    "options": [
+      "Bilgi ve beceriyi toplumsal hizmette kullanma",
+      "Gençliği yalnız fiziksel güçle değerlendirme",
+      "Eğitimi akrabalık bağına dayandırma",
+      "Yazılı bilginin sözlü bilgiyi dışlaması",
+      "Sorumluluğu meslek geleneğiyle sınırlama"
+    ],
+    "explanation": "Zeyd’in örneği öğrenme ve yazı becerisinin hizmete dönüşmesidir; yalnız bedensel güç değildir."
+  },
+  {
+    "id": "peygamber-p08",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hicret sırasında Hz. Muhammed’in yatağında kalan Hz. Ali’nin kendisine bırakılan emanetleri sahiplerine ulaştırma görevi de üstlenmesi hangi iki değeri birlikte yansıtır?",
+    "options": [
+      "Cesaret ve güvenilirlik",
+      "Gösteriş ve rekabet",
+      "Tutumluluk ve suskunluk",
+      "Bağımsızlık ve kayıtsızlık",
+      "Merak ve temkin"
+    ],
+    "explanation": "Risk karşısındaki cesaret ile emanetlere riayet ayrı fakat birlikte görülen erdemlerdir."
+  },
+  {
+    "id": "peygamber-p09",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Esmâ’nın hicret yolculuğundaki yardımı, gençlerin toplumsal süreçlerdeki yerini nasıl gösterir?",
+    "options": [
+      "Planlı ve sorumlu katkı sunabildiklerini",
+      "Görevlerin yalnız görünür olanlarının değerli olduğunu",
+      "Kadınların toplumsal yardımdan uzak tutulduğunu",
+      "Sorumluluğun yalnız resmî makamla kazanıldığını",
+      "Aile bağının bütün ölçülerin yerini aldığını"
+    ],
+    "explanation": "Hicretteki yardım, kritik bir süreçte sorumluluk almanın örneğidir; katkının değeri görünürlükle sınırlı değildir."
+  },
+  {
+    "id": "peygamber-p10",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Aişe’nin rivayet ettiği bilgiler ve sorulara verdiği cevaplar hangi yönünü özellikle ortaya koyar?",
+    "options": [
+      "İlim ve öğreticiliğini",
+      "Askerî yöneticiliğini",
+      "Ticari teşkilatçılığını",
+      "Mimari uzmanlığını",
+      "Diplomatik elçiliğini"
+    ],
+    "explanation": "Hz. Aişe, hadis rivayeti ve dinî bilgi aktarımıyla öne çıkmıştır."
+  },
+  {
+    "id": "peygamber-p11",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Erkam b. Ebü’l-Erkam’ın evinin ilk Müslümanlar için öğrenme ve buluşma yeri olması hangi sonucu destekler?",
+    "options": [
+      "Gençlerin imkânlarını eğitim amacıyla paylaşabildiğini",
+      "Eğitimin yalnız büyük yapılarda gerçekleştiğini",
+      "Bilginin yalnız yönetici ailelerde bulunduğunu",
+      "İlk Müslümanların toplumsal bağ kurmadığını",
+      "Yaşın bilgi paylaşımını engellediğini"
+    ],
+    "explanation": "Dârülerkam, bir gencin imkânının eğitim ve dayanışmaya katkısını gösterir."
+  },
+  {
+    "id": "peygamber-p12",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Ammâr b. Yâsir’in baskılar karşısında inancıyla tanınması hangi konuya örnek verilebilir?",
+    "options": [
+      "İnanç uğruna karşılaşılan zorluklara",
+      "Vahiy metinlerinin yazımına",
+      "Medine’deki öğretim görevlendirmesine",
+      "Yemen’deki yöneticiliğe",
+      "Hicret sonrası ordu komutanlığına"
+    ],
+    "explanation": "Ammâr ve ailesi ilk dönemde baskıya uğrayan Müslümanlardandır; farklı sahabilerin görevleriyle karıştırılmamalıdır."
+  },
+  {
+    "id": "peygamber-p13",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, Hz. Muhammed’in gençlere verdiği görevlerden hareketle tüm gençlerin aynı işi yapması gerektiğini söyler. Bu çıkarımın eksikliği nedir?",
+    "options": [
+      "Bireysel yetenek farklılıklarını göz ardı etmesi",
+      "Gençlerin öğrenebileceğini kabul etmesi",
+      "Sorumluluğun değerini fark etmesi",
+      "Topluma katkıyı önemsemesi",
+      "Güveni bir gelişim imkânı görmesi"
+    ],
+    "explanation": "Görev çeşitliliği tek tipliği değil, farklı yeteneklerin değerlendirilmesini gösterir."
+  },
+  {
+    "id": "peygamber-p14",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in gençlerle iletişiminde onur kırıcı bir üslup yerine açıklayıcı ve anlayışlı davranması hangi amaca uygundur?",
+    "options": [
+      "Davranışı düzeltirken kişilik değerini korumaya",
+      "Hata ile doğru arasındaki farkı kaldırmaya",
+      "Kuralları muhatabın isteğine bırakmaya",
+      "Öğrenmeyi yalnız övgüye bağlamaya",
+      "Sorumluluğu yetişkinlerden uzaklaştırmaya"
+    ],
+    "explanation": "Şefkatli iletişim ölçülerin kaldırılması değildir; kişiyi incitmeden doğruya yöneltmedir."
+  },
+  {
+    "id": "peygamber-p15",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir gence görev verildikten sonra gerekli bilgi ve destek sağlanmıyor. Hz. Muhammed’in eğitim yaklaşımına uygun tamamlayıcı adım hangisidir?",
+    "options": [
+      "Gencin öğrenme sürecine rehberlik etmek",
+      "Görevin sonucunu yalnız şansa bağlamak",
+      "Her güçlükte görevi geri almak",
+      "Görevi toplumsal kökene göre değiştirmek",
+      "Soru sormayı yetersizlik saymak"
+    ],
+    "explanation": "Güven ile rehberlik birlikte işlev görür; sorumluluk vermek genci desteksiz bırakmak değildir."
+  },
+  {
+    "id": "peygamber-p16",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Hz. Ali’yi bilgisi, cesareti ve sorumluluklarıyla birlikte anlatır. Bu sunum hangi yanılgıyı aşar?",
+    "options": [
+      "Bir şahsiyeti tek özelliğe indirgemeyi",
+      "Tarihî kişileri kaynaklarla tanımayı",
+      "Farklı erdemleri karşılaştırmayı",
+      "Biyografiden örnek çıkarmayı",
+      "Bilginin davranışla ilişkisini kurmayı"
+    ],
+    "explanation": "Şahsiyetler birden fazla yönleriyle değerlendirilmelidir; tek etiket bütün hayatı açıklamaz."
+  },
+  {
+    "id": "peygamber-p17",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Mus‘ab b. Umeyr’in hayatında rahat imkânlardan fedakârlığa uzanan değişim hangi kavramla en iyi ilişkilendirilebilir?",
+    "options": [
+      "İlke uğruna özveri",
+      "Maddi konumu koruma",
+      "Toplumsal gösteriş",
+      "Çıkarı önceleme",
+      "Rekabeti amaç edinme"
+    ],
+    "explanation": "Fedakârlık, değer verdiği ilke için rahatlıklarından vazgeçebilmesidir."
+  },
+  {
+    "id": "peygamber-p18",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Zeyd b. Sâbit’in öğrenmeye açık olması ve edindiği becerilerle görev alması, bir öğrencinin hangi tutumuna örnektir?",
+    "options": [
+      "Yeni beceriler kazanıp bunları faydaya dönüştürmesine",
+      "Bilgiyi yalnız sınav notu için saklamasına",
+      "Zorlandığı alanlardan bütünüyle çekilmesine",
+      "Başarısını sadece doğuştan yeteneğe bağlamasına",
+      "Görev için önce şöhret beklemesine"
+    ],
+    "explanation": "Öğrenme isteği, emek ve toplumsal yarar birlikte öne çıkar."
+  },
+  {
+    "id": "peygamber-p19",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Aişe’nin bilgi aktarımındaki yeri hangi yargıyı destekler?",
+    "options": [
+      "Kadınlar dinî bilginin öğrenilmesi ve öğretilmesine katkı sunmuştur.",
+      "Dinî öğretim yalnız yöneticilerin görevidir.",
+      "Rivayet bilgisi toplumsal hayattan kopuktur.",
+      "Bilgi aktarımı aile bağıyla sınırlanır.",
+      "Öğreticilik yaş ilerleyince başlayan bir faaliyettir."
+    ],
+    "explanation": "Hz. Aişe’nin ilmî katkısı kadınların bilgi üretme ve aktarma alanındaki etkinliğini gösterir."
+  },
+  {
+    "id": "peygamber-p20",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğretmen sınıfta yalnız yüksek sesle konuşan öğrencilere görev veriyor. Genç sahabilerin farklı alanlardaki hizmetlerinden çıkarılabilecek öneri hangisidir?",
+    "options": [
+      "Sessiz öğrencilerin de yeteneklerini tanıyacak fırsatlar oluşturmak",
+      "Tüm görevleri sözcülükle sınırlamak",
+      "Yeteneği yalnız dışa dönüklükle ölçmek",
+      "Görevleri popülerliğe göre dağıtmak",
+      "İstekli olmayı eğitimin yerine koymak"
+    ],
+    "explanation": "Yazı, öğretim, yardım ve yönetim gibi farklı görevler tek bir kişilik tipinin esas alınamayacağını gösterir."
+  },
+  {
+    "id": "peygamber-p21",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç kendisine güvenilmesini istiyor fakat görevin sonuçlarıyla ilgilenmiyor. Gençlere sorumluluk verme anlayışı bakımından hangi açıklama doğrudur?",
+    "options": [
+      "Güven, üstlenilen görevi özenle yerine getirmeyi gerektirir.",
+      "Güven, sonuçlarla ilgilenme yükünü kaldırır.",
+      "Görev almak, görevi öğrenmekten daha önemlidir.",
+      "Genç olmak yapılan hatayı değerlendirmeyi engeller.",
+      "Yetki, rehberlikten bütünüyle bağımsızdır."
+    ],
+    "explanation": "Güvenin karşılığı sorumluluk bilincidir; yaşın genç olması özeni gereksiz kılmaz."
+  },
+  {
+    "id": "peygamber-p22",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in bazı konularda gençlerin düşüncelerini alması hangi kavramla ilişkilidir?",
+    "options": [
+      "İstişare",
+      "Tebliğ",
+      "Hicret",
+      "Biat",
+      "Rivayet"
+    ],
+    "explanation": "İstişare görüş alışverişidir. Tebliğ mesajı bildirme, rivayet ise aktarmadır."
+  },
+  {
+    "id": "peygamber-p23",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrencinin gence saygı göstermeyi onun her isteğini onaylamak sayması hangi ayrımı kaçırdığını gösterir?",
+    "options": [
+      "Kişiye değer vermek ile her davranışı doğru bulmak arasındaki ayrımı",
+      "Bilgi ile deneyim arasındaki ayrımı",
+      "Görev ile zaman arasındaki ayrımı",
+      "Davet ile yolculuk arasındaki ayrımı",
+      "Birey ile toplum arasındaki ayrımı"
+    ],
+    "explanation": "Saygılı eğitim, gerektiğinde davranışı gerekçesiyle düzeltmeyi de kapsar."
+  },
+  {
+    "id": "peygamber-p24",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir projede gençlere yalnız hazırlık işleri veriliyor, kararlar için görüşleri alınmıyor. Hz. Muhammed’in gençlerle ilişkisi hangi iyileştirmeyi destekler?",
+    "options": [
+      "Kararlara uygun ölçüde katılmalarına imkân tanımak",
+      "Görevleri yaşça büyük olana toplamak",
+      "Gençlerin görüşünü yalnız sonuçta sormak",
+      "Katılımı aile statüsüne göre belirlemek",
+      "Sorumluluğu tamamen yetişkinlerden kaldırmak"
+    ],
+    "explanation": "Gençlerin muhatap alınması, uygun alanlarda görüş ve sorumluluk sahibi olmasını içerir."
+  },
+  {
+    "id": "peygamber-p25",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Fatıma’nın hayatını aile içi sevgi ve dayanışma üzerinden ele alan bir sunumda hangi vurgu yerinde olur?",
+    "options": [
+      "Yakın ilişkilerde karşılıklı özen ve sorumluluk",
+      "Aile bağının bireysel sorumluluğu kaldırması",
+      "Sevginin görev paylaşımını gereksiz kılması",
+      "Akrabalığın bütün davranışları haklı kılması",
+      "Dayanışmanın yalnız maddi destek olması"
+    ],
+    "explanation": "Aile sevgisi özen ve sorumlulukla görünür olur; sorumluluğun alternatifi değildir."
+  },
+  {
+    "id": "peygamber-p26",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Genç sahabilerin biyografilerini çalışan bir grup, her kişiden bugüne aktarılabilir bir değer çıkarıyor. Bu çalışmanın en uygun sonucu hangisidir?",
+    "options": [
+      "Tarihî örnekleri güncel sorumluluk bilinciyle ilişkilendirmek",
+      "Geçmiş koşulları değişmeden bugüne taşımak",
+      "Bütün gençleri aynı mesleğe yönlendirmek",
+      "Kişileri başarı sayılarına göre sıralamak",
+      "Tarihî bağlamı bütünüyle önemsiz saymak"
+    ],
+    "explanation": "Değerlerden yararlanırken tarihî şartların farklılığı gözetilir; birebir koşul kopyalamak gerekmez."
+  },
+  {
+    "id": "peygamber-p27",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Mus‘ab’ın Medine’deki görevini anlatırken onu vahiy kâtibi olarak tanıtır. Hangi düzeltme doğrudur?",
+    "options": [
+      "Mus‘ab öğreticiliğiyle, Zeyd b. Sâbit vahiy kâtipliğiyle öne çıkar.",
+      "Mus‘ab ordu komutanlığıyla, Üsâme vahiy kâtipliğiyle öne çıkar.",
+      "Mus‘ab Yemen göreviyle, Muaz hicret desteğiyle öne çıkar.",
+      "Mus‘ab hadis rivayetiyle, Hz. Aişe ordu komutanlığıyla öne çıkar.",
+      "Mus‘ab Dârülerkam’la, Erkam Medine öğreticiliğiyle öne çıkar."
+    ],
+    "explanation": "Görevlerin doğru kişilere bağlanması gerekir; Mus‘ab Medine’ye öğretici olarak gönderilmiştir."
+  },
+  {
+    "id": "peygamber-p28",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Üsâme b. Zeyd ile Zeyd b. Sâbit’in görevleri karşılaştırıldığında doğru ifade hangisidir?",
+    "options": [
+      "İlki komutanlıkla, ikincisi yazı ve bilgi hizmetleriyle tanınır.",
+      "İkisi de aynı askerî seferde komutan olmuştur.",
+      "İlki hadis öğretimiyle, ikincisi hicret yardımıyla tanınır.",
+      "İlki Dârülerkam’la, ikincisi Medine’ye ilk öğretim göreviyle tanınır.",
+      "İkisi de Yemen’e kadı olarak gönderilmiştir."
+    ],
+    "explanation": "Benzer isimler farklı şahsiyetlerdir; Üsâme komutan, Zeyd b. Sâbit vahiy kâtibidir."
+  },
+  {
+    "id": "peygamber-p29",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç arkadaşının sorusuna cevap veremediğinde onu küçümsemek yerine birlikte araştırmayı önerir. Bu tavır Hz. Muhammed’in hangi iletişim özelliğiyle uyumludur?",
+    "options": [
+      "Öğrenme isteğini destekleyen yaklaşımıyla",
+      "Muhatabı susturan yaklaşımıyla",
+      "Soruyu statüye göre değerlendirmesiyle",
+      "Cevabı ertelemeyi amaç edinmesiyle",
+      "Eleştiriyi bütünüyle reddetmesiyle"
+    ],
+    "explanation": "Soru sahibini değerli görmek ve öğrenmeye açık olmak açıklayıcı iletişime uygundur."
+  },
+  {
+    "id": "peygamber-p30",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Gençlere görev veren bir yönetici, yanlışlık olduğunda önce sebebini dinleyip sonra yol gösteriyor. Bu tutum hangi dengeyi kurar?",
+    "options": [
+      "Sorumluluk ile şefkat arasında",
+      "Övgü ile şöhret arasında",
+      "Rekabet ile üstünlük arasında",
+      "Yetki ile akrabalık arasında",
+      "Hız ile görünürlük arasında"
+    ],
+    "explanation": "Hesap verebilirliği korurken kişiyi anlamaya çalışmak şefkatli sorumluluk eğitimidir."
+  },
+  {
+    "id": "peygamber-p31",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci genç sahabilerin başarılarını kişisel yetenek kadar eğitim ve güven ortamıyla da açıklıyor. Bu değerlendirme neyi fark etmektedir?",
+    "options": [
+      "Gelişimde bireysel çabayla çevresel desteğin ilişkisini",
+      "Başarıda emeğin gereksizliğini",
+      "Yaşın her alanda tek ölçü olduğunu",
+      "Sorumluluğun eğitimden önce tamamlandığını",
+      "Güvenin denetimi bütünüyle kaldırdığını"
+    ],
+    "explanation": "Yetenek ve emek, destekleyici ortam ve rehberlikle birlikte gelişir."
+  },
+  {
+    "id": "peygamber-p32",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in gençlere danışmasının anlamını koruyan bir güncel örnek hangisidir?",
+    "options": [
+      "Okul faaliyetinin planında öğrencilerin gerekçeli önerilerini değerlendirmek",
+      "Kararı önceden verip öğrencilerden yalnız onay istemek",
+      "Öğrenci görüşünü not ortalamasına göre dinlemek",
+      "Sadece kendi görüşünü tekrarlayanları seçmek",
+      "Faaliyetin bütün sonuçlarını öğrencilere bırakmak"
+    ],
+    "explanation": "İstişare görüşleri gerçekten değerlendirmektir; biçimsel onay almakla aynı değildir."
+  },
+  {
+    "id": "peygamber-p33",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç kendisine verilen işi görünür olmadığı için önemsemiyor. Hicrette destek veren gençlerin örnekliği hangi cevabı destekler?",
+    "options": [
+      "Hizmetin değeri yalnız görünürlükle ölçülmez.",
+      "Sorumluluğun değeri yalnız unvana bağlıdır.",
+      "Küçük görevler kişisel gelişime katkı sunmaz.",
+      "Önemli görevler hazırlık gerektirmez.",
+      "Yardım ancak herkes tarafından bilinirse anlamlıdır."
+    ],
+    "explanation": "Kritik süreçlerde görünmeyen hazırlık ve destek de önemli olabilir."
+  },
+  {
+    "id": "peygamber-p34",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in gençlerle ilişkisinden çıkarılabilecek hangi ilke, okulda görev dağılımına doğrudan uygulanabilir?",
+    "options": [
+      "Öğrencinin yeteneğini tanıyarak sorumluluk vermek",
+      "Görevi yalnız yaşça büyük olana vermek",
+      "Popülerliği yeterlilik saymak",
+      "Akrabalığı öncelik ölçüsü yapmak",
+      "Başarıyı tek tür yetenekle açıklamak"
+    ],
+    "explanation": "Görev dağılımında ehliyet ve gelişim imkânı birlikte gözetilmelidir."
+  },
+  {
+    "id": "peygamber-p35",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir sunumda Hz. Ali’nin ilk Müslümanlardan olduğu ve çocukluğundan itibaren Hz. Muhammed’e yakın bulunduğu anlatılır. Bu bilgi hangi başlığa daha uygundur?",
+    "options": [
+      "İlk dönem genç Müslümanların örnekliği",
+      "İslam medeniyetinde mimari",
+      "Fıkıh mezheplerinin doğuşu",
+      "Coğrafi keşiflerin tarihi",
+      "Kurumsal medrese eğitimi"
+    ],
+    "explanation": "Bu bilgiler İslam’ın ilk yıllarındaki genç Müslümanlar ve hayat örnekleriyle ilişkilidir."
+  },
+  {
+    "id": "peygamber-p36",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Erkam’ın katkısını yalnızca bir bina sağlamaya indirger. Daha kapsayıcı değerlendirme hangisidir?",
+    "options": [
+      "Öğrenme ve dayanışma için güvenli bir ortamın oluşmasına katkı sunmuştur.",
+      "İslam’ın bütün hükümlerini tek başına belirlemiştir.",
+      "Medine’nin siyasi yönetimini kurmuştur.",
+      "Bütün sahabilerin öğretmenliğini üstlenmiştir.",
+      "Fıkıh mezheplerini birleştirmiştir."
+    ],
+    "explanation": "Dârülerkam’ın önemi fiziksel mekândan öte eğitim ve buluşma ortamı sunmasıdır."
+  },
+  {
+    "id": "peygamber-p37",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir tartışmada gencin fikir değiştirmesi değersizlik sayılıyor. Öğrenmeyi ve gelişmeyi gözeten yaklaşım hangisidir?",
+    "options": [
+      "Gerekçelerini dinleyerek bilinçli değerlendirmesine yardımcı olmak",
+      "Sorularını kişilik kusuru saymak",
+      "Bütün kararlarını başkasına devretmesini istemek",
+      "Her görüşünü tartışmasız doğru kabul etmek",
+      "Yaşını öğrenme yeteneğinin tek ölçüsü görmek"
+    ],
+    "explanation": "Gençlik gelişim dönemidir; rehberlik sorgulamayı değersizleştirmek yerine bilinç kazandırmalıdır."
+  },
+  {
+    "id": "peygamber-p38",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in gençlerle yakın ve saygılı iletişimi hangi sonucu kolaylaştırır?",
+    "options": [
+      "Sorunların çekinmeden paylaşılmasını",
+      "Hataların bütünüyle yok olmasını",
+      "Öğrenmenin kendiliğinden tamamlanmasını",
+      "Bireysel farklılıkların silinmesini",
+      "Sorumlulukların azalmasını"
+    ],
+    "explanation": "Güvenli iletişim paylaşımı kolaylaştırır; hata ve öğrenme ihtiyacının sona erdiğini göstermez."
+  },
+  {
+    "id": "peygamber-p39",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir gencin bilgili olduğu hâlde emanete özen göstermemesi hangi sonucu hatırlatır?",
+    "options": [
+      "Yeterlilik ahlaki güvenilirlikle tamamlanmalıdır.",
+      "Bilgi ahlakın yerine geçebilir.",
+      "Sorumluluk yalnız yetenekle ölçülür.",
+      "Güvenilirlik doğuştan sabittir.",
+      "Emanet yalnız maddi eşyadır."
+    ],
+    "explanation": "Göreve uygunluk teknik becerinin yanında dürüstlük ve özen gerektirir."
+  },
+  {
+    "id": "peygamber-p40",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in hayatını örnek almak isteyen genç için hangi hedef daha anlamlıdır?",
+    "options": [
+      "Güvenilirlik ve merhameti günlük kararlarında uygulamak",
+      "Tarihî olayların dış biçimlerini aynen tekrarlamak",
+      "Bütün insanlarla aynı tercihlere sahip olmak",
+      "Yalnız kendi grubuna karşı adil olmak",
+      "Başarıyı görünür görevlerle ölçmek"
+    ],
+    "explanation": "Örnek alma, temel ahlaki ilkelerin günlük yaşantıda karşılık bulmasıdır."
+  },
+  {
+    "id": "peygamber-p41",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç topluma yararlı bir görev üstlenmek istiyor fakat arkadaşının yeteneğini kopyalamaya çalışıyor. Farklı genç sahabilerin görevleri ona hangi yolu gösterir?",
+    "options": [
+      "Kendi yeteneklerini geliştirerek uygun alanda katkı sunmayı",
+      "Tek bir görevin bütün katkılardan üstün olduğunu",
+      "Görevlerin yalnız tesadüfle belirlendiğini",
+      "Bireysel farklılıkların sorumluluğu engellediğini",
+      "Toplumsal katkının ancak yönetimle mümkün olduğunu"
+    ],
+    "explanation": "Farklı yetenekler farklı hizmetlere dönüşebilir; katkı tek alana indirgenmez."
+  },
+  {
+    "id": "peygamber-p42",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in gençlerle ilişkisini araştıran bir öğrenci hangi soruyu sorarsa konuyu en bütüncül biçimde inceler?",
+    "options": [
+      "Onlara nasıl yaklaştı, hangi görevleri verdi ve gelişimlerini nasıl destekledi?",
+      "Gençlerden hangisi en çok tanınıyordu?",
+      "Görev alanların aileleri ne kadar varlıklıydı?",
+      "Bütün görevler hangi yaşta verildi?",
+      "Hangi genç diğerlerinden daha çok övüldü?"
+    ],
+    "explanation": "İletişim, sorumluluk ve rehberlik boyutlarını birlikte incelemek daha bütüncül sonuç verir."
+  },
+  {
+    "id": "peygamber-p43",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir sınıf projesinde hata yapan öğrenciyle alay ediliyor. Peygamberin eğitici yaklaşımına uygun müdahale hangisidir?",
+    "options": [
+      "Onurunu koruyarak hatanın nasıl düzeltileceğini konuşmak",
+      "Hatasını herkesin önünde kişiliğiyle özdeşleştirmek",
+      "Bir daha hiçbir görev vermemek",
+      "Hatasını hiç değerlendirmeden geçmek",
+      "Grup dışına çıkarmayı ilk çözüm saymak"
+    ],
+    "explanation": "Kişiyi incitmeden yanlışın düzeltilmesi, saygıyla öğrenmeyi birleştirir."
+  },
+  {
+    "id": "peygamber-p44",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci genç sahabilerin örnekliğini sadece erkeklerin katkılarıyla anlatır. Hangi isimlerin ilmî ve sosyal katkılarını da ele alması sunumu tamamlar?",
+    "options": [
+      "Hz. Aişe ve Hz. Esmâ",
+      "Ebû Hanife ve İmam Malik",
+      "Maturidi ve Eşari",
+      "İbn Sina ve Farabi",
+      "Mevlânâ ve Yunus Emre"
+    ],
+    "explanation": "Hz. Aişe ve Hz. Esmâ, genç kadınların bilgi ve toplumsal katkı örnekleri arasında ele alınabilir."
+  },
+  {
+    "id": "peygamber-p45",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Sorumluluk alan bir genç, bilmediği konuda yardım istemekten utanıyor. Doğru rehberlik hangisidir?",
+    "options": [
+      "Yardım ve bilgi istemenin sorumluluğu iyi yapmanın parçası olduğunu belirtmek",
+      "Yardım istemeyi görevi bırakma saymak",
+      "Soruyu soranın yeteneğini küçümsemek",
+      "Görevi bilgiden bağımsız görmesini istemek",
+      "Sadece sonuca bakıp süreci önemsememek"
+    ],
+    "explanation": "Sorumluluk, gerekli bilgiyi edinmeyi ve gerektiğinde destek istemeyi de kapsar."
+  },
+  {
+    "id": "peygamber-p46",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrencinin Hz. Muhammed’e sevgisini yalnız sözle ifade edip arkadaşlarına karşı güvenilmez davranması hangi eksiğe işaret eder?",
+    "options": [
+      "Sevgiyle örnek alma arasında bağ kuramamasına",
+      "Tarihî bilgiye ilgi duymasına",
+      "Duygularını ifade edebilmesine",
+      "Arkadaşlarıyla birlikte bulunmasına",
+      "Geleceğe hedef koymasına"
+    ],
+    "explanation": "Peygamber sevgisinin davranışa yansıması, onun güvenilirlik gibi örnek özelliklerini yaşatmayı gerektirir."
+  },
+  {
+    "id": "peygamber-p47",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Gençlerin içinde bulunduğu projede tek bir hata bütün yeteneklerini geçersiz sayıyor. Hangi yaklaşım gelişimi daha iyi destekler?",
+    "options": [
+      "Hatanın nedenini belirleyip uygun bir öğrenme fırsatı oluşturmak",
+      "Başarısızlık etiketini kalıcılaştırmak",
+      "Sorumluluğu yalnız tecrübelilere bırakmak",
+      "Bütün değerlendirmeleri kaldırmak",
+      "Görevleri rastgele değiştirip izlememek"
+    ],
+    "explanation": "Hata üzerinden rehberlik etmek hem ölçüyü hem gelişim fırsatını korur."
+  },
+  {
+    "id": "peygamber-p48",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, danışma toplantısında farklı düşüncesini saygıyla açıklıyor. Bu tutum hangi iki değeri birleştirir?",
+    "options": [
+      "Katılım ve nezaket",
+      "Gösteriş ve ısrar",
+      "Rekabet ve üstünlük",
+      "Suskunluk ve teslimiyet",
+      "Yakınlık ve ayrıcalık"
+    ],
+    "explanation": "İstişareye katılmak gerekçeli görüş sunmayı; nezaket ise bunu incitmeden yapmayı gerektirir."
+  },
+  {
+    "id": "peygamber-p49",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Hz. Muhammed’in gençlerin gelişimine değer vermesi, insan yetiştirmede hangi bakışı öne çıkarır?",
+    "options": [
+      "Potansiyeli tanıyan ve emekle gelişimi destekleyen bakışı",
+      "Kişiliği yaşla birlikte değişmez kabul eden bakışı",
+      "Görevi yalnız mevcut ünvanla sınırlayan bakışı",
+      "Öğrenmeyi sadece bilgi ezberine indirgeyen bakışı",
+      "Sosyal katkıyı maddi güce bağlayan bakışı"
+    ],
+    "explanation": "Gençlere eğitim ve sorumluluk imkânı sunulması potansiyelin gelişebileceğine güveni gösterir."
+  },
+  {
+    "id": "peygamber-p50",
+    "topic": "peygamber",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Hz. Muhammed’in gençlere güvenmesini bütün kararları yetişkinlerden almaları şeklinde yorumlar. Daha doğru sonuç hangisidir?",
+    "options": [
+      "Gençler rehberlik ve istişare içinde etkin sorumluluk alabilir.",
+      "Gençler rehberliğe ihtiyaç duymaz.",
+      "Tecrübeli kişilerin görüşleri değersizdir.",
+      "Görev vermek bütün yetkiyi devretmektir.",
+      "Yaş grupları birlikte çalışamaz."
+    ],
+    "explanation": "Gence güvenmek kuşaklar arasında iş birliğini dışlamaz; rehberlik ve katılımı birlikte mümkün kılar."
+  },
+  {
+    "id": "dinhayat-p01",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir insan barınma ve beslenme imkânına sahip olsa da hayatının anlamını sorgulamaktadır. Bu durum dinin hangi boyutuyla ilişkilidir?",
+    "options": [
+      "İnsanın anlam arayışına karşılık vermesi",
+      "Mesleklerin çalışma saatlerini belirlemesi",
+      "Nüfusun coğrafi dağılışını açıklaması",
+      "Teknolojik araçların işleyişini göstermesi",
+      "Maddi ihtiyaçları aynılaştırması"
+    ],
+    "explanation": "Din insanın varoluş, amaç ve değer sorularına da yönelir; insanın ihtiyaçları maddi olanlarla sınırlı değildir."
+  },
+  {
+    "id": "dinhayat-p02",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir mahallede farklı gelir grupları aynı sofrada buluşup ihtiyaç sahiplerine destek oluyor. Dinin bu örnekte öne çıkan toplumsal işlevi hangisidir?",
+    "options": [
+      "Dayanışmayı güçlendirme",
+      "Mesleki uzmanlaşmayı belirleme",
+      "Siyasi görüşleri aynılaştırma",
+      "Bireysel yetenekleri eşitleme",
+      "Kültürel farklılıkları giderme"
+    ],
+    "explanation": "Paylaşım ve birliktelik dayanışmayı güçlendirir; toplumsal farklılıkların silinmesi anlamına gelmez."
+  },
+  {
+    "id": "dinhayat-p03",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Dinin kültür üzerindeki etkisini inceleyen öğrenci hangi örneği doğrudan kullanabilir?",
+    "options": [
+      "Ramazanda iftar geleneğinin gelişmesi",
+      "Bir bölgenin yer şekillerinin oluşması",
+      "Nüfusun yaş dağılımının değişmesi",
+      "Bir maddenin kimyasal yapısı",
+      "Mevsimlerin oluşum düzeni"
+    ],
+    "explanation": "İftar geleneği dinî pratiğin kültürdeki görünümüdür; doğa olayları kültürel üretim değildir."
+  },
+  {
+    "id": "dinhayat-p04",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir hat eserinde Kur’an’dan bir bölümün estetik biçimde yazılması hangi ilişkiye örnektir?",
+    "options": [
+      "Din ve sanat",
+      "Din ve nüfus",
+      "Din ve iklim",
+      "Din ve jeoloji",
+      "Din ve ulaşım"
+    ],
+    "explanation": "Dinî içerik sanatın konusu ve ilham kaynağı olabilir; burada hat sanatı örneği vardır."
+  },
+  {
+    "id": "dinhayat-p05",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "İnancın toplumdaki bütün gelenekleri kendiliğinden dinî hüküm hâline getirdiğini söyleyen biri hangi ayrımı gözden kaçırır?",
+    "options": [
+      "Din ile kültürel uygulama arasındaki ayrımı",
+      "Sanat ile estetik arasındaki ayrımı",
+      "Birey ile kişilik arasındaki ayrımı",
+      "İhtiyaç ile tüketim arasındaki ayrımı",
+      "Tarih ile zaman arasındaki ayrımı"
+    ],
+    "explanation": "Toplumdaki her gelenek dinin değişmez hükmü değildir; kültürel uygulamalar dinî ölçülerle ayrıca değerlendirilir."
+  },
+  {
+    "id": "dinhayat-p06",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Teknolojik gelişmeyle yeni ödeme yöntemleri doğduğunda dinî değerlendirmede hangi yaklaşım uygundur?",
+    "options": [
+      "Yeni durumu adalet ve hak gibi temel ilkelerle incelemek",
+      "Yeni olan her uygulamayı aynı hükümde saymak",
+      "Alışkanlığı tek geçerlilik ölçüsü yapmak",
+      "Ekonomik kazancı dinî değerlendirmenin yerine koymak",
+      "Bireysel beğeniyi ortak kural saymak"
+    ],
+    "explanation": "Yeni meseleler değişmez ilkeler ve uygun yorum yöntemleriyle değerlendirilir; sırf yeni olmak belirleyici değildir."
+  },
+  {
+    "id": "dinhayat-p07",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci dinin sabiteleri ile değişken yorumlarını ayırıyor. Hangi örnek dinin temel sabitelerine aittir?",
+    "options": [
+      "Tevhit inancı",
+      "Bir hayır kurumunun kayıt sistemi",
+      "Duyuru için kullanılan iletişim aracı",
+      "Bir vakfın bağış toplama yöntemi",
+      "Dinî yayınların baskı tekniği"
+    ],
+    "explanation": "Tevhit temel inanç esasıdır; iletişim ve örgütlenme araçları tarihsel şartlara göre değişebilir."
+  },
+  {
+    "id": "dinhayat-p08",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir vakıf yardımları artık dijital başvuruyla ulaştırıyor. Bu değişim en doğru nasıl yorumlanır?",
+    "options": [
+      "Dayanışma amacı korunurken aracın değişmesi",
+      "İnanç esaslarının teknolojiye göre değişmesi",
+      "Yardımın ahlaki niteliğini kaybetmesi",
+      "Dinin toplumsal işlevinin sona ermesi",
+      "Zekâtın temel amacının değiştirilmesi"
+    ],
+    "explanation": "Araç ve yöntem değişirken paylaşma ve ihtiyaç sahibini gözetme ilkesi korunabilir."
+  },
+  {
+    "id": "dinhayat-p09",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir işveren çalışanının ücretini zamanında ödüyor ve güvenli çalışma ortamı sağlıyor. Bu tutum hangi alanla en doğrudan ilişkilidir?",
+    "options": [
+      "Ekonomik hakların korunması",
+      "İbadet vakitlerinin belirlenmesi",
+      "Kültürel mirasın sınıflanması",
+      "Mezhep tarihinin yazılması",
+      "Dinî metinlerin dil çözümlemesi"
+    ],
+    "explanation": "Emek ve çalışma güvenliği ekonomik adaletin konularıdır; ekonomik hayat ahlaki sorumluluktan ayrı değildir."
+  },
+  {
+    "id": "dinhayat-p10",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir satıcı üründeki kusuru saklamadan açıklıyor. İslam’ın ekonomik hayata ilişkin hangi ilkesi öne çıkar?",
+    "options": [
+      "Dürüstlük ve karşılıklı hakları gözetme",
+      "Kazancı toplumsal itibara göre belirleme",
+      "Rekabeti müşterinin bilgisizliğine dayandırma",
+      "Ticarette niyeti sonuçtan bağımsız sayma",
+      "Satışın değerini görünürlükle ölçme"
+    ],
+    "explanation": "Kusuru açıklamak alıcının bilgi ve haklarını korur; dürüst ticaretin örneğidir."
+  },
+  {
+    "id": "dinhayat-p11",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir ailede herkesin ihtiyacı ve görüşü dikkate alınarak görev paylaşımı yapılır. Bu örnekte hangi değerler birliktedir?",
+    "options": [
+      "İstişare ve sorumluluk",
+      "Gösteriş ve rekabet",
+      "Suskunluk ve kayıtsızlık",
+      "Üstünlük ve ayrıcalık",
+      "Tutuculuk ve alışkanlık"
+    ],
+    "explanation": "Görüşlerin alınması istişareyi, görevlerin üstlenilmesi sorumluluğu gösterir."
+  },
+  {
+    "id": "dinhayat-p12",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Ailede sevgi bulunduğu için hak ve sorumlulukları konuşmanın gereksiz olduğunu söyleyen birine hangi cevap daha uygundur?",
+    "options": [
+      "Sevgi, karşılıklı hakları gözeten davranışlarla güçlenir.",
+      "Sevgi, görevlerin yalnız bir kişide toplanmasını gerektirir.",
+      "Haklar yalnız anlaşmazlık çıktığında ortaya çıkar.",
+      "Sorumluluk maddi kazancı olana aittir.",
+      "İletişim yakınlık kurulduğunda sona erer."
+    ],
+    "explanation": "Sevgi ile hak ve sorumluluk birbirinin alternatifi değildir; adil ilişkiler sevgiyi destekler."
+  },
+  {
+    "id": "dinhayat-p13",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir şehirde varlıklı kişilerin bağışlarıyla ücretsiz aşevi hizmeti sürdürülüyor. Bu uygulama hangi tarihî kurumun temel işlevine benzer?",
+    "options": [
+      "Vakıf",
+      "Rasathane",
+      "Darülkurra",
+      "Kervan teşkilatı",
+      "Divan"
+    ],
+    "explanation": "Vakıflar mal veya gelirleri kamu yararına tahsis ederek eğitim ve sosyal yardım gibi hizmetler sunmuştur."
+  },
+  {
+    "id": "dinhayat-p14",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "İhtiyaç sahiplerine yapılan yardımların reklam amacıyla yüzlerini göstererek paylaşılması hangi ilkeyi zedeleyebilir?",
+    "options": [
+      "İnsan onurunu koruma",
+      "Kültürel çeşitliliği tanıma",
+      "Mesleki uzmanlaşmayı artırma",
+      "Teknik verimliliği geliştirme",
+      "Kurumsal sürekliliği sağlama"
+    ],
+    "explanation": "Yardımda miktar kadar yararlanan kişinin onur ve mahremiyeti de önemlidir."
+  },
+  {
+    "id": "dinhayat-p15",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Toplumsal adaletin yalnız herkese aynı miktarı vermek olduğunu savunan biri hangi unsuru eksik bırakır?",
+    "options": [
+      "Farklı ihtiyaç ve hakların dikkate alınmasını",
+      "Kaynakların sayılabilir olmasını",
+      "Yardımın topluca yapılmasını",
+      "Kurumların adlarının duyurulmasını",
+      "Hizmetin belli saatlerde sunulmasını"
+    ],
+    "explanation": "Adalet, her durumda aritmetik eşitlik değildir; hak ve ihtiyaç farklılıklarını dikkate alabilir."
+  },
+  {
+    "id": "dinhayat-p16",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Dinî değerlerin insanı yalnız bireysel davranışlarda ilgilendirdiğini söyleyen biri hangi örnekle karşılaşırsa görüşünü gözden geçirmelidir?",
+    "options": [
+      "Ölçü ve tartıda dürüstlük ilkesinin ticarette uygulanması",
+      "Bir kişinin kişisel çalışma takvimi",
+      "Bir şehrin yağış ortalaması",
+      "Bir ürünün fiziksel rengi",
+      "Bir sınıfın öğrenci sayısı"
+    ],
+    "explanation": "Ticarette dürüstlük bireysel davranışın toplumsal ve ekonomik sonuçlarını gösterir."
+  },
+  {
+    "id": "dinhayat-p17",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci cami mimarisindeki yazı, süsleme ve mekân düzenini inceliyor. Araştırmasının ana konusu hangisidir?",
+    "options": [
+      "Dinin sanat ve estetiğe etkisi",
+      "Dinin iklimlere etkisi",
+      "İnanç esaslarının sayısal dağılımı",
+      "Mezheplerin coğrafi sınırları",
+      "Siyasetin ekonomik sonuçları"
+    ],
+    "explanation": "Mimari, hat ve süsleme din ile sanatın etkileşiminin örnekleridir."
+  },
+  {
+    "id": "dinhayat-p18",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Toplumun değişmesiyle bütün ahlaki ilkelerin de geçersizleşeceğini söyleyen yaklaşımın temel sorunu nedir?",
+    "options": [
+      "Temel ilkelerle uygulama biçimlerini birbirine karıştırması",
+      "Yeni ihtiyaçları fark etmesi",
+      "Tarihsel şartları incelemesi",
+      "Araçların değişebileceğini kabul etmesi",
+      "İnsanların sorunlarını araştırması"
+    ],
+    "explanation": "Dürüstlük gibi temel ilkeler korunabilir; uygulamaya ilişkin yöntemler değişebilir."
+  },
+  {
+    "id": "dinhayat-p19",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir belediye engelli bireylerin kamusal hizmete erişimini kolaylaştırıyor. Sosyal adalet açısından hangi vurgu öne çıkar?",
+    "options": [
+      "Farklı ihtiyaçları gözeterek fırsata erişimi destekleme",
+      "Herkesin aynı bedensel imkâna sahip olduğunu kabul etme",
+      "Hizmeti gelir düzeyine göre sınırlama",
+      "Yardımı yalnız yakın çevreye yöneltme",
+      "Erişim hakkını kişisel ayrıcalık sayma"
+    ],
+    "explanation": "Erişilebilirlik, farklı koşulların doğurduğu engelleri azaltarak haklardan yararlanmayı destekler."
+  },
+  {
+    "id": "dinhayat-p20",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci dinin toplumda birlik oluşturmasını herkesin aynı düşünceye sahip olması şeklinde anlıyor. Doğru değerlendirme hangisidir?",
+    "options": [
+      "Birlik, farklılıklar içinde ortak değer ve hakların korunmasıyla sağlanabilir.",
+      "Birlik, bireysel görüşlerin ortadan kalkmasıdır.",
+      "Birlik, eleştirinin tümüyle yasaklanmasıdır.",
+      "Birlik, yalnız yakın ilişkiler kurmaktır.",
+      "Birlik, bütün geleneklerin değişmez olmasıdır."
+    ],
+    "explanation": "Toplumsal birlik düşünce tekliğiyle eş anlamlı değildir; ortak değerler ve saygı farklılıklarla birlikte bulunabilir."
+  },
+  {
+    "id": "dinhayat-p21",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Âl-i İmrân suresi 103-105. ayetlerin mesajlarını çalışan bir öğrenci hangi temayı öne çıkarmalıdır?",
+    "options": [
+      "Birlik, dayanışma ve ayrılıktan kaçınma",
+      "Yaratılışın biyolojik aşamaları",
+      "Ticaret akitlerinin çeşitleri",
+      "Hac uygulamalarının sırası",
+      "Miras paylarının hesaplanması"
+    ],
+    "explanation": "Bu ayetler birlik ve beraberlik ile iyiliğe yöneltme gibi toplumsal mesajlar taşır."
+  },
+  {
+    "id": "dinhayat-p22",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişinin başkasının emeğini izinsiz kullanıp kendi ürünü gibi sunması hangi açıdan değerlendirilmelidir?",
+    "options": [
+      "Emek ve hak ihlali açısından",
+      "Yalnız görünür başarı açısından",
+      "Mesleğin tanınırlığı açısından",
+      "Ürünün yayılma hızı açısından",
+      "Çalışmanın uzunluğu açısından"
+    ],
+    "explanation": "Ekonomik ve ahlaki haklar yalnız somut mallarla sınırlı değildir; emeğin sahipliği de korunur."
+  },
+  {
+    "id": "dinhayat-p23",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir işletme kazancını artırırken çevreye verdiği zararı yok sayıyor. Dinin hayatla ilişkisi bakımından hangi değerlendirme uygundur?",
+    "options": [
+      "Kazanç arayışı toplumsal ve çevresel sorumlulukla sınırlandırılır.",
+      "Maddi başarı ahlaki değerlendirmeyi gereksiz kılar.",
+      "Zarar yalnız müşteriler etkilenirse önemlidir.",
+      "Yasal boşluk davranışı ahlaken doğru yapar.",
+      "Ekonomik faaliyet değerlerden bağımsızdır."
+    ],
+    "explanation": "Kazanç meşru yöntem ve haklara saygıyla birlikte değerlendirilir; tek ölçü kârlılık değildir."
+  },
+  {
+    "id": "dinhayat-p24",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir araştırmacı dinî motiflerin edebiyatta, mimaride ve musikideki yerini birlikte inceliyor. Hangi sonuç kapsamına uygundur?",
+    "options": [
+      "Din kültürel üretimin farklı alanlarına ilham vermiştir.",
+      "Bütün sanat eserleri aynı inancı ifade eder.",
+      "Kültür yalnız dinî unsurlardan oluşur.",
+      "Dinî sanat coğrafi farklılık taşımaz.",
+      "Estetik değer yalnız kullanılan malzemeye bağlıdır."
+    ],
+    "explanation": "Örnekler dinin farklı sanat dallarına etkisini gösterir; kültürün tek kaynağı olduğunu kanıtlamaz."
+  },
+  {
+    "id": "dinhayat-p25",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir yardım kampanyasında bağışların nerede kullanıldığının açıklanması hangi ilkeyi destekler?",
+    "options": [
+      "Güvenilirlik ve hesap verebilirlik",
+      "Kişisel şöhreti önceleme",
+      "İhtiyaçları eşitleme",
+      "Yardımı gösterişe dönüştürme",
+      "Sorumluluğu bağışçıya bırakma"
+    ],
+    "explanation": "Kaynak kullanımının açıklığı emanet bilincini ve kuruma duyulan güveni güçlendirir."
+  },
+  {
+    "id": "dinhayat-p26",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir dinî uygulamanın belli toplumda farklı kıyafetlerle yerine getirilmesi gözleniyor. Araştırmacı öncelikle neyi ayırmalıdır?",
+    "options": [
+      "Dinin temel ölçüsüyle yerel kültürel biçimi",
+      "Bireyin yaşıyla takvim tarihini",
+      "Sanatın rengiyle malzemesini",
+      "Nüfusla yerleşim yoğunluğunu",
+      "Meslekle ulaşım aracını"
+    ],
+    "explanation": "Ortak dinî ölçüler farklı kültürel biçimlerle görünür olabilir; biçim farkı doğrudan inanç farkı sayılmaz."
+  },
+  {
+    "id": "dinhayat-p27",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir işçi, işe gereken özeni göstermeden ücret hakkını savunuyor. Hak ve sorumluluk dengesi bakımından hangi açıklama uygundur?",
+    "options": [
+      "Ücret hakkı ile işi özenle yapma sorumluluğu birlikte düşünülür.",
+      "Ücret almak her sorumluluğu sona erdirir.",
+      "Çalışanın hakkı işverenin tercihine bağlıdır.",
+      "Sorumluluk yalnız işverene aittir.",
+      "İşçinin hakkı işin görünürlüğüne bağlıdır."
+    ],
+    "explanation": "İslam’ın ekonomik ahlakında işverenin hakları gözetmesi kadar çalışanın görevini özenle yerine getirmesi de önemlidir."
+  },
+  {
+    "id": "dinhayat-p28",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir ailede anlaşmazlık çıkınca taraflar birbirini dinleyip çözüm arıyor. Bu tutum hangi toplumsal değeri besler?",
+    "options": [
+      "Barışçı iletişimi",
+      "Statü rekabetini",
+      "Ön yargıyı",
+      "Mahremiyet ihlalini",
+      "Ayrımcılığı"
+    ],
+    "explanation": "Dinleme ve yapıcı çözüm, ailede sevgi ve huzuru destekler; anlaşmazlığın yok sayılması değildir."
+  },
+  {
+    "id": "dinhayat-p29",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci dinin ekonomik hayatla ilişkisini yalnız yasaklarla anlatıyor. Hangi başlık sunumunu tamamlar?",
+    "options": [
+      "Emek, adil paylaşım ve dayanışma",
+      "Sadece ürünlerin teknik özellikleri",
+      "İklimle üretim arasındaki ilişki",
+      "Nüfus sayım yöntemleri",
+      "Coğrafi yönlerin belirlenmesi"
+    ],
+    "explanation": "Din, ekonomik hayatta hem sınırlar hem çalışma, hak ve paylaşım gibi olumlu ilkeler sunar."
+  },
+  {
+    "id": "dinhayat-p30",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir topluluk ortak değerler adına ihtiyaç sahiplerinin görüşünü almadan karar veriyor. Katılımcı dayanışmaya uygun adım hangisidir?",
+    "options": [
+      "Destek alacak kişilerin ihtiyaç ve önerilerini dinlemek",
+      "Yardımın görünürlüğünü tek ölçü yapmak",
+      "Bağışçıların tercihini bütün ihtiyaçlara üstün tutmak",
+      "Herkese aynı ürünü dağıtmak",
+      "İhtiyaçları kişilerin tanınırlığına göre belirlemek"
+    ],
+    "explanation": "Yardımın etkili ve saygılı olması gerçek ihtiyaçların dinlenmesini gerektirir."
+  },
+  {
+    "id": "dinhayat-p31",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Dinle sosyal değişim ilişkisini inceleyen biri hangi soruyla daha uygun bir araştırma yapar?",
+    "options": [
+      "Temel değerler yeni toplumsal ihtiyaçlara nasıl rehberlik eder?",
+      "Yeni olan her davranış neden aynı değerdedir?",
+      "Bütün gelenekler neden değişmezdir?",
+      "Maddi gelişme ahlakı niçin gereksiz kılar?",
+      "İnsanlar neden aynı mesleği seçmelidir?"
+    ],
+    "explanation": "Bu soru süreklilik gösteren ilkelerle değişen uygulamalar arasındaki ilişkiyi araştırır."
+  },
+  {
+    "id": "dinhayat-p32",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi vergi ya da yardım gibi toplumsal yükümlülükleri başkalarına bırakırken ortak hizmetlerden yararlanıyor. Hangi anlayış zayıflamıştır?",
+    "options": [
+      "Ortak yarara karşı sorumluluk",
+      "Mesleki merak",
+      "Sanatsal beğeni",
+      "Kültürel hafıza",
+      "Bireysel yetenek"
+    ],
+    "explanation": "Toplumsal yaşam haklarla birlikte ortak hizmetlere katkı ve sorumluluk gerektirir."
+  },
+  {
+    "id": "dinhayat-p33",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir mahallenin farklı aileleri bayram ziyaretlerinde eski anlaşmazlıkları konuşup barışıyor. Bu örnekte dinî geleneğin hangi katkısı görünür?",
+    "options": [
+      "Toplumsal bağları onarma",
+      "Ekonomik farklılıkları ortadan kaldırma",
+      "Bütün kararları ortaklaştırma",
+      "Bireysel hafızayı değiştirme",
+      "Yerel yönetimi devralma"
+    ],
+    "explanation": "Bayramlaşma gibi gelenekler iletişim, yakınlık ve barışma fırsatı sunabilir."
+  },
+  {
+    "id": "dinhayat-p34",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir üretici müşterinin ürünü tanımasını zorlaştıran yanıltıcı etiketler kullanıyor. Hangi ilkeyle çelişmektedir?",
+    "options": [
+      "Alışverişte açıklık ve güven",
+      "Üründe çeşitlilik",
+      "Mesleki uzmanlaşma",
+      "Teknolojik yenilik",
+      "Pazarın büyümesi"
+    ],
+    "explanation": "Yanıltıcı bilgi alıcının sağlıklı tercih ve haklarını zedeler; ekonomik gelişme bunu haklı kılmaz."
+  },
+  {
+    "id": "dinhayat-p35",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci yardımlaşmayı yalnız para vermek sayıyor. Hangi örnek bu bakışı genişletir?",
+    "options": [
+      "Bilgisiyle bir öğrencinin öğrenmesine destek olmak",
+      "Yardımın tutarını sürekli karşılaştırmak",
+      "Destek vermeyi tanınırlığa bağlamak",
+      "İhtiyaç sahibinin her kararını yönetmek",
+      "Yardımı yalnız karşılık bekleyerek yapmak"
+    ],
+    "explanation": "Dayanışma emek, bilgi ve zaman paylaşımını da kapsar; maddi aktarımla sınırlı değildir."
+  },
+  {
+    "id": "dinhayat-p36",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir ailede çocukların soruları ciddiye alınırken yaşlarına uygun sorumluluklar veriliyor. Bu uygulama hangi bütünlüğü yansıtır?",
+    "options": [
+      "Sevgi, eğitim ve sorumluluk",
+      "Kazanç, rekabet ve şöhret",
+      "Yetki, korku ve suskunluk",
+      "Alışkanlık, ayrıcalık ve üstünlük",
+      "Verim, hız ve görünürlük"
+    ],
+    "explanation": "Aile yalnız ihtiyaçların karşılandığı yer değil, değer ve sorumluluk eğitiminin de ortamıdır."
+  },
+  {
+    "id": "dinhayat-p37",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi iyi niyetle yardım ettiğini söyleyerek ihtiyaç sahibinin rızasını ve mahremiyetini önemsemiyor. Bu yaklaşımın eksiği nedir?",
+    "options": [
+      "Niyetle birlikte yöntemin de ahlaki ölçülere uygun olması gerektiğini unutması",
+      "Yardım için emek vermesi",
+      "İhtiyacı fark etmesi",
+      "Dayanışmaya katılması",
+      "Kaynağını paylaşması"
+    ],
+    "explanation": "İyi niyet, kullanılan her yöntemi doğru yapmaz; onur, rıza ve mahremiyet de korunmalıdır."
+  },
+  {
+    "id": "dinhayat-p38",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir toplumun dinî yaşayışında dil, musiki ve mimari farklılıkların görülmesi hangi açıklamaya uygundur?",
+    "options": [
+      "Din ile kültürün etkileşimine",
+      "Temel inançların bütünüyle değişmesine",
+      "Bütün kültürlerin aynılaşmasına",
+      "Dinin yalnız ekonomik alana ait olmasına",
+      "Sanatın inançtan kopuk olmasına"
+    ],
+    "explanation": "Dinî yaşayış kültürel biçimlerle görünür olur; kültürel farklılık her zaman temel inanç farklılığı değildir."
+  },
+  {
+    "id": "dinhayat-p39",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir işletme yardım kampanyası düzenliyor fakat çalışanlarının ücretini geciktiriyor. Bu tutumdaki temel çelişki nedir?",
+    "options": [
+      "Hayır faaliyeti yürütürken doğrudan hak sahiplerini ihmal etmesi",
+      "Kurumun tanınmasına katkı sunması",
+      "Yardımın toplu yapılması",
+      "Çalışmanın farklı alanlara ayrılması",
+      "Bağışların düzenli kaydedilmesi"
+    ],
+    "explanation": "Gönüllü yardım, emek sahibinin hakkını yerine getirmenin yerine geçmez."
+  },
+  {
+    "id": "dinhayat-p40",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci dinin bireye etkisini incelerken hangi örneği kullanmalıdır?",
+    "options": [
+      "Davranışlarını sorumluluk bilinciyle değerlendirmesini",
+      "Şehrin yol uzunluğunu hesaplamasını",
+      "Bitkinin türünü sınıflamasını",
+      "Havanın sıcaklığını ölçmesini",
+      "Bir aracın hızını karşılaştırmasını"
+    ],
+    "explanation": "Din bireyin anlam ve ahlaki sorumluluk bilincine katkı sunabilir; teknik ölçüm doğrudan bu boyut değildir."
+  },
+  {
+    "id": "dinhayat-p41",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir mahallede herkes yalnız akrabalarına yardım ediyor, diğer ihtiyaç sahipleri dışarıda kalıyor. Sosyal adalet bakımından hangi öneri uygundur?",
+    "options": [
+      "Yardımda yakınlığın yanında gerçek ihtiyaç ve hakları gözetmek",
+      "Yardımı toplumsal statüye göre vermek",
+      "Bütün desteği en tanınmış kişiye yöneltmek",
+      "Kaynakları yalnız görünür projelere ayırmak",
+      "İhtiyaçları kişisel beğeniye göre sıralamak"
+    ],
+    "explanation": "Akrabaya destek değerli olabilir; bu diğer insanların hakkını ve ihtiyacını yok saymayı haklı kılmaz."
+  },
+  {
+    "id": "dinhayat-p42",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç yaşadığı toplumun değişen sorunları için dinî değerlerden çözüm ilkeleri arıyor. Bu davranış hangisine örnektir?",
+    "options": [
+      "Dini hayatın sorunlarıyla ilişkilendirmeye",
+      "Dini tarih bilgisinden ibaret saymaya",
+      "Kültürü değişmez hüküm kabul etmeye",
+      "İnancı kişisel çıkara göre biçimlendirmeye",
+      "Toplumsal sorumluluğu ertelemeye"
+    ],
+    "explanation": "Din-hayat ilişkisi güncel meseleleri temel değerler ışığında değerlendirmeyi de içerir."
+  },
+  {
+    "id": "dinhayat-p43",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci dayanışma kurumlarının yoksulluğu azaltmasını anlatırken hangi sonucu aşırı genellemiş olur?",
+    "options": [
+      "Tek bir yardım kampanyası bütün adalet sorunlarını çözer.",
+      "Yardım insanların temel ihtiyaçlarına katkı sunar.",
+      "Dayanışma toplumsal yakınlığı artırabilir.",
+      "Kurumsal destek sürekliliği kolaylaştırabilir.",
+      "Hakların korunması yardımı tamamlar."
+    ],
+    "explanation": "Yardım değerlidir fakat sosyal adalet emek, hak, fırsat ve kurumlarla ilgili çok boyutlu bir konudur."
+  },
+  {
+    "id": "dinhayat-p44",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir belediye hizmetinde herkesin sıraya ve kurala tabi tutulması hangi değerle ilişkilidir?",
+    "options": [
+      "Adalet",
+      "Riya",
+      "Haset",
+      "Tecessüs",
+      "Taassup"
+    ],
+    "explanation": "Kişisel yakınlığa göre ayrıcalık tanımamak adaletin bir görünümüdür."
+  },
+  {
+    "id": "dinhayat-p45",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir sanatçı dinî içerikli eser üretirken tarihî örnekleri inceliyor ve kendi döneminin tekniklerinden yararlanıyor. Bu durum hangisini gösterir?",
+    "options": [
+      "Kültürel süreklilikle yeniliğin bir arada bulunabileceğini",
+      "Yeni tekniğin bütün geleneği geçersiz kıldığını",
+      "Dinî sanatın tek biçimle sınırlandığını",
+      "Geçmişten yararlanmanın özgünlüğü engellediğini",
+      "Sanatın toplumsal bağlamdan bağımsız olduğunu"
+    ],
+    "explanation": "Temel tema ve miras korunurken teknik ve yorum bakımından yenilik oluşabilir."
+  },
+  {
+    "id": "dinhayat-p46",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir toplulukta gelir düzeyi insanın değeriyle eş tutuluyor. İslam’ın insan ve sosyal adalet anlayışı hangi düzeltmeyi destekler?",
+    "options": [
+      "İnsan onuru servetle ölçülmez.",
+      "Maddi başarı bütün hakların kaynağıdır.",
+      "Saygı yalnız bağış yapanlara gösterilir.",
+      "Ekonomik güç ahlaki üstünlüğü kanıtlar.",
+      "İhtiyaç sahibi olmak kişilik eksikliğidir."
+    ],
+    "explanation": "İnsan onuru doğrudan servet veya statüye bağlı değildir; ekonomik fark ayrımcılık gerekçesi olamaz."
+  },
+  {
+    "id": "dinhayat-p47",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir araştırma dinin aileye, ekonomiye ve sanata etkisini ayrı örneklerle gösteriyor. Bu araştırmanın ortak sonucu hangisidir?",
+    "options": [
+      "Din hayatın farklı alanlarıyla etkileşim içindedir.",
+      "Din yalnız bireysel duygularda görünür.",
+      "Bütün toplumsal kurumlar aynı işlevi görür.",
+      "Kültürün din dışında kaynağı yoktur.",
+      "Ekonomik değişim ahlakı sona erdirir."
+    ],
+    "explanation": "Örnekler din-hayat ilişkisinin çok boyutlu olduğunu gösterir; tek nedenli bir kültür açıklaması sunmaz."
+  },
+  {
+    "id": "dinhayat-p48",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi yardım dağıtırken aynı durumda olan iki aileden birini kendi görüşünü paylaşmadığı için dışlıyor. Hangi ilke ihlal edilmektedir?",
+    "options": [
+      "Hakkaniyet",
+      "Verimlilik",
+      "Görünürlük",
+      "Uzmanlaşma",
+      "Süreklilik"
+    ],
+    "explanation": "Hak ve ihtiyaca dayalı ölçü yerine kişisel yakınlık koymak hakkaniyeti zedeler."
+  },
+  {
+    "id": "dinhayat-p49",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Bir okulda farklı kültürlerden öğrenciler ortak bir hayır projesinde çalışıyor. Hangi sonuç bu örnekten doğrudan çıkarılabilir?",
+    "options": [
+      "Ortak değerler farklılıklar arasında iş birliği oluşturabilir.",
+      "İş birliği bütün kültürel farkları ortadan kaldırır.",
+      "Aynı amaç kişisel görüşleri aynılaştırır.",
+      "Yardım yalnız okul ortamında yapılabilir.",
+      "Kültürel farklılık öğrenmeyi engeller."
+    ],
+    "explanation": "Ortak amaç ve dayanışma farklılıkları silmeden bir arada çalışmayı sağlayabilir."
+  },
+  {
+    "id": "dinhayat-p50",
+    "topic": "dinhayat",
+    "kind": "Kavram ve yorum",
+    "text": "Din, toplum ve değişim üzerine bir sunumun dengeli ana fikri hangisidir?",
+    "options": [
+      "Temel değerler süreklilik taşırken uygulamalar yeni koşullarla etkileşir.",
+      "Dinî değerlerin tamamı her dönemde yeniden belirlenir.",
+      "Tarihî uygulamaların tamamı aynı biçimde sürdürülmelidir.",
+      "Toplumsal değişim değer yargılarından bağımsızdır.",
+      "Kültürel alışkanlıklar temel inançların yerini alır."
+    ],
+    "explanation": "Sabit ilkelerle değişen ihtiyaç ve araçları ayırt etmek din-sosyal değişim ilişkisini doğru kurar."
+  },
+  {
+    "id": "ahlak-p01",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, sınıf başkanının yakın arkadaşı olmasına rağmen okul gezisine katılım listesindeki sıraya müdahale etmiyor. Arkadaşına, kişisel yakınlığın başkalarının hakkını değiştirmeyeceğini söylüyor. Bu tutumda belirleyici olan erdem hangisidir?",
+    "options": [
+      "Adalet",
+      "Vefa",
+      "Cömertlik",
+      "Tevazu",
+      "Kanaat"
+    ],
+    "explanation": "Adalet, kişisel yakınlıklardan bağımsız biçimde hak sahibine hakkını vermektir. Vefa bağlılığı sürdürmekle ilgilidir; hak dağıtımının ölçüsü değildir."
+  },
+  {
+    "id": "ahlak-p02",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir araştırma grubu çok sayıda bilgi topladığı hâlde bunları nerede kullanacağını belirleyemiyor. Grubun bir üyesi verileri değerlendiriyor, gereksiz ayrıntıları ayıklıyor ve sorunu çözecek yöntemi seçiyor. Bu öğrencinin davranışı hangi erdemi örneklemektedir?",
+    "options": [
+      "Hikmet",
+      "Şecaat",
+      "İffet",
+      "Cömertlik",
+      "Vefa"
+    ],
+    "explanation": "Hikmet, bilgiyi doğru değerlendirme ve yerinde kullanma erdemidir. Burada öne çıkan, tehlike karşısındaki cesaretten çok bilgiyle isabetli karar vermedir."
+  },
+  {
+    "id": "ahlak-p03",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, çok istediği bir ürünü alabilmek için arkadaşının hesabından izinsiz alışveriş yapabileceğini fark ediyor. Ancak arzusunu hak ve sorumluluk ölçüsüyle sınırlıyor. Bu olayda özellikle hangi erdem öne çıkmaktadır?",
+    "options": [
+      "İffet",
+      "Hikmet",
+      "Şecaat",
+      "Tevazu",
+      "Vefa"
+    ],
+    "explanation": "İffet, arzu ve istekleri ahlaki ölçüler içinde yönetmektir. Genç, bir isteği meşru sınırlarla denetlemiştir."
+  },
+  {
+    "id": "ahlak-p04",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Sınıfta yapılan bir haksızlığı fark eden Eren, alay edilmekten çekinse de mağdur arkadaşını savunuyor. Bunu yaparken kimseyi aşağılamadan gerekçelerini anlatıyor. Eren’in tutumu hangi erdeme en uygun örnektir?",
+    "options": [
+      "Şecaat",
+      "Kanaat",
+      "İffet",
+      "Cömertlik",
+      "Tevazu"
+    ],
+    "explanation": "Şecaat, korkuya rağmen doğruyu ölçülü biçimde savunma erdemidir. Saldırganlık veya her tehlikeye düşünmeden atılmak anlamına gelmez."
+  },
+  {
+    "id": "ahlak-p05",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi eleştiri duyduğunda hemen öfkeyle karşılık veriyor; diğeri ise hakkı çiğnendiğinde bile hiçbir şey söylemiyor. Ahlaki eğitim, öfkenin tümden yok edilmesini de sınırsızca dışa vurulmasını da uygun bulmuyor. Bu değerlendirmede esas alınan ilke hangisidir?",
+    "options": [
+      "İtidal",
+      "İsar",
+      "Vefa",
+      "Kanaat",
+      "İhsan"
+    ],
+    "explanation": "İtidal, duygu ve davranışlarda ölçüyü korumaktır. Hem aşırılık hem gereken tepkiyi gösterememek bu dengenin dışında kalır."
+  },
+  {
+    "id": "ahlak-p06",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğretmen, yardım yaparken ailesinin temel ihtiyaçlarını karşılayamaz duruma gelen bir kişiyle, imkânı olmasına rağmen zorunlu harcamadan kaçınan kişiyi birlikte değerlendiriyor. İlkinde ölçünün aşıldığını, ikincisinde gereken ölçünün altında kalındığını söylüyor. Bu iki durum sırasıyla hangi kavramlarla açıklanır?",
+    "options": [
+      "İfrat – tefrit",
+      "Tefrit – itidal",
+      "İtidal – ifrat",
+      "Kanaat – israf",
+      "İsar – kanaat"
+    ],
+    "explanation": "İfrat aşırılık, tefrit gereken düzeyin altında kalmadır. Cömertlik de sorumlulukları gözeten bir denge içinde değerlendirilir."
+  },
+  {
+    "id": "ahlak-p07",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci başarılı arkadaşının ödül almasını sevinçle karşılıyor ve onun çalışma yöntemlerini öğrenmek istiyor. Arkadaşının başarısının ortadan kalkmasını istemeden kendisinin de benzer başarıya ulaşmasını diliyor. Bu tutum hangisiyle adlandırılır?",
+    "options": [
+      "Gıpta",
+      "Haset",
+      "Kibir",
+      "Riya",
+      "Suizan"
+    ],
+    "explanation": "Gıpta, başkasındaki iyiliğin onda kalmasını da isteyerek benzerine yönelmektir. Hasette ise nimetin diğer kişide bulunmasından rahatsızlık vardır."
+  },
+  {
+    "id": "ahlak-p08",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir çalışan, arkadaşının terfi etmesinden rahatsız oluyor. Kendisinin görevinde bir değişiklik olmasa bile arkadaşının kazandığı konumu kaybetmesini diliyor. Bu tutumda hangi ahlaki sorun belirgindir?",
+    "options": [
+      "Haset",
+      "Gıybet",
+      "Tecessüs",
+      "İsraf",
+      "Riya"
+    ],
+    "explanation": "Haset, başkasındaki nimetin yok olmasını istemektir. Henüz bir kusuru anlatma veya özel hayat araştırma davranışı bulunmadığından gıybet ve tecessüs değildir."
+  },
+  {
+    "id": "ahlak-p09",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, arkadaşının gerçekten yaptığı bir hatayı onun bulunmadığı bir ortamda eğlence konusu yapıyor. “Yalan söylemediğim için bunda sorun yok.” diyerek kendini savunuyor. Bu savunmanın eksikliği hangi kavramla açıklanır?",
+    "options": [
+      "Gıybet",
+      "İftira",
+      "Haset",
+      "Suizan",
+      "İsraf"
+    ],
+    "explanation": "Gıybet, doğru olsa bile kişinin hoşlanmayacağı kusurunu arkasından söylemektir. İftira ise gerçekte yapılmamış bir davranışı isnat etmektir."
+  },
+  {
+    "id": "ahlak-p10",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi, iş arkadaşının kendisine rakip olmasını önlemek için onun para çaldığını söylüyor. Böyle bir olayın yaşanmadığını da biliyor. Burada doğrudan hangi davranış söz konusudur?",
+    "options": [
+      "İftira",
+      "Gıybet",
+      "Tecessüs",
+      "Suizan",
+      "Kibir"
+    ],
+    "explanation": "İftira, kişiye yapmadığı bir kötülüğü veya suçu yüklemektir. Gıybetten farkı anlatılan kusurun gerçek olmamasıdır."
+  },
+  {
+    "id": "ahlak-p11",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, arkadaşının telefonuna gelen bildirimleri gizlice açıyor ve özel konuşmalarını okumaya çalışıyor. Bunu, henüz ortada bir suçlama yokken sırf merakını gidermek için yapıyor. Bu davranış hangi kavramla açıklanır?",
+    "options": [
+      "Tecessüs",
+      "Gıybet",
+      "İftira",
+      "Haset",
+      "Riya"
+    ],
+    "explanation": "Tecessüs, başkalarının gizli yönlerini ve özel hayatını araştırmaktır. Konuşmaları başkalarına aktarmak ayrı bir ahlaki ihlal oluşturabilir; soru gizlice araştırmaya odaklanır."
+  },
+  {
+    "id": "ahlak-p12",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Selin, arkadaşının kendisine selam vermemesini hemen düşmanlık olarak yorumluyor. Oysa arkadaşının kendisini görüp görmediğini bilmiyor. Selin’in yeterli bilgi olmadan vardığı olumsuz kanaat hangi kavramdır?",
+    "options": [
+      "Suizan",
+      "Gıybet",
+      "İftira",
+      "Haset",
+      "Tecessüs"
+    ],
+    "explanation": "Suizan, sağlam dayanak olmaksızın kötü kanaat beslemektir. Bu olayda henüz asılsız bir suçlama yayma veya özel hayatı araştırma yoktur."
+  },
+  {
+    "id": "ahlak-p13",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Öğretmen, arkadaşının davranışını anlamlandıramayan öğrenciye önce açıklama istemesini, yeterli kanıt olmadan kötü niyet varsaymamasını öneriyor. Bunun, açık bir zararı görmezden gelmek anlamına gelmediğini de ekliyor. Önerilen tutum hangisidir?",
+    "options": [
+      "Hüsnüzan",
+      "Taklit",
+      "Tecessüs",
+      "Gıpta",
+      "Kanaat"
+    ],
+    "explanation": "Hüsnüzan, aksi yönde yeterli gerekçe bulunmadığında iyiye yormaktır. Delilleri araştırmaya veya hakları korumaya engel değildir."
+  },
+  {
+    "id": "ahlak-p14",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir yardım kampanyasının düzenleyicisi, bağış yapanların fotoğrafını onların iznini almadan yayımlamak istiyor. Bir öğrenci, yardımın duyurulmasının yararlı olabileceğini ancak kişilerin özel sınırlarının da korunması gerektiğini hatırlatıyor. Öğrenci özellikle hangi değeri gözetmektedir?",
+    "options": [
+      "Mahremiyet",
+      "Kanaat",
+      "Şecaat",
+      "İtidal",
+      "Gıpta"
+    ],
+    "explanation": "Mahremiyet, kişinin özel hayatını ve kişisel sınırlarını korumayı içerir. Yardımın yararı, kişisel bilginin izinsiz paylaşılmasını kendiliğinden meşrulaştırmaz."
+  },
+  {
+    "id": "ahlak-p15",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, kullanmadığı ve ihtiyacı olmayan kıyafetleri sırf indirimde oldukları için almaya devam ediyor. Dolabındaki ürünlerin birçoğunu etiketini çıkarmadan unutuyor. Burada hangi sorun özellikle öne çıkmaktadır?",
+    "options": [
+      "İsraf",
+      "Cimrilik",
+      "Kanaat",
+      "Haset",
+      "Riya"
+    ],
+    "explanation": "İsraf, imkânları ihtiyaç ve yarar ölçüsünü aşarak kullanmaktır. Bir ürünün ucuz olması onu gereksiz yere almayı ihtiyaç hâline getirmez."
+  },
+  {
+    "id": "ahlak-p16",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi, ailesinin temel ihtiyacını karşılayabilecek gücü olduğu hâlde bu harcamayı yapmıyor ve uygun her paylaşmadan kaçınıyor. Tutumunu “Tasarruf ediyorum.” diyerek açıklıyor. Bu olayda tasarruftan farklı olarak hangi davranış vardır?",
+    "options": [
+      "Cimrilik",
+      "Kanaat",
+      "Züht",
+      "İtidal",
+      "Tevazu"
+    ],
+    "explanation": "Cimrilik, yapılması gereken veya uygun olan harcama ve paylaşmadan kaçınmaktır. Tasarruf, ihtiyaçları ihmal etmek değil kaynakları yerinde kullanmaktır."
+  },
+  {
+    "id": "ahlak-p17",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, sahip olduğu imkânların değerini biliyor; başkalarında gördüğü her şeyi edinmeye çalışmıyor. Bununla birlikte hedefleri için çalışmaya ve becerilerini geliştirmeye devam ediyor. Bu tutum hangi kavramı açıklar?",
+    "options": [
+      "Kanaat",
+      "Cimrilik",
+      "Tefrit",
+      "İsar",
+      "Riya"
+    ],
+    "explanation": "Kanaat, eldekinin değerini bilip ölçüsüz hırstan uzak durmaktır. Çabayı ve gelişimi bırakmak anlamına gelmez."
+  },
+  {
+    "id": "ahlak-p18",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, sınavda başarısız olunca eksiklerini belirliyor, öğretmeninden destek alıyor ve yeni bir program uyguluyor. Yaşadığı güçlüğe rağmen çalışmasını sürdürüyor. Bu davranışta sabrın hangi yönü öne çıkar?",
+    "options": [
+      "Doğru amaç için çabayı kararlılıkla sürdürme",
+      "Kararın sonucunu değiştirmeden bekleme",
+      "İstekleri mümkün olduğunca azaltma",
+      "Başkalarının başarısını örnek alma",
+      "Geçmişteki iyiliklere bağlı kalma"
+    ],
+    "explanation": "Sabır, güçlük karşısında doğru tutumu sürdürmeyi içerir. Sorunu düzeltmek için çaba göstermek sabırla çelişmez; edilgen bekleyişten ayrılır."
+  },
+  {
+    "id": "ahlak-p19",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir esnaf, müşterinin fazla verdiği parayı fark edip geri veriyor. Müşterinin durumu anlamadığını ve parayı geri istemeyeceğini bilse de davranışını değiştirmiyor. Bu tutumda özellikle hangi ahlaki ilke vardır?",
+    "options": [
+      "Dürüstlük",
+      "Gıpta",
+      "Kanaat",
+      "Şecaat",
+      "Vefa"
+    ],
+    "explanation": "Dürüstlük, menfaat ve denetimden bağımsız biçimde doğru davranmayı gerektirir. Burada esas olan, başkasının hakkını bilerek sahiplenmemektir."
+  },
+  {
+    "id": "ahlak-p20",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir grup yöneticisi, görevini arkadaşına vermek istiyor. Grup üyeleri ise görevi yapacak kişinin bilgisi, becerisi ve sorumluluk bilincinin ölçüt alınmasını öneriyor. Öneride hangi ilke esas alınmaktadır?",
+    "options": [
+      "Liyakat",
+      "Vefa",
+      "Kanaat",
+      "Cömertlik",
+      "İsar"
+    ],
+    "explanation": "Liyakat, görevin gerektirdiği yeterliliği esas almaktır. Yakınlık ve kişisel bağlılık, yeterlilik değerlendirmesinin yerini alamaz."
+  },
+  {
+    "id": "ahlak-p21",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, kendisine verilen sınıf kitaplığını yalnızca kitapların kaybolmaması açısından düşünmüyor; kitaplara herkesin ulaşabilmesini ve kayıtların düzgün tutulmasını da görev sayıyor. Bu anlayışta emanet nasıl ele alınmaktadır?",
+    "options": [
+      "Gereği özenle yerine getirilmesi gereken sorumluluk olarak",
+      "Kişiye sürekli kullanım hakkı veren bir ayrıcalık olarak",
+      "Görev sahibinin tercihlerine bırakılmış bir yardım olarak",
+      "Başarı karşılığında edinilen kalıcı mülkiyet olarak",
+      "Başkalarının ihtiyacından önce gelen kişisel hak olarak"
+    ],
+    "explanation": "Emanet, korumayı ve gereğini yerine getirmeyi kapsar. Görevi devralmak, görevin imkânlarını kişisel mülke dönüştürmez."
+  },
+  {
+    "id": "ahlak-p22",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Arkadaşının zor bir döneminde ona destek olan Ayşe, yıllar sonra kendisi güçlük yaşadığında aynı arkadaşının ilgisiyle karşılaşıyor. Arkadaşı, gördüğü iyiliği unutmadığını ve bağını sürdürmek istediğini söylüyor. Bu davranış hangisiyle ilişkilidir?",
+    "options": [
+      "Vefa",
+      "Gıpta",
+      "Şecaat",
+      "İffet",
+      "Kanaat"
+    ],
+    "explanation": "Vefa, geçmişteki iyiliği unutmama ve bağlılığı sürdürmedir. Cömertlik paylaşma boyutuna işaret etse de metnin odağı iyiliği hatırlamaktır."
+  },
+  {
+    "id": "ahlak-p23",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir sporcu, önemli bir başarı elde ettiğinde takımının katkısını da anıyor. Başarısını kendisini diğer insanlardan üstün kılan bir gerekçe olarak kullanmıyor. Bu tutum hangi erdeme örnektir?",
+    "options": [
+      "Tevazu",
+      "Kanaat",
+      "Şecaat",
+      "İsar",
+      "Sabır"
+    ],
+    "explanation": "Tevazu, kişinin başarılarını inkâr etmeden başkalarını küçümsememesidir. Kendi yeteneğinin farkında olmak alçak gönüllülükle çelişmez."
+  },
+  {
+    "id": "ahlak-p24",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi yardım yaparken ihtiyacın ne olduğundan çok, çevresinin kendisini ne kadar öveceğiyle ilgileniyor. Kimsenin bilmeyeceği bir yardımda bulunmak istemiyor. Bu tutumda hangi sorun vardır?",
+    "options": [
+      "Riya",
+      "Haset",
+      "İsraf",
+      "Gıybet",
+      "Tecessüs"
+    ],
+    "explanation": "Riya, iyi bir davranışta insanların beğenisini asıl amaç hâline getirmektir. Her açık yardım riya değildir; belirleyici unsur gösteriş niyetidir."
+  },
+  {
+    "id": "ahlak-p25",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, yaptığı gönüllü çalışmayı beğeni kazanmak için değil faydalı olmak ve Allah’ın rızasını gözetmek için sürdürüyor. Takdir görmediğinde de aynı özeni koruyor. Bu davranışta özellikle hangi kavram öne çıkar?",
+    "options": [
+      "İhlas",
+      "İkrar",
+      "Gıpta",
+      "Kanaat",
+      "Şecaat"
+    ],
+    "explanation": "İhlas, davranışı gösterişten uzak ve samimi bir amaçla yapmaktır. Takdir edilmemesine rağmen amacı koruması bu içtenliği gösterir."
+  },
+  {
+    "id": "ahlak-p26",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, arkadaşlarının hiçbirinin görmediği bir ortamda da sınav kurallarına uyuyor. Davranışlarını yalnız insanların denetimine bağlamadığını, Allah’ın kendisini gördüğünün bilinciyle hareket ettiğini söylüyor. Bu bilinç hangisidir?",
+    "options": [
+      "İhsan",
+      "İkrar",
+      "İstişare",
+      "Gıpta",
+      "Kanaat"
+    ],
+    "explanation": "İhsan, Allah’ın gördüğünün bilinciyle davranmayı ve işi güzel yapmayı ifade eder. İhlasla ilişkili olsa da metinde özellikle ilahî gözetim bilinci vurgulanmıştır."
+  },
+  {
+    "id": "ahlak-p27",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, kendisine kaba davranan arkadaşını dinliyor ve yanlışını uygun bir dille anlatıyor. Karşılık verirken hem kendi hakkını savunuyor hem arkadaşının onurunu koruyor. Bu örnekte aşağıdaki yargılardan hangisi desteklenmektedir?",
+    "options": [
+      "Hakkı savunmak nezaketle birlikte yürütülebilir.",
+      "Nezaketin ölçüsü kişinin sessiz kalabilmesidir.",
+      "Bir tartışmanın değeri tarafların yakınlığına bağlıdır.",
+      "Ahlaki tavır sonucu değiştirdiği ölçüde anlamlıdır.",
+      "Duyguların gücü davranışın haklılığını belirler."
+    ],
+    "explanation": "Nezaket, hak aramaktan vazgeçmeyi gerektirmez. Öğrenci, uygun üslupla itiraz ederek iki değeri birlikte gözetmiştir."
+  },
+  {
+    "id": "ahlak-p28",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Ahlaki alışkanlıklar kişinin bir kez yaptığı davranışla sınırlı değildir. Doğruyu farklı durumlarda da seçebilmek, bu tutumu kişiliğin yerleşik bir parçasına dönüştürür. Bu açıklamada erdemin hangi niteliği vurgulanmaktadır?",
+    "options": [
+      "İyi davranışın süreklilik kazanan bir özellik olması",
+      "Davranışın toplumda görünür biçimde yapılması",
+      "Bireysel isteğin davranışın tek ölçüsü olması",
+      "Alışılmış tutumun sorgulanmadan sürdürülmesi",
+      "Davranışın kısa sürede ödül sağlaması"
+    ],
+    "explanation": "Erdem, iyi davranışın kişide yerleşmiş bir nitelik hâline gelmesidir. Görünürlük ve ödül bu niteliğin zorunlu şartları değildir."
+  },
+  {
+    "id": "ahlak-p29",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, öfkeli olduğunda kötü söz söylemenin kendisi için doğal olduğunu ileri sürüyor. Öğretmeni ise duyguyu yaşamakla o duyguya dayanarak başkasını incitmeyi seçmenin aynı şey olmadığını açıklıyor. Bu değerlendirme hangi düşünceye dayanır?",
+    "options": [
+      "İnsan duygularını ahlaki sorumlulukla yönetebilir.",
+      "Mizaç özellikleri davranışın sonuçlarını ortadan kaldırır.",
+      "Ahlaki sorumluluk duyguların zayıflığına bağlıdır.",
+      "Öfke yalnız kişinin kendisine zarar veren bir duygudur.",
+      "Davranışın değeri duygunun kendiliğindenliğine bağlıdır."
+    ],
+    "explanation": "İnsan duygularını tümden seçemese de tepkilerini eğitebilir. Mizacın etkisi, bilinçli davranıştaki sorumluluğu ortadan kaldırmaz."
+  },
+  {
+    "id": "ahlak-p30",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, bir yardım kampanyasında yalnızca kendi arkadaş grubuna destek verilmesini öneriyor. Diğer öğrenciler ise ihtiyaç ve imkân durumuna göre hareket edilmesini savunuyor. İkinci yaklaşımda hangi iki ilke birlikte gözetilir?",
+    "options": [
+      "Adalet ve merhamet",
+      "Kanaat ve mahremiyet",
+      "Şecaat ve gıpta",
+      "İffet ve vefa",
+      "Tevazu ve sadakat"
+    ],
+    "explanation": "İhtiyacı gözetmek merhametle, kaynakları yakınlığa göre ayırmamak adaletle ilgilidir. İki ilke birbirini tamamlamaktadır."
+  },
+  {
+    "id": "ahlak-p31",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi, kendisine emanet edilen paradan küçük bir miktar alıp daha sonra yerine koymayı planlıyor. “Sonunda kimse zarar görmeyecek.” diyerek bunu uygun buluyor. Bu yaklaşımın temel eksikliği hangisidir?",
+    "options": [
+      "İzinsiz tasarrufun emanet sorumluluğunu ihlal ettiğini gözden kaçırması",
+      "Niyetin ahlaki değerlendirmede yerini bütünüyle dışlaması",
+      "Paylaşmanın toplumdaki yararını gereğinden fazla önemsemesi",
+      "Bireysel mülkiyetin korunmasını tek ölçüt kabul etmesi",
+      "Ekonomik ihtiyaçların değişkenliğini hesaba katmaması"
+    ],
+    "explanation": "Emanet üzerinde izinsiz tasarruf, sonradan telafi planlansa da sorumluluğu ihlal eder. İyi sonuç beklentisi kullanılan yöntemi kendiliğinden uygun kılmaz."
+  },
+  {
+    "id": "ahlak-p32",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, grup çalışmasında kendi görevini yapmadığı hâlde diğer arkadaşlarıyla aynı katkıyı sunmuş gibi konuşuyor. Notun ortak verilmesini buna gerekçe gösteriyor. Bu davranış öncelikle hangi açıdan sorunludur?",
+    "options": [
+      "Emeğin karşılığını ve başkalarının hakkını gözetmemesi",
+      "Grubun tüm üyelerinden aynı yeteneği beklememesi",
+      "Çalışmanın sonucunu bireysel başarıdan önce tutması",
+      "Kendi eksiğini arkadaşlarıyla karşılaştırarak değerlendirmesi",
+      "Görev dağılımında farklı yöntemlere yer vermesi"
+    ],
+    "explanation": "Ortak not, katkı sorumluluğunu ortadan kaldırmaz. Başkalarının emeğini kendi emeği gibi sunmak kul hakkı ve dürüstlük açısından sorunludur."
+  },
+  {
+    "id": "ahlak-p33",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrencinin, “Söz verdiğim saatte geleceğim.” demesi bir niyet açıklamasıdır. Önüne daha cazip bir etkinlik çıktığında da sözünü tutması ise ahlaki tutumun davranışa dönüştüğünü gösterir. Burada özellikle hangi değer öne çıkar?",
+    "options": [
+      "Ahde vefa",
+      "Gıpta",
+      "Kanaat",
+      "İsar",
+      "Tevazu"
+    ],
+    "explanation": "Ahde vefa, verilen söze bağlı kalmaktır. Ahlaki değer, uygun bir fırsatta söylenmesinden çok tercihlerin zorlaştığı durumda sürdürülmesiyle görünür olur."
+  },
+  {
+    "id": "ahlak-p34",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir yönetici, toplantıda kendisine yöneltilen eleştiriyi kişisel saygınlığına saldırı gibi görmüyor. Gerekçeleri dinleyip hatasını düzeltiyor. Bu tutum, aşağıdaki ikililerden hangisi arasındaki farkı en açık biçimde gösterir?",
+    "options": [
+      "Tevazu ile kibir",
+      "Kanaat ile cimrilik",
+      "İsar ile cömertlik",
+      "Sabır ile tevekkül",
+      "Gıpta ile haset"
+    ],
+    "explanation": "Eleştiriye açık olmak, kendini başkalarından üstün ve hatasız görmemekle ilişkilidir. Bu, tevazunun kibirden ayrıldığı yönlerden biridir."
+  },
+  {
+    "id": "ahlak-p35",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, arkadaşının yeni aldığı eşyayı görünce kendisinin de benzerini alması gerektiğini düşünüyor. Oysa mevcut eşyası ihtiyacını karşılıyor. Bir süre düşündükten sonra satın almaktan vazgeçip parasını daha gerekli bir iş için ayırıyor. Bu tercih hangi ilkeyi örnekler?",
+    "options": [
+      "İhtiyaç ve imkân arasında ölçülü ilişki kurmayı",
+      "Maddi imkânları kullanmaktan bütünüyle kaçınmayı",
+      "Başkalarının tercihlerinden bağımsız yaşamayı başaramamayı",
+      "Kişisel isteği ihtiyaçtan önce değerlendirmeyi",
+      "Cömertliği harcamanın miktarıyla belirlemeyi"
+    ],
+    "explanation": "Ölçülü tüketim, isteğin varlığını reddetmeden gerçek ihtiyacı ve imkânları değerlendirmektir. Harcamayı tamamen terk etmekle aynı değildir."
+  },
+  {
+    "id": "ahlak-p36",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, sokakta yaralı bir hayvan görünce üzülüyor. Ancak bu duyguyla yetinmeyip uygun bir birime haber veriyor ve güvenli biçimde yardım ediyor. Bu örnek merhametin hangi yönüne işaret eder?",
+    "options": [
+      "Duyarlılığın sorumluluk alan davranışa dönüşmesine",
+      "Üzüntünün diğer duyguları bütünüyle ortadan kaldırmasına",
+      "Yardımın yalnız yakın çevreye yönelmesine",
+      "Sorunun çözümünün tek kişiye bağlı olmasına",
+      "İyi niyetin yöntem seçimini gereksiz kılmasına"
+    ],
+    "explanation": "Merhamet, sıkıntıyı önemsemeyi ve onu gidermeye yönelmeyi içerir. Yardımın uygun ve güvenli yöntemle yapılması da sorumluluğun parçasıdır."
+  },
+  {
+    "id": "ahlak-p37",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi, ihtiyaç duyduğu yiyeceği kendisinden daha zor durumdaki bir komşusuna veriyor. Paylaşımın, kendisinin de ihtiyaç sahibi olduğu bir anda gerçekleştiği özellikle belirtiliyor. Bu tutumu cömertlikten daha özel biçimde adlandıran kavram hangisidir?",
+    "options": [
+      "İsar",
+      "İtidal",
+      "Kanaat",
+      "Vefa",
+      "Şecaat"
+    ],
+    "explanation": "İsar, kişinin kendisi ihtiyaç içindeyken başkasını tercih etmesidir. Cömertlik daha genel bir paylaşma erdemidir; belirtilen özel durum isarı gösterir."
+  },
+  {
+    "id": "ahlak-p38",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir arkadaşının güvenerek anlattığı özel meseleyi başkalarına aktarmayan öğrenci, o kişiyle arası bozulduktan sonra da aynı tutumu sürdürüyor. Bu davranış hangi düşünceyi en iyi destekler?",
+    "options": [
+      "Emanete riayet kişisel ilişkinin değişmesine bağlanmamalıdır.",
+      "Yakınlık azaldığında kişisel bilgilerin ahlaki değeri değişir.",
+      "Bir sırrın korunması onun toplumsal yararına bağlıdır.",
+      "Güven ilişkisi karşılıklı menfaat sağladığı sürece sürer.",
+      "Mahremiyet yalnız bilgi sahibinin yanında geçerlidir."
+    ],
+    "explanation": "Güvenilerek paylaşılan özel bilgiye ilişkin sorumluluk, arkadaşlık bozulunca kendiliğinden ortadan kalkmaz. Ahlaki ilke, anlık duygudan bağımsız korunur."
+  },
+  {
+    "id": "ahlak-p39",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, kendisinin yaptığı hatayı başkası yaptığında daha ağır değerlendirdiğini fark ediyor. Bundan sonra aynı davranışı kimin yaptığına bakmadan aynı ölçütle ele almaya çalışıyor. Bu değişim hangi erdemle ilişkilidir?",
+    "options": [
+      "Adalet",
+      "Kanaat",
+      "İsar",
+      "Vefa",
+      "Hikmet"
+    ],
+    "explanation": "Adalet, değerlendirmede kişiye göre ölçüt değiştirmemeyi gerektirir. Aynı davranışı kendisi ve başkası için farklı ölçmek hakkaniyetle bağdaşmaz."
+  },
+  {
+    "id": "ahlak-p40",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, alay edilen arkadaşını savunmak isterken onu aşağılayan öğrencilere de hakaret ediyor. Öğretmeni, savunulan amacın doğru olmasının her yöntemi uygun kılmayacağını söylüyor. Bu değerlendirmeden hangi sonuç çıkar?",
+    "options": [
+      "Ahlaki davranışta amaç ile yöntem birlikte değerlendirilir.",
+      "Hak arama çabası karşı tarafın tutumuyla sınırlanır.",
+      "Haksızlığa tepki veren kişinin niyeti önem taşımaz.",
+      "Öfkenin kuvveti savunmanın doğruluğunu belirler.",
+      "İyi amaç, davranışın sonuçlarından bağımsızdır."
+    ],
+    "explanation": "Haklı bir amacı savunurken kullanılan üslup ve yöntem de ahlaki ölçülere uygun olmalıdır. İyi niyet, hakareti kendiliğinden doğru hâle getirmez."
+  },
+  {
+    "id": "ahlak-p41",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişinin zor durumda olanlara yardım etmesi değerli bulunur. Ancak yardım ettiği kişiyi herkesin önünde küçük düşürmesi, yardımın ahlaki niteliğini zedeler. Bu değerlendirmede hangi ilke vurgulanmaktadır?",
+    "options": [
+      "İyilik yapılırken insan onuru korunmalıdır.",
+      "Yardımın değeri miktarına göre belirlenmelidir.",
+      "Yardım yalnız yakın ilişki içinde yapılmalıdır.",
+      "İhtiyaç sahibinin duyguları sonuçtan sonra değerlendirilmelidir.",
+      "Toplumun takdiri yardımın temel gerekçesidir."
+    ],
+    "explanation": "İyilik, ihtiyaç gidermenin yanında kişinin onurunu da gözetmelidir. Maddi yarar, incitici davranışın ahlaki sorununu kaldırmaz."
+  },
+  {
+    "id": "ahlak-p42",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğretmen, ahlakın yalnız başkalarının ne düşündüğüne göre şekillenmemesi gerektiğini söylüyor. Öğrencilerinden, kimsenin görmediği durumda da doğruyu seçmelerini bekliyor. Bu açıklama hangi niteliğe vurgu yapar?",
+    "options": [
+      "Ahlaki ilkenin içselleştirilmesine",
+      "Toplumsal alışkanlıkların aynen korunmasına",
+      "Davranışın görünürlüğünün artırılmasına",
+      "Duyguların kararların tek ölçüsü olmasına",
+      "Yaptırımın davranıştan sonra belirlenmesine"
+    ],
+    "explanation": "İçselleştirme, doğru davranışın dış denetim olmadığında da sürdürülmesidir. Beğeni ve cezadan bağımsız bir sorumluluk bilinci öne çıkar."
+  },
+  {
+    "id": "ahlak-p43",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci kendi görüşünü savunurken karşısındakinin sözünü kesmiyor; onu anlamaya çalışıyor. Bunun, her söyleneni doğru bulmak anlamına gelmediğini de belirtiyor. Bu tutumdan hangi sonuç çıkarılabilir?",
+    "options": [
+      "Saygı göstermek görüş birliğine varmayı zorunlu kılmaz.",
+      "Görüş ayrılığı kişilerin birbirini dinlemesini sınırlar.",
+      "Bir düşüncenin doğruluğu onu savunan kişinin konumuna bağlıdır.",
+      "Nezaket, eleştirel değerlendirmeyi ertelemeyi gerektirir.",
+      "Dinleme, kişinin kendi kanaatini açıklamasına engeldir."
+    ],
+    "explanation": "Saygı, karşıdakinin insanlık onurunu ve söz hakkını gözetmektir. Düşünceyi eleştirel değerlendirmek ve farklı kanaat taşımak buna aykırı değildir."
+  },
+  {
+    "id": "ahlak-p44",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, başkalarının hatalarını sürekli araştırırken kendi yanlışlarını fark etmediğini anlıyor. Önce kendi davranışlarını değerlendirmeye, gerekirse özür dileyip düzeltmeye karar veriyor. Burada hangi tutum öne çıkar?",
+    "options": [
+      "Öz denetim ve sorumluluk",
+      "Taklit ve aidiyet",
+      "Kanaat ve tasarruf",
+      "İsar ve paylaşma",
+      "Cesaret ve rekabet"
+    ],
+    "explanation": "Kişinin kendi davranışını değerlendirmesi ve düzeltme sorumluluğu alması öz denetimdir. Başkalarının kusurlarına odaklanmaktan farklıdır."
+  },
+  {
+    "id": "ahlak-p45",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir çalışan, hata yaptığını fark ettiğinde suçu arkadaşına yüklemek yerine durumu açıklıyor, özür diliyor ve zararı gidermeye çalışıyor. Bu olayda aşağıdakilerden hangisi söylenemez?",
+    "options": [
+      "Hatanın kabul edilmesi telafi sorumluluğunu sona erdirmiştir.",
+      "Dürüstlük zor bir durumda da gözetilmiştir.",
+      "Kişi davranışının sonucunu üstlenmiştir.",
+      "Özür davranışla desteklenmeye çalışılmıştır.",
+      "Başkalarının hakkını korumaya yönelik adım atılmıştır."
+    ],
+    "explanation": "Hatayı kabul etmek ve özür dilemek önemlidir; giderilebilir bir zararı telafi etme sorumluluğu bununla sona ermez. Metinde telafi çabası zaten sürmektedir."
+  },
+  {
+    "id": "ahlak-p46",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, arkadaşına verdiği eşyayı geri isterken kırıcı bir dil kullanmıyor. Arkadaşı ise “Nazik söylüyorsan buna çok ihtiyacın yok demektir.” diyor. Bu yorumdaki hata hangisidir?",
+    "options": [
+      "Üslubun yumuşaklığını hakkın önemsizliğiyle karıştırması",
+      "Arkadaşlık bağını maddi ilişkiden ayrı değerlendirmesi",
+      "İsteklerin farklı zamanlarda değişebileceğini düşünmesi",
+      "Eşyanın sahibine ait olduğunu kabul etmesi",
+      "İletişimin davranış üzerindeki etkisini gözetmesi"
+    ],
+    "explanation": "Nazik üslup, talep edilen hakkın önemsiz olduğunu göstermez. Kişi, hakkını korurken saygılı konuşabilir."
+  },
+  {
+    "id": "ahlak-p47",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrencinin “Açgözlülükten uzak durmalıyım.” demesi kanaate, “İhtiyaçlarımı karşılayacak parayı bile harcamamalıyım.” demesi ise başka bir tutuma işaret eder. Bu iki ifade arasındaki ayrım hangisidir?",
+    "options": [
+      "Kanaat ile cimriliğin aynı tutum olmaması",
+      "Cömertliğin gelir miktarıyla doğrudan belirlenmesi",
+      "İhtiyaçların her zaman isteklerden daha az olması",
+      "Tasarrufun paylaşma sorumluluğunu kaldırması",
+      "Maddi imkânların ahlaki değerlendirme dışında kalması"
+    ],
+    "explanation": "Kanaat ölçüsüz hırstan uzak durmaktır; cimrilik gerekli harcamayı yapmamayı da içerir. Bu nedenle ikisi eş anlamlı değildir."
+  },
+  {
+    "id": "ahlak-p48",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir genç, korkusunu yenmek için tehlikeli bir davranışı düşünmeden yapıyor. Öğretmeni ise cesaretin, tehlikeyi değerlendirmeden atılmak değil doğru olanı yerinde savunmak olduğunu açıklıyor. Bu değerlendirmeye göre şecaatin ölçüsü hangisidir?",
+    "options": [
+      "Cesaretin akıl ve ahlaki amaçla dengelenmesi",
+      "Korku duygusunun kişide hiç bulunmaması",
+      "Riskin büyüklüğünün davranışa değer kazandırması",
+      "Başkalarının hayranlığının kazanılması",
+      "Güçlük karşısında sonucu hesaplamaktan vazgeçilmesi"
+    ],
+    "explanation": "Şecaat ölçülü cesarettir. Gözü karalık, sırf büyük risk alındığı için erdem sayılmaz; akıl ve doğru amaç gerekir."
+  },
+  {
+    "id": "ahlak-p49",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, sosyal medyada paylaşacağı bir bilginin arkadaşını küçük düşüreceğini fark ediyor. Bilginin gerçek olmasının, onu yayımlamak için tek başına yeterli olmadığını düşünüyor. Bu örnekte hangi değerlendirme yapılmaktadır?",
+    "options": [
+      "Bilginin doğruluğuyla paylaşmanın ahlaki uygunluğu ayrı meselelerdir.",
+      "Doğru bilgi kişinin özel hayatıyla ilişkili olamaz.",
+      "Mahremiyet yalnız yanlış bilgiler yayımlandığında ihlal edilir.",
+      "Bir bilginin yayılması onun güvenilirliğini artırır.",
+      "Toplumsal ilgi kişisel onurun önüne geçmelidir."
+    ],
+    "explanation": "Doğru bir bilginin yayımlanması da mahremiyet ve gıybet açısından sorunlu olabilir. Doğruluk şartı, paylaşımın bütün ahlaki şartlarını tek başına karşılamaz."
+  },
+  {
+    "id": "ahlak-p50",
+    "topic": "ahlak",
+    "kind": "Kavram ve yorum",
+    "text": "Bir sınıfta öğrenciler yardım, dürüstlük ve adalet üzerine konuşuyor. Öğretmen, bu değerlerin yalnız kavram olarak bilinmesinin yeterli olmadığını; günlük tercihlere yön vermesinin gerektiğini belirtiyor. Bu açıklamanın ana düşüncesi hangisidir?",
+    "options": [
+      "Ahlaki bilgi davranışa yansıtılarak anlam kazanır.",
+      "Ahlaki kurallar bireysel tercihlere göre geçerlilik kazanır.",
+      "Toplumca kabul edilen her alışkanlık erdemdir.",
+      "İyi davranış ancak ödülle kalıcı hâle gelir.",
+      "Değerler yalnız olağanüstü durumlarda etkili olur."
+    ],
+    "explanation": "Değerleri bilmek, onları davranışta gözetme sorumluluğunu desteklemelidir. Metinde bilgi ile uygulama arasındaki bağ vurgulanır."
+  },
+  {
+    "id": "yorum-p01",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci din ile din anlayışını eş anlamlı kullanıyor. Hangi açıklama bu karışıklığı giderir?",
+    "options": [
+      "Din ilahî esasları, din anlayışı insanların bu esasları anlama ve yorumlama biçimlerini ifade eder.",
+      "Din yalnız tarihî şartları, din anlayışı değişmez ilahî hükümleri ifade eder.",
+      "Din bireysel beğeniyi, din anlayışı yalnız ibadet vakitlerini ifade eder.",
+      "Din kültürel araçları, din anlayışı tabiattaki düzeni ifade eder.",
+      "Din yalnız siyasi görüşü, din anlayışı ekonomik sistemi ifade eder."
+    ],
+    "explanation": "Din ile insanın dini anlama çabası aynı şey değildir; yorum insanın bilgi ve şartlarından etkilenebilir."
+  },
+  {
+    "id": "yorum-p02",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Aynı metni okuyan iki uzman, kelimelerin kapsamını farklı değerlendirerek ayrı sonuçlara ulaşıyor. Burada yorum farkının hangi sebebi öne çıkar?",
+    "options": [
+      "Dinî metinlere yaklaşım farklılığı",
+      "Coğrafi şartlar",
+      "Ekonomik gelir farkı",
+      "Siyasi otorite değişimi",
+      "Yerleşim biçimi"
+    ],
+    "explanation": "Örnek doğrudan metnin anlamlandırılmasıyla ilgilidir; coğrafya ya da siyasi durum hakkında bilgi verilmemiştir."
+  },
+  {
+    "id": "yorum-p03",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Soğuk ve sıcak bölgelerde yaşayan toplulukların farklı ihtiyaçlarının bazı uygulama yorumlarını etkilemesi hangi sebeple ilişkilidir?",
+    "options": [
+      "Coğrafi şartlar",
+      "Metnin dil yapısı",
+      "Kişisel öğrenme hızı",
+      "İmamet görüşü",
+      "Rivayet yöntemi"
+    ],
+    "explanation": "İklim ve yaşam koşulları coğrafi etkenlerdir; kelime anlamına ilişkin farklılık metinsel etkendir."
+  },
+  {
+    "id": "yorum-p04",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir toplumda yaşanan büyük siyasi çekişmelerin dinî görüşlerin şekillenmesinde etkili olması hangi yorum farklılığı sebebine örnektir?",
+    "options": [
+      "Siyasi ortam",
+      "Coğrafi konum",
+      "Bireysel mizaç",
+      "Dil yapısı",
+      "İbadet mekânı"
+    ],
+    "explanation": "İktidar ve yönetim tartışmaları siyasi etkenler arasında değerlendirilir."
+  },
+  {
+    "id": "yorum-p05",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Farklı yetişme ortamları ve bilgi birikimleri olan iki kişinin aynı konuda farklı ayrıntılara odaklanması hangi sebebi gösterir?",
+    "options": [
+      "İnsan unsurunu",
+      "İklim değişikliğini",
+      "Metnin değişmesini",
+      "Dinî esasların çoğalmasını",
+      "Vahyin farklılaşmasını"
+    ],
+    "explanation": "İnsanların eğitim, tecrübe ve düşünme biçimleri yorumlarını etkileyebilir; bu metnin değiştiği anlamına gelmez."
+  },
+  {
+    "id": "yorum-p06",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir mezhebin oluşumunda ticari hayatın canlılığı, toplumun ihtiyaçları ve yerel geleneklerin etkisini inceleyen araştırmacı hangi etken grubuna yönelmiştir?",
+    "options": [
+      "Sosyal ve kültürel ortam",
+      "Yalnız kelime anlamları",
+      "Yalnız bireysel mizaç",
+      "Yalnız iklim özellikleri",
+      "Yalnız inanç esasları"
+    ],
+    "explanation": "Ekonomik ilişkiler, ihtiyaçlar ve gelenekler sosyal-kültürel bağlamın unsurlarıdır."
+  },
+  {
+    "id": "yorum-p07",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci her görüş farklılığının dinin özünde çelişki bulunduğunu kanıtladığını söylüyor. Bu çıkarım neden sorunludur?",
+    "options": [
+      "İnsan yorumlarındaki farklılıkla dinin temel esaslarını birbirine karıştırır.",
+      "İnsanların metinleri anlamaya çalıştığını kabul eder.",
+      "Tarihî şartların incelenmesini önerir.",
+      "Görüşlerin gerekçesini araştırır.",
+      "Temel kaynaklara başvurmayı önemser."
+    ],
+    "explanation": "Farklılık insanın anlama çabasından kaynaklanabilir; bu doğrudan temel esasların çeliştiğini göstermez."
+  },
+  {
+    "id": "yorum-p08",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "İman esaslarının nasıl anlaşılacağı üzerinde sistemli görüşler geliştiren yorumların genel alanı hangisidir?",
+    "options": [
+      "İtikadi yorumlar",
+      "Fıkhi yorumlar",
+      "Mimari üsluplar",
+      "Edebî türler",
+      "Ticari kurumlar"
+    ],
+    "explanation": "İtikadi yorumlar inanç esaslarıyla ilgilidir; fıkhi yorumlar ibadet ve davranışların hükümlerine yoğunlaşır."
+  },
+  {
+    "id": "yorum-p09",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Abdest, namaz ve ticaret gibi konulardaki dinî hükümlerin anlaşılması hangi alanla ilişkilidir?",
+    "options": [
+      "Fıkıh",
+      "Kelam",
+      "Tefsir tarihi",
+      "Musiki",
+      "Hat"
+    ],
+    "explanation": "Fıkıh ibadet ve günlük davranışların hükümlerini ele alır; kelam inanç konularına odaklanır."
+  },
+  {
+    "id": "yorum-p10",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir araştırma Eşarilik ve Maturidiliği aynı üst başlık altında inceliyor. Bu başlık hangisidir?",
+    "options": [
+      "Ehl-i sünnetin itikadi yorumları",
+      "Ehl-i sünnetin fıkhi yorumları",
+      "Şia’nın fıkhi yorumları",
+      "Tasavvufi kurumlar",
+      "Dinî sanat ekolleri"
+    ],
+    "explanation": "Eşarilik ve Maturidilik Ehl-i sünnet içindeki başlıca itikadi yorumlardır."
+  },
+  {
+    "id": "yorum-p11",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Hanefilik, Malikilik, Şafiilik ve Hanbelilik hangi ortak özellik bakımından birlikte sınıflandırılır?",
+    "options": [
+      "Fıkhi yorum olmaları",
+      "Yeni dinler olmaları",
+      "Tasavvufi yorum olmaları",
+      "İtikadi yorum olmaları",
+      "Siyasi yönetimler olmaları"
+    ],
+    "explanation": "Bu dört mezhep Ehl-i sünnet içindeki fıkhi yorumlardır; inanç ekolleriyle karıştırılmamalıdır."
+  },
+  {
+    "id": "yorum-p12",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Caferilik hakkında doğru sınıflandırma hangisidir?",
+    "options": [
+      "İmamiyye Şiası’nın amelî-fıkhi yorumudur.",
+      "Ehl-i sünnetin itikadi yorumudur.",
+      "Hanefiliğin bir tasavvuf koludur.",
+      "Eşariliğin siyasi adıdır.",
+      "Maturidiliğin ibadet kurumudur."
+    ],
+    "explanation": "Caferilik Şia’nın fıkhi yorumudur; Eşarilik ve Maturidilik gibi itikadi ekollerle aynı kategoriye konmaz."
+  },
+  {
+    "id": "yorum-p13",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Maturidilik hangi âlimin adıyla ilişkilendirilir?",
+    "options": [
+      "Ebû Mansur el-Maturidi",
+      "Ebû Hanife",
+      "Malik b. Enes",
+      "Ahmed b. Hanbel",
+      "Cafer es-Sadık"
+    ],
+    "explanation": "Maturidilik Ebû Mansur el-Maturidi’nin adıyla anılır; diğer isimler farklı fıkhi yorumlarla ilişkilidir."
+  },
+  {
+    "id": "yorum-p14",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Eşarilik adı hangi âlimle ilişkilidir?",
+    "options": [
+      "Ebü’l-Hasan el-Eşari",
+      "Ebû Mansur el-Maturidi",
+      "Muhammed b. İdris eş-Şafii",
+      "Malik b. Enes",
+      "Cafer es-Sadık"
+    ],
+    "explanation": "Eşarilik, Ebü’l-Hasan el-Eşari’nin adıyla anılan itikadi yorumdur."
+  },
+  {
+    "id": "yorum-p15",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Hanefiliğin adıyla anıldığı âlim hangisidir?",
+    "options": [
+      "Ebû Hanife",
+      "Malik b. Enes",
+      "Ahmed b. Hanbel",
+      "Ebü’l-Hasan el-Eşari",
+      "Ebû Mansur el-Maturidi"
+    ],
+    "explanation": "Hanefilik Ebû Hanife’nin görüşleri çevresinde gelişen fıkhi yorumdur."
+  },
+  {
+    "id": "yorum-p16",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Medine’deki ilmî birikimle yakından ilişkili olan Malikilik hangi isimle anılır?",
+    "options": [
+      "Malik b. Enes",
+      "Muhammed b. İdris eş-Şafii",
+      "Ebû Hanife",
+      "Cafer es-Sadık",
+      "Ahmed b. Hanbel"
+    ],
+    "explanation": "Malikilik İmam Malik’in fıkhi görüşleri etrafında oluşmuştur; Medine bağlamı bu ekolde önemlidir."
+  },
+  {
+    "id": "yorum-p17",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Şafiilik ile ilgili doğru eşleştirme hangisidir?",
+    "options": [
+      "Muhammed b. İdris eş-Şafii — fıkhi yorum",
+      "Ebü’l-Hasan el-Eşari — fıkhi yorum",
+      "Ebû Mansur el-Maturidi — fıkhi yorum",
+      "Malik b. Enes — itikadi yorum",
+      "Ahmed b. Hanbel — tasavvufi yorum"
+    ],
+    "explanation": "Şafiilik, İmam Şafii’nin adıyla anılan fıkhi yorumdur."
+  },
+  {
+    "id": "yorum-p18",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Hanbelilik hangi âlimin adıyla ilişkilendirilir?",
+    "options": [
+      "Ahmed b. Hanbel",
+      "Ebû Mansur el-Maturidi",
+      "Ebü’l-Hasan el-Eşari",
+      "Cafer es-Sadık",
+      "Malik b. Enes"
+    ],
+    "explanation": "Hanbelilik Ahmed b. Hanbel’in görüşleri çevresinde gelişen fıkhi mezheptir."
+  },
+  {
+    "id": "yorum-p19",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Şia içindeki İmamiyye ve Zeydiyye hangi başlıkta ele alınır?",
+    "options": [
+      "İtikadi ve siyasi yorumlar",
+      "Ehl-i sünnetin fıkhi yorumları",
+      "Tasavvufun eğitim kurumları",
+      "Kur’an’ın yazı üslupları",
+      "İslam mimarisinin dönemleri"
+    ],
+    "explanation": "İmamiyye ve Zeydiyye Şia içindeki itikadi-siyasi yorumlar kapsamında tanıtılır."
+  },
+  {
+    "id": "yorum-p20",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Hanefilik ile Maturidiliği birbirinin alternatifi sanıyor. Hangi açıklama daha doğrudur?",
+    "options": [
+      "Biri fıkhi, diğeri itikadi alandaki yorumdur.",
+      "İkisi aynı âlimin iki ismidir.",
+      "Biri din, diğeri ayrı bir dinin mezhebidir.",
+      "İkisi yalnız siyasi örgütlenmedir.",
+      "Biri tasavvuf, diğeri mimari ekoldür."
+    ],
+    "explanation": "İtikadi ve fıkhi aidiyet farklı alanlara ilişkin olabilir; bir kişi fıkıhta Hanefi, itikatta Maturidi olabilir."
+  },
+  {
+    "id": "yorum-p21",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kimse fıkhi bir ayrıntıda kendisinden farklı uygulama yapan arkadaşını İslam dışında sayıyor. Temel sorun hangisidir?",
+    "options": [
+      "Yorum farkını temel inançtan ayrılmayla eş tutması",
+      "Kendi uygulamasını öğrenmeye çalışması",
+      "İbadet konusunda soru sorması",
+      "Bilgi kaynağı araması",
+      "Mezhep tarihini merak etmesi"
+    ],
+    "explanation": "Fıkhi ayrıntılardaki farklılık doğrudan din dışına çıkma anlamına gelmez; ortak temel esaslar dikkate alınmalıdır."
+  },
+  {
+    "id": "yorum-p22",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Yeterli uzmanlığa sahip âlimin dinî hükme ilişkin delilleri yöntemli biçimde değerlendirmesi hangi kavramla ifade edilir?",
+    "options": [
+      "İçtihat",
+      "Taklit",
+      "Tecessüs",
+      "Rivayet",
+      "Hicret"
+    ],
+    "explanation": "İçtihat uzmanlık ve yöntem gerektiren hüküm çıkarma çabasıdır; kişisel isteği hüküm yerine koymak değildir."
+  },
+  {
+    "id": "yorum-p23",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci içtihadı herkesin her konuda istediği hükmü vermesi şeklinde tanımlıyor. Hangi düzeltme gerekir?",
+    "options": [
+      "İçtihat bilgi, uzmanlık ve yöntemli delil değerlendirmesi gerektirir.",
+      "İçtihat delilden bağımsız kişisel beğenidir.",
+      "İçtihat yalnız çoğunluğun tercihini saymaktır.",
+      "İçtihat geçmişteki her uygulamayı tekrarlamaktır.",
+      "İçtihat hükmün sonucunu menfaate göre seçmektir."
+    ],
+    "explanation": "İçtihat keyfî kanaat değil, ehil kişinin temel kaynaklar ve yöntemlerle yürüttüğü ilmî çabadır."
+  },
+  {
+    "id": "yorum-p24",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "İki âlimin aynı meselede farklı sonuca ulaşması durumunda araştırmacının ilk yaklaşımı hangisi olmalıdır?",
+    "options": [
+      "Kullandıkları delil ve yöntemleri incelemek",
+      "Birini tanımadan bilgisiz saymak",
+      "Farkı iki ayrı dinin kanıtı görmek",
+      "Toplumsal ünü doğruluğun tek ölçüsü saymak",
+      "Görüşlerin tarihî bağlamını dışlamak"
+    ],
+    "explanation": "Yorumları değerlendirirken delil, yöntem ve bağlamı incelemek gerekçeli anlayışı destekler."
+  },
+  {
+    "id": "yorum-p25",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi kendi yorumunun yanılma ihtimali bulunmadığını ve bütün yorumlardan üstünlüğünün tartışılamayacağını söylüyor. Bu tutum hangi kavrama yakındır?",
+    "options": [
+      "Taassup",
+      "İstişare",
+      "İtidal",
+      "Tefekkür",
+      "Tahkik"
+    ],
+    "explanation": "Taassup, kendi görüşüne körü körüne bağlanıp farklı gerekçeleri değerlendirmeye kapalı olmaktır."
+  },
+  {
+    "id": "yorum-p26",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Farklı fıkhi uygulamaları öğrenen bir öğrencinin hangi tutumu dinî yorumların çoğulluğuyla uyumludur?",
+    "options": [
+      "Ortak esasları koruyarak farklılığın gerekçesini anlamaya çalışmak",
+      "Farklılığı kişisel düşmanlık saymak",
+      "Bütün ayrıntıları inanç esası kabul etmek",
+      "Soruları bölücülük sayıp susturmak",
+      "Her uygulamayı delilden bağımsız eşit görmek"
+    ],
+    "explanation": "Saygı gerekçeleri araştırmayı dışlamaz; farklılıkları hem kaynak hem ortak esaslar bağlamında anlamak gerekir."
+  },
+  {
+    "id": "yorum-p27",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir metindeki sözcüğün birden fazla anlama gelebilmesi hangi yorum farkı sebebine örnektir?",
+    "options": [
+      "Metnin dil ve anlam özellikleri",
+      "İklim şartları",
+      "Ekonomik üretim tarzı",
+      "Nüfus yoğunluğu",
+      "Siyasi sınırlar"
+    ],
+    "explanation": "Çok anlamlılık ve bağlam metinsel etkenlerdir; fiziksel coğrafya değildir."
+  },
+  {
+    "id": "yorum-p28",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir mezhebin yayıldığı bölgeyi bilmek, o mezhebin her bireyi hakkında aynı kişilik yargısına varmayı haklı çıkarır mı?",
+    "options": [
+      "Hayır; tarihî yayılış bireylerin kişiliğini tek başına belirlemez.",
+      "Evet; coğrafya bütün kişisel özellikleri aynılaştırır.",
+      "Evet; mezhep aidiyeti her tercihi açıklar.",
+      "Evet; toplumsal koşullar düşünmeyi gereksiz kılar.",
+      "Hayır; tarihî yayılışın araştırma değeri yoktur."
+    ],
+    "explanation": "Coğrafi dağılım tarihî bilgi sunar fakat bireyleri kalıplaştırmanın gerekçesi olamaz."
+  },
+  {
+    "id": "yorum-p29",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Nisâ suresi 59. ayetin mesajlarını inceleyen biri, anlaşmazlıkların çözümünde hangi yaklaşımı öne çıkarmalıdır?",
+    "options": [
+      "Allah’ın ve peygamberin rehberliğine başvurmayı",
+      "Kişisel çıkarı tek ölçü yapmayı",
+      "Tartışmayı soy üstünlüğüyle çözmeyi",
+      "Delil yerine tanınırlığı esas almayı",
+      "Her görüşü kaynaklardan bağımsız değerlendirmeyi"
+    ],
+    "explanation": "Ayet Allah’a ve resulüne itaati, anlaşmazlıkta temel rehberliğe başvurmayı vurgular."
+  },
+  {
+    "id": "yorum-p30",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "İtikadi ve fıkhi yorumları ayıran bir tabloda hangi eşleştirme doğrudur?",
+    "options": [
+      "Eşarilik — itikat; Malikilik — fıkıh",
+      "Hanefilik — itikat; Maturidilik — fıkıh",
+      "Şafiilik — itikat; Eşarilik — fıkıh",
+      "Caferilik — itikat; Hanbelilik — tasavvuf",
+      "Malikilik — tasavvuf; Maturidilik — fıkıh"
+    ],
+    "explanation": "Eşarilik inanç konularındaki; Malikilik ibadet ve davranış hükümlerindeki yorumdur."
+  },
+  {
+    "id": "yorum-p31",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir araştırmacı aynı mezhep içindeki âlimlerin bazı konularda farklı düşündüğünü tespit ediyor. Hangi sonuç daha uygundur?",
+    "options": [
+      "Mezhep içindeki ilmî tartışma ve yorum faaliyeti devam edebilir.",
+      "Bir mezhepte herkes bütün ayrıntılarda aynı düşünür.",
+      "Aynı mezhepte farklı görüş bulunması imkânsızdır.",
+      "Mezhepler yöntem ve delille ilgilenmez.",
+      "Her farklı görüş yeni bir din oluşturur."
+    ],
+    "explanation": "Mezhep ortak yöntem ve görüş geleneği oluşturur; her ayrıntıda mutlak tek biçimlilik gerektirmez."
+  },
+  {
+    "id": "yorum-p32",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci mezhepleri İslam’ın temel kaynaklarının yerine geçen bağımsız vahiyler gibi görüyor. Hangi açıklama gerekir?",
+    "options": [
+      "Mezhepler temel kaynakları anlama ve uygulama çabasının tarihî ürünleridir.",
+      "Mezheplerin her biri ayrı bir kutsal kitaba dayanır.",
+      "Mezhep kurucuları peygamberlik görevi üstlenmiştir.",
+      "Mezhepler kaynak yorumunu gereksiz kılmıştır.",
+      "Mezhepler yalnız coğrafi adlandırmalardır."
+    ],
+    "explanation": "Mezhep insanın ilmî yorum geleneğidir; vahyin kendisi veya yeni bir din değildir."
+  },
+  {
+    "id": "yorum-p33",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "İmamet konusunu merkeze alan görüşlerin tarihini çalışan bir öğrenci hangi alana yönelmiştir?",
+    "options": [
+      "İtikadi-siyasi yorumlara",
+      "Fıkhi ibadet ayrıntılarına",
+      "Dinî mimari üsluplara",
+      "Tasavvuf musikisine",
+      "Kur’an hat sanatına"
+    ],
+    "explanation": "İmamet ve yönetimle ilgili tartışmalar itikadi-siyasi yorumların tarihindeki başlıklardandır."
+  },
+  {
+    "id": "yorum-p34",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir fıkhi görüş, yeni bir meselede benzer durumların ortak gerekçeleri değerlendirilerek oluşturuluyor. Bu örnekte hangi faaliyet öne çıkar?",
+    "options": [
+      "Yöntemli akıl yürütme",
+      "Kişisel zevki hükme dönüştürme",
+      "Toplumsal ünü delil sayma",
+      "Geçmişi sorgusuz tekrarlama",
+      "Farklı düşünceyi dışlama"
+    ],
+    "explanation": "Fıkhi değerlendirme delillerin yanında yöntemli akıl yürütmeden de yararlanabilir; keyfî seçimle aynı değildir."
+  },
+  {
+    "id": "yorum-p35",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Cafer es-Sadık ile Caferilik ilişkisini araştırıyor. Hangi bilgi doğru başlangıçtır?",
+    "options": [
+      "Caferilik onun adıyla ilişkilendirilen fıkhi yorumdur.",
+      "Caferilik Eşariliğin diğer adıdır.",
+      "Caferilik ilk vahyin geldiği mekândır.",
+      "Caferilik dört Sünni itikadi yorumdan biridir.",
+      "Caferilik bir mimari okuludur."
+    ],
+    "explanation": "Caferilik, Cafer es-Sadık’ın ilmî görüşleriyle ilişkilendirilen Şii fıkıh geleneğidir."
+  },
+  {
+    "id": "yorum-p36",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Maturidiliğin anlaşılmasında akıl ile vahiy ilişkisine dikkat edilmesi hangi yargıyla uyumludur?",
+    "options": [
+      "İnanç konularında akıl yürütmeye önem verilmesiyle",
+      "Vahyin bütünüyle devre dışı bırakılmasıyla",
+      "Dinî bilginin kişisel rüyaya indirgenmesiyle",
+      "Fıkhi ayrıntıların inanç esasına dönüştürülmesiyle",
+      "Dinî tartışmanın yalnız coğrafyayla açıklanmasıyla"
+    ],
+    "explanation": "Maturidilik aklın önemini vurgular; bu vahyin dışlanması anlamına gelmez."
+  },
+  {
+    "id": "yorum-p37",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Eşarilik ve Maturidiliğin bazı açıklamalarda farklılaşması hangi ortaklıklarını ortadan kaldırmaz?",
+    "options": [
+      "Ehl-i sünnet içindeki itikadi yorumlar olmalarını",
+      "Aynı fıkhi mezhep olmalarını",
+      "Aynı âlim tarafından kurulmalarını",
+      "Bütün görüşlerinin özdeşliğini",
+      "Tasavvufi kurum olmalarını"
+    ],
+    "explanation": "İki ekol farklı açıklamalar geliştirse de Ehl-i sünnetin itikadi yorumları olarak sınıflanır."
+  },
+  {
+    "id": "yorum-p38",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci, farklı mezheplerin ortaklaştığı konuları da gösteren karşılaştırma tablosu hazırlıyor. Bu yöntemin yararı nedir?",
+    "options": [
+      "Farklılık kadar ortak zemini de görünür kılması",
+      "Bütün görüşleri tek bir görüşe dönüştürmesi",
+      "Tarihî şartları önemsiz kılması",
+      "Delil araştırmasını gereksizleştirmesi",
+      "Mezhep adlarını ortadan kaldırması"
+    ],
+    "explanation": "Karşılaştırma yalnız ayrılıkları değil ortak esasları da ele aldığında dengeli bir anlayış sağlar."
+  },
+  {
+    "id": "yorum-p39",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "İbadetin bir ayrıntısını öğrenmek isteyen kişi hangi başlık altındaki kaynaklara öncelikle başvurur?",
+    "options": [
+      "Fıkıh",
+      "Kelam tarihi",
+      "Dinî musiki",
+      "Hat sanatı",
+      "Medeniyet coğrafyası"
+    ],
+    "explanation": "İbadetlerin hükümleri fıkhın konusudur; kelam inanç esaslarını ele alır."
+  },
+  {
+    "id": "yorum-p40",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir mezhebi tanıtan sunumda, o mezhebin adı küçük düşürücü bir sıfat gibi kullanılıyor. Hangi ilke zarar görür?",
+    "options": [
+      "Farklı yorum sahiplerine saygı",
+      "Tarihî sıralama",
+      "Yazılı belge kullanımı",
+      "Kavramların alfabetik düzeni",
+      "Coğrafi dağılımı gösterme"
+    ],
+    "explanation": "Eleştiri gerekçeler üzerinden yapılabilir; kimliği aşağılamak saygılı ilmî değerlendirme değildir."
+  },
+  {
+    "id": "yorum-p41",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir araştırma yorum farklılıklarını yalnız iklime bağlıyor; eğitim, siyaset ve metin anlayışını dışlıyor. Araştırmanın temel eksiği nedir?",
+    "options": [
+      "Çok nedenli bir olguyu tek etkene indirgemesi",
+      "Coğrafi veriden yararlanması",
+      "Yaşam şartlarını incelemesi",
+      "Tarihî örnek toplaması",
+      "Bölgesel dağılımı göstermesi"
+    ],
+    "explanation": "Yorum farklarında insan, metin, sosyal, siyasi ve coğrafi etkenler birlikte rol oynayabilir."
+  },
+  {
+    "id": "yorum-p42",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir kişi yalnız kendi çevresindeki uygulamayı gördüğü için farklı uygulamanın bilgisizlikten kaynaklandığını düşünüyor. Hangi adım ön yargıyı azaltır?",
+    "options": [
+      "Farklı uygulamanın dayandığı kaynak ve yorumu araştırmak",
+      "Kendi alışkanlığını evrensel ölçü saymak",
+      "Tanımadığı kişilerin niyetini sorgulamak",
+      "Benzer düşünmeyenlerle iletişimi kesmek",
+      "Farkları kişisel kusur olarak açıklamak"
+    ],
+    "explanation": "Kaynak ve gerekçeyi öğrenmek, alışkanlıkla dinî hükmü birbirine karıştırmayı önler."
+  },
+  {
+    "id": "yorum-p43",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "İçtihat farklılıklarının varlığı hakkında hangi yargı daha dengelidir?",
+    "options": [
+      "Farklı sonuçlar, kaynak ve yöntem bakımından ayrıca değerlendirilebilir.",
+      "Her sonuç aynı delil gücüne sahiptir.",
+      "Hiçbir yorumun gerekçesi araştırılamaz.",
+      "Farklılık bütün temel ilkeleri geçersiz kılar.",
+      "Yorum yapmak bilgi birikimi gerektirmez."
+    ],
+    "explanation": "Çoğulluk, gerekçeli değerlendirme imkânını ortadan kaldırmaz; bütün görüşlerin eşit güçte olduğunu da göstermez."
+  },
+  {
+    "id": "yorum-p44",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci farklı fıkhi uygulamaların aynı ibadet bilinciyle yapılabileceğini fark ediyor. Bu durumdan hangi sonuç çıkar?",
+    "options": [
+      "Biçimsel ayrıntı farkı ortak dinî amacı ortadan kaldırmayabilir.",
+      "Her uygulama birbirinin tam aynısıdır.",
+      "İbadetin hiçbir ortak ölçüsü bulunmaz.",
+      "Fıkhi farklılıklar kişisel karakter farkıdır.",
+      "Ortak amaç kaynak incelemeyi gereksiz kılar."
+    ],
+    "explanation": "Ayrıntılarda farklılık bulunurken ortak temel ilke ve amaçlar korunabilir."
+  },
+  {
+    "id": "yorum-p45",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir topluluğun önceki kültürel birikiminin yeni dinî kavramları anlama biçimini etkilemesi hangi sebebe örnektir?",
+    "options": [
+      "Kültürel ortam",
+      "Kelimenin yazı biçimi",
+      "İbadet vaktinin süresi",
+      "Bireysel hafıza gücü",
+      "İmam sayısı"
+    ],
+    "explanation": "Önceki gelenek ve düşünce birikimi kültürel etkenlerdir; metnin dil özelliği ayrı başlıktır."
+  },
+  {
+    "id": "yorum-p46",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir öğrenci Ehl-i sünnet içindeki dört fıkhi mezhebin yanına Maturidiliği beşinci fıkhi mezhep olarak ekliyor. Hatası nedir?",
+    "options": [
+      "İtikadi yorumla fıkhi yorumu aynı sınıfa koyması",
+      "Mezheplerin isimlerini tarih sırasıyla yazmaması",
+      "Coğrafi dağılımı göstermemesi",
+      "Kaynakları alfabetik sıralamaması",
+      "İnsan unsurunu tanımlamaması"
+    ],
+    "explanation": "Maturidilik itikadi bir ekoldür; Hanefilik, Malikilik, Şafiilik ve Hanbelilikle aynı türde değildir."
+  },
+  {
+    "id": "yorum-p47",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir ders tartışmasında farklı görüş sahipleri önce birbirlerinin görüşünü doğru biçimde özetliyor, sonra gerekçelerini karşılaştırıyor. Bu yöntem neyi destekler?",
+    "options": [
+      "Anlayarak ve saygıyla değerlendirmeyi",
+      "Görüşlerin zorla aynılaştırılmasını",
+      "Kaynak araştırmasının terkini",
+      "Kişisel beğeninin delil sayılmasını",
+      "Eleştirinin bütünüyle kaldırılmasını"
+    ],
+    "explanation": "Görüşü doğru anlamak, gerekçeli ve saygılı eleştirinin ön şartıdır; eleştiriyi yasaklamaz."
+  },
+  {
+    "id": "yorum-p48",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir mezhebin tarihini anlamak isteyen araştırmacı hangi bilgi grubunu birlikte incelemelidir?",
+    "options": [
+      "Kurucu âlim, yöntem, temel görüşler ve tarihî ortam",
+      "Yalnız mezhebin adı ve güncel tanınırlığı",
+      "Yalnız yaygın olduğu ülkenin yüz ölçümü",
+      "Yalnız mensuplarının ekonomik düzeyi",
+      "Yalnız kelimenin harf sayısı"
+    ],
+    "explanation": "Yorum geleneği kişi, yöntem ve bağlamın birlikte incelenmesiyle daha doğru anlaşılır."
+  },
+  {
+    "id": "yorum-p49",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Bir fıkhi farklılığı güncel siyasi kimlikle açıklamak isteyen öğrenci hangi riske dikkat etmelidir?",
+    "options": [
+      "Tarihî ilmî geleneği güncel etiketlere indirgeme riskine",
+      "Kaynakları karşılaştırma riskine",
+      "Kavramları tanımlama riskine",
+      "Ortak esasları fark etme riskine",
+      "Metni bağlamıyla okuma riskine"
+    ],
+    "explanation": "Mezhepler uzun bir ilmî tarihe sahiptir; güncel siyasi etiketler tek başına yeterli açıklama sunmaz."
+  },
+  {
+    "id": "yorum-p50",
+    "topic": "yorum",
+    "kind": "Kavram ve yorum",
+    "text": "Dinî yorum farklılıklarını öğrenen bir genç için hangi sonuç daha uygundur?",
+    "options": [
+      "Bilgili ve gerekçeli düşünürken farklı yorum sahiplerinin onurunu gözetmek",
+      "Kendi uygulamasından farklı olanı küçümsemek",
+      "Bütün yorumları kaynaksız kişisel tercih saymak",
+      "Ortak inanç esaslarını gözden çıkarmak",
+      "İlmî tartışmayı kişisel rekabete dönüştürmek"
+    ],
+    "explanation": "Amaç kavram ve yöntem bilgisiyle bilinçlenmek; farklılıkları düşmanlık gerekçesi yapmamaktır."
+  },
+  {
+    "id": "tyt-01",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, ailesinden öğrendiği dinî bilgileri başlangıçta herhangi bir gerekçe aramadan kabul eder. Zamanla merak ettiği soruları öğretmenine sorar, farklı açıklamaları karşılaştırır ve temel kaynaklardan araştırır. Araştırmasının sonunda başlangıçtaki inancını terk etmez; bu inancı hangi gerekçelerle benimsediğini açıklayabilir hâle gelir. Öğrendiklerini açıklarken ailesinin adını vermek yerine araştırdığı dayanaklara başvurur. Bu süreçte gerçekleşen değişimi aşağıdakilerden hangisi en iyi açıklar?",
+    "options": [
+      "Çevreden devralınan kabulün bilinçli bir temellendirmeye dönüşmesi",
+      "Kalben benimsenen inancın sözlü ifadeye dönüşmesi",
+      "Duyulara dayanan bilginin toplumsal aktarımla desteklenmesi",
+      "İbadet alışkanlığının toplumsal sorumluluğa dönüşmesi",
+      "Belirsiz bir kanaatin doğrudan gözlemle doğrulanması"
+    ],
+    "explanation": "Taklidî imandan tahkikî imana geçiş, inancın gerekçelerini araştırmayla ilgilidir. İkrar inancı sözle açıklamaktır; metnin odağı sözlü ifade değil bilinçli temellendirmedir."
+  },
+  {
+    "id": "tyt-02",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir laboratuvar çalışmasında öğrenciler aynı numuneyi inceler. Cihazın gösterdiği değerleri kaydeder, ölçüm hatası ihtimalini tartışır ve sonuçlar arasındaki ilişkiyi açıklamak için akıl yürütürler. Daha önce yayımlanmış deney raporlarını da çalışmalarına dâhil ederler. Öğretmenleri, güvenilir bilgiye ulaşırken bu yolların birbirini tamamladığını belirtir. Bir sonucun kabulünde nasıl elde edildiğinin açıklanmasını da önemli görürler. Bu çalışma hakkında aşağıdaki değerlendirmelerden hangisi yapılamaz?",
+    "options": [
+      "Sonucun doğruluğu öğrencilerin kişisel sezgileriyle temellendirilmiştir.",
+      "Gözlem, bilgi edinme sürecinin bir parçası olmuştur.",
+      "Veriler arasında ilişki kurarken düşünme gücünden yararlanılmıştır.",
+      "Başkalarının aktardığı bilgiler ele alınmıştır.",
+      "Bilgi edinme araçlarının güvenilirliği denetlenmiştir."
+    ],
+    "explanation": "Metinde gözlem, akıl yürütme ve raporlarla aktarılan haber vardır; sezgiyle doğrulama yoktur. Rapor kullanımı haberden yararlanmadır, ancak bu durum sezgi sayılmaz."
+  },
+  {
+    "id": "tyt-03",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Deniz, sosyal medyada tanınmış bir kişinin adına paylaşılan bir açıklamayı görür. Açıklama kendi görüşünü desteklediği için paylaşmak ister. Ancak kişinin özgün kaydına ulaştığında bazı cümlelerin kesildiğini ve sözlerin farklı bir anlam kazandığını fark eder. Paylaşımından vazgeçerek arkadaşlarına da tam kaydı gösterir. Böylece ilk izlenimi ile doğruladığı içerik arasındaki farkı ortaya koyar. Deniz’in davranışında öncelikle hangi tutum belirleyicidir?",
+    "options": [
+      "Kanaatle uyumlu olsa da haberin bağlamını ve kaynağını denetleme",
+      "Bir haberin yaygınlığından hareketle kabul edilebilirliğini ölçme",
+      "Kişisel deneyimlerin aktarılan haberlerden üstün olduğunu düşünme",
+      "Kaynağın tanınmışlığını bilginin yeterli güvencesi olarak görme",
+      "Bir görüşü savunan kişilerin sayısını değerlendirme ölçütü yapma"
+    ],
+    "explanation": "Deniz hoşuna giden içeriği bile özgün kayda dönerek kontrol etmiştir. Kaynağın tanınmışlığı tek başına yeterli görülmemiş, bağlam araştırılmıştır."
+  },
+  {
+    "id": "tyt-04",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "İnanç üzerine yapılan bir söyleşide konuşmacı, bir insanın dinî ifadeleri ezberden söylemesi ile bu ifadelerin anlamını içtenlikle benimsemesini birbirinden ayırır. İnsanların dış görünüş ve sözlerden hareketle birbirleri hakkında sınırlı bilgi sahibi olduğunu, gönülden kabulün ise kişinin kendi sorumluluğunda bulunduğunu belirtir. Konuşmacı, dışarıya yansıyan ifadenin insanın iç dünyasını tek başına gösteremeyebileceğini vurgular. Bu açıklamada imanın hangi boyutu özellikle öne çıkarılmaktadır?",
+    "options": [
+      "Kalbin tasdiki",
+      "Dilin ikrarı",
+      "Davranışın sürekliliği",
+      "Bilginin aktarılması",
+      "Geleneğin benimsenmesi"
+    ],
+    "explanation": "Gönülden kabul kalbin tasdikidir. Dilin ikrarı dışa yansıyan sözlü açıklamadır; konuşmacı tam da ikrar ile tasdikin ayrımına dikkat çekmektedir."
+  },
+  {
+    "id": "tyt-05",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, dinî bilgi edinirken Kur’an’ın ve peygamberin açıklamalarının temel konumunu anlatır. Ardından insanların bu kaynakları anlamak için düşünmesi, dil özelliklerini incelemesi ve güvenilir araştırmalardan yararlanması gerektiğini söyler. Böylece öğrencilerine bir bilginin ilahî kaynağı ile insanın onu anlama çabasının aynı şey olmadığını hatırlatır. Öğrencilerin kaynak ile yorum arasındaki farkı koruyarak araştırmasını ister. Bu açıklamadan hangi sonuca ulaşılabilir?",
+    "options": [
+      "Vahye dayalı kaynakların anlaşılması insanın düşünsel çabasını gerektirebilir.",
+      "Bir yorumun yaygınlaşması onu ilahî mesajın parçası hâline getirir.",
+      "Temel kaynakların anlamı kişisel deneyimlerle yeniden belirlenir.",
+      "Dinî bilginin değeri gözlemle sınanabilen konularla sınırlıdır.",
+      "İnsan aklı dinî kaynakların yerine geçerek bağlayıcılık kazanır."
+    ],
+    "explanation": "Kaynağın vahiy oluşu, onu anlama faaliyetinde aklı kullanmaya engel değildir. Yoruma emek vermek, yorumu vahyin kendisi veya yeni ilahî mesaj hâline getirmez."
+  },
+  {
+    "id": "tyt-06",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, evrendeki düzen üzerinde düşünmenin inancını güçlendirdiğini söyler. Başka biri ise hayatın anlamını yalnızca çevresindeki insanların neyi benimsediğine bakarak belirlediğini ifade eder. Öğretmenleri iki kişinin de bir kabulü bulunduğunu, fakat bu kabule ulaşma yollarının farklı olduğunu belirtir. İlk kişi açıklamasını gerekçelere, ikinci kişi ise yakın çevresinin tutumuna dayandırmaktadır. Buradaki farklılık aşağıdaki karşılaştırmalardan hangisinde doğru verilmiştir?",
+    "options": [
+      "Delil üzerinde düşünme ile çevreden görerek benimseme",
+      "Vahiy alma ile peygamberin sözünü aktarma",
+      "Gözlem yapma ile bilimsel deney yürütme",
+      "İnancı sözle açıklama ile davranışa yansıtma",
+      "Ahlaki ilke belirleme ile hukuki hüküm çıkarma"
+    ],
+    "explanation": "Birinci yaklaşım gerekçeyi düşünerek araştırmaya, ikincisi taklide örnektir. İnancı davranışa yansıtma bu parçada karşılaştırılan boyut değildir."
+  },
+  {
+    "id": "tyt-07",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir tartışmada öğrenci, duyuların zaman zaman yanıltabilmesini gerekçe göstererek bütün gözlemlerin değersiz olduğunu savunur. Arkadaşı ise gözlemin uygun koşullarda tekrarlanabildiğini, farklı araçlarla denetlenebildiğini ve akıl yürütmeyle değerlendirilebildiğini söyler. Öğretmen ikinci öğrencinin açıklamasını İslam düşüncesindeki bilgi kaynaklarıyla ilişkilendirir. Tartışmada aynı gözlemin farklı koşullarda neden değiştiği sorusu da ele alınır. İkinci öğrencinin temel yaklaşımı aşağıdakilerden hangisidir?",
+    "options": [
+      "Bilgi kaynaklarını güvenilirlik koşulları içinde birlikte değerlendirmek",
+      "Bir kaynakta hata görüldüğünde diğer kaynakları da geçersiz saymak",
+      "Gözlem sonuçlarının doğruluğunu onları aktaran kişinin itibarına bağlamak",
+      "Duyusal veriler ile akli değerlendirmeyi birbirinden bağımsız kabul etmek",
+      "Çelişen gözlemler arasında çoğunluğun benimsediği sonucu seçmek"
+    ],
+    "explanation": "Salim duyular ve selim akıl birlikte işleyebilir. Hata ihtimalinin bulunması denetimi gerektirir; bütün duyusal bilgiyi değersiz kılmaz."
+  },
+  {
+    "id": "tyt-08",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, dinî konularda merak ettiği soruları sormanın inancına zarar vereceğinden kaygılanır. Öğretmeni, soru sormanın amacının önemli olduğunu; anlamaya ve sağlam gerekçelere ulaşmaya yönelik araştırmanın bilinçli bir inancı destekleyebileceğini anlatır. Öğrencinin temel kaynakları tanımasını ve düşüncelerini tutarlı gerekçelerle ifade etmesini önerir. Hazır cevapları tekrarlamaktan çok, bu cevapların hangi dayanaklara sahip olduğunu anlamasını bekler. Öğretmenin teşvik ettiği tutum aşağıdakilerden hangisidir?",
+    "options": [
+      "İnancı anlamlandıran araştırıcı bir yaklaşım geliştirmek",
+      "İnancı tartışmanın dışında tutarak aktarımlarla yetinmek",
+      "Duygusal yakınlığı gerekçelerin önüne geçirmek",
+      "Farklı kanaatlerin ortak noktasını dinî ölçüt saymak",
+      "Soruya verilen ilk açıklamayı alışkanlığa dönüştürmek"
+    ],
+    "explanation": "Öğretmen araştırmayla imanın bilinçli hâle gelmesini desteklemektedir. İlk açıklamayı sorgulamadan benimsemek, önerilen gerekçeli araştırmadan farklıdır."
+  },
+  {
+    "id": "tyt-09",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, düzenli ibadet ettiğinde zamanını daha iyi planladığını ve kendisini daha huzurlu hissettiğini söyler. Öğretmeni bu kazanımları değerli bulur; ancak ibadetin yalnızca sağladığı yararlar için yapılmasının onun temel anlamını daraltacağını hatırlatır. İbadetin yöneldiği amaç ile insanda ortaya çıkardığı sonuçların ayırt edilmesini ister. Öğrencilerden bir davranışın gerekçesiyle o davranışın sonuçlarını ayrı ayrı açıklamalarını ister. Bu açıklamada hangi ayrım vurgulanmaktadır?",
+    "options": [
+      "Allah’ın rızasını gözetmek ile ibadetin kişiye kazandırdıkları",
+      "Bireysel yapılan ibadetler ile toplu yapılan ibadetler",
+      "Bedensel ibadetler ile mali yükümlülükler",
+      "Düzenli alışkanlıklar ile geçici davranışlar",
+      "İbadete hazırlık şartları ile ibadetin içindeki görevler"
+    ],
+    "explanation": "İbadetin temel amacı Allah’ın rızasıdır; huzur ve disiplin sonuçları arasındadır. Toplu veya bireysel oluş metnin tartıştığı ayrım değildir."
+  },
+  {
+    "id": "tyt-10",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir yardım kampanyasına iki kişi aynı miktarda bağışta bulunur. Biri ihtiyacın giderilmesini önemserken diğeri bağışının adının duyulmasına ne ölçüde katkı sağlayacağını hesaplar. Kampanyanın yöneticisi dışarıdan benzer görünen davranışların dinî ve ahlaki bakımdan aynı değeri taşımayabileceğini söyler. Bağışların miktarları ve ulaştıkları ihtiyaç sahipleri bakımından aralarında bir fark bulunmamaktadır. Bu değerlendirmede özellikle hangi ölçüt esas alınmıştır?",
+    "options": [
+      "Davranışın hangi amaç ve yönelişle gerçekleştirildiği",
+      "Yardımın hangi aralıklarla tekrar edildiği",
+      "Bağışın hangi yöntemle teslim edildiği",
+      "Yardımı alan kişinin hangi gruba mensup olduğu",
+      "Verilen miktarın toplam ihtiyaç içindeki oranı"
+    ],
+    "explanation": "Niyet ve ihlas, dışarıdan benzer davranışların değerini farklılaştırabilir. Bağış miktarı aynı olduğundan açıklayıcı ölçüt miktar değil amaçtır."
+  },
+  {
+    "id": "tyt-11",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci ibadeti yalnızca belirli zamanlarda yapılan dinî uygulamalarla sınırlar. Arkadaşı ise bu uygulamaların yanında, dürüstçe çalışmanın ve insanlara faydalı olmanın da uygun niyetle ibadet değeri kazanabileceğini söyler. Öğretmen, ikinci görüşün dinin hayatla ilişkisini daha geniş biçimde ele aldığını belirtir. Buna göre ikinci öğrencinin açıklamasını en iyi yansıtan yargı hangisidir?",
+    "options": [
+      "Meşru gündelik davranışlar Allah’ın rızası gözetilerek anlam kazanabilir.",
+      "Gündelik sorumluluklar yerine getirildiğinde belirli ibadetlere ihtiyaç azalır.",
+      "Faydalı sonuç doğuran her davranış niyetten bağımsız aynı değeri taşır.",
+      "İbadetin toplumsal katkısı biçim ve şartlarından daha önceliklidir.",
+      "İbadet sayılan davranışlar ancak başkalarının yararını hedefler."
+    ],
+    "explanation": "Geniş anlamda ibadet, meşru davranışın iyi niyetle Allah’a yönelişe dönüşmesini içerir. Bu genişlik namaz gibi belirli ibadetlerin yerine gündelik işleri koymaz."
+  },
+  {
+    "id": "tyt-12",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir grup genç, kendilerine verilen küçük görevleri önemseyip düzenli biçimde yerine getirir. Bir süre sonra çok daha fazla iş üstlenirler; fakat bu yoğunluğu sürdüremeyip ilk görevlerini de aksatırlar. Rehberleri, dinî hayatın geçici coşkuya bırakılmaması ve kişinin gücünü gözeten devamlı bir düzen kurulması gerektiğini anlatır. Bu öğütte öncelikle hangi ilke vurgulanmaktadır?",
+    "options": [
+      "Ölçülü ve sürdürülebilir bir kulluk bilinci",
+      "İbadetlerin aynı ortamda gerçekleştirilmesi",
+      "Nafile davranışların toplumsal görünürlüğü",
+      "Mali ibadetlerin öncelikli kabul edilmesi",
+      "Bireysel tercihlerin ortak biçime dönüştürülmesi"
+    ],
+    "explanation": "Öğüt gücü aşmadan sürekliliği korumaya yöneliktir. Ortak bir ortam veya davranış biçimi kurmak ise verilen durumun temel sorunu değildir."
+  },
+  {
+    "id": "tyt-13",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci oruç tuttuğu günlerde arkadaşlarına karşı daha kırıcı konuştuğunu fark eder. Kendisine, aç kalmanın ibadetin görünen yönü olduğunu; dilini ve davranışlarını da denetlemeye çalışması gerektiği hatırlatılır. Bunun üzerine öğrenci, ibadetin günlük ilişkilerinde oluşturması beklenen değişikliği düşünmeye başlar. Öğrenci bundan sonra arkadaşlarıyla konuşurken kendisini daha dikkatli gözlemlemeye karar verir. Bu örnekte aşağıdaki ilişkilerden hangisi öne çıkarılmaktadır?",
+    "options": [
+      "İbadetin ahlaki olgunlaşmaya katkısı",
+      "İbadetin yerine getirilme vaktinin önemi",
+      "İbadetin bireysel sorumluluk olması",
+      "İbadetin topluca yapılmasının değeri",
+      "İbadetin maddi imkânlarla ilişkisi"
+    ],
+    "explanation": "İbadetin davranışları güzelleştirmesi beklenir. Parça orucun vakti veya topluca yapılması hakkında değil, ibadet ile ahlak arasındaki bağ hakkındadır."
+  },
+  {
+    "id": "tyt-14",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okulda kütüphane için kitap toplanır. Elif, kendisi de okumak istediği temiz kitapları seçer ve ihtiyaç duyulan türleri sorar. Bir başka öğrenci ise işe yaramayan malzemeleri getirerek yalnızca dolabında yer açmayı düşünür. Öğretmenleri, bir iyiliğin değerinde verilen şey kadar karşıdaki insanı gözetmenin de önemli olduğunu belirtir. Bu anlatımda hangi anlayış eleştirilmektedir?",
+    "options": [
+      "Yardımı kendi yükünden kurtulma aracı olarak görmek",
+      "Yardımda ihtiyaç sahibinin tercihlerini dikkate almak",
+      "Sahip olunan imkânlardan başkalarına pay ayırmak",
+      "Yardımın kullanılabilirliğini önceden araştırmak",
+      "Paylaşım yaparken kişisel isteklerden fedakârlık etmek"
+    ],
+    "explanation": "Eleştirilen, kullanışsız şeyleri sırf elden çıkarmak için vermektir. Kendi sevdiğini paylaşmak ve ihtiyacı gözetmek ise desteklenen davranışlardır."
+  },
+  {
+    "id": "tyt-15",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç dua ederken hedeflediği başarıya ulaşmak ister. Bununla birlikte çalışma planı hazırlar, eksiklerini belirler ve öğretmenlerinden destek alır. Sonucun her zaman istediği gibi olmayabileceğini kabul etmesine rağmen sorumluluklarını yerine getirmeyi sürdürür. Genç, bir güçlüğü fark ettiğinde onu gidermek için yeni yollar arar. Bu tutum, dua ile insanın çabası arasındaki ilişki bakımından nasıl değerlendirilmelidir?",
+    "options": [
+      "Dua, sorumluluk üstlenme ve emek verme ile birlikte yürütülmüştür.",
+      "Dua, sonucun insanın isteğine göre belirlenmesini sağlamıştır.",
+      "Çalışma, duanın yerini alan bağımsız bir güvenceye dönüşmüştür.",
+      "Başarının anlamı başkalarının yardımına bağlı hâle gelmiştir.",
+      "Sonucun belirsizliği yapılacak hazırlıkların önemini azaltmıştır."
+    ],
+    "explanation": "Genç isteğini Allah’a yöneltirken hazırlık ve çabasını sürdürmektedir. Metin duanın istenen sonucu garanti ettiğini değil sorumlulukla birlikte olmasını vurgular."
+  },
+  {
+    "id": "tyt-16",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, öğrencilerin ibadetler hakkındaki açıklamalarını tahtaya yazar: Kimi ibadetlerin kişiye sorumluluk bilinci kazandırdığını, kimi paylaşmayı güçlendirdiğini, kimi de toplumda eşitlik duygusunu desteklediğini belirtir. Öğretmen bu farklı sonuçların aynı ibadette bir arada bulunabileceğini söyler. Öğrencilerden bazıları verilen örneklerin yalnızca maddi yardımla sınırlı kalmadığını da fark eder. Bu açıklamalardan ibadet hakkında aşağıdakilerden hangisine ulaşılamaz?",
+    "options": [
+      "Dinî değerinin sağladığı toplumsal kazançla belirlendiğine",
+      "Bireysel gelişimi destekleyebildiğine",
+      "İnsanlar arası ilişkileri etkileyebildiğine",
+      "Birden fazla hikmetinin bulunabildiğine",
+      "Toplumsal dayanışmayla ilişkilendirilebildiğine"
+    ],
+    "explanation": "İbadetin farklı yararları anlatılmaktadır; dinî değerinin toplumsal kazanca indirgenmesi çıkarılamaz. Dayanışma bir hikmet olabilir, ibadetin bütün anlamı değildir."
+  },
+  {
+    "id": "tyt-17",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir yarışmanın değerlendirme kurulunda bulunan Selim, yakın arkadaşının çalışmasını incelerken diğer adaylara uyguladığı ölçütleri aynen kullanır. Arkadaşının bazı eksiklerini kapatabilecek ek bir puan vermesi istendiğinde bunu kabul etmez. Arkadaşlığının değerli olduğunu, ancak üstlendiği görevin herkesin hakkını korumasını gerektirdiğini söyler. Kurul üyeleri kararlarının her aday açısından aynı gerekçelerle açıklanabilir olmasını önemser. Bu davranışta öncelikle hangi ilke belirleyicidir?",
+    "options": [
+      "Kişisel yakınlıktan bağımsız hakkı gözetmek",
+      "İlişkilerin sürmesi için uzlaşmaya öncelik vermek",
+      "Başkalarının beklentilerini incitmeden karşılamak",
+      "Ortak kararın sorumluluğunu çoğunluğa bırakmak",
+      "Bir kişiye emeğinin üzerinde destek sağlamak"
+    ],
+    "explanation": "Selim değerlendirmede adaleti gözetmektedir. Yakınlık sebebiyle ayrıcalık vermemek, kişisel ilişkileri inkâr etmek değil görevde hakkaniyeti korumaktır."
+  },
+  {
+    "id": "tyt-18",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir çalışan, kendisini eleştiren kişinin yıllar önce yaptığı bir hatayı öğrenir. Bu bilgi doğrudur; fakat mevcut konuyla ilgisi yoktur ve çalışanın amacı o kişiyi arkadaşları arasında küçük düşürmektir. Arkadaşı, bilginin doğru olmasının bu paylaşımı kendiliğinden ahlaki hâle getirmediğini söyler. Konuşmanın yapıldığı ortamda, hakkında bilgi verilen kişi kendisini savunabilecek durumda da değildir. Bu uyarıda aşağıdaki ayrımlardan hangisi esas alınmaktadır?",
+    "options": [
+      "Gerçeği söylemek ile başkasının onurunu zedelemeden konuşmak",
+      "Kişisel kanaat ile doğruluğu araştırılmamış haber",
+      "Bir yanlışı düzeltmek ile bilginin kaynağını araştırmak",
+      "Sözlü anlatım ile yazılı belgeye dayanmak",
+      "Toplumsal eleştiri ile hukuki yaptırım uygulamak"
+    ],
+    "explanation": "Doğru bir kusuru kişiyi arkasından incitecek biçimde anlatmak gıybet olabilir. Bilginin doğrulanmış olması, onu her amaçla yaymayı meşru kılmaz; iftira ise asılsız suçlamadır."
+  },
+  {
+    "id": "tyt-19",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci arkadaşının yarışmayı kazanmasını istemediğini fark eder. Kendisinin de çalışarak başarılı olabileceğini düşünmek yerine, arkadaşının imkânlarını kaybetmesini diler. Rehber öğretmeni, başkasındaki iyiliği örnek almak ile o iyiliğin ortadan kalkmasını istemek arasında önemli bir fark bulunduğunu açıklar. Öğretmen, başarı isteğinin kişinin kendi çabasına yönelmesinin başkasının kaybını istemekten farklı olduğunu vurgular. Öğrencinin tutumu hangi kavramla en doğrudan ilişkilidir?",
+    "options": [
+      "Haset",
+      "Gıpta",
+      "Rekabet",
+      "Kanaat",
+      "Tevekkül"
+    ],
+    "explanation": "Hasette başkasındaki nimetin kaybolmasını isteme vardır. Gıpta ise o imkânın kişiden alınmasını dilemeden benzerine sahip olmayı arzulamaktır; yakın çeldirici budur."
+  },
+  {
+    "id": "tyt-20",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Kendisine emanet edilen ortak bütçeyi yöneten bir kişi, harcamaları herkesin inceleyebileceği biçimde kaydeder. Küçük bir tutarı kişisel ihtiyacında kullanıp sonra yerine koyabileceği söylenir. O ise paranın kendisine ait olmadığını, iyi niyetli bir geri ödeme planının yetkisiz kullanımı haklı kılmayacağını belirtir. Başka bir görevlendirme olmadıkça bu sınırları kendi kararıyla genişletemeyeceğini düşünür. Bu yaklaşımın temelinde hangi anlayış bulunmaktadır?",
+    "options": [
+      "Yetki verilen şey üzerinde hak sahibinin sınırlarına bağlı kalmak",
+      "Maddi imkânları artıracak fırsatları değerlendirmek",
+      "İyiliği karşılıksız yaparak gönül kazanmak",
+      "Kişisel ihtiyaçları toplumsal beklentilere göre belirlemek",
+      "Ortak harcamalarda en ekonomik tercihi yapmak"
+    ],
+    "explanation": "Emanet bilinci, verilen yetkiyi sınırları içinde kullanmayı gerektirir. Ekonomik davranmak değerli olsa da burada asıl mesele tasarruf değil başkasının malını izinsiz kullanmamaktır."
+  },
+  {
+    "id": "tyt-21",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, öfkelendiğinde hemen cevap vermemeye çalışır. Bunun karşısındakinin her davranışını doğru bulduğu anlamına gelmediğini; uygun bir zamanda hakkını açık ve saygılı biçimde savunabildiğini söyler. Ona göre kendini kontrol etmek, sorunları görmezden gelmekten farklıdır. Sorunun çözülebilmesi için duyguların davranışı yönetmesine izin vermeden düşünmek gerektiğini savunur. Bu açıklamada aşağıdaki değerlerden hangisi öncelikle öne çıkarılmaktadır?",
+    "options": [
+      "Hilm",
+      "Cömertlik",
+      "Mahremiyet",
+      "Vefa",
+      "Kanaat"
+    ],
+    "explanation": "Hilm öfke karşısında yumuşaklık ve kendini denetlemeyi ifade eder. Hakkını savunmaktan vazgeçmekle aynı değildir; sabırla ilişkili olsa da burada özellikle öfke denetimi vurgulanır."
+  },
+  {
+    "id": "tyt-22",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okulda çevre temizliği yapılırken bazı öğrenciler kendilerine ayrılan alanı temizler, fakat topladıkları çöpleri komşu sokağa bırakırlar. Başka bir grup, yapılan işin başarılı görünmesinin yetmediğini; başka insanlara yeni bir zarar verilmemesi gerektiğini söyler. Öğrenciler çevreyi korumanın yalnızca kendilerine görünen yerleri düzenlemekten daha kapsamlı olduğunu savunur. Bu eleştiride aşağıdaki yargılardan hangisi temel alınmıştır?",
+    "options": [
+      "Ahlaki değerlendirme davranışın başkalarına etkisini de kapsamalıdır.",
+      "Bir davranışın ahlaki değeri uygulayanların sayısıyla güçlenir.",
+      "Ortak hedefler için görev paylaşımı bireysel tercihlerden önemlidir.",
+      "Çevreye yönelik görevler yerel ihtiyaçlara göre sınırlandırılmalıdır.",
+      "Bir işin yararı onu yapanların memnuniyetiyle ölçülmelidir."
+    ],
+    "explanation": "Temizliğin başka yere zarar taşıması, davranışın bütün sonuçlarını gözetme ihtiyacını gösterir. Görev paylaşımı yapılmış olsa da asıl eleştiri paylaşım değil zararın başkasına aktarılmasıdır."
+  },
+  {
+    "id": "tyt-23",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, bir arkadaşının özel konuşmasını yanlışlıkla duyar. Bu bilgiyi paylaşırsa sınıfta ilgi görebileceğini bilir. Buna rağmen arkadaşının izni olmadan başkalarına anlatmaz ve konuşmanın kaydını isteyenlere de yardımcı olmaz. Öğretmeni bu davranışı insan onurunu koruyan bir sınırın gözetilmesiyle ilişkilendirir. Bu kararı, konuşmanın ilgi çekici olup olmamasından bağımsız olarak verir. Öğrencinin koruduğu temel değer aşağıdakilerden hangisidir?",
+    "options": [
+      "Mahremiyet",
+      "İstişare",
+      "İsar",
+      "Şecaat",
+      "Müsamaha"
+    ],
+    "explanation": "Özel hayata ait bilginin izinsiz yayılmaması mahremiyetle ilgilidir. Şecaat cesareti, istişare görüş alışverişini anlatır; bilginin özel oluşu soruda ayırt edicidir."
+  },
+  {
+    "id": "tyt-24",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir kişi, geçmişte kendisine yardımcı olan bir öğretmenini yıllar sonra ziyaret eder. Öğretmeninin artık kendisine sağlayabileceği bir çıkar yoktur; yine de emeğini unutmadığını belirtir ve ihtiyaç duyduğu bir işte yardımcı olur. Ziyareti, yeni bir beklentiden çok kurulan bağın ve görülen iyiliğin hatırlanması olarak değerlendirir. Bu davranışın özellikle hangi değerle ilişkilendirilmesi uygundur?",
+    "options": [
+      "Vefa",
+      "İffet",
+      "Adalet",
+      "Tevazu",
+      "İtidal"
+    ],
+    "explanation": "Görülen iyiliği ve kurulan bağı unutmamak vefadır. Cömertlik veya yardım davranışın bir yönü olabilir; ancak metni ayırt eden eski emeğe bağlılığın sürmesidir."
+  },
+  {
+    "id": "tyt-25",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Hz. Muhammed’in gençlerle ilişkisini araştıran bir öğrenci, onun yalnızca öğüt vermekle yetinmediğini; gençlere sorumluluk verdiğini, yeteneklerini geliştirecek görevler üstlendirdiğini ve görüşlerini dinlediğini belirtir. Bu örneklerden hareketle bir gençlik çalışması tasarlamak ister. Çalışmanın hazırlığı, uygulanması ve değerlendirilmesinde gençlerin katkısını daha görünür kılmayı amaçlar. Aşağıdaki uygulamalardan hangisi öğrencinin araştırmasındaki anlayışa en uygundur?",
+    "options": [
+      "Gençlere rehberlik ederek karar ve uygulama süreçlerinde görev vermek",
+      "Gençlerin hata ihtimalini azaltmak için görevlerini yetişkinlere devretmek",
+      "Gençlerin katılımını hazırlanan faaliyetleri izlemeleriyle sınırlandırmak",
+      "Sorumlulukları yaşça büyük kişilerin tercihleri doğrultusunda dağıtmak",
+      "Başarıyı yalnızca verilen talimatların eksiksiz uygulanmasıyla ölçmek"
+    ],
+    "explanation": "Gençlere güvenmek ve onları sorumluluk içinde geliştirmek araştırmanın ortak mesajıdır. Rehberlik gerekir; fakat görevi bütünüyle yetişkinlere bırakmak katılımı daraltır."
+  },
+  {
+    "id": "tyt-26",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, Hz. Muhammed’in örnekliğini anlatırken öğrencilerin gündelik hayatta karşılaşabilecekleri üç durumu ele alır: Kendisine güvenilen bir malı korumak, anlaşmazlıkta tarafları dinlemek ve birine verilen sözü yerine getirmek. Öğrenciler bu örneklerin dinî hayatla ilgisini tartışırlar. Tartışmanın sonunda öğrenciler kendi hayatlarından benzer örnekler bularak bunları sınıfta paylaşırlar. Bu çalışmanın öncelikli amacı aşağıdakilerden hangisidir?",
+    "options": [
+      "Peygamberin ahlaki örnekliğini somut davranışlarla ilişkilendirmek",
+      "Peygamberlik öncesindeki toplumsal kurumları sınıflandırmak",
+      "İbadetlerin yerine getirilme şartlarını açıklamak",
+      "Peygamberliğin delillerini tarih sırasına koymak",
+      "Dinî metinlerin aktarılma yollarını karşılaştırmak"
+    ],
+    "explanation": "Emanet, adalet ve sözünde durma günlük hayata yansıyan ahlaki örneklerdir. Çalışmanın odağı peygamberliğin tarihî delilleri veya ibadet şartları değildir."
+  },
+  {
+    "id": "tyt-27",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci Hz. Muhammed’in örnekliğini değerlendirirken, yaşadığı dönemin bütün araç ve giyim biçimlerini bugün aynen kullanmanın yeterli olacağını savunur. Arkadaşı ise aynı döneme ait bir alışkanlık ile dürüstlük ve merhamet gibi hayatı yönlendiren ilkelerin ayırt edilmesi gerektiğini söyler. Arkadaşı, aynı değerin değişen hayat şartlarında farklı uygulamalarla ortaya konabileceğini de belirtir. İkinci öğrencinin temel vurgusu aşağıdakilerden hangisidir?",
+    "options": [
+      "Örnek alırken davranışın taşıdığı ilke ve amacı kavramak",
+      "Tarihî bilgilerin geçerliliğini güncel tercihlere göre belirlemek",
+      "Peygamberin sözlerini toplumsal geleneklerle eşit görmek",
+      "Dinî ilkeleri kişisel beğeni ölçüsünde seçmek",
+      "Geçmişin bütün uygulamalarını ortak bir hükme bağlamak"
+    ],
+    "explanation": "Örnekliği anlamak, davranışın bağlamı ve amaçladığı değer üzerinde düşünmeyi gerektirir. Bu, ilkeleri kişisel beğeniye göre seçmek veya tarihî bilgiyi değersizleştirmek anlamına gelmez."
+  },
+  {
+    "id": "tyt-28",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir grup öğrenci, dinî bir bilgiyi ilk kez öğrenen arkadaşlarına çok sayıda ayrıntıyı aynı anda anlatır. Arkadaşları zorlanınca öğretmenleri, Hz. Muhammed’in öğretiminde muhatabın durumunu dikkate almasına ve bilgiyi anlaşılır biçimde sunmasına dikkat çeker. Öğrencilerden anlatımlarını yeniden düzenlemelerini ister. Öğretmen anlatımın, öğrenenin sorularına yer açacak biçimde yeniden planlanmasını da ister. Aşağıdakilerden hangisi bu önerinin amacına daha uygundur?",
+    "options": [
+      "Öğrenenin hazır bulunuşluğuna göre aşamalı ve açık bir anlatım kurmak",
+      "Öğrenenin ilgisini canlı tutmak için konunun güçlüklerini gizlemek",
+      "Ayrıntıları azaltmak için bilginin doğruluğunu ikinci planda tutmak",
+      "Aynı ifadeleri daha yüksek sesle tekrarlayarak dikkati artırmak",
+      "Kavramları ezberlettikten sonra soruları değerlendirmeyi ertelemek"
+    ],
+    "explanation": "Muhatabın anlayabileceği aşamalı öğretim, pedagojik örnekliğin temelidir. Kolaylaştırmak içeriğin doğruluğundan vazgeçmek veya güçlükleri gizlemek değildir."
+  },
+  {
+    "id": "tyt-29",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir sınıf, Hz. Muhammed’in karar alma süreçlerini inceleyen sunum hazırlar. Sunumda çevresindekilerin fikirlerine başvurmasına, farklı önerileri dinlemesine ve uygun bulunan bir öneriyi uygulamasına yer verirler. Sonuç bölümünde bu örneklerin günümüz ekip çalışmalarına da yol gösterebileceğini söylerler. Öğrenciler görev paylaşımında da herkesin düşüncesini ifade edebileceği bir ortam oluşturmayı önerirler. Sunumun merkezinde hangi kavram bulunmaktadır?",
+    "options": [
+      "İstişare",
+      "Tebliğ",
+      "Hicret",
+      "Tebyin",
+      "İnfak"
+    ],
+    "explanation": "Görüş alma ve ortak değerlendirme istişaredir. Tebyin dinî mesajı açıklamaktır; başkalarının önerisini dinleyerek karar vermekle aynı kavram değildir."
+  },
+  {
+    "id": "tyt-30",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, Hz. Muhammed’in karşılaştığı güçlükler karşısında ümitsizliğe kapılmadan görevini sürdürmesini anlatır. Ancak bunu, karşılaştığı şartları değiştirmek için hiçbir girişimde bulunmamak şeklinde açıklamaz. Tedbir almasını, uygun zaman ve imkânları değerlendirmesini de aynı örnekliğin parçaları olarak görür. Öğrenci, bir güçlük karşısında gösterilen davranışı o güçlüğe verilen cevaplarla birlikte değerlendirmektedir. Öğrencinin özellikle ayırdığı iki tutum hangisidir?",
+    "options": [
+      "Kararlılıkla çaba göstermek ile edilgen biçimde beklemek",
+      "Toplumsal dayanışma ile bireysel ibadet",
+      "Güvenilir bilgi aktarmak ile görüş alışverişi",
+      "Bağışta bulunmak ile borcu zamanında ödemek",
+      "Bir yanlışı affetmek ile özel hayatı korumak"
+    ],
+    "explanation": "Sabır güçlük içinde sorumlu çabayı sürdürmektir; hareketsiz beklemeye indirgenemez. Metinde affetme değil zorluk karşısında tedbirli kararlılık ele alınır."
+  },
+  {
+    "id": "tyt-31",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Hz. Muhammed’in güvenilirliğini ele alan bir araştırmada, kendisine karşı çıkan insanların bile mallarını ona emanet edebilmesi üzerinde durulur. Araştırmacı, güvenilirliğin yalnızca kişinin kendi çevresinde kazandığı beğeniyle açıklanamayacağını belirtir. Farklı düşünen insanların da onun dürüstlüğüne dayanabilmesini önemli bulur. Güven duymak ile onun bütün düşüncelerini benimsemek arasında bir ayrım yapar. Bu değerlendirmede hangi sonuca ulaşılmaktadır?",
+    "options": [
+      "Ahlaki tutarlılık farklı görüşteki kişiler arasında da güven oluşturabilir.",
+      "Güven ilişkisi düşünce birliğinin zamanla oluşmasını zorunlu kılar.",
+      "Toplumsal itibar dinî mesajın doğruluğunu tek başına kanıtlar.",
+      "Emanet ilişkisi kişisel yakınlığı hukuki sorumluluğun önüne geçirir.",
+      "Bir kişinin dürüstlüğü çevresindeki herkesin davranışını aynılaştırır."
+    ],
+    "explanation": "Araştırmanın odağı fikir ayrılığına rağmen oluşan güvendir. Güven duymak görüş birliğini zorunlu kılmadığı gibi herkesin davranışını da aynılaştırmaz."
+  },
+  {
+    "id": "tyt-32",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, peygamberin örnekliğinin yalnızca olağanüstü olaylar üzerinden anlatılmasının öğrencilerin gündelik hayatla bağ kurmasını zorlaştırabildiğini söyler. Aile ilişkileri, komşuluk, alışveriş ve çalışma hayatındaki davranışlarına da yer verilmesini önerir. Böylece öğrencilerden kendi davranışları için uygulanabilir sonuçlar çıkarmalarını bekler. Öğrencilerin örnekliği uzak bir geçmiş bilgisi olarak bırakmamasını, günlük tercihlerine taşımasını ister. Bu yaklaşımda hangi husus öne çıkarılmaktadır?",
+    "options": [
+      "Peygamberin insani yaşantısının ahlaki rehberlik sunması",
+      "Peygamberin beşerî yönünün dinî görevinin yerine geçmesi",
+      "Tarihî anlatıların kişisel deneyimlere indirgenmesi",
+      "Toplumsal kuralların dinî kaynaklardan bağımsızlaştırılması",
+      "Peygamberlik görevinin gündelik ilişkilerle sınırlandırılması"
+    ],
+    "explanation": "Beşerî hayatın anlatılması öğrencinin somut örnek almasını sağlar. Bu yaklaşım peygamberliği gündelik ilişkilere indirgemek veya vahiy görevini dışlamak değildir."
+  },
+  {
+    "id": "tyt-33",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir araştırmacı, aynı dinin mensupları arasında ibadetlerin bazı ayrıntıları hakkında farklı uygulamalar bulunduğunu gözlemler. Bu farklılıkların, kullanılan rivayetlerin değerlendirilmesi ve metinlerin anlaşılmasında izlenen yöntemlerle ilişkisini inceler. Araştırmasının sonunda ortak inanç esaslarının bulunmasının bütün ayrıntılarda aynı yorumun ortaya çıkmasını gerektirmediğini belirtir. Farklı uygulamaları incelerken hangi kaynaklara ve yöntemlere dayanıldığını ayrı ayrı kaydeder. Bu incelemede hangi ayrım temel alınmıştır?",
+    "options": [
+      "Din ile dinin insanlar tarafından anlaşılması",
+      "İbadet ile ibadetin toplumsal yararı",
+      "Ahlaki davranış ile hukuki yaptırım",
+      "Kültür ile coğrafi çevre",
+      "Bilimsel bilgi ile gündelik gözlem"
+    ],
+    "explanation": "Din ile din anlayışı ayrımı, ortak kaynakların insan yorumlarında farklılaşabilmesini açıklar. Coğrafi çevre de yorumları etkileyebilir; ancak bu metinde rivayet ve yöntem üzerinde durulmuştur."
+  },
+  {
+    "id": "tyt-34",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Dinî yorumların oluşmasını inceleyen öğrencilerden biri, farklı bölgelerde yaşayan insanların geçim şartlarını araştırır. Diğeri, metinlerdeki kelimelerin birden fazla anlama gelebilmesi üzerinde durur. Üçüncüsü ise siyasi gelişmelerin toplulukları nasıl etkilediğini inceler. Öğretmen, çalışmaların farklı sebepleri görünür kıldığını söyler. Öğrenciler birbirlerinin çalışmalarındaki açıklamaları da karşılaştırarak bir sonuç tablosu hazırlarlar. Buna göre aşağıdakilerden hangisi bu üç çalışmanın doğrudan konusu değildir?",
+    "options": [
+      "Bireylerin kişilik özellikleri",
+      "Coğrafi şartlar",
+      "Dilsel anlam farklılıkları",
+      "Toplumsal iktidar ilişkileri",
+      "Tarihî siyasi gelişmeler"
+    ],
+    "explanation": "Kişilik özellikleri bu üç araştırmada ele alınmamıştır. Coğrafya, dil ve siyasi gelişmeler ayrı ayrı verilmiştir; iktidar ilişkileri siyasi boyutun içindedir."
+  },
+  {
+    "id": "tyt-35",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci bütün mezhepleri namazın uygulanışına dair ayrıntılarla açıklamaya çalışır. Öğretmeni, bazı ekollerin inanç meseleleri üzerinde yoğunlaştığını; bazılarının ise ibadet ve gündelik davranışlara ilişkin hükümleri sistemleştirdiğini hatırlatır. Öğrenciden karşılaştırmasının ölçütünü yeniden düzenlemesini ister. Öğrenci ilk sınıflandırmasında konu alanlarını karıştırdığını fark ederek örneklerini yeniden gözden geçirir. Öğretmenin düzeltmesinde hangi ayrım esas alınmaktadır?",
+    "options": [
+      "İtikadi yorumlar ile fıkhi yorumlar",
+      "Bireysel ibadetler ile mali ibadetler",
+      "Dinî kurumlar ile kültürel kurumlar",
+      "Ahlaki değerler ile kişilik özellikleri",
+      "Siyasi olaylar ile ekonomik şartlar"
+    ],
+    "explanation": "İtikadi ekoller iman esaslarını, fıkhi ekoller uygulama ve hükümleri konu edinir. Ayrım ibadetin bedensel veya mali oluşuna göre değil yorumun konu alanına göredir."
+  },
+  {
+    "id": "tyt-36",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir tartışmada bir öğrenci, kendi benimsediği yorumla farklı bir yorumun aynı dinin kaynaklarına dayanamayacağını ileri sürer. Arkadaşı, ortak kaynaklardan hareket eden araştırmacıların yöntem ve değerlendirmelerinde ayrılabildiklerini; bu nedenle farklı görüşün önce gerekçeleriyle anlaşılması gerektiğini söyler. Bu tutumun, bir görüşe katılmayı zorunlu kılmadan saygılı bir tartışmayı mümkün kıldığını belirtir. İkinci öğrencinin yaklaşımı hangi tutumla en iyi ifade edilir?",
+    "options": [
+      "Farklı yorumları gerekçeleri içinde anlamaya çalışmak",
+      "Farklı görüşleri içeriklerini incelemeden eşdeğer saymak",
+      "Kendi görüşünü çoğunluğun tercihine göre değiştirmek",
+      "Ortak kaynakların anlamını bütünüyle kişiselleştirmek",
+      "Yorumların tarihî şartlarını değerlendirme dışında tutmak"
+    ],
+    "explanation": "Gerekçeyi anlamak eleştirel ve saygılı değerlendirmedir; her görüşü peşinen eşit ölçüde doğru kabul etmek değildir. İkinci seçenek yakın görünse de incelemeyi dışlar."
+  },
+  {
+    "id": "tyt-37",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir mahallede farklı mezheplere bağlı insanlar aynı yardım çalışmasına katılır. İbadetlerindeki bazı farklılıkları konuşurken bunları kişisel üstünlük iddiasına dönüştürmemeye özen gösterirler. Ortak inançları ve insanlara karşı sorumlulukları üzerinde buluşurlar. Çalışma süresince her katılımcı kendi yorumunu sürdürürken başkasının farklı tercihini küçümsememeye dikkat eder. Bu örnekte aşağıdaki anlayışlardan hangisi daha çok öne çıkmaktadır?",
+    "options": [
+      "Yorum farklılıklarını ortak sorumluluğa engel saymamak",
+      "Farklılıkları gidermek için uygulamaları tek biçime indirmek",
+      "Yardımlaşmayı dinî kimliklerin görünürlüğüne bağlamak",
+      "Ortak çalışma uğruna inanç konularını önemsiz görmek",
+      "Toplumsal uzlaşmayı mezhep tercihinin ölçütü yapmak"
+    ],
+    "explanation": "Birlikte çalışma farklı yorumların yok edilmesini gerektirmemiştir. Ortak sorumlulukta buluşmak, inanç esaslarını önemsizleştirmek veya bütün uygulamaları aynılaştırmak değildir."
+  },
+  {
+    "id": "tyt-38",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci dini kültürle aynı kavram olarak kullanır. Öğretmeni, aynı dinin farklı toplumlarda farklı mimari, edebî ve gündelik ifade biçimleriyle yaşanabildiğini örneklerle gösterir. Bunun yanında dinin bazı temel ilkelerinin yerel bir alışkanlığa indirgenemeyeceğini belirtir. Öğrenciden din ile kültür arasındaki ilişkiyi bu iki yönü birlikte gözeterek açıklamasını ister. Aşağıdaki yargılardan hangisi bu ilişkiyi en doğru yansıtır?",
+    "options": [
+      "Din kültürü etkilerken kültürel ortam da dinin yaşanma biçimlerini etkileyebilir.",
+      "Kültürel bir uygulama yaygınlaştığında dinin temel ilkesi niteliği kazanır.",
+      "Dinin farklı toplumlarda yaşanması ortak ilkelerin farklılaşmasını gerektirir.",
+      "Bir toplumun kültürü dinin anlaşılmasında belirleyici tek kaynaktır.",
+      "Kültürel çeşitlilik dinin toplumsal hayatta etkisinin azaldığını gösterir."
+    ],
+    "explanation": "Din ve kültür etkileşir; ancak her kültürel alışkanlık dinin değişmez ilkesi hâline gelmez. Farklı ifade biçimleri ortak ilkelerin zorunlu olarak değiştiği anlamına da gelmez."
+  },
+  {
+    "id": "tyt-39",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okul kulübü insan hakları üzerine çalışma yapar. Grup, insanın yaşama, inanma, öğrenme ve malını koruma haklarını birlikte ele alır. Bir hakkın korunmasını başka bir temel hakkın gereksiz görülmesi için gerekçe yapmamaya dikkat eder. Öğretmen bu yaklaşımı dinin insan hayatını korumaya yönelik temel amaçlarıyla ilişkilendirir. Aşağıdaki uygulamalardan hangisi bu yaklaşımla bağdaşmaz?",
+    "options": [
+      "Maddi kazanç amacıyla insanların sağlığını riske atan üretimi desteklemek",
+      "Öğrenme imkânını artırırken öğrencilerin güvenliğini de gözetmek",
+      "İnsanların inancını özgürce ifade edebilmesine saygı göstermek",
+      "Emanet edilen malın korunması için şeffaf kayıt tutmak",
+      "Bağımlılıklarla mücadelede bilinçlendirme çalışmaları yürütmek"
+    ],
+    "explanation": "Sağlığı riske atarak kazancı öne almak canın korunmasıyla bağdaşmaz. Malın korunması da önemlidir; fakat maddi çıkar can güvenliğini ihmal etme gerekçesi olamaz."
+  },
+  {
+    "id": "tyt-40",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, aldığı ürüne ihtiyacı olmadığını fark ettiği hâlde sırf yeni olduğu için yenisini almak ister. Arkadaşı ise imkân sahibi olmanın kaynakları düşüncesizce tüketme hakkı vermediğini, tüketimin hem bireysel hem toplumsal sonuçlarının bulunduğunu hatırlatır. Konuşmalarının sonunda ihtiyaç, ölçü ve sorumluluk arasındaki ilişkiyi değerlendirmeye karar verirler. Bu tartışmanın merkezindeki dinî ve ahlaki mesele hangisidir?",
+    "options": [
+      "İsrafın önlenmesi",
+      "Özel mülkiyetin edinilmesi",
+      "Ticari sözleşmenin biçimi",
+      "Mirasın hak sahiplerine dağıtılması",
+      "Zekâtın ödeme zamanının belirlenmesi"
+    ],
+    "explanation": "İhtiyaç ve ölçü gözetmeden kaynak tüketmek israfla ilgilidir. Mülkiyet hakkına sahip olmak kullanımın ahlaki sorumluluğunu ortadan kaldırmaz; tartışma mal edinmenin yöntemi değildir."
+  }
+];
+const GLOSSARY=[
+  {
+    "id": "k001",
+    "term": "Bilgi",
+    "definition": "Bir konu veya varlık hakkında öğrenme, araştırma ve deneyimle edinilen kavrayış.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k002",
+    "term": "Selim akıl",
+    "definition": "Ön yargı ve yanıltıcı etkilerden uzak biçimde doğruyu değerlendirebilen akıl.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Salim duyular algılar; selim akıl veriler arasında ilişki kurar.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k003",
+    "term": "Salim duyular",
+    "definition": "İşlevini sağlıklı biçimde yerine getiren görme, işitme ve diğer duyular.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k004",
+    "term": "Sadık haber",
+    "definition": "Doğruluğu güvenilir biçimde belirlenmiş haber; dinî bilgide vahiy ve güvenilir aktarımlar bu kapsamda ele alınır.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Her yaygın söylenti sadık haber değildir.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k005",
+    "term": "Mütevatir haber",
+    "definition": "Yalan üzerinde birleşmeleri makul görülmeyen çok sayıda kişinin birbirinden aktararak ilettiği haber.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Bir haberin internette çok paylaşılması tek başına mütevatir olduğunu göstermez.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k006",
+    "term": "Vahiy",
+    "definition": "Allah'ın peygamberlerine bildirdiği ilahî bilgi ve rehberlik.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "İlham, vahiy gibi herkes için bağlayıcı dinî delil sayılmaz.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k007",
+    "term": "İlham",
+    "definition": "İnsanın gönlüne doğan sezgi veya anlam; dinî hüküm koyan genel bir bilgi kaynağı değildir.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k008",
+    "term": "Rüya",
+    "definition": "Uykuda yaşanan zihinsel deneyim; tek başına dinî hükmün veya kesin bilginin kaynağı değildir.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k009",
+    "term": "Zan",
+    "definition": "Kesin bilgiye dayanmayan kanaat veya tahmin.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k010",
+    "term": "Tefekkür",
+    "definition": "Varlıklar, olaylar ve bunların anlamları üzerinde dikkatle düşünme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k011",
+    "term": "İman",
+    "definition": "Allah'a ve İslam'da inanılması bildirilen esaslara gönülden inanma.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "İman inanç boyutudur; amel davranış boyutudur.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k012",
+    "term": "Tasdik",
+    "definition": "Bir önermeyi doğru kabul edip gönülden benimseme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Tasdik kalbin onayı, ikrar dil ile açıklamadır.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k013",
+    "term": "İkrar",
+    "definition": "İnancı veya kabulü sözle ifade etme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k014",
+    "term": "Taklidî iman",
+    "definition": "İnanç esaslarını araştırmadan çevreden görüp benimsemeye dayanan iman.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k015",
+    "term": "Tahkikî iman",
+    "definition": "İnanç esaslarını delillerini araştırarak ve anlamını kavrayarak benimseme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k016",
+    "term": "Amel",
+    "definition": "İnsanın bilinçli olarak gerçekleştirdiği iş ve davranışlar.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k017",
+    "term": "Salih amel",
+    "definition": "İmana uygun, iyi niyetle yapılan, kişiye ve çevresine fayda veren doğru davranış.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k018",
+    "term": "İlmelyakin",
+    "definition": "Bir gerçeğe güvenilir bilgi ve akıl yürütmeyle kesinlik kazanarak inanma.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Duman bilgisinden ateşi bilmek ilmelyakine örnek verilebilir.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k019",
+    "term": "Aynelyakin",
+    "definition": "Bir gerçeği doğrudan görme veya gözlemleme yoluyla kesin olarak bilme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k020",
+    "term": "Hakkalyakin",
+    "definition": "Bir gerçeği bizzat yaşayarak ve tecrübe ederek kesin olarak bilme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k021",
+    "term": "Gayb",
+    "definition": "Duyularla doğrudan kavranamayan; bir kısmı vahiy yoluyla bildirilen varlık ve olay alanı.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k022",
+    "term": "Şehadet âlemi",
+    "definition": "Duyularla gözlemlenebilen varlık alanı.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Buradaki şehadet, tanıklık anlamındadır; şehitlik kavramıyla karıştırılmaz.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k023",
+    "term": "İnanç",
+    "definition": "Bir düşünceyi veya değeri doğru kabul edip benimseme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k024",
+    "term": "Fıtrat",
+    "definition": "İnsanın yaratılıştan getirdiği temel yapı ve eğilimler; hakikate yöneliş bunlar arasında değerlendirilir.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k025",
+    "term": "Din",
+    "definition": "İnsanın kutsalla ilişkisini, inançlarını, ibadetlerini ve ahlaki sorumluluklarını düzenleyen ilke ve öğretiler bütünü.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k026",
+    "term": "İslam",
+    "definition": "Allah'ın birliğini kabul edip O'na teslim olmayı esas alan, Hz. Muhammed aracılığıyla bildirilen din.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k027",
+    "term": "Tevhit",
+    "definition": "Allah'ın zatında, sıfatlarında ve ilahlığında bir ve tek olduğunu kabul etme.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k028",
+    "term": "Şirk",
+    "definition": "Allah'a ilahlık veya ibadette ortak koşma.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Şirk ortak koşmadır; küfür daha geniş biçimde iman esaslarını reddetmeyi anlatır.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k029",
+    "term": "Küfür",
+    "definition": "İslam'ın iman esaslarını inkâr etme.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k030",
+    "term": "Nifak",
+    "definition": "İçten inanmadığı hâlde dışarıdan inanmış görünme.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Nifak inançta ikiyüzlülüktür; riya gösteriş amacıyla davranmaktır.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k031",
+    "term": "Mümin",
+    "definition": "İslam'ın iman esaslarını gönülden benimseyen kişi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k032",
+    "term": "Müslüman",
+    "definition": "İslam dinini kabul eden kişi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k033",
+    "term": "Müşrik",
+    "definition": "Allah'a ortak koşan kişi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k034",
+    "term": "Münafık",
+    "definition": "İnanmadığı hâlde inanmış görünen kişi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k035",
+    "term": "Kelimeitevhit",
+    "definition": "Allah'tan başka ilah bulunmadığını ve Hz. Muhammed'in O'nun elçisi olduğunu bildiren ifade.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Kelime-i tevhid",
+      "Kelime-i tevhit"
+    ]
+  },
+  {
+    "id": "k036",
+    "term": "Kelimeişehadet",
+    "definition": "Allah'ın birliğine ve Hz. Muhammed'in kulluğu ile elçiliğine tanıklık bildiren ifade.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Kelime-i şehadet"
+    ]
+  },
+  {
+    "id": "k037",
+    "term": "Nübüvvet",
+    "definition": "Allah'ın insanlar arasından seçtiği kişileri vahiy ve rehberlikle görevlendirmesi; peygamberlik.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k038",
+    "term": "Risalet",
+    "definition": "Allah'ın elçisi olarak ilahî mesajı insanlara ulaştırma görevi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k039",
+    "term": "Peygamber",
+    "definition": "Allah'ın vahyini insanlara bildirmek ve onlara örnek olmakla görevlendirdiği elçi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k040",
+    "term": "Melek",
+    "definition": "Allah'ın verdiği görevleri yerine getiren, İslam inancında duyular ötesi kabul edilen varlık.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k041",
+    "term": "Ahiret",
+    "definition": "Dünya hayatının ardından başlayacak olan ebedî hayat.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k042",
+    "term": "Kader",
+    "definition": "Allah'ın her şeyi bilgisiyle bir ölçü, düzen ve plan içinde takdir etmesi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Kader takdir ve ölçü, kaza bu takdirin gerçekleşmesidir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k043",
+    "term": "Kaza",
+    "definition": "Allah'ın takdir ettiği olayların zamanı geldiğinde gerçekleşmesi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k044",
+    "term": "İbadet",
+    "definition": "Allah'ın rızasını gözeterek O'nun emirlerine uygun davranma ve kulluk görevlerini yerine getirme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "İbadet yalnız belirli törenlerle sınırlı değildir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k045",
+    "term": "Ubudiyet",
+    "definition": "İnsanın Allah'a bağlılık ve kulluk bilinci içinde yaşaması.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k046",
+    "term": "Mükellef",
+    "definition": "Dinî yükümlülükleri yerine getirmekle sorumlu kişi; akıl ve ergenlik temel şartlardandır.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k047",
+    "term": "Niyet",
+    "definition": "Bir davranışın hangi amaçla yapıldığını belirleyen iç yöneliş.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k048",
+    "term": "İhlas",
+    "definition": "İnanç ve davranışlarda samimi olup Allah'ın rızasını gözetme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "İhlas gösterişten arınmış niyet, ihsan Allah'ın gördüğünün bilinciyle davranmaktır.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k049",
+    "term": "İhsan",
+    "definition": "Allah'ın kendisini gördüğünün bilinciyle kulluk etmek; davranışı özenle ve güzelce yapmak.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k050",
+    "term": "Riya",
+    "definition": "İbadeti veya iyi davranışı insanların beğenisini kazanmak için sergileme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k051",
+    "term": "Takva",
+    "definition": "Allah'a karşı sorumluluk bilinciyle kötülükten sakınıp doğru davranmaya çalışma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k052",
+    "term": "Farz",
+    "definition": "Yapılması kesin ve bağlayıcı delille istenen dinî görev.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k053",
+    "term": "Farzıayn",
+    "definition": "Şartlarını taşıyan her bireyin kendisinin yerine getirmesi gereken görev.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k054",
+    "term": "Farzıkifaye",
+    "definition": "Toplumdan yeterli sayıda kişinin yapmasıyla diğerlerinden yükümlülüğü kalkan görev.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k055",
+    "term": "Vacip",
+    "definition": "Hanefi fıkhında, yapılması bağlayıcı olmakla birlikte delili farz kadar kesin olmayan görev.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Farz-vacip ayrımı mezhepler arasında aynı biçimde kullanılmaz.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k056",
+    "term": "Sünnet",
+    "definition": "Hz. Muhammed'in söz, davranış ve onaylarıyla oluşan örnekliği; fıkıhta yapılması teşvik edilen bazı davranışlar.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k057",
+    "term": "Müstehap",
+    "definition": "Yapılması dinen güzel görülen, terk edilmesi günah sayılmayan davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "synonymGroup": "mendup-mustehap"
+  },
+  {
+    "id": "k058",
+    "term": "Nafile",
+    "definition": "Farz ve vacip yükümlülükler dışında Allah'a yakınlaşmak amacıyla yapılan ek ibadet.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k059",
+    "term": "Mubah",
+    "definition": "Yapılması veya yapılmaması bakımından dinen serbest bırakılan davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k060",
+    "term": "Helal",
+    "definition": "Dinen yapılmasına izin verilen şey veya davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k061",
+    "term": "Haram",
+    "definition": "Yapılması kesin biçimde yasaklanan davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k062",
+    "term": "Mekruh",
+    "definition": "Yapılması dinen hoş görülmeyen davranış; hükmünün derecesi fıkıh yorumuna göre farklılaşabilir.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k063",
+    "term": "Dua",
+    "definition": "İnsanın Allah'a yönelerek isteğini, şükrünü ve aczini ifade etmesi.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k064",
+    "term": "Tövbe",
+    "definition": "Yanlışından pişman olup onu bırakma ve tekrar etmemeye yönelme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k065",
+    "term": "İstiğfar",
+    "definition": "Allah'tan bağışlanma dileme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "İstiğfar bağışlanma istemek; tövbe yanlıştan dönme iradesini de içerir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k066",
+    "term": "Şükür",
+    "definition": "Nimeti Allah'tan bilip değerini söz ve davranışla gösterme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k067",
+    "term": "Hamt",
+    "definition": "Allah'ı yüceliği ve nimetleri dolayısıyla övme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k068",
+    "term": "Zikir",
+    "definition": "Allah'ı anma ve O'nu hatırda tutma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k069",
+    "term": "Tesbih",
+    "definition": "Allah'ı her türlü eksiklikten uzak kabul edip yüceltme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k070",
+    "term": "Namaz",
+    "definition": "Belirli vakit ve kurallarla yerine getirilen, kıyam, kıraat ve secde gibi bölümleri bulunan ibadet.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k071",
+    "term": "Oruç",
+    "definition": "İbadet niyetiyle imsak vaktinden güneş batıncaya kadar yeme, içme ve orucu bozan davranışlardan uzak durma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k072",
+    "term": "Zekât",
+    "definition": "Belirli şartları taşıyan malın belirlenmiş payını hak sahiplerine verme ibadeti.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k073",
+    "term": "Sadaka",
+    "definition": "Allah'ın rızası gözetilerek yapılan maddi veya manevi yardım.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k074",
+    "term": "İnfak",
+    "definition": "Sahip olunan imkânları Allah'ın rızası doğrultusunda paylaşma ve harcama.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k075",
+    "term": "Hac",
+    "definition": "Şartlarını taşıyan Müslümanların belirli zamanda Kâbe ve çevresindeki yerlerde yerine getirdiği ibadet.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k076",
+    "term": "Umre",
+    "definition": "Belirli hac günlerine bağlı olmaksızın ihram, tavaf ve sa‘y ile yapılan ziyaret ibadeti.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k077",
+    "term": "Kurban",
+    "definition": "Allah'a yakınlaşmak amacıyla uygun bir hayvanı dinî usullere göre kesme ibadeti.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k078",
+    "term": "Abdest",
+    "definition": "Belirli organları usulüne uygun yıkayıp mesh ederek yapılan ibadet temizliği.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k079",
+    "term": "Gusül",
+    "definition": "İbadet temizliği amacıyla bütün bedeni usulüne göre yıkama.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k080",
+    "term": "Teyemmüm",
+    "definition": "Su kullanmanın mümkün olmadığı durumlarda temiz toprak veya toprak cinsiyle yapılan hükmî temizlik.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k081",
+    "term": "Nisap",
+    "definition": "Zekât gibi bazı mali yükümlülüklerde esas alınan asgari zenginlik ölçüsü.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k082",
+    "term": "Sadakaicariye",
+    "definition": "Faydası sürdükçe kişiye sevap kazandırdığı kabul edilen kalıcı hayır.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k083",
+    "term": "Değer",
+    "definition": "Bireyin ve toplumun önem verdiği, davranışlara yön veren ölçüt.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k084",
+    "term": "Ahlak",
+    "definition": "İnsanın iyi ve kötü olarak değerlendirilen huyları ve davranışlarını düzenleyen ilkeler.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k085",
+    "term": "Erdem",
+    "definition": "İnsanı iyi davranışa yönelten, yerleşmiş olumlu ahlaki nitelik.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k086",
+    "term": "Adalet",
+    "definition": "Hak sahibine hakkını vermek ve değerlendirmede hakkaniyetli davranmak.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k087",
+    "term": "Hikmet",
+    "definition": "Bilgiyi doğru değerlendirme ve yerinde kullanma erdemi.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k088",
+    "term": "İffet",
+    "definition": "İnsanın istek ve arzularını ahlaki ölçüler içinde yönetmesi.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k089",
+    "term": "Şecaat",
+    "definition": "Öfke ve korkuyu ölçülü yöneterek gerektiğinde doğru olanı cesaretle savunma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k090",
+    "term": "İtidal",
+    "definition": "Duygu ve davranışlarda aşırılıktan uzak, dengeli olma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k091",
+    "term": "İfrat",
+    "definition": "Bir tutum veya davranışta ölçüyü aşma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k092",
+    "term": "Tefrit",
+    "definition": "Gereken ölçünün altında kalma, ihmal ve eksiklik gösterme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k093",
+    "term": "Edep",
+    "definition": "İnsanın ilişkilerinde saygı ve nezaketle doğru davranma ölçüsü.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k094",
+    "term": "Hayâ",
+    "definition": "Çirkin ve yanlış davranışlardan içsel bir duyarlılıkla çekinme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k095",
+    "term": "Tevazu",
+    "definition": "Kendini başkalarından üstün görmeyip alçak gönüllü olma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k096",
+    "term": "Kibir",
+    "definition": "Kendini üstün görerek başkalarını küçümseme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k097",
+    "term": "Sabır",
+    "definition": "Zorluk, bekleyiş ve sorumluluk karşısında doğru tutumu kararlılıkla sürdürme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Sabır haksızlığı kabullenmek veya tedbirden vazgeçmek değildir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k098",
+    "term": "Kanaat",
+    "definition": "Sahip olduklarının değerini bilip ölçüsüz hırstan uzak durma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Kanaat çalışmayı bırakmak değildir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k099",
+    "term": "Tevekkül",
+    "definition": "Gerekli çabayı ve tedbiri gösterdikten sonra sonucu Allah'a bırakma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k100",
+    "term": "İsar",
+    "definition": "İhtiyacı olduğu hâlde başkasını kendine tercih etme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k101",
+    "term": "Cömertlik",
+    "definition": "Sahip olduğu imkânları karşılık beklemeden uygun biçimde paylaşma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k102",
+    "term": "Merhamet",
+    "definition": "Başkasının sıkıntısını önemseyip onu gidermeye yönelme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k103",
+    "term": "Emanet",
+    "definition": "Korunmak veya gereği yapılmak üzere kişiye bırakılan mal, görev ya da sorumluluk.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Peygamberlik sıfatı olarak emanet, peygamberlerin güvenilirliğini ifade eder; aynı kelime korunmak üzere bırakılan görev ve mal için de kullanılır.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k104",
+    "term": "Kul hakkı",
+    "definition": "Başkasının maddi veya manevi hakkı ve bu hakka ilişkin sorumluluk.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k105",
+    "term": "Vefa",
+    "definition": "İyiliği unutmama ve bağlılığı davranışla sürdürme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k106",
+    "term": "Sadakat",
+    "definition": "Söz, ilişki ve sorumluluklarda dürüstçe bağlı kalma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k107",
+    "term": "Sıdk",
+    "definition": "Söz ve davranışlarda doğruluk.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k108",
+    "term": "Gıybet",
+    "definition": "Bir kişinin hoşlanmayacağı kusurunu arkasından söyleme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k109",
+    "term": "İftira",
+    "definition": "Bir kişiye yapmadığı bir kötülüğü veya suçu yakıştırma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Gıybet gerçek bir kusuru anlatabilir; iftira asılsız suçlamadır.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k110",
+    "term": "Haset",
+    "definition": "Başkasındaki nimetin yok olmasını isteme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k111",
+    "term": "Gıpta",
+    "definition": "Başkasındaki iyiliğin onda kalmasını da isteyerek benzerine sahip olmayı dileme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k112",
+    "term": "Hüsnüzan",
+    "definition": "Yeterli gerekçe yokken başkasının davranışını iyiye yorma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k113",
+    "term": "Suizan",
+    "definition": "Sağlam delil olmadan başkası hakkında kötü kanaat besleme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k114",
+    "term": "Tecessüs",
+    "definition": "Başkalarının özel hayatını ve gizli kusurlarını araştırma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k115",
+    "term": "İsraf",
+    "definition": "Malı, zamanı veya diğer imkânları gereksiz ve ölçüsüz kullanma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k116",
+    "term": "Cimrilik",
+    "definition": "Yapılması gereken veya uygun olan harcama ve paylaşmadan kaçınma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k117",
+    "term": "Mahremiyet",
+    "definition": "Kişinin özel hayatını ve sınırlarını koruma hakkı.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k118",
+    "term": "Kültür",
+    "definition": "Bir toplumun zaman içinde oluşturup aktardığı maddi ve manevi birikim.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k119",
+    "term": "Medeniyet",
+    "definition": "Toplumların bilgi, kurum, sanat, hukuk ve yaşam biçimlerinde oluşturduğu kapsamlı gelişme ve birikim.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k120",
+    "term": "Gönül coğrafyası",
+    "definition": "Ortak tarih, kültür ve manevi bağlarla ilişkili toplumları anlatan ifade.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k121",
+    "term": "Ümmet",
+    "definition": "Bir peygambere inanan topluluk; İslam bağlamında Müslümanlar topluluğu.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k122",
+    "term": "Hicaz",
+    "definition": "Mekke ve Medine'nin de yer aldığı, İslam'ın doğuşuyla ilişkili Arabistan bölgesi.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k123",
+    "term": "Maveraünnehir",
+    "definition": "Ceyhun ve Seyhun nehirleri arasındaki tarihî ilim ve kültür havzası.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k124",
+    "term": "Horasan",
+    "definition": "İslam düşüncesi ve Türk-İslam kültüründe etkili olmuş tarihî doğu coğrafyası.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k125",
+    "term": "Endülüs",
+    "definition": "İber Yarımadası'nda Müslümanların kurduğu tarihî siyasi ve kültürel varlığın adı.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k126",
+    "term": "Vakıf",
+    "definition": "Bir malın veya gelirin toplum yararına sürekli bir amaca ayrıldığı hayır kurumu.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k127",
+    "term": "Külliye",
+    "definition": "Cami çevresinde eğitim, sağlık ve sosyal hizmet yapılarının birlikte bulunduğu yapı topluluğu.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k128",
+    "term": "Medrese",
+    "definition": "İslam tarihinde çeşitli bilimlerin öğretildiği eğitim kurumu.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k129",
+    "term": "Darüşşifa",
+    "definition": "İslam tarihinde sağlık hizmeti ve kimi zaman tıp eğitimi sunan kurum.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k130",
+    "term": "Ahilik",
+    "definition": "Meslek dayanışmasını, dürüst üretimi ve ahlaki eğitimi birleştiren tarihî esnaf teşkilatı.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k131",
+    "term": "Esmaihüsna",
+    "definition": "Allah'ın güzel isimleri.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "Esma-i Hüsna",
+      "Esmâ-i Hüsnâ"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k132",
+    "term": "Vücut",
+    "definition": "Allah'ın var olması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k133",
+    "term": "Kıdem",
+    "definition": "Allah'ın varlığının başlangıcının olmaması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k134",
+    "term": "Beka",
+    "definition": "Allah'ın varlığının sonunun olmaması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k135",
+    "term": "Vahdaniyet",
+    "definition": "Allah'ın bir ve tek olması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k136",
+    "term": "Muhalefetün lilhavadis",
+    "definition": "Allah'ın sonradan yaratılmış varlıklara benzememesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k137",
+    "term": "Kıyam binefsihi",
+    "definition": "Allah'ın var olmak için başka hiçbir şeye ihtiyaç duymaması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k138",
+    "term": "Hayat",
+    "definition": "Allah'ın diri olması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k139",
+    "term": "İlim",
+    "definition": "Allah'ın her şeyi bilmesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k140",
+    "term": "Semi",
+    "definition": "Allah'ın her şeyi işitmesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k141",
+    "term": "Basar",
+    "definition": "Allah'ın her şeyi görmesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k142",
+    "term": "İrade",
+    "definition": "Allah'ın dilemesi ve istediğini belirlemesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k143",
+    "term": "Kudret",
+    "definition": "Allah'ın her şeye gücünün yetmesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k144",
+    "term": "Kelam",
+    "definition": "Allah'ın konuşma sıfatı.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k145",
+    "term": "Tekvin",
+    "definition": "Maturidi kelamında Allah'ın yaratma sıfatı.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k146",
+    "term": "Rahman",
+    "definition": "Allah'ın bütün varlıklara merhametini ve nimetini ulaştırmasını bildiren ismi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k147",
+    "term": "Rahim",
+    "definition": "Allah'ın merhamet sahibi olduğunu bildiren ismi; dinî öğretimde özellikle müminlere yönelik rahmetiyle açıklanır.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k148",
+    "term": "Gafur",
+    "definition": "Allah'ın çok bağışlayıcı olduğunu bildiren ismi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k149",
+    "term": "Rezzak",
+    "definition": "Allah'ın rızık veren olduğunu bildiren ismi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k150",
+    "term": "Marifetullah",
+    "definition": "Allah'ı isimleri, sıfatları ve eserlerinden hareketle tanımaya yönelik bilgi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Marifet genel olarak derin tanıma ve kavrayışı, marifetullah özellikle Allah’ı tanımayı anlatır.",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "Marifet"
+    ]
+  },
+  {
+    "id": "k151",
+    "term": "Hudûs delili",
+    "definition": "Sonradan var olan evrenin bir var edene ihtiyaç duyduğu düşüncesine dayanan delil.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "scopeNote": "Destekleyici kavram; 2018 10.1.2 kazanımının sınırı gaye-nizam ve ekmel varlık delilleridir."
+  },
+  {
+    "id": "k152",
+    "term": "İmkân delili",
+    "definition": "Varlığı zorunlu olmayan varlıkların var oluşunu zorunlu bir varlığa dayandıran delil.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "scopeNote": "Destekleyici kavram; 2018 10.1.2 kazanımının sınırı gaye-nizam ve ekmel varlık delilleridir."
+  },
+  {
+    "id": "k153",
+    "term": "Gaye ve nizam delili",
+    "definition": "Evrendeki düzen ve amaçlılıktan Allah'ın varlığına ulaşan akıl yürütme.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "Teleolojik delil"
+    ]
+  },
+  {
+    "id": "k154",
+    "term": "Fıtrat delili",
+    "definition": "İnsandaki yaratılıştan gelen inanma ve yüce varlığa yönelme eğilimini esas alan delil.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k155",
+    "term": "Cüzî irade",
+    "definition": "İnsanın mümkün seçenekler arasında tercih yapabilmesini sağlayan sınırlı iradesi.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "İnsanın seçimi sınırlıdır; küllî irade Allah’ın sınırsız iradesini ifade eder.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k156",
+    "term": "Hadis",
+    "definition": "Hz. Muhammed'in söz, davranış ve onaylarını aktaran rivayet.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k157",
+    "term": "Tebliğ",
+    "definition": "Peygamberin aldığı ilahî mesajı insanlara eksiksiz ulaştırması.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k158",
+    "term": "Tebyin",
+    "definition": "Peygamberin vahyin mesajını açıklaması.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k159",
+    "term": "Temsil",
+    "definition": "Peygamberin bildirdiği ilkeleri yaşayarak örnek olması.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k160",
+    "term": "Teşri",
+    "definition": "Dinî hüküm koyma; Hz. Muhammed'in vahyin verdiği yetki çerçevesinde hüküm bildirmesi.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k161",
+    "term": "Üsveihasene",
+    "definition": "Güzel örnek; Kur'an'da Hz. Muhammed'in örnekliği için kullanılan ifade.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k162",
+    "term": "Hatemülenbiya",
+    "definition": "Peygamberlerin sonuncusu; Hz. Muhammed için kullanılan unvan.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k163",
+    "term": "Ehl-i beyt",
+    "definition": "Hz. Muhammed'in ailesi ve yakınları için kullanılan ifade; kapsamı yorumlara göre farklı açıklanır.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k164",
+    "term": "Sahabe",
+    "definition": "Hz. Muhammed ile iman etmiş olarak karşılaşan ve Müslüman olarak vefat eden kişiler.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "Sahabi topluluğun bir üyesini, sahabe bu kişilerin bütününü anlatır.",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "Sahabi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k165",
+    "term": "Hicret",
+    "definition": "Baskı altındaki Müslümanların inançlarını yaşayabilmek için yer değiştirmesi; özellikle Mekke'den Medine'ye göç.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k166",
+    "term": "Muhacir",
+    "definition": "Mekke'den Medine'ye hicret eden Müslüman.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k167",
+    "term": "Ensar",
+    "definition": "Medine'de muhacirlere yardım eden Müslümanlar.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k168",
+    "term": "Zaruratıhamse",
+    "definition": "Dinin korunmasını hedeflediği can, akıl, din, nesil ve mal şeklindeki beş temel değer.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k169",
+    "term": "Din özgürlüğü",
+    "definition": "Kişinin inancını seçme, açıklama ve dinî hayatını hukuki çerçevede sürdürme hakkı.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k170",
+    "term": "İstişare",
+    "definition": "Bir konuda karar vermeden önce bilgi ve görüş sahiplerine danışma.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k171",
+    "term": "Liyakat",
+    "definition": "Bir göreve gerekli bilgi, beceri ve ahlaki yeterliliğe göre uygun olma.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k172",
+    "term": "Küllî irade",
+    "definition": "Allah’ın dilemesinin sınırsız ve bütün varlığı kuşatıcı olması.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k173",
+    "term": "Din anlayışı",
+    "definition": "İnsanların dinin kaynaklarını kendi bilgi ve şartları içinde anlama ve yorumlama biçimi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "Din ile dinin tarih içindeki insan yorumları aynı düzeyde değildir.",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k174",
+    "term": "Mezhep",
+    "definition": "Dinî meseleleri belirli yöntem ve ilkelerle yorumlayan düşünce veya uygulama ekolü.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k175",
+    "term": "İtikat",
+    "definition": "Dinin inançla ilgili esaslarını benimseme; inanç alanı.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "İtikad"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k176",
+    "term": "Fıkıh",
+    "definition": "İbadet ve günlük hayattaki davranışların dinî hükümlerini yöntemli biçimde inceleyen ilim.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k177",
+    "term": "Kelam ilmi",
+    "definition": "İslam'ın inanç esaslarını açıklayan ve akli delillerle temellendiren ilim.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "Allah'ın kelam sıfatıyla ilim dalı olan kelam farklı bağlamlardır.",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k178",
+    "term": "İçtihat",
+    "definition": "Yetkin bir din bilgininin kaynak ve yöntemlere dayanarak dinî hükme ulaşmak için çaba göstermesi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k179",
+    "term": "Müçtehit",
+    "definition": "İçtihat yapma yeterliliğine sahip din bilgini.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k180",
+    "term": "İcma",
+    "definition": "Belirli bir dönemdeki yetkin İslam bilginlerinin dinî bir hüküm üzerinde görüş birliğine varması.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k181",
+    "term": "Kıyas",
+    "definition": "Hükmü bilinen bir meseleyle ortak gerekçesi bulunan yeni meseleye benzer hüküm uygulama yöntemi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k182",
+    "term": "Tevil",
+    "definition": "Bir dinî ifadeyi gerekçeli biçimde mümkün anlamlarından biriyle yorumlama.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k183",
+    "term": "Ehlisünnet",
+    "definition": "İnanç ve din anlayışında Kur'an ile peygamberin sünnetini esas alan geniş yorum geleneği.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k184",
+    "term": "Maturidilik",
+    "definition": "Ebu Mansur el-Maturidi'nin görüşleri çevresinde gelişen itikadi ekol.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k185",
+    "term": "Eşarilik",
+    "definition": "Ebu'l-Hasan el-Eşari'nin görüşleri çevresinde gelişen itikadi ekol.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k186",
+    "term": "Mutezile",
+    "definition": "İslam düşüncesinde akıl, ilahî adalet ve insanın sorumluluğuna vurgu yapan itikadi ekol.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k187",
+    "term": "Şia",
+    "definition": "Hz. Ali ve soyunun imametine özel önem veren İslam yorum geleneği.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k188",
+    "term": "Hanefilik",
+    "definition": "Ebu Hanife'nin görüşleri ve yöntemi çevresinde gelişen fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k189",
+    "term": "Şafiilik",
+    "definition": "İmam Şafii'nin görüşleri ve yöntemi çevresinde gelişen fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k190",
+    "term": "Malikilik",
+    "definition": "İmam Malik'in görüşleri ve yöntemi çevresinde gelişen fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k191",
+    "term": "Hanbelilik",
+    "definition": "Ahmed bin Hanbel'in görüşleri ve yöntemi çevresinde gelişen fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k192",
+    "term": "Caferilik",
+    "definition": "Cafer es-Sadık'a nispet edilen, Şii gelenekte etkili fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k193",
+    "term": "Kur'an",
+    "definition": "İslam inancına göre Hz. Muhammed'e vahyedilen son ilahî kitap.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k194",
+    "term": "Ayet",
+    "definition": "Kur'an surelerini oluşturan, başlangıcı ve sonu belirli vahiy bölümü.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k195",
+    "term": "Sure",
+    "definition": "Kur'an'da adı bulunan, ayetlerden oluşan bölüm.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k196",
+    "term": "Mushaf",
+    "definition": "Kur'an ayetlerinin iki kapak arasında bir araya getirilmiş kitap hâli.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k197",
+    "term": "Meal",
+    "definition": "Kur'an'ın anlamını başka bir dilde yaklaşık olarak ifade eden çeviri.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "Meal tercüme niteliğindedir; tefsir açıklama ve yorumlamayı içerir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k198",
+    "term": "Tefsir",
+    "definition": "Kur'an ayetlerini dil, bağlam ve ilgili kaynaklardan yararlanarak açıklayan ilim ve eser.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k199",
+    "term": "Hidayet",
+    "definition": "Doğru yola yönelme veya yöneltme; ilahî rehberlik.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k200",
+    "term": "Sıratımüstakim",
+    "definition": "İnanç ve davranışta Allah'ın gösterdiği doğru yol.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k201",
+    "term": "Birr",
+    "definition": "İnanç, ibadet, paylaşma ve ahlaki doğruluğu birlikte içeren kapsamlı iyilik.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k202",
+    "term": "Ba‘s",
+    "definition": "Ölümden sonra yeniden diriltilme.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k203",
+    "term": "Haşir",
+    "definition": "Diriltilen insanların hesap için bir araya toplanması.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k204",
+    "term": "Mahşer",
+    "definition": "Diriltilen insanların hesap için toplandığı yer veya toplanma safhası.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k205",
+    "term": "Mizan",
+    "definition": "Ahirette davranışların adaletle değerlendirilmesini anlatan ölçü.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k206",
+    "term": "Berzah",
+    "definition": "Ölüm ile yeniden diriliş arasındaki hayat veya dönem.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k207",
+    "term": "Tasavvuf",
+    "definition": "İslam'da kişinin nefsini eğitip güzel ahlak ve manevi olgunluk kazanmasını amaçlayan düşünce ve yaşam geleneği.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k208",
+    "term": "Züht",
+    "definition": "Dünyevi imkânları hayatın tek amacı yapmayıp aşırı bağlılıktan uzak durma.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k209",
+    "term": "Sufi",
+    "definition": "Tasavvuf yoluyla ahlaki ve manevi olgunluk arayan kişi.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k210",
+    "term": "Nefis",
+    "definition": "İnsanın benliği; tasavvufta eğitilmesi gereken istek ve yönelişleri için de kullanılan kavram.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k211",
+    "term": "İnsanıkâmil",
+    "definition": "Ahlaki ve manevi bakımdan olgunlaşmış insan ideali.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k212",
+    "term": "Cem",
+    "definition": "Alevi-Bektaşi geleneğinde topluca yürütülen, dua ve erkân içeren ibadet toplantısı.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k213",
+    "term": "Semah",
+    "definition": "Alevi-Bektaşi cemlerinde söz, müzik ve belirli hareketlerle yerine getirilen dinî uygulama.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "Mevlevilikteki sema ile aynı uygulama değildir.",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k214",
+    "term": "Teizm",
+    "definition": "Evreni yaratan ve varlıkla ilişkisini sürdüren bir Tanrı’nın varlığını kabul eden yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Deizmden ayrıldığı nokta Tanrı’nın evrenle ve insanla etkin ilişkisidir.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k215",
+    "term": "Deizm",
+    "definition": "Yaratıcı bir Tanrı’yı kabul ederken vahyi ve peygamberlik yoluyla ilahî rehberliği kabul etmeyen yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Tanrı inancı taşır; ateizmle aynı değildir.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k216",
+    "term": "Ateizm",
+    "definition": "Tanrı veya tanrıların varlığını kabul etmeyen yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Agnostisizm Tanrı’nın varlığı konusunda bilginin imkânına odaklanır.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k217",
+    "term": "Agnostisizm",
+    "definition": "Tanrı’nın varlığı veya yokluğu konusunda kesin bilgiye ulaşılamayacağını savunan yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Tanrı’nın kesinlikle olmadığı iddiasıyla eş anlamlı değildir.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k218",
+    "term": "Panteizm",
+    "definition": "Tanrı ile evreni özdeş kabul eden yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Çok sayıda tanrı kabul eden politeizmden farklıdır.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k219",
+    "term": "Monoteizm",
+    "definition": "Tek bir Tanrı’nın varlığını kabul eden inanç biçimi.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Tanrı sayısına ilişkin tek tanrıcılık anlamını taşır.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k220",
+    "term": "Politeizm",
+    "definition": "Birden çok tanrının varlığını kabul eden inanç biçimi.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Tek tanrıcılık olan monoteizmin karşıtıdır.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k221",
+    "term": "Hanif",
+    "definition": "Allah'ın birliğine inanıp şirkten uzak duran kişi; Kur'an'da Hz. İbrahim'in inancı için de kullanılır.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Haniflik"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k222",
+    "term": "Akide",
+    "definition": "Kesin olarak benimsenen dinî inanç esası.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Akide tek bir inanç ilkesini; akaid bu ilkeler bütününü anlatır.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k223",
+    "term": "Havf",
+    "definition": "Allah'a karşı sorumluluğunu yerine getirememe ve O'nun hoşnutluğundan uzak kalma endişesi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Havf, Allah'ın rahmetinden ümit kesmek anlamına gelmez.",
+    "sourceIds": [
+      "meb-havf-reca"
+    ]
+  },
+  {
+    "id": "k224",
+    "term": "Reca",
+    "definition": "Allah'ın rahmet ve bağışlamasını ümit ederek iyiliğe yönelme.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Reca, sorumlulukları terk edip koşulsuz bağışlanacağını varsaymak değildir.",
+    "sourceIds": [
+      "meb-havf-reca"
+    ]
+  },
+  {
+    "id": "k225",
+    "term": "Cebrail",
+    "definition": "İslam inancında Allah'ın vahyini peygamberlere ulaştırmakla görevli melek.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k226",
+    "term": "Mikail",
+    "definition": "İslam inancında Allah'ın emriyle tabiat olayları ve rızıkla ilgili görevleri yerine getiren melek.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k227",
+    "term": "İsrafil",
+    "definition": "İslam inancında kıyamet ve yeniden diriliş için sûra üflemekle görevli melek.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k228",
+    "term": "Azrail",
+    "definition": "İslam geleneğinde Allah'ın emriyle canlıların canını almakla görevli ölüm meleğine verilen ad.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k229",
+    "term": "Tevrat",
+    "definition": "İslam inancına göre Hz. Musa'ya verilen ilahî kitap; Yahudi geleneğinde Tora adıyla anılır.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k230",
+    "term": "Zebur",
+    "definition": "İslam inancına göre Hz. Davut'a verilen ilahî kitap.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k231",
+    "term": "İncil",
+    "definition": "İslam inancına göre Hz. İsa'ya verilen ilahî kitap.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "İslam'daki vahyedilmiş İncil anlayışı ile Hristiyanlıktaki dört İncil metni aynı tanımla ele alınmaz.",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k232",
+    "term": "Suhuf",
+    "definition": "İslam geleneğinde bazı peygamberlere verilen ilahî öğütleri içeren sahifeler.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k233",
+    "term": "Fetanet",
+    "definition": "Peygamberlerin üstün kavrayış, zekâ ve doğru değerlendirme yeteneğine sahip olması.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k234",
+    "term": "İsmet",
+    "definition": "Peygamberlerin dinin tebliğinde yanılmadan ve günahlardan korunmuş olmalarını anlatan sıfat.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k235",
+    "term": "El-emin",
+    "definition": "Güvenilir kişi anlamındaki unvan; Hz. Muhammed'in peygamberlik öncesinde de tanındığı özelliği.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k236",
+    "term": "Âlim",
+    "definition": "Bir ilim alanında derin bilgi ve yetkinlik sahibi kişi.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k237",
+    "term": "Mendup",
+    "definition": "Dinen yapılması bağlayıcı olmadan teşvik edilen, terk edilmesi günah sayılmayan davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Müstehap ve nafile terimleriyle yakın anlamlarda kullanılır; terimlerin kapsamı fıkıh ekolüne göre değişebilir.",
+    "sourceIds": [
+      "meb9-mendup"
+    ],
+    "synonymGroup": "mendup-mustehap"
+  },
+  {
+    "id": "k238",
+    "term": "Efalimükellefin",
+    "definition": "Dinî sorumluluk taşıyan kişilerin fiillerine ilişkin farz, vacip, haram gibi hüküm sınıfları.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k239",
+    "term": "İhram",
+    "definition": "Hac veya umre niyetiyle, normalde serbest olan bazı davranışları geçici olarak terk ederek girilen ibadet durumu.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "İhram yalnızca giyilen kıyafetin adı değildir.",
+    "sourceIds": [
+      "meb-hac"
+    ]
+  },
+  {
+    "id": "k240",
+    "term": "Tavaf",
+    "definition": "Kâbe'nin çevresinde usulüne göre yedi defa dönülerek yerine getirilen ibadet.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-hac"
+    ]
+  },
+  {
+    "id": "k241",
+    "term": "Sa‘y",
+    "definition": "Hac veya umrede Safa ile Merve arasında belirli usulle yedi geçiş yapma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-hac"
+    ]
+  },
+  {
+    "id": "k242",
+    "term": "Vakfe",
+    "definition": "Hac ibadetinde Arafat ve Müzdelife'de belirlenmiş zamanda bir süre bulunma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Safa ve Merve arasında yapılan uygulama vakfe değil sa‘ydır.",
+    "sourceIds": [
+      "meb-hac"
+    ]
+  },
+  {
+    "id": "k243",
+    "term": "Taharet",
+    "definition": "İbadet için gerekli maddi ve hükmî temizliği sağlama.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "diyanet-temizlik"
+    ]
+  },
+  {
+    "id": "k244",
+    "term": "Hades",
+    "definition": "Abdest veya gusül gerektiren, bazı ibadetleri yerine getirmeye engel sayılan hükmî durum.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Hades hükmî durumdur; necaset maddi pisliktir.",
+    "sourceIds": [
+      "diyanet-temizlik"
+    ]
+  },
+  {
+    "id": "k245",
+    "term": "Necaset",
+    "definition": "İbadet temizliği bakımından giderilmesi gereken, dinen pis kabul edilen maddeler.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "diyanet-temizlik"
+    ]
+  },
+  {
+    "id": "k246",
+    "term": "Bidat",
+    "definition": "Dinî bir dayanak bulunmadığı hâlde sonradan ibadet veya dinin gereği olarak ortaya konan uygulama.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Her teknolojik yenilik bidat sayılmaz; dinî uygulama niteliği bağlamı belirler.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k247",
+    "term": "Fısk",
+    "definition": "Allah'ın emir ve yasaklarına aykırı davranarak dinî ve ahlaki sınırları aşma.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-fasik",
+      "tdv-fasik"
+    ]
+  },
+  {
+    "id": "k248",
+    "term": "Fasık",
+    "definition": "Dinî ve ahlaki yükümlülüklerine aykırı davranışlarıyla tanınan kişi.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "Fasık sözcüğü otomatik olarak inançsız anlamına gelmez.",
+    "sourceIds": [
+      "meb9-fasik",
+      "tdv-fasik"
+    ]
+  },
+  {
+    "id": "k249",
+    "term": "Muttaki",
+    "definition": "Takva bilinciyle sorumluluklarını gözetip kötülüklerden sakınan kişi.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-muttaki"
+    ]
+  },
+  {
+    "id": "k250",
+    "term": "Cihat",
+    "definition": "Allah'ın rızası doğrultusunda iyiliği gerçekleştirmek, kötülükle mücadele etmek için gösterilen çaba.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "Kavram yalnız silahlı savaşla sınırlandırılamaz; ilim, ahlak ve toplumsal iyilik çabasını da kapsar.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k251",
+    "term": "Rızık",
+    "definition": "Canlıların hayatını sürdürmelerine yarayan, Allah'ın verdiği maddi ve manevi imkânlar.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "Rızık inancı çalışmayı ve helal kazanç sorumluluğunu kaldırmaz.",
+    "sourceIds": [
+      "meb-kader"
+    ]
+  },
+  {
+    "id": "k252",
+    "term": "Ecel",
+    "definition": "Canlının dünya hayatının son bulduğu, Allah'ın bilgisi dâhilindeki ölüm vakti.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-kader"
+    ]
+  },
+  {
+    "id": "k253",
+    "term": "Emek",
+    "definition": "Bir işin gerçekleşmesi için gösterilen bedensel veya zihinsel çaba.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-kader"
+    ]
+  },
+  {
+    "id": "k254",
+    "term": "Zati sıfatlar",
+    "definition": "Allah'a özgü olup yaratılmışlara nispet edilmeyen, O'nun eşsizliğini bildiren sıfatlar.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Vücut, kıdem, beka, vahdaniyet, muhalefetün lilhavadis ve kıyam binefsihi bu grupta öğretilir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Zâtî sıfatlar"
+    ]
+  },
+  {
+    "id": "k255",
+    "term": "Sübuti sıfatlar",
+    "definition": "Allah'ın yetkinliğini bildiren hayat, ilim, semi, basar, irade, kudret, kelam ve tekvin gibi sıfatlar.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Benzer adlar insan için de kullanılsa da Allah'ın sıfatları sınırsız ve kusursuz kabul edilir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Subuti sıfatlar",
+      "Sübûtî sıfatlar"
+    ]
+  },
+  {
+    "id": "k256",
+    "term": "Ekmel varlık delili",
+    "definition": "Zihindeki mutlak yetkin varlık düşüncesinden Allah'ın varlığına ulaşmayı amaçlayan akli delil.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Evrendeki düzenden hareket eden gaye-nizam delilinden farklıdır.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Ontolojik delil"
+    ]
+  },
+  {
+    "id": "k257",
+    "term": "Tilavet",
+    "definition": "Kur'an'ı okuyup takip etme; dinî kullanımda metni özenle okuma ve mesajına yönelme.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k258",
+    "term": "Kıraat",
+    "definition": "Kur'an'ın usulüne uygun okunması; ayrıca bu okuma biçimlerini inceleyen ilim.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Kıraat sesli veya sessiz okumayı ifade edebilir; meal ve tefsirle aynı işlem değildir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k259",
+    "term": "Makasıd",
+    "definition": "Dinî hükümlerin gözettiği temel amaçlar; insanın maslahatını ve temel haklarını koruma hedefleri.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "Zaruratıhamse, bu amaçların beş temel koruma alanını anlatır.",
+    "sourceIds": [
+      "tubitak-makasid"
+    ]
+  },
+  {
+    "id": "k260",
+    "term": "Sanat",
+    "definition": "Duygu, düşünce ve anlamın estetik bir anlatımla ifade edilmesi.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k261",
+    "term": "İktisat",
+    "definition": "Sınırlı kaynakların üretim, paylaşım ve tüketimini inceleyen alan; günlük dilde ölçülü harcama anlamında da kullanılır.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k262",
+    "term": "Sosyal değişim",
+    "definition": "Bir toplumun kurumlarında, ilişkilerinde ve yaşam biçimlerinde zamanla oluşan dönüşüm.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k263",
+    "term": "Seciye",
+    "definition": "Kişide yerleşmiş ahlaki huy ve eğilimler bütünü.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "Karakter kavramıyla yakın anlamda kullanılır.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "synonymGroup": "seciye-karakter",
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k264",
+    "term": "Şahsiyet",
+    "definition": "Kişiyi başkalarından ayıran düşünce, duygu ve davranış özelliklerinin oluşturduğu bütün; kişilik.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Kişilik"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k265",
+    "term": "Karakter",
+    "definition": "Kişinin seçim ve davranışlarında süreklilik gösteren ahlaki yönelim ve özellikleri.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "synonymGroup": "seciye-karakter",
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k266",
+    "term": "Terbiye",
+    "definition": "İnsanın yeteneklerini, davranışlarını ve ahlaki duyarlılığını eğitimle geliştirme süreci.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k267",
+    "term": "Mizaç",
+    "definition": "Kişinin doğuştan getirdiği, duygulanma ve tepki verme biçimini etkileyen temel eğilimler.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "Kişilik yalnız mizaçtan oluşmaz; öğrenme ve çevreyle de gelişir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k268",
+    "term": "Örf",
+    "definition": "Toplumda yerleşmiş, insanlarca uygun kabul edilen yaygın davranış ve uygulamalar.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k269",
+    "term": "Âdet",
+    "definition": "Bir toplumda veya kişide tekrarlanarak alışkanlık hâline gelmiş uygulama.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Bir uygulamanın âdet olması tek başına dinî zorunluluk oluşturmaz.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k270",
+    "term": "Fırka",
+    "definition": "İslam düşünce tarihinde belirli inanç veya siyasi görüşler çevresinde oluşmuş topluluk.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "Kelime bağlama göre farklı anlamlar taşır; her kullanımı olumsuz bir yargı içermez.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k271",
+    "term": "İslam medeniyeti",
+    "definition": "İslam'ın ilke ve değerlerinin etkisiyle, farklı toplumların katkılarıyla oluşan kültürel ve kurumsal birikim.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k272",
+    "term": "Medine",
+    "definition": "Hz. Muhammed'in hicret ettiği, Mescidinebevi'nin bulunduğu ve ilk Müslüman toplumun geliştiği şehir.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k273",
+    "term": "Kudüs",
+    "definition": "Mescidiaksa'nın bulunduğu, İslam ile Yahudilik ve Hristiyanlık bakımından da önem taşıyan tarihî şehir.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k274",
+    "term": "Türkistan",
+    "definition": "Orta Asya'da Türk topluluklarının ve Türk-İslam ilim hayatının tarihî merkezlerini kapsayan coğrafi ad.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k275",
+    "term": "Anadolu",
+    "definition": "Türk-İslam kültürünün ilim, sanat ve tasavvuf kurumlarıyla geliştiği, Türkiye'nin Asya bölümündeki tarihî coğrafya.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k276",
+    "term": "Balkanlar",
+    "definition": "İslam medeniyetinin Osmanlı döneminde kurum, sanat ve sosyal hayat bakımından izler bıraktığı Güneydoğu Avrupa bölgesi.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-277",
+    "term": "Hilm",
+    "definition": "Öfke karşısında kendini denetleyip yumuşak ve ölçülü davranma.",
+    "grade": 10,
+    "unit": 4,
+    "topic": "ahlak",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-278",
+    "term": "Müsamaha",
+    "definition": "Farklılıklar karşısında saygılı ve hoşgörülü olma; hak ihlalini onaylamak anlamına gelmez.",
+    "grade": 10,
+    "unit": 4,
+    "topic": "ahlak",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-279",
+    "term": "Hakîm",
+    "definition": "Allah’ın her işi hikmetle ve yerli yerinde yaptığını bildiren güzel ismi.",
+    "grade": 10,
+    "unit": 1,
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-280",
+    "term": "Musavvir",
+    "definition": "Allah’ın varlıklara biçim ve özellik veren olduğunu bildiren güzel ismi.",
+    "grade": 10,
+    "unit": 1,
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-281",
+    "term": "Tevvâb",
+    "definition": "Allah’ın tövbeleri kabul ettiğini bildiren güzel ismi.",
+    "grade": 10,
+    "unit": 1,
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-282",
+    "term": "Samed",
+    "definition": "Her şeyin kendisine muhtaç olduğu, kendisinin hiçbir şeye muhtaç olmadığı anlamında Allah’ın ismi.",
+    "grade": 10,
+    "unit": 1,
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-283",
+    "term": "Taassup",
+    "definition": "Bir düşünceye veya yoruma, gerekçeleri değerlendirmeyi engelleyecek ölçüde körü körüne bağlanma.",
+    "grade": 10,
+    "unit": 5,
+    "topic": "yorum",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  }
+];
+const EXAMS=[
+  {
+    "id": "tyt-01",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, ailesinden öğrendiği dinî bilgileri başlangıçta herhangi bir gerekçe aramadan kabul eder. Zamanla merak ettiği soruları öğretmenine sorar, farklı açıklamaları karşılaştırır ve temel kaynaklardan araştırır. Araştırmasının sonunda başlangıçtaki inancını terk etmez; bu inancı hangi gerekçelerle benimsediğini açıklayabilir hâle gelir. Öğrendiklerini açıklarken ailesinin adını vermek yerine araştırdığı dayanaklara başvurur. Bu süreçte gerçekleşen değişimi aşağıdakilerden hangisi en iyi açıklar?",
+    "options": [
+      "Çevreden devralınan kabulün bilinçli bir temellendirmeye dönüşmesi",
+      "Kalben benimsenen inancın sözlü ifadeye dönüşmesi",
+      "Duyulara dayanan bilginin toplumsal aktarımla desteklenmesi",
+      "İbadet alışkanlığının toplumsal sorumluluğa dönüşmesi",
+      "Belirsiz bir kanaatin doğrudan gözlemle doğrulanması"
+    ],
+    "explanation": "Taklidî imandan tahkikî imana geçiş, inancın gerekçelerini araştırmayla ilgilidir. İkrar inancı sözle açıklamaktır; metnin odağı sözlü ifade değil bilinçli temellendirmedir."
+  },
+  {
+    "id": "tyt-02",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir laboratuvar çalışmasında öğrenciler aynı numuneyi inceler. Cihazın gösterdiği değerleri kaydeder, ölçüm hatası ihtimalini tartışır ve sonuçlar arasındaki ilişkiyi açıklamak için akıl yürütürler. Daha önce yayımlanmış deney raporlarını da çalışmalarına dâhil ederler. Öğretmenleri, güvenilir bilgiye ulaşırken bu yolların birbirini tamamladığını belirtir. Bir sonucun kabulünde nasıl elde edildiğinin açıklanmasını da önemli görürler. Bu çalışma hakkında aşağıdaki değerlendirmelerden hangisi yapılamaz?",
+    "options": [
+      "Sonucun doğruluğu öğrencilerin kişisel sezgileriyle temellendirilmiştir.",
+      "Gözlem, bilgi edinme sürecinin bir parçası olmuştur.",
+      "Veriler arasında ilişki kurarken düşünme gücünden yararlanılmıştır.",
+      "Başkalarının aktardığı bilgiler ele alınmıştır.",
+      "Bilgi edinme araçlarının güvenilirliği denetlenmiştir."
+    ],
+    "explanation": "Metinde gözlem, akıl yürütme ve raporlarla aktarılan haber vardır; sezgiyle doğrulama yoktur. Rapor kullanımı haberden yararlanmadır, ancak bu durum sezgi sayılmaz."
+  },
+  {
+    "id": "tyt-03",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Deniz, sosyal medyada tanınmış bir kişinin adına paylaşılan bir açıklamayı görür. Açıklama kendi görüşünü desteklediği için paylaşmak ister. Ancak kişinin özgün kaydına ulaştığında bazı cümlelerin kesildiğini ve sözlerin farklı bir anlam kazandığını fark eder. Paylaşımından vazgeçerek arkadaşlarına da tam kaydı gösterir. Böylece ilk izlenimi ile doğruladığı içerik arasındaki farkı ortaya koyar. Deniz’in davranışında öncelikle hangi tutum belirleyicidir?",
+    "options": [
+      "Kanaatle uyumlu olsa da haberin bağlamını ve kaynağını denetleme",
+      "Bir haberin yaygınlığından hareketle kabul edilebilirliğini ölçme",
+      "Kişisel deneyimlerin aktarılan haberlerden üstün olduğunu düşünme",
+      "Kaynağın tanınmışlığını bilginin yeterli güvencesi olarak görme",
+      "Bir görüşü savunan kişilerin sayısını değerlendirme ölçütü yapma"
+    ],
+    "explanation": "Deniz hoşuna giden içeriği bile özgün kayda dönerek kontrol etmiştir. Kaynağın tanınmışlığı tek başına yeterli görülmemiş, bağlam araştırılmıştır."
+  },
+  {
+    "id": "tyt-04",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "İnanç üzerine yapılan bir söyleşide konuşmacı, bir insanın dinî ifadeleri ezberden söylemesi ile bu ifadelerin anlamını içtenlikle benimsemesini birbirinden ayırır. İnsanların dış görünüş ve sözlerden hareketle birbirleri hakkında sınırlı bilgi sahibi olduğunu, gönülden kabulün ise kişinin kendi sorumluluğunda bulunduğunu belirtir. Konuşmacı, dışarıya yansıyan ifadenin insanın iç dünyasını tek başına gösteremeyebileceğini vurgular. Bu açıklamada imanın hangi boyutu özellikle öne çıkarılmaktadır?",
+    "options": [
+      "Kalbin tasdiki",
+      "Dilin ikrarı",
+      "Davranışın sürekliliği",
+      "Bilginin aktarılması",
+      "Geleneğin benimsenmesi"
+    ],
+    "explanation": "Gönülden kabul kalbin tasdikidir. Dilin ikrarı dışa yansıyan sözlü açıklamadır; konuşmacı tam da ikrar ile tasdikin ayrımına dikkat çekmektedir."
+  },
+  {
+    "id": "tyt-05",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, dinî bilgi edinirken Kur’an’ın ve peygamberin açıklamalarının temel konumunu anlatır. Ardından insanların bu kaynakları anlamak için düşünmesi, dil özelliklerini incelemesi ve güvenilir araştırmalardan yararlanması gerektiğini söyler. Böylece öğrencilerine bir bilginin ilahî kaynağı ile insanın onu anlama çabasının aynı şey olmadığını hatırlatır. Öğrencilerin kaynak ile yorum arasındaki farkı koruyarak araştırmasını ister. Bu açıklamadan hangi sonuca ulaşılabilir?",
+    "options": [
+      "Vahye dayalı kaynakların anlaşılması insanın düşünsel çabasını gerektirebilir.",
+      "Bir yorumun yaygınlaşması onu ilahî mesajın parçası hâline getirir.",
+      "Temel kaynakların anlamı kişisel deneyimlerle yeniden belirlenir.",
+      "Dinî bilginin değeri gözlemle sınanabilen konularla sınırlıdır.",
+      "İnsan aklı dinî kaynakların yerine geçerek bağlayıcılık kazanır."
+    ],
+    "explanation": "Kaynağın vahiy oluşu, onu anlama faaliyetinde aklı kullanmaya engel değildir. Yoruma emek vermek, yorumu vahyin kendisi veya yeni ilahî mesaj hâline getirmez."
+  },
+  {
+    "id": "tyt-06",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, evrendeki düzen üzerinde düşünmenin inancını güçlendirdiğini söyler. Başka biri ise hayatın anlamını yalnızca çevresindeki insanların neyi benimsediğine bakarak belirlediğini ifade eder. Öğretmenleri iki kişinin de bir kabulü bulunduğunu, fakat bu kabule ulaşma yollarının farklı olduğunu belirtir. İlk kişi açıklamasını gerekçelere, ikinci kişi ise yakın çevresinin tutumuna dayandırmaktadır. Buradaki farklılık aşağıdaki karşılaştırmalardan hangisinde doğru verilmiştir?",
+    "options": [
+      "Delil üzerinde düşünme ile çevreden görerek benimseme",
+      "Vahiy alma ile peygamberin sözünü aktarma",
+      "Gözlem yapma ile bilimsel deney yürütme",
+      "İnancı sözle açıklama ile davranışa yansıtma",
+      "Ahlaki ilke belirleme ile hukuki hüküm çıkarma"
+    ],
+    "explanation": "Birinci yaklaşım gerekçeyi düşünerek araştırmaya, ikincisi taklide örnektir. İnancı davranışa yansıtma bu parçada karşılaştırılan boyut değildir."
+  },
+  {
+    "id": "tyt-07",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir tartışmada öğrenci, duyuların zaman zaman yanıltabilmesini gerekçe göstererek bütün gözlemlerin değersiz olduğunu savunur. Arkadaşı ise gözlemin uygun koşullarda tekrarlanabildiğini, farklı araçlarla denetlenebildiğini ve akıl yürütmeyle değerlendirilebildiğini söyler. Öğretmen ikinci öğrencinin açıklamasını İslam düşüncesindeki bilgi kaynaklarıyla ilişkilendirir. Tartışmada aynı gözlemin farklı koşullarda neden değiştiği sorusu da ele alınır. İkinci öğrencinin temel yaklaşımı aşağıdakilerden hangisidir?",
+    "options": [
+      "Bilgi kaynaklarını güvenilirlik koşulları içinde birlikte değerlendirmek",
+      "Bir kaynakta hata görüldüğünde diğer kaynakları da geçersiz saymak",
+      "Gözlem sonuçlarının doğruluğunu onları aktaran kişinin itibarına bağlamak",
+      "Duyusal veriler ile akli değerlendirmeyi birbirinden bağımsız kabul etmek",
+      "Çelişen gözlemler arasında çoğunluğun benimsediği sonucu seçmek"
+    ],
+    "explanation": "Salim duyular ve selim akıl birlikte işleyebilir. Hata ihtimalinin bulunması denetimi gerektirir; bütün duyusal bilgiyi değersiz kılmaz."
+  },
+  {
+    "id": "tyt-08",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, dinî konularda merak ettiği soruları sormanın inancına zarar vereceğinden kaygılanır. Öğretmeni, soru sormanın amacının önemli olduğunu; anlamaya ve sağlam gerekçelere ulaşmaya yönelik araştırmanın bilinçli bir inancı destekleyebileceğini anlatır. Öğrencinin temel kaynakları tanımasını ve düşüncelerini tutarlı gerekçelerle ifade etmesini önerir. Hazır cevapları tekrarlamaktan çok, bu cevapların hangi dayanaklara sahip olduğunu anlamasını bekler. Öğretmenin teşvik ettiği tutum aşağıdakilerden hangisidir?",
+    "options": [
+      "İnancı anlamlandıran araştırıcı bir yaklaşım geliştirmek",
+      "İnancı tartışmanın dışında tutarak aktarımlarla yetinmek",
+      "Duygusal yakınlığı gerekçelerin önüne geçirmek",
+      "Farklı kanaatlerin ortak noktasını dinî ölçüt saymak",
+      "Soruya verilen ilk açıklamayı alışkanlığa dönüştürmek"
+    ],
+    "explanation": "Öğretmen araştırmayla imanın bilinçli hâle gelmesini desteklemektedir. İlk açıklamayı sorgulamadan benimsemek, önerilen gerekçeli araştırmadan farklıdır."
+  },
+  {
+    "id": "tyt-09",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, düzenli ibadet ettiğinde zamanını daha iyi planladığını ve kendisini daha huzurlu hissettiğini söyler. Öğretmeni bu kazanımları değerli bulur; ancak ibadetin yalnızca sağladığı yararlar için yapılmasının onun temel anlamını daraltacağını hatırlatır. İbadetin yöneldiği amaç ile insanda ortaya çıkardığı sonuçların ayırt edilmesini ister. Öğrencilerden bir davranışın gerekçesiyle o davranışın sonuçlarını ayrı ayrı açıklamalarını ister. Bu açıklamada hangi ayrım vurgulanmaktadır?",
+    "options": [
+      "Allah’ın rızasını gözetmek ile ibadetin kişiye kazandırdıkları",
+      "Bireysel yapılan ibadetler ile toplu yapılan ibadetler",
+      "Bedensel ibadetler ile mali yükümlülükler",
+      "Düzenli alışkanlıklar ile geçici davranışlar",
+      "İbadete hazırlık şartları ile ibadetin içindeki görevler"
+    ],
+    "explanation": "İbadetin temel amacı Allah’ın rızasıdır; huzur ve disiplin sonuçları arasındadır. Toplu veya bireysel oluş metnin tartıştığı ayrım değildir."
+  },
+  {
+    "id": "tyt-10",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir yardım kampanyasına iki kişi aynı miktarda bağışta bulunur. Biri ihtiyacın giderilmesini önemserken diğeri bağışının adının duyulmasına ne ölçüde katkı sağlayacağını hesaplar. Kampanyanın yöneticisi dışarıdan benzer görünen davranışların dinî ve ahlaki bakımdan aynı değeri taşımayabileceğini söyler. Bağışların miktarları ve ulaştıkları ihtiyaç sahipleri bakımından aralarında bir fark bulunmamaktadır. Bu değerlendirmede özellikle hangi ölçüt esas alınmıştır?",
+    "options": [
+      "Davranışın hangi amaç ve yönelişle gerçekleştirildiği",
+      "Yardımın hangi aralıklarla tekrar edildiği",
+      "Bağışın hangi yöntemle teslim edildiği",
+      "Yardımı alan kişinin hangi gruba mensup olduğu",
+      "Verilen miktarın toplam ihtiyaç içindeki oranı"
+    ],
+    "explanation": "Niyet ve ihlas, dışarıdan benzer davranışların değerini farklılaştırabilir. Bağış miktarı aynı olduğundan açıklayıcı ölçüt miktar değil amaçtır."
+  },
+  {
+    "id": "tyt-11",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci ibadeti yalnızca belirli zamanlarda yapılan dinî uygulamalarla sınırlar. Arkadaşı ise bu uygulamaların yanında, dürüstçe çalışmanın ve insanlara faydalı olmanın da uygun niyetle ibadet değeri kazanabileceğini söyler. Öğretmen, ikinci görüşün dinin hayatla ilişkisini daha geniş biçimde ele aldığını belirtir. Buna göre ikinci öğrencinin açıklamasını en iyi yansıtan yargı hangisidir?",
+    "options": [
+      "Meşru gündelik davranışlar Allah’ın rızası gözetilerek anlam kazanabilir.",
+      "Gündelik sorumluluklar yerine getirildiğinde belirli ibadetlere ihtiyaç azalır.",
+      "Faydalı sonuç doğuran her davranış niyetten bağımsız aynı değeri taşır.",
+      "İbadetin toplumsal katkısı biçim ve şartlarından daha önceliklidir.",
+      "İbadet sayılan davranışlar ancak başkalarının yararını hedefler."
+    ],
+    "explanation": "Geniş anlamda ibadet, meşru davranışın iyi niyetle Allah’a yönelişe dönüşmesini içerir. Bu genişlik namaz gibi belirli ibadetlerin yerine gündelik işleri koymaz."
+  },
+  {
+    "id": "tyt-12",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir grup genç, kendilerine verilen küçük görevleri önemseyip düzenli biçimde yerine getirir. Bir süre sonra çok daha fazla iş üstlenirler; fakat bu yoğunluğu sürdüremeyip ilk görevlerini de aksatırlar. Rehberleri, dinî hayatın geçici coşkuya bırakılmaması ve kişinin gücünü gözeten devamlı bir düzen kurulması gerektiğini anlatır. Bu öğütte öncelikle hangi ilke vurgulanmaktadır?",
+    "options": [
+      "Ölçülü ve sürdürülebilir bir kulluk bilinci",
+      "İbadetlerin aynı ortamda gerçekleştirilmesi",
+      "Nafile davranışların toplumsal görünürlüğü",
+      "Mali ibadetlerin öncelikli kabul edilmesi",
+      "Bireysel tercihlerin ortak biçime dönüştürülmesi"
+    ],
+    "explanation": "Öğüt gücü aşmadan sürekliliği korumaya yöneliktir. Ortak bir ortam veya davranış biçimi kurmak ise verilen durumun temel sorunu değildir."
+  },
+  {
+    "id": "tyt-13",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci oruç tuttuğu günlerde arkadaşlarına karşı daha kırıcı konuştuğunu fark eder. Kendisine, aç kalmanın ibadetin görünen yönü olduğunu; dilini ve davranışlarını da denetlemeye çalışması gerektiği hatırlatılır. Bunun üzerine öğrenci, ibadetin günlük ilişkilerinde oluşturması beklenen değişikliği düşünmeye başlar. Öğrenci bundan sonra arkadaşlarıyla konuşurken kendisini daha dikkatli gözlemlemeye karar verir. Bu örnekte aşağıdaki ilişkilerden hangisi öne çıkarılmaktadır?",
+    "options": [
+      "İbadetin ahlaki olgunlaşmaya katkısı",
+      "İbadetin yerine getirilme vaktinin önemi",
+      "İbadetin bireysel sorumluluk olması",
+      "İbadetin topluca yapılmasının değeri",
+      "İbadetin maddi imkânlarla ilişkisi"
+    ],
+    "explanation": "İbadetin davranışları güzelleştirmesi beklenir. Parça orucun vakti veya topluca yapılması hakkında değil, ibadet ile ahlak arasındaki bağ hakkındadır."
+  },
+  {
+    "id": "tyt-14",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okulda kütüphane için kitap toplanır. Elif, kendisi de okumak istediği temiz kitapları seçer ve ihtiyaç duyulan türleri sorar. Bir başka öğrenci ise işe yaramayan malzemeleri getirerek yalnızca dolabında yer açmayı düşünür. Öğretmenleri, bir iyiliğin değerinde verilen şey kadar karşıdaki insanı gözetmenin de önemli olduğunu belirtir. Bu anlatımda hangi anlayış eleştirilmektedir?",
+    "options": [
+      "Yardımı kendi yükünden kurtulma aracı olarak görmek",
+      "Yardımda ihtiyaç sahibinin tercihlerini dikkate almak",
+      "Sahip olunan imkânlardan başkalarına pay ayırmak",
+      "Yardımın kullanılabilirliğini önceden araştırmak",
+      "Paylaşım yaparken kişisel isteklerden fedakârlık etmek"
+    ],
+    "explanation": "Eleştirilen, kullanışsız şeyleri sırf elden çıkarmak için vermektir. Kendi sevdiğini paylaşmak ve ihtiyacı gözetmek ise desteklenen davranışlardır."
+  },
+  {
+    "id": "tyt-15",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç dua ederken hedeflediği başarıya ulaşmak ister. Bununla birlikte çalışma planı hazırlar, eksiklerini belirler ve öğretmenlerinden destek alır. Sonucun her zaman istediği gibi olmayabileceğini kabul etmesine rağmen sorumluluklarını yerine getirmeyi sürdürür. Genç, bir güçlüğü fark ettiğinde onu gidermek için yeni yollar arar. Bu tutum, dua ile insanın çabası arasındaki ilişki bakımından nasıl değerlendirilmelidir?",
+    "options": [
+      "Dua, sorumluluk üstlenme ve emek verme ile birlikte yürütülmüştür.",
+      "Dua, sonucun insanın isteğine göre belirlenmesini sağlamıştır.",
+      "Çalışma, duanın yerini alan bağımsız bir güvenceye dönüşmüştür.",
+      "Başarının anlamı başkalarının yardımına bağlı hâle gelmiştir.",
+      "Sonucun belirsizliği yapılacak hazırlıkların önemini azaltmıştır."
+    ],
+    "explanation": "Genç isteğini Allah’a yöneltirken hazırlık ve çabasını sürdürmektedir. Metin duanın istenen sonucu garanti ettiğini değil sorumlulukla birlikte olmasını vurgular."
+  },
+  {
+    "id": "tyt-16",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, öğrencilerin ibadetler hakkındaki açıklamalarını tahtaya yazar: Kimi ibadetlerin kişiye sorumluluk bilinci kazandırdığını, kimi paylaşmayı güçlendirdiğini, kimi de toplumda eşitlik duygusunu desteklediğini belirtir. Öğretmen bu farklı sonuçların aynı ibadette bir arada bulunabileceğini söyler. Öğrencilerden bazıları verilen örneklerin yalnızca maddi yardımla sınırlı kalmadığını da fark eder. Bu açıklamalardan ibadet hakkında aşağıdakilerden hangisine ulaşılamaz?",
+    "options": [
+      "Dinî değerinin sağladığı toplumsal kazançla belirlendiğine",
+      "Bireysel gelişimi destekleyebildiğine",
+      "İnsanlar arası ilişkileri etkileyebildiğine",
+      "Birden fazla hikmetinin bulunabildiğine",
+      "Toplumsal dayanışmayla ilişkilendirilebildiğine"
+    ],
+    "explanation": "İbadetin farklı yararları anlatılmaktadır; dinî değerinin toplumsal kazanca indirgenmesi çıkarılamaz. Dayanışma bir hikmet olabilir, ibadetin bütün anlamı değildir."
+  },
+  {
+    "id": "tyt-17",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir yarışmanın değerlendirme kurulunda bulunan Selim, yakın arkadaşının çalışmasını incelerken diğer adaylara uyguladığı ölçütleri aynen kullanır. Arkadaşının bazı eksiklerini kapatabilecek ek bir puan vermesi istendiğinde bunu kabul etmez. Arkadaşlığının değerli olduğunu, ancak üstlendiği görevin herkesin hakkını korumasını gerektirdiğini söyler. Kurul üyeleri kararlarının her aday açısından aynı gerekçelerle açıklanabilir olmasını önemser. Bu davranışta öncelikle hangi ilke belirleyicidir?",
+    "options": [
+      "Kişisel yakınlıktan bağımsız hakkı gözetmek",
+      "İlişkilerin sürmesi için uzlaşmaya öncelik vermek",
+      "Başkalarının beklentilerini incitmeden karşılamak",
+      "Ortak kararın sorumluluğunu çoğunluğa bırakmak",
+      "Bir kişiye emeğinin üzerinde destek sağlamak"
+    ],
+    "explanation": "Selim değerlendirmede adaleti gözetmektedir. Yakınlık sebebiyle ayrıcalık vermemek, kişisel ilişkileri inkâr etmek değil görevde hakkaniyeti korumaktır."
+  },
+  {
+    "id": "tyt-18",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir çalışan, kendisini eleştiren kişinin yıllar önce yaptığı bir hatayı öğrenir. Bu bilgi doğrudur; fakat mevcut konuyla ilgisi yoktur ve çalışanın amacı o kişiyi arkadaşları arasında küçük düşürmektir. Arkadaşı, bilginin doğru olmasının bu paylaşımı kendiliğinden ahlaki hâle getirmediğini söyler. Konuşmanın yapıldığı ortamda, hakkında bilgi verilen kişi kendisini savunabilecek durumda da değildir. Bu uyarıda aşağıdaki ayrımlardan hangisi esas alınmaktadır?",
+    "options": [
+      "Gerçeği söylemek ile başkasının onurunu zedelemeden konuşmak",
+      "Kişisel kanaat ile doğruluğu araştırılmamış haber",
+      "Bir yanlışı düzeltmek ile bilginin kaynağını araştırmak",
+      "Sözlü anlatım ile yazılı belgeye dayanmak",
+      "Toplumsal eleştiri ile hukuki yaptırım uygulamak"
+    ],
+    "explanation": "Doğru bir kusuru kişiyi arkasından incitecek biçimde anlatmak gıybet olabilir. Bilginin doğrulanmış olması, onu her amaçla yaymayı meşru kılmaz; iftira ise asılsız suçlamadır."
+  },
+  {
+    "id": "tyt-19",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci arkadaşının yarışmayı kazanmasını istemediğini fark eder. Kendisinin de çalışarak başarılı olabileceğini düşünmek yerine, arkadaşının imkânlarını kaybetmesini diler. Rehber öğretmeni, başkasındaki iyiliği örnek almak ile o iyiliğin ortadan kalkmasını istemek arasında önemli bir fark bulunduğunu açıklar. Öğretmen, başarı isteğinin kişinin kendi çabasına yönelmesinin başkasının kaybını istemekten farklı olduğunu vurgular. Öğrencinin tutumu hangi kavramla en doğrudan ilişkilidir?",
+    "options": [
+      "Haset",
+      "Gıpta",
+      "Rekabet",
+      "Kanaat",
+      "Tevekkül"
+    ],
+    "explanation": "Hasette başkasındaki nimetin kaybolmasını isteme vardır. Gıpta ise o imkânın kişiden alınmasını dilemeden benzerine sahip olmayı arzulamaktır; yakın çeldirici budur."
+  },
+  {
+    "id": "tyt-20",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Kendisine emanet edilen ortak bütçeyi yöneten bir kişi, harcamaları herkesin inceleyebileceği biçimde kaydeder. Küçük bir tutarı kişisel ihtiyacında kullanıp sonra yerine koyabileceği söylenir. O ise paranın kendisine ait olmadığını, iyi niyetli bir geri ödeme planının yetkisiz kullanımı haklı kılmayacağını belirtir. Başka bir görevlendirme olmadıkça bu sınırları kendi kararıyla genişletemeyeceğini düşünür. Bu yaklaşımın temelinde hangi anlayış bulunmaktadır?",
+    "options": [
+      "Yetki verilen şey üzerinde hak sahibinin sınırlarına bağlı kalmak",
+      "Maddi imkânları artıracak fırsatları değerlendirmek",
+      "İyiliği karşılıksız yaparak gönül kazanmak",
+      "Kişisel ihtiyaçları toplumsal beklentilere göre belirlemek",
+      "Ortak harcamalarda en ekonomik tercihi yapmak"
+    ],
+    "explanation": "Emanet bilinci, verilen yetkiyi sınırları içinde kullanmayı gerektirir. Ekonomik davranmak değerli olsa da burada asıl mesele tasarruf değil başkasının malını izinsiz kullanmamaktır."
+  },
+  {
+    "id": "tyt-21",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, öfkelendiğinde hemen cevap vermemeye çalışır. Bunun karşısındakinin her davranışını doğru bulduğu anlamına gelmediğini; uygun bir zamanda hakkını açık ve saygılı biçimde savunabildiğini söyler. Ona göre kendini kontrol etmek, sorunları görmezden gelmekten farklıdır. Sorunun çözülebilmesi için duyguların davranışı yönetmesine izin vermeden düşünmek gerektiğini savunur. Bu açıklamada aşağıdaki değerlerden hangisi öncelikle öne çıkarılmaktadır?",
+    "options": [
+      "Hilm",
+      "Cömertlik",
+      "Mahremiyet",
+      "Vefa",
+      "Kanaat"
+    ],
+    "explanation": "Hilm öfke karşısında yumuşaklık ve kendini denetlemeyi ifade eder. Hakkını savunmaktan vazgeçmekle aynı değildir; sabırla ilişkili olsa da burada özellikle öfke denetimi vurgulanır."
+  },
+  {
+    "id": "tyt-22",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okulda çevre temizliği yapılırken bazı öğrenciler kendilerine ayrılan alanı temizler, fakat topladıkları çöpleri komşu sokağa bırakırlar. Başka bir grup, yapılan işin başarılı görünmesinin yetmediğini; başka insanlara yeni bir zarar verilmemesi gerektiğini söyler. Öğrenciler çevreyi korumanın yalnızca kendilerine görünen yerleri düzenlemekten daha kapsamlı olduğunu savunur. Bu eleştiride aşağıdaki yargılardan hangisi temel alınmıştır?",
+    "options": [
+      "Ahlaki değerlendirme davranışın başkalarına etkisini de kapsamalıdır.",
+      "Bir davranışın ahlaki değeri uygulayanların sayısıyla güçlenir.",
+      "Ortak hedefler için görev paylaşımı bireysel tercihlerden önemlidir.",
+      "Çevreye yönelik görevler yerel ihtiyaçlara göre sınırlandırılmalıdır.",
+      "Bir işin yararı onu yapanların memnuniyetiyle ölçülmelidir."
+    ],
+    "explanation": "Temizliğin başka yere zarar taşıması, davranışın bütün sonuçlarını gözetme ihtiyacını gösterir. Görev paylaşımı yapılmış olsa da asıl eleştiri paylaşım değil zararın başkasına aktarılmasıdır."
+  },
+  {
+    "id": "tyt-23",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, bir arkadaşının özel konuşmasını yanlışlıkla duyar. Bu bilgiyi paylaşırsa sınıfta ilgi görebileceğini bilir. Buna rağmen arkadaşının izni olmadan başkalarına anlatmaz ve konuşmanın kaydını isteyenlere de yardımcı olmaz. Öğretmeni bu davranışı insan onurunu koruyan bir sınırın gözetilmesiyle ilişkilendirir. Bu kararı, konuşmanın ilgi çekici olup olmamasından bağımsız olarak verir. Öğrencinin koruduğu temel değer aşağıdakilerden hangisidir?",
+    "options": [
+      "Mahremiyet",
+      "İstişare",
+      "İsar",
+      "Şecaat",
+      "Müsamaha"
+    ],
+    "explanation": "Özel hayata ait bilginin izinsiz yayılmaması mahremiyetle ilgilidir. Şecaat cesareti, istişare görüş alışverişini anlatır; bilginin özel oluşu soruda ayırt edicidir."
+  },
+  {
+    "id": "tyt-24",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir kişi, geçmişte kendisine yardımcı olan bir öğretmenini yıllar sonra ziyaret eder. Öğretmeninin artık kendisine sağlayabileceği bir çıkar yoktur; yine de emeğini unutmadığını belirtir ve ihtiyaç duyduğu bir işte yardımcı olur. Ziyareti, yeni bir beklentiden çok kurulan bağın ve görülen iyiliğin hatırlanması olarak değerlendirir. Bu davranışın özellikle hangi değerle ilişkilendirilmesi uygundur?",
+    "options": [
+      "Vefa",
+      "İffet",
+      "Adalet",
+      "Tevazu",
+      "İtidal"
+    ],
+    "explanation": "Görülen iyiliği ve kurulan bağı unutmamak vefadır. Cömertlik veya yardım davranışın bir yönü olabilir; ancak metni ayırt eden eski emeğe bağlılığın sürmesidir."
+  },
+  {
+    "id": "tyt-25",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Hz. Muhammed’in gençlerle ilişkisini araştıran bir öğrenci, onun yalnızca öğüt vermekle yetinmediğini; gençlere sorumluluk verdiğini, yeteneklerini geliştirecek görevler üstlendirdiğini ve görüşlerini dinlediğini belirtir. Bu örneklerden hareketle bir gençlik çalışması tasarlamak ister. Çalışmanın hazırlığı, uygulanması ve değerlendirilmesinde gençlerin katkısını daha görünür kılmayı amaçlar. Aşağıdaki uygulamalardan hangisi öğrencinin araştırmasındaki anlayışa en uygundur?",
+    "options": [
+      "Gençlere rehberlik ederek karar ve uygulama süreçlerinde görev vermek",
+      "Gençlerin hata ihtimalini azaltmak için görevlerini yetişkinlere devretmek",
+      "Gençlerin katılımını hazırlanan faaliyetleri izlemeleriyle sınırlandırmak",
+      "Sorumlulukları yaşça büyük kişilerin tercihleri doğrultusunda dağıtmak",
+      "Başarıyı yalnızca verilen talimatların eksiksiz uygulanmasıyla ölçmek"
+    ],
+    "explanation": "Gençlere güvenmek ve onları sorumluluk içinde geliştirmek araştırmanın ortak mesajıdır. Rehberlik gerekir; fakat görevi bütünüyle yetişkinlere bırakmak katılımı daraltır."
+  },
+  {
+    "id": "tyt-26",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, Hz. Muhammed’in örnekliğini anlatırken öğrencilerin gündelik hayatta karşılaşabilecekleri üç durumu ele alır: Kendisine güvenilen bir malı korumak, anlaşmazlıkta tarafları dinlemek ve birine verilen sözü yerine getirmek. Öğrenciler bu örneklerin dinî hayatla ilgisini tartışırlar. Tartışmanın sonunda öğrenciler kendi hayatlarından benzer örnekler bularak bunları sınıfta paylaşırlar. Bu çalışmanın öncelikli amacı aşağıdakilerden hangisidir?",
+    "options": [
+      "Peygamberin ahlaki örnekliğini somut davranışlarla ilişkilendirmek",
+      "Peygamberlik öncesindeki toplumsal kurumları sınıflandırmak",
+      "İbadetlerin yerine getirilme şartlarını açıklamak",
+      "Peygamberliğin delillerini tarih sırasına koymak",
+      "Dinî metinlerin aktarılma yollarını karşılaştırmak"
+    ],
+    "explanation": "Emanet, adalet ve sözünde durma günlük hayata yansıyan ahlaki örneklerdir. Çalışmanın odağı peygamberliğin tarihî delilleri veya ibadet şartları değildir."
+  },
+  {
+    "id": "tyt-27",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci Hz. Muhammed’in örnekliğini değerlendirirken, yaşadığı dönemin bütün araç ve giyim biçimlerini bugün aynen kullanmanın yeterli olacağını savunur. Arkadaşı ise aynı döneme ait bir alışkanlık ile dürüstlük ve merhamet gibi hayatı yönlendiren ilkelerin ayırt edilmesi gerektiğini söyler. Arkadaşı, aynı değerin değişen hayat şartlarında farklı uygulamalarla ortaya konabileceğini de belirtir. İkinci öğrencinin temel vurgusu aşağıdakilerden hangisidir?",
+    "options": [
+      "Örnek alırken davranışın taşıdığı ilke ve amacı kavramak",
+      "Tarihî bilgilerin geçerliliğini güncel tercihlere göre belirlemek",
+      "Peygamberin sözlerini toplumsal geleneklerle eşit görmek",
+      "Dinî ilkeleri kişisel beğeni ölçüsünde seçmek",
+      "Geçmişin bütün uygulamalarını ortak bir hükme bağlamak"
+    ],
+    "explanation": "Örnekliği anlamak, davranışın bağlamı ve amaçladığı değer üzerinde düşünmeyi gerektirir. Bu, ilkeleri kişisel beğeniye göre seçmek veya tarihî bilgiyi değersizleştirmek anlamına gelmez."
+  },
+  {
+    "id": "tyt-28",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir grup öğrenci, dinî bir bilgiyi ilk kez öğrenen arkadaşlarına çok sayıda ayrıntıyı aynı anda anlatır. Arkadaşları zorlanınca öğretmenleri, Hz. Muhammed’in öğretiminde muhatabın durumunu dikkate almasına ve bilgiyi anlaşılır biçimde sunmasına dikkat çeker. Öğrencilerden anlatımlarını yeniden düzenlemelerini ister. Öğretmen anlatımın, öğrenenin sorularına yer açacak biçimde yeniden planlanmasını da ister. Aşağıdakilerden hangisi bu önerinin amacına daha uygundur?",
+    "options": [
+      "Öğrenenin hazır bulunuşluğuna göre aşamalı ve açık bir anlatım kurmak",
+      "Öğrenenin ilgisini canlı tutmak için konunun güçlüklerini gizlemek",
+      "Ayrıntıları azaltmak için bilginin doğruluğunu ikinci planda tutmak",
+      "Aynı ifadeleri daha yüksek sesle tekrarlayarak dikkati artırmak",
+      "Kavramları ezberlettikten sonra soruları değerlendirmeyi ertelemek"
+    ],
+    "explanation": "Muhatabın anlayabileceği aşamalı öğretim, pedagojik örnekliğin temelidir. Kolaylaştırmak içeriğin doğruluğundan vazgeçmek veya güçlükleri gizlemek değildir."
+  },
+  {
+    "id": "tyt-29",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir sınıf, Hz. Muhammed’in karar alma süreçlerini inceleyen sunum hazırlar. Sunumda çevresindekilerin fikirlerine başvurmasına, farklı önerileri dinlemesine ve uygun bulunan bir öneriyi uygulamasına yer verirler. Sonuç bölümünde bu örneklerin günümüz ekip çalışmalarına da yol gösterebileceğini söylerler. Öğrenciler görev paylaşımında da herkesin düşüncesini ifade edebileceği bir ortam oluşturmayı önerirler. Sunumun merkezinde hangi kavram bulunmaktadır?",
+    "options": [
+      "İstişare",
+      "Tebliğ",
+      "Hicret",
+      "Tebyin",
+      "İnfak"
+    ],
+    "explanation": "Görüş alma ve ortak değerlendirme istişaredir. Tebyin dinî mesajı açıklamaktır; başkalarının önerisini dinleyerek karar vermekle aynı kavram değildir."
+  },
+  {
+    "id": "tyt-30",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, Hz. Muhammed’in karşılaştığı güçlükler karşısında ümitsizliğe kapılmadan görevini sürdürmesini anlatır. Ancak bunu, karşılaştığı şartları değiştirmek için hiçbir girişimde bulunmamak şeklinde açıklamaz. Tedbir almasını, uygun zaman ve imkânları değerlendirmesini de aynı örnekliğin parçaları olarak görür. Öğrenci, bir güçlük karşısında gösterilen davranışı o güçlüğe verilen cevaplarla birlikte değerlendirmektedir. Öğrencinin özellikle ayırdığı iki tutum hangisidir?",
+    "options": [
+      "Kararlılıkla çaba göstermek ile edilgen biçimde beklemek",
+      "Toplumsal dayanışma ile bireysel ibadet",
+      "Güvenilir bilgi aktarmak ile görüş alışverişi",
+      "Bağışta bulunmak ile borcu zamanında ödemek",
+      "Bir yanlışı affetmek ile özel hayatı korumak"
+    ],
+    "explanation": "Sabır güçlük içinde sorumlu çabayı sürdürmektir; hareketsiz beklemeye indirgenemez. Metinde affetme değil zorluk karşısında tedbirli kararlılık ele alınır."
+  },
+  {
+    "id": "tyt-31",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Hz. Muhammed’in güvenilirliğini ele alan bir araştırmada, kendisine karşı çıkan insanların bile mallarını ona emanet edebilmesi üzerinde durulur. Araştırmacı, güvenilirliğin yalnızca kişinin kendi çevresinde kazandığı beğeniyle açıklanamayacağını belirtir. Farklı düşünen insanların da onun dürüstlüğüne dayanabilmesini önemli bulur. Güven duymak ile onun bütün düşüncelerini benimsemek arasında bir ayrım yapar. Bu değerlendirmede hangi sonuca ulaşılmaktadır?",
+    "options": [
+      "Ahlaki tutarlılık farklı görüşteki kişiler arasında da güven oluşturabilir.",
+      "Güven ilişkisi düşünce birliğinin zamanla oluşmasını zorunlu kılar.",
+      "Toplumsal itibar dinî mesajın doğruluğunu tek başına kanıtlar.",
+      "Emanet ilişkisi kişisel yakınlığı hukuki sorumluluğun önüne geçirir.",
+      "Bir kişinin dürüstlüğü çevresindeki herkesin davranışını aynılaştırır."
+    ],
+    "explanation": "Araştırmanın odağı fikir ayrılığına rağmen oluşan güvendir. Güven duymak görüş birliğini zorunlu kılmadığı gibi herkesin davranışını da aynılaştırmaz."
+  },
+  {
+    "id": "tyt-32",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, peygamberin örnekliğinin yalnızca olağanüstü olaylar üzerinden anlatılmasının öğrencilerin gündelik hayatla bağ kurmasını zorlaştırabildiğini söyler. Aile ilişkileri, komşuluk, alışveriş ve çalışma hayatındaki davranışlarına da yer verilmesini önerir. Böylece öğrencilerden kendi davranışları için uygulanabilir sonuçlar çıkarmalarını bekler. Öğrencilerin örnekliği uzak bir geçmiş bilgisi olarak bırakmamasını, günlük tercihlerine taşımasını ister. Bu yaklaşımda hangi husus öne çıkarılmaktadır?",
+    "options": [
+      "Peygamberin insani yaşantısının ahlaki rehberlik sunması",
+      "Peygamberin beşerî yönünün dinî görevinin yerine geçmesi",
+      "Tarihî anlatıların kişisel deneyimlere indirgenmesi",
+      "Toplumsal kuralların dinî kaynaklardan bağımsızlaştırılması",
+      "Peygamberlik görevinin gündelik ilişkilerle sınırlandırılması"
+    ],
+    "explanation": "Beşerî hayatın anlatılması öğrencinin somut örnek almasını sağlar. Bu yaklaşım peygamberliği gündelik ilişkilere indirgemek veya vahiy görevini dışlamak değildir."
+  },
+  {
+    "id": "tyt-33",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir araştırmacı, aynı dinin mensupları arasında ibadetlerin bazı ayrıntıları hakkında farklı uygulamalar bulunduğunu gözlemler. Bu farklılıkların, kullanılan rivayetlerin değerlendirilmesi ve metinlerin anlaşılmasında izlenen yöntemlerle ilişkisini inceler. Araştırmasının sonunda ortak inanç esaslarının bulunmasının bütün ayrıntılarda aynı yorumun ortaya çıkmasını gerektirmediğini belirtir. Farklı uygulamaları incelerken hangi kaynaklara ve yöntemlere dayanıldığını ayrı ayrı kaydeder. Bu incelemede hangi ayrım temel alınmıştır?",
+    "options": [
+      "Din ile dinin insanlar tarafından anlaşılması",
+      "İbadet ile ibadetin toplumsal yararı",
+      "Ahlaki davranış ile hukuki yaptırım",
+      "Kültür ile coğrafi çevre",
+      "Bilimsel bilgi ile gündelik gözlem"
+    ],
+    "explanation": "Din ile din anlayışı ayrımı, ortak kaynakların insan yorumlarında farklılaşabilmesini açıklar. Coğrafi çevre de yorumları etkileyebilir; ancak bu metinde rivayet ve yöntem üzerinde durulmuştur."
+  },
+  {
+    "id": "tyt-34",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Dinî yorumların oluşmasını inceleyen öğrencilerden biri, farklı bölgelerde yaşayan insanların geçim şartlarını araştırır. Diğeri, metinlerdeki kelimelerin birden fazla anlama gelebilmesi üzerinde durur. Üçüncüsü ise siyasi gelişmelerin toplulukları nasıl etkilediğini inceler. Öğretmen, çalışmaların farklı sebepleri görünür kıldığını söyler. Öğrenciler birbirlerinin çalışmalarındaki açıklamaları da karşılaştırarak bir sonuç tablosu hazırlarlar. Buna göre aşağıdakilerden hangisi bu üç çalışmanın doğrudan konusu değildir?",
+    "options": [
+      "Bireylerin kişilik özellikleri",
+      "Coğrafi şartlar",
+      "Dilsel anlam farklılıkları",
+      "Toplumsal iktidar ilişkileri",
+      "Tarihî siyasi gelişmeler"
+    ],
+    "explanation": "Kişilik özellikleri bu üç araştırmada ele alınmamıştır. Coğrafya, dil ve siyasi gelişmeler ayrı ayrı verilmiştir; iktidar ilişkileri siyasi boyutun içindedir."
+  },
+  {
+    "id": "tyt-35",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci bütün mezhepleri namazın uygulanışına dair ayrıntılarla açıklamaya çalışır. Öğretmeni, bazı ekollerin inanç meseleleri üzerinde yoğunlaştığını; bazılarının ise ibadet ve gündelik davranışlara ilişkin hükümleri sistemleştirdiğini hatırlatır. Öğrenciden karşılaştırmasının ölçütünü yeniden düzenlemesini ister. Öğrenci ilk sınıflandırmasında konu alanlarını karıştırdığını fark ederek örneklerini yeniden gözden geçirir. Öğretmenin düzeltmesinde hangi ayrım esas alınmaktadır?",
+    "options": [
+      "İtikadi yorumlar ile fıkhi yorumlar",
+      "Bireysel ibadetler ile mali ibadetler",
+      "Dinî kurumlar ile kültürel kurumlar",
+      "Ahlaki değerler ile kişilik özellikleri",
+      "Siyasi olaylar ile ekonomik şartlar"
+    ],
+    "explanation": "İtikadi ekoller iman esaslarını, fıkhi ekoller uygulama ve hükümleri konu edinir. Ayrım ibadetin bedensel veya mali oluşuna göre değil yorumun konu alanına göredir."
+  },
+  {
+    "id": "tyt-36",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir tartışmada bir öğrenci, kendi benimsediği yorumla farklı bir yorumun aynı dinin kaynaklarına dayanamayacağını ileri sürer. Arkadaşı, ortak kaynaklardan hareket eden araştırmacıların yöntem ve değerlendirmelerinde ayrılabildiklerini; bu nedenle farklı görüşün önce gerekçeleriyle anlaşılması gerektiğini söyler. Bu tutumun, bir görüşe katılmayı zorunlu kılmadan saygılı bir tartışmayı mümkün kıldığını belirtir. İkinci öğrencinin yaklaşımı hangi tutumla en iyi ifade edilir?",
+    "options": [
+      "Farklı yorumları gerekçeleri içinde anlamaya çalışmak",
+      "Farklı görüşleri içeriklerini incelemeden eşdeğer saymak",
+      "Kendi görüşünü çoğunluğun tercihine göre değiştirmek",
+      "Ortak kaynakların anlamını bütünüyle kişiselleştirmek",
+      "Yorumların tarihî şartlarını değerlendirme dışında tutmak"
+    ],
+    "explanation": "Gerekçeyi anlamak eleştirel ve saygılı değerlendirmedir; her görüşü peşinen eşit ölçüde doğru kabul etmek değildir. İkinci seçenek yakın görünse de incelemeyi dışlar."
+  },
+  {
+    "id": "tyt-37",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir mahallede farklı mezheplere bağlı insanlar aynı yardım çalışmasına katılır. İbadetlerindeki bazı farklılıkları konuşurken bunları kişisel üstünlük iddiasına dönüştürmemeye özen gösterirler. Ortak inançları ve insanlara karşı sorumlulukları üzerinde buluşurlar. Çalışma süresince her katılımcı kendi yorumunu sürdürürken başkasının farklı tercihini küçümsememeye dikkat eder. Bu örnekte aşağıdaki anlayışlardan hangisi daha çok öne çıkmaktadır?",
+    "options": [
+      "Yorum farklılıklarını ortak sorumluluğa engel saymamak",
+      "Farklılıkları gidermek için uygulamaları tek biçime indirmek",
+      "Yardımlaşmayı dinî kimliklerin görünürlüğüne bağlamak",
+      "Ortak çalışma uğruna inanç konularını önemsiz görmek",
+      "Toplumsal uzlaşmayı mezhep tercihinin ölçütü yapmak"
+    ],
+    "explanation": "Birlikte çalışma farklı yorumların yok edilmesini gerektirmemiştir. Ortak sorumlulukta buluşmak, inanç esaslarını önemsizleştirmek veya bütün uygulamaları aynılaştırmak değildir."
+  },
+  {
+    "id": "tyt-38",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci dini kültürle aynı kavram olarak kullanır. Öğretmeni, aynı dinin farklı toplumlarda farklı mimari, edebî ve gündelik ifade biçimleriyle yaşanabildiğini örneklerle gösterir. Bunun yanında dinin bazı temel ilkelerinin yerel bir alışkanlığa indirgenemeyeceğini belirtir. Öğrenciden din ile kültür arasındaki ilişkiyi bu iki yönü birlikte gözeterek açıklamasını ister. Aşağıdaki yargılardan hangisi bu ilişkiyi en doğru yansıtır?",
+    "options": [
+      "Din kültürü etkilerken kültürel ortam da dinin yaşanma biçimlerini etkileyebilir.",
+      "Kültürel bir uygulama yaygınlaştığında dinin temel ilkesi niteliği kazanır.",
+      "Dinin farklı toplumlarda yaşanması ortak ilkelerin farklılaşmasını gerektirir.",
+      "Bir toplumun kültürü dinin anlaşılmasında belirleyici tek kaynaktır.",
+      "Kültürel çeşitlilik dinin toplumsal hayatta etkisinin azaldığını gösterir."
+    ],
+    "explanation": "Din ve kültür etkileşir; ancak her kültürel alışkanlık dinin değişmez ilkesi hâline gelmez. Farklı ifade biçimleri ortak ilkelerin zorunlu olarak değiştiği anlamına da gelmez."
+  },
+  {
+    "id": "tyt-39",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okul kulübü insan hakları üzerine çalışma yapar. Grup, insanın yaşama, inanma, öğrenme ve malını koruma haklarını birlikte ele alır. Bir hakkın korunmasını başka bir temel hakkın gereksiz görülmesi için gerekçe yapmamaya dikkat eder. Öğretmen bu yaklaşımı dinin insan hayatını korumaya yönelik temel amaçlarıyla ilişkilendirir. Aşağıdaki uygulamalardan hangisi bu yaklaşımla bağdaşmaz?",
+    "options": [
+      "Maddi kazanç amacıyla insanların sağlığını riske atan üretimi desteklemek",
+      "Öğrenme imkânını artırırken öğrencilerin güvenliğini de gözetmek",
+      "İnsanların inancını özgürce ifade edebilmesine saygı göstermek",
+      "Emanet edilen malın korunması için şeffaf kayıt tutmak",
+      "Bağımlılıklarla mücadelede bilinçlendirme çalışmaları yürütmek"
+    ],
+    "explanation": "Sağlığı riske atarak kazancı öne almak canın korunmasıyla bağdaşmaz. Malın korunması da önemlidir; fakat maddi çıkar can güvenliğini ihmal etme gerekçesi olamaz."
+  },
+  {
+    "id": "tyt-40",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, aldığı ürüne ihtiyacı olmadığını fark ettiği hâlde sırf yeni olduğu için yenisini almak ister. Arkadaşı ise imkân sahibi olmanın kaynakları düşüncesizce tüketme hakkı vermediğini, tüketimin hem bireysel hem toplumsal sonuçlarının bulunduğunu hatırlatır. Konuşmalarının sonunda ihtiyaç, ölçü ve sorumluluk arasındaki ilişkiyi değerlendirmeye karar verirler. Bu tartışmanın merkezindeki dinî ve ahlaki mesele hangisidir?",
+    "options": [
+      "İsrafın önlenmesi",
+      "Özel mülkiyetin edinilmesi",
+      "Ticari sözleşmenin biçimi",
+      "Mirasın hak sahiplerine dağıtılması",
+      "Zekâtın ödeme zamanının belirlenmesi"
+    ],
+    "explanation": "İhtiyaç ve ölçü gözetmeden kaynak tüketmek israfla ilgilidir. Mülkiyet hakkına sahip olmak kullanımın ahlaki sorumluluğunu ortadan kaldırmaz; tartışma mal edinmenin yöntemi değildir."
   }
 ];

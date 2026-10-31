@@ -1,0 +1,602 @@
+[
+  {
+    "id": "tyt-01",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, ailesinden öğrendiği dinî bilgileri başlangıçta herhangi bir gerekçe aramadan kabul eder. Zamanla merak ettiği soruları öğretmenine sorar, farklı açıklamaları karşılaştırır ve temel kaynaklardan araştırır. Araştırmasının sonunda başlangıçtaki inancını terk etmez; bu inancı hangi gerekçelerle benimsediğini açıklayabilir hâle gelir. Öğrendiklerini açıklarken ailesinin adını vermek yerine araştırdığı dayanaklara başvurur. Bu süreçte gerçekleşen değişimi aşağıdakilerden hangisi en iyi açıklar?",
+    "options": [
+      "Çevreden devralınan kabulün bilinçli bir temellendirmeye dönüşmesi",
+      "Kalben benimsenen inancın sözlü ifadeye dönüşmesi",
+      "Duyulara dayanan bilginin toplumsal aktarımla desteklenmesi",
+      "İbadet alışkanlığının toplumsal sorumluluğa dönüşmesi",
+      "Belirsiz bir kanaatin doğrudan gözlemle doğrulanması"
+    ],
+    "explanation": "Taklidî imandan tahkikî imana geçiş, inancın gerekçelerini araştırmayla ilgilidir. İkrar inancı sözle açıklamaktır; metnin odağı sözlü ifade değil bilinçli temellendirmedir."
+  },
+  {
+    "id": "tyt-02",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir laboratuvar çalışmasında öğrenciler aynı numuneyi inceler. Cihazın gösterdiği değerleri kaydeder, ölçüm hatası ihtimalini tartışır ve sonuçlar arasındaki ilişkiyi açıklamak için akıl yürütürler. Daha önce yayımlanmış deney raporlarını da çalışmalarına dâhil ederler. Öğretmenleri, güvenilir bilgiye ulaşırken bu yolların birbirini tamamladığını belirtir. Bir sonucun kabulünde nasıl elde edildiğinin açıklanmasını da önemli görürler. Bu çalışma hakkında aşağıdaki değerlendirmelerden hangisi yapılamaz?",
+    "options": [
+      "Sonucun doğruluğu öğrencilerin kişisel sezgileriyle temellendirilmiştir.",
+      "Gözlem, bilgi edinme sürecinin bir parçası olmuştur.",
+      "Veriler arasında ilişki kurarken düşünme gücünden yararlanılmıştır.",
+      "Başkalarının aktardığı bilgiler ele alınmıştır.",
+      "Bilgi edinme araçlarının güvenilirliği denetlenmiştir."
+    ],
+    "explanation": "Metinde gözlem, akıl yürütme ve raporlarla aktarılan haber vardır; sezgiyle doğrulama yoktur. Rapor kullanımı haberden yararlanmadır, ancak bu durum sezgi sayılmaz."
+  },
+  {
+    "id": "tyt-03",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Deniz, sosyal medyada tanınmış bir kişinin adına paylaşılan bir açıklamayı görür. Açıklama kendi görüşünü desteklediği için paylaşmak ister. Ancak kişinin özgün kaydına ulaştığında bazı cümlelerin kesildiğini ve sözlerin farklı bir anlam kazandığını fark eder. Paylaşımından vazgeçerek arkadaşlarına da tam kaydı gösterir. Böylece ilk izlenimi ile doğruladığı içerik arasındaki farkı ortaya koyar. Deniz’in davranışında öncelikle hangi tutum belirleyicidir?",
+    "options": [
+      "Kanaatle uyumlu olsa da haberin bağlamını ve kaynağını denetleme",
+      "Bir haberin yaygınlığından hareketle kabul edilebilirliğini ölçme",
+      "Kişisel deneyimlerin aktarılan haberlerden üstün olduğunu düşünme",
+      "Kaynağın tanınmışlığını bilginin yeterli güvencesi olarak görme",
+      "Bir görüşü savunan kişilerin sayısını değerlendirme ölçütü yapma"
+    ],
+    "explanation": "Deniz hoşuna giden içeriği bile özgün kayda dönerek kontrol etmiştir. Kaynağın tanınmışlığı tek başına yeterli görülmemiş, bağlam araştırılmıştır."
+  },
+  {
+    "id": "tyt-04",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "İnanç üzerine yapılan bir söyleşide konuşmacı, bir insanın dinî ifadeleri ezberden söylemesi ile bu ifadelerin anlamını içtenlikle benimsemesini birbirinden ayırır. İnsanların dış görünüş ve sözlerden hareketle birbirleri hakkında sınırlı bilgi sahibi olduğunu, gönülden kabulün ise kişinin kendi sorumluluğunda bulunduğunu belirtir. Konuşmacı, dışarıya yansıyan ifadenin insanın iç dünyasını tek başına gösteremeyebileceğini vurgular. Bu açıklamada imanın hangi boyutu özellikle öne çıkarılmaktadır?",
+    "options": [
+      "Kalbin tasdiki",
+      "Dilin ikrarı",
+      "Davranışın sürekliliği",
+      "Bilginin aktarılması",
+      "Geleneğin benimsenmesi"
+    ],
+    "explanation": "Gönülden kabul kalbin tasdikidir. Dilin ikrarı dışa yansıyan sözlü açıklamadır; konuşmacı tam da ikrar ile tasdikin ayrımına dikkat çekmektedir."
+  },
+  {
+    "id": "tyt-05",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, dinî bilgi edinirken Kur’an’ın ve peygamberin açıklamalarının temel konumunu anlatır. Ardından insanların bu kaynakları anlamak için düşünmesi, dil özelliklerini incelemesi ve güvenilir araştırmalardan yararlanması gerektiğini söyler. Böylece öğrencilerine bir bilginin ilahî kaynağı ile insanın onu anlama çabasının aynı şey olmadığını hatırlatır. Öğrencilerin kaynak ile yorum arasındaki farkı koruyarak araştırmasını ister. Bu açıklamadan hangi sonuca ulaşılabilir?",
+    "options": [
+      "Vahye dayalı kaynakların anlaşılması insanın düşünsel çabasını gerektirebilir.",
+      "Bir yorumun yaygınlaşması onu ilahî mesajın parçası hâline getirir.",
+      "Temel kaynakların anlamı kişisel deneyimlerle yeniden belirlenir.",
+      "Dinî bilginin değeri gözlemle sınanabilen konularla sınırlıdır.",
+      "İnsan aklı dinî kaynakların yerine geçerek bağlayıcılık kazanır."
+    ],
+    "explanation": "Kaynağın vahiy oluşu, onu anlama faaliyetinde aklı kullanmaya engel değildir. Yoruma emek vermek, yorumu vahyin kendisi veya yeni ilahî mesaj hâline getirmez."
+  },
+  {
+    "id": "tyt-06",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, evrendeki düzen üzerinde düşünmenin inancını güçlendirdiğini söyler. Başka biri ise hayatın anlamını yalnızca çevresindeki insanların neyi benimsediğine bakarak belirlediğini ifade eder. Öğretmenleri iki kişinin de bir kabulü bulunduğunu, fakat bu kabule ulaşma yollarının farklı olduğunu belirtir. İlk kişi açıklamasını gerekçelere, ikinci kişi ise yakın çevresinin tutumuna dayandırmaktadır. Buradaki farklılık aşağıdaki karşılaştırmalardan hangisinde doğru verilmiştir?",
+    "options": [
+      "Delil üzerinde düşünme ile çevreden görerek benimseme",
+      "Vahiy alma ile peygamberin sözünü aktarma",
+      "Gözlem yapma ile bilimsel deney yürütme",
+      "İnancı sözle açıklama ile davranışa yansıtma",
+      "Ahlaki ilke belirleme ile hukuki hüküm çıkarma"
+    ],
+    "explanation": "Birinci yaklaşım gerekçeyi düşünerek araştırmaya, ikincisi taklide örnektir. İnancı davranışa yansıtma bu parçada karşılaştırılan boyut değildir."
+  },
+  {
+    "id": "tyt-07",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir tartışmada öğrenci, duyuların zaman zaman yanıltabilmesini gerekçe göstererek bütün gözlemlerin değersiz olduğunu savunur. Arkadaşı ise gözlemin uygun koşullarda tekrarlanabildiğini, farklı araçlarla denetlenebildiğini ve akıl yürütmeyle değerlendirilebildiğini söyler. Öğretmen ikinci öğrencinin açıklamasını İslam düşüncesindeki bilgi kaynaklarıyla ilişkilendirir. Tartışmada aynı gözlemin farklı koşullarda neden değiştiği sorusu da ele alınır. İkinci öğrencinin temel yaklaşımı aşağıdakilerden hangisidir?",
+    "options": [
+      "Bilgi kaynaklarını güvenilirlik koşulları içinde birlikte değerlendirmek",
+      "Bir kaynakta hata görüldüğünde diğer kaynakları da geçersiz saymak",
+      "Gözlem sonuçlarının doğruluğunu onları aktaran kişinin itibarına bağlamak",
+      "Duyusal veriler ile akli değerlendirmeyi birbirinden bağımsız kabul etmek",
+      "Çelişen gözlemler arasında çoğunluğun benimsediği sonucu seçmek"
+    ],
+    "explanation": "Salim duyular ve selim akıl birlikte işleyebilir. Hata ihtimalinin bulunması denetimi gerektirir; bütün duyusal bilgiyi değersiz kılmaz."
+  },
+  {
+    "id": "tyt-08",
+    "topic": "bilgi",
+    "examDomain": "bilgi",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, dinî konularda merak ettiği soruları sormanın inancına zarar vereceğinden kaygılanır. Öğretmeni, soru sormanın amacının önemli olduğunu; anlamaya ve sağlam gerekçelere ulaşmaya yönelik araştırmanın bilinçli bir inancı destekleyebileceğini anlatır. Öğrencinin temel kaynakları tanımasını ve düşüncelerini tutarlı gerekçelerle ifade etmesini önerir. Hazır cevapları tekrarlamaktan çok, bu cevapların hangi dayanaklara sahip olduğunu anlamasını bekler. Öğretmenin teşvik ettiği tutum aşağıdakilerden hangisidir?",
+    "options": [
+      "İnancı anlamlandıran araştırıcı bir yaklaşım geliştirmek",
+      "İnancı tartışmanın dışında tutarak aktarımlarla yetinmek",
+      "Duygusal yakınlığı gerekçelerin önüne geçirmek",
+      "Farklı kanaatlerin ortak noktasını dinî ölçüt saymak",
+      "Soruya verilen ilk açıklamayı alışkanlığa dönüştürmek"
+    ],
+    "explanation": "Öğretmen araştırmayla imanın bilinçli hâle gelmesini desteklemektedir. İlk açıklamayı sorgulamadan benimsemek, önerilen gerekçeli araştırmadan farklıdır."
+  },
+  {
+    "id": "tyt-09",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, düzenli ibadet ettiğinde zamanını daha iyi planladığını ve kendisini daha huzurlu hissettiğini söyler. Öğretmeni bu kazanımları değerli bulur; ancak ibadetin yalnızca sağladığı yararlar için yapılmasının onun temel anlamını daraltacağını hatırlatır. İbadetin yöneldiği amaç ile insanda ortaya çıkardığı sonuçların ayırt edilmesini ister. Öğrencilerden bir davranışın gerekçesiyle o davranışın sonuçlarını ayrı ayrı açıklamalarını ister. Bu açıklamada hangi ayrım vurgulanmaktadır?",
+    "options": [
+      "Allah’ın rızasını gözetmek ile ibadetin kişiye kazandırdıkları",
+      "Bireysel yapılan ibadetler ile toplu yapılan ibadetler",
+      "Bedensel ibadetler ile mali yükümlülükler",
+      "Düzenli alışkanlıklar ile geçici davranışlar",
+      "İbadete hazırlık şartları ile ibadetin içindeki görevler"
+    ],
+    "explanation": "İbadetin temel amacı Allah’ın rızasıdır; huzur ve disiplin sonuçları arasındadır. Toplu veya bireysel oluş metnin tartıştığı ayrım değildir."
+  },
+  {
+    "id": "tyt-10",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir yardım kampanyasına iki kişi aynı miktarda bağışta bulunur. Biri ihtiyacın giderilmesini önemserken diğeri bağışının adının duyulmasına ne ölçüde katkı sağlayacağını hesaplar. Kampanyanın yöneticisi dışarıdan benzer görünen davranışların dinî ve ahlaki bakımdan aynı değeri taşımayabileceğini söyler. Bağışların miktarları ve ulaştıkları ihtiyaç sahipleri bakımından aralarında bir fark bulunmamaktadır. Bu değerlendirmede özellikle hangi ölçüt esas alınmıştır?",
+    "options": [
+      "Davranışın hangi amaç ve yönelişle gerçekleştirildiği",
+      "Yardımın hangi aralıklarla tekrar edildiği",
+      "Bağışın hangi yöntemle teslim edildiği",
+      "Yardımı alan kişinin hangi gruba mensup olduğu",
+      "Verilen miktarın toplam ihtiyaç içindeki oranı"
+    ],
+    "explanation": "Niyet ve ihlas, dışarıdan benzer davranışların değerini farklılaştırabilir. Bağış miktarı aynı olduğundan açıklayıcı ölçüt miktar değil amaçtır."
+  },
+  {
+    "id": "tyt-11",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci ibadeti yalnızca belirli zamanlarda yapılan dinî uygulamalarla sınırlar. Arkadaşı ise bu uygulamaların yanında, dürüstçe çalışmanın ve insanlara faydalı olmanın da uygun niyetle ibadet değeri kazanabileceğini söyler. Öğretmen, ikinci görüşün dinin hayatla ilişkisini daha geniş biçimde ele aldığını belirtir. Buna göre ikinci öğrencinin açıklamasını en iyi yansıtan yargı hangisidir?",
+    "options": [
+      "Meşru gündelik davranışlar Allah’ın rızası gözetilerek anlam kazanabilir.",
+      "Gündelik sorumluluklar yerine getirildiğinde belirli ibadetlere ihtiyaç azalır.",
+      "Faydalı sonuç doğuran her davranış niyetten bağımsız aynı değeri taşır.",
+      "İbadetin toplumsal katkısı biçim ve şartlarından daha önceliklidir.",
+      "İbadet sayılan davranışlar ancak başkalarının yararını hedefler."
+    ],
+    "explanation": "Geniş anlamda ibadet, meşru davranışın iyi niyetle Allah’a yönelişe dönüşmesini içerir. Bu genişlik namaz gibi belirli ibadetlerin yerine gündelik işleri koymaz."
+  },
+  {
+    "id": "tyt-12",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir grup genç, kendilerine verilen küçük görevleri önemseyip düzenli biçimde yerine getirir. Bir süre sonra çok daha fazla iş üstlenirler; fakat bu yoğunluğu sürdüremeyip ilk görevlerini de aksatırlar. Rehberleri, dinî hayatın geçici coşkuya bırakılmaması ve kişinin gücünü gözeten devamlı bir düzen kurulması gerektiğini anlatır. Bu öğütte öncelikle hangi ilke vurgulanmaktadır?",
+    "options": [
+      "Ölçülü ve sürdürülebilir bir kulluk bilinci",
+      "İbadetlerin aynı ortamda gerçekleştirilmesi",
+      "Nafile davranışların toplumsal görünürlüğü",
+      "Mali ibadetlerin öncelikli kabul edilmesi",
+      "Bireysel tercihlerin ortak biçime dönüştürülmesi"
+    ],
+    "explanation": "Öğüt gücü aşmadan sürekliliği korumaya yöneliktir. Ortak bir ortam veya davranış biçimi kurmak ise verilen durumun temel sorunu değildir."
+  },
+  {
+    "id": "tyt-13",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci oruç tuttuğu günlerde arkadaşlarına karşı daha kırıcı konuştuğunu fark eder. Kendisine, aç kalmanın ibadetin görünen yönü olduğunu; dilini ve davranışlarını da denetlemeye çalışması gerektiği hatırlatılır. Bunun üzerine öğrenci, ibadetin günlük ilişkilerinde oluşturması beklenen değişikliği düşünmeye başlar. Öğrenci bundan sonra arkadaşlarıyla konuşurken kendisini daha dikkatli gözlemlemeye karar verir. Bu örnekte aşağıdaki ilişkilerden hangisi öne çıkarılmaktadır?",
+    "options": [
+      "İbadetin ahlaki olgunlaşmaya katkısı",
+      "İbadetin yerine getirilme vaktinin önemi",
+      "İbadetin bireysel sorumluluk olması",
+      "İbadetin topluca yapılmasının değeri",
+      "İbadetin maddi imkânlarla ilişkisi"
+    ],
+    "explanation": "İbadetin davranışları güzelleştirmesi beklenir. Parça orucun vakti veya topluca yapılması hakkında değil, ibadet ile ahlak arasındaki bağ hakkındadır."
+  },
+  {
+    "id": "tyt-14",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okulda kütüphane için kitap toplanır. Elif, kendisi de okumak istediği temiz kitapları seçer ve ihtiyaç duyulan türleri sorar. Bir başka öğrenci ise işe yaramayan malzemeleri getirerek yalnızca dolabında yer açmayı düşünür. Öğretmenleri, bir iyiliğin değerinde verilen şey kadar karşıdaki insanı gözetmenin de önemli olduğunu belirtir. Bu anlatımda hangi anlayış eleştirilmektedir?",
+    "options": [
+      "Yardımı kendi yükünden kurtulma aracı olarak görmek",
+      "Yardımda ihtiyaç sahibinin tercihlerini dikkate almak",
+      "Sahip olunan imkânlardan başkalarına pay ayırmak",
+      "Yardımın kullanılabilirliğini önceden araştırmak",
+      "Paylaşım yaparken kişisel isteklerden fedakârlık etmek"
+    ],
+    "explanation": "Eleştirilen, kullanışsız şeyleri sırf elden çıkarmak için vermektir. Kendi sevdiğini paylaşmak ve ihtiyacı gözetmek ise desteklenen davranışlardır."
+  },
+  {
+    "id": "tyt-15",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç dua ederken hedeflediği başarıya ulaşmak ister. Bununla birlikte çalışma planı hazırlar, eksiklerini belirler ve öğretmenlerinden destek alır. Sonucun her zaman istediği gibi olmayabileceğini kabul etmesine rağmen sorumluluklarını yerine getirmeyi sürdürür. Genç, bir güçlüğü fark ettiğinde onu gidermek için yeni yollar arar. Bu tutum, dua ile insanın çabası arasındaki ilişki bakımından nasıl değerlendirilmelidir?",
+    "options": [
+      "Dua, sorumluluk üstlenme ve emek verme ile birlikte yürütülmüştür.",
+      "Dua, sonucun insanın isteğine göre belirlenmesini sağlamıştır.",
+      "Çalışma, duanın yerini alan bağımsız bir güvenceye dönüşmüştür.",
+      "Başarının anlamı başkalarının yardımına bağlı hâle gelmiştir.",
+      "Sonucun belirsizliği yapılacak hazırlıkların önemini azaltmıştır."
+    ],
+    "explanation": "Genç isteğini Allah’a yöneltirken hazırlık ve çabasını sürdürmektedir. Metin duanın istenen sonucu garanti ettiğini değil sorumlulukla birlikte olmasını vurgular."
+  },
+  {
+    "id": "tyt-16",
+    "topic": "ibadet",
+    "examDomain": "ibadet",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, öğrencilerin ibadetler hakkındaki açıklamalarını tahtaya yazar: Kimi ibadetlerin kişiye sorumluluk bilinci kazandırdığını, kimi paylaşmayı güçlendirdiğini, kimi de toplumda eşitlik duygusunu desteklediğini belirtir. Öğretmen bu farklı sonuçların aynı ibadette bir arada bulunabileceğini söyler. Öğrencilerden bazıları verilen örneklerin yalnızca maddi yardımla sınırlı kalmadığını da fark eder. Bu açıklamalardan ibadet hakkında aşağıdakilerden hangisine ulaşılamaz?",
+    "options": [
+      "Dinî değerinin sağladığı toplumsal kazançla belirlendiğine",
+      "Bireysel gelişimi destekleyebildiğine",
+      "İnsanlar arası ilişkileri etkileyebildiğine",
+      "Birden fazla hikmetinin bulunabildiğine",
+      "Toplumsal dayanışmayla ilişkilendirilebildiğine"
+    ],
+    "explanation": "İbadetin farklı yararları anlatılmaktadır; dinî değerinin toplumsal kazanca indirgenmesi çıkarılamaz. Dayanışma bir hikmet olabilir, ibadetin bütün anlamı değildir."
+  },
+  {
+    "id": "tyt-17",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir yarışmanın değerlendirme kurulunda bulunan Selim, yakın arkadaşının çalışmasını incelerken diğer adaylara uyguladığı ölçütleri aynen kullanır. Arkadaşının bazı eksiklerini kapatabilecek ek bir puan vermesi istendiğinde bunu kabul etmez. Arkadaşlığının değerli olduğunu, ancak üstlendiği görevin herkesin hakkını korumasını gerektirdiğini söyler. Kurul üyeleri kararlarının her aday açısından aynı gerekçelerle açıklanabilir olmasını önemser. Bu davranışta öncelikle hangi ilke belirleyicidir?",
+    "options": [
+      "Kişisel yakınlıktan bağımsız hakkı gözetmek",
+      "İlişkilerin sürmesi için uzlaşmaya öncelik vermek",
+      "Başkalarının beklentilerini incitmeden karşılamak",
+      "Ortak kararın sorumluluğunu çoğunluğa bırakmak",
+      "Bir kişiye emeğinin üzerinde destek sağlamak"
+    ],
+    "explanation": "Selim değerlendirmede adaleti gözetmektedir. Yakınlık sebebiyle ayrıcalık vermemek, kişisel ilişkileri inkâr etmek değil görevde hakkaniyeti korumaktır."
+  },
+  {
+    "id": "tyt-18",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir çalışan, kendisini eleştiren kişinin yıllar önce yaptığı bir hatayı öğrenir. Bu bilgi doğrudur; fakat mevcut konuyla ilgisi yoktur ve çalışanın amacı o kişiyi arkadaşları arasında küçük düşürmektir. Arkadaşı, bilginin doğru olmasının bu paylaşımı kendiliğinden ahlaki hâle getirmediğini söyler. Konuşmanın yapıldığı ortamda, hakkında bilgi verilen kişi kendisini savunabilecek durumda da değildir. Bu uyarıda aşağıdaki ayrımlardan hangisi esas alınmaktadır?",
+    "options": [
+      "Gerçeği söylemek ile başkasının onurunu zedelemeden konuşmak",
+      "Kişisel kanaat ile doğruluğu araştırılmamış haber",
+      "Bir yanlışı düzeltmek ile bilginin kaynağını araştırmak",
+      "Sözlü anlatım ile yazılı belgeye dayanmak",
+      "Toplumsal eleştiri ile hukuki yaptırım uygulamak"
+    ],
+    "explanation": "Doğru bir kusuru kişiyi arkasından incitecek biçimde anlatmak gıybet olabilir. Bilginin doğrulanmış olması, onu her amaçla yaymayı meşru kılmaz; iftira ise asılsız suçlamadır."
+  },
+  {
+    "id": "tyt-19",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci arkadaşının yarışmayı kazanmasını istemediğini fark eder. Kendisinin de çalışarak başarılı olabileceğini düşünmek yerine, arkadaşının imkânlarını kaybetmesini diler. Rehber öğretmeni, başkasındaki iyiliği örnek almak ile o iyiliğin ortadan kalkmasını istemek arasında önemli bir fark bulunduğunu açıklar. Öğretmen, başarı isteğinin kişinin kendi çabasına yönelmesinin başkasının kaybını istemekten farklı olduğunu vurgular. Öğrencinin tutumu hangi kavramla en doğrudan ilişkilidir?",
+    "options": [
+      "Haset",
+      "Gıpta",
+      "Rekabet",
+      "Kanaat",
+      "Tevekkül"
+    ],
+    "explanation": "Hasette başkasındaki nimetin kaybolmasını isteme vardır. Gıpta ise o imkânın kişiden alınmasını dilemeden benzerine sahip olmayı arzulamaktır; yakın çeldirici budur."
+  },
+  {
+    "id": "tyt-20",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Kendisine emanet edilen ortak bütçeyi yöneten bir kişi, harcamaları herkesin inceleyebileceği biçimde kaydeder. Küçük bir tutarı kişisel ihtiyacında kullanıp sonra yerine koyabileceği söylenir. O ise paranın kendisine ait olmadığını, iyi niyetli bir geri ödeme planının yetkisiz kullanımı haklı kılmayacağını belirtir. Başka bir görevlendirme olmadıkça bu sınırları kendi kararıyla genişletemeyeceğini düşünür. Bu yaklaşımın temelinde hangi anlayış bulunmaktadır?",
+    "options": [
+      "Yetki verilen şey üzerinde hak sahibinin sınırlarına bağlı kalmak",
+      "Maddi imkânları artıracak fırsatları değerlendirmek",
+      "İyiliği karşılıksız yaparak gönül kazanmak",
+      "Kişisel ihtiyaçları toplumsal beklentilere göre belirlemek",
+      "Ortak harcamalarda en ekonomik tercihi yapmak"
+    ],
+    "explanation": "Emanet bilinci, verilen yetkiyi sınırları içinde kullanmayı gerektirir. Ekonomik davranmak değerli olsa da burada asıl mesele tasarruf değil başkasının malını izinsiz kullanmamaktır."
+  },
+  {
+    "id": "tyt-21",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, öfkelendiğinde hemen cevap vermemeye çalışır. Bunun karşısındakinin her davranışını doğru bulduğu anlamına gelmediğini; uygun bir zamanda hakkını açık ve saygılı biçimde savunabildiğini söyler. Ona göre kendini kontrol etmek, sorunları görmezden gelmekten farklıdır. Sorunun çözülebilmesi için duyguların davranışı yönetmesine izin vermeden düşünmek gerektiğini savunur. Bu açıklamada aşağıdaki değerlerden hangisi öncelikle öne çıkarılmaktadır?",
+    "options": [
+      "Hilm",
+      "Cömertlik",
+      "Mahremiyet",
+      "Vefa",
+      "Kanaat"
+    ],
+    "explanation": "Hilm öfke karşısında yumuşaklık ve kendini denetlemeyi ifade eder. Hakkını savunmaktan vazgeçmekle aynı değildir; sabırla ilişkili olsa da burada özellikle öfke denetimi vurgulanır."
+  },
+  {
+    "id": "tyt-22",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okulda çevre temizliği yapılırken bazı öğrenciler kendilerine ayrılan alanı temizler, fakat topladıkları çöpleri komşu sokağa bırakırlar. Başka bir grup, yapılan işin başarılı görünmesinin yetmediğini; başka insanlara yeni bir zarar verilmemesi gerektiğini söyler. Öğrenciler çevreyi korumanın yalnızca kendilerine görünen yerleri düzenlemekten daha kapsamlı olduğunu savunur. Bu eleştiride aşağıdaki yargılardan hangisi temel alınmıştır?",
+    "options": [
+      "Ahlaki değerlendirme davranışın başkalarına etkisini de kapsamalıdır.",
+      "Bir davranışın ahlaki değeri uygulayanların sayısıyla güçlenir.",
+      "Ortak hedefler için görev paylaşımı bireysel tercihlerden önemlidir.",
+      "Çevreye yönelik görevler yerel ihtiyaçlara göre sınırlandırılmalıdır.",
+      "Bir işin yararı onu yapanların memnuniyetiyle ölçülmelidir."
+    ],
+    "explanation": "Temizliğin başka yere zarar taşıması, davranışın bütün sonuçlarını gözetme ihtiyacını gösterir. Görev paylaşımı yapılmış olsa da asıl eleştiri paylaşım değil zararın başkasına aktarılmasıdır."
+  },
+  {
+    "id": "tyt-23",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, bir arkadaşının özel konuşmasını yanlışlıkla duyar. Bu bilgiyi paylaşırsa sınıfta ilgi görebileceğini bilir. Buna rağmen arkadaşının izni olmadan başkalarına anlatmaz ve konuşmanın kaydını isteyenlere de yardımcı olmaz. Öğretmeni bu davranışı insan onurunu koruyan bir sınırın gözetilmesiyle ilişkilendirir. Bu kararı, konuşmanın ilgi çekici olup olmamasından bağımsız olarak verir. Öğrencinin koruduğu temel değer aşağıdakilerden hangisidir?",
+    "options": [
+      "Mahremiyet",
+      "İstişare",
+      "İsar",
+      "Şecaat",
+      "Müsamaha"
+    ],
+    "explanation": "Özel hayata ait bilginin izinsiz yayılmaması mahremiyetle ilgilidir. Şecaat cesareti, istişare görüş alışverişini anlatır; bilginin özel oluşu soruda ayırt edicidir."
+  },
+  {
+    "id": "tyt-24",
+    "topic": "ahlak",
+    "examDomain": "ahlak",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir kişi, geçmişte kendisine yardımcı olan bir öğretmenini yıllar sonra ziyaret eder. Öğretmeninin artık kendisine sağlayabileceği bir çıkar yoktur; yine de emeğini unutmadığını belirtir ve ihtiyaç duyduğu bir işte yardımcı olur. Ziyareti, yeni bir beklentiden çok kurulan bağın ve görülen iyiliğin hatırlanması olarak değerlendirir. Bu davranışın özellikle hangi değerle ilişkilendirilmesi uygundur?",
+    "options": [
+      "Vefa",
+      "İffet",
+      "Adalet",
+      "Tevazu",
+      "İtidal"
+    ],
+    "explanation": "Görülen iyiliği ve kurulan bağı unutmamak vefadır. Cömertlik veya yardım davranışın bir yönü olabilir; ancak metni ayırt eden eski emeğe bağlılığın sürmesidir."
+  },
+  {
+    "id": "tyt-25",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Hz. Muhammed’in gençlerle ilişkisini araştıran bir öğrenci, onun yalnızca öğüt vermekle yetinmediğini; gençlere sorumluluk verdiğini, yeteneklerini geliştirecek görevler üstlendirdiğini ve görüşlerini dinlediğini belirtir. Bu örneklerden hareketle bir gençlik çalışması tasarlamak ister. Çalışmanın hazırlığı, uygulanması ve değerlendirilmesinde gençlerin katkısını daha görünür kılmayı amaçlar. Aşağıdaki uygulamalardan hangisi öğrencinin araştırmasındaki anlayışa en uygundur?",
+    "options": [
+      "Gençlere rehberlik ederek karar ve uygulama süreçlerinde görev vermek",
+      "Gençlerin hata ihtimalini azaltmak için görevlerini yetişkinlere devretmek",
+      "Gençlerin katılımını hazırlanan faaliyetleri izlemeleriyle sınırlandırmak",
+      "Sorumlulukları yaşça büyük kişilerin tercihleri doğrultusunda dağıtmak",
+      "Başarıyı yalnızca verilen talimatların eksiksiz uygulanmasıyla ölçmek"
+    ],
+    "explanation": "Gençlere güvenmek ve onları sorumluluk içinde geliştirmek araştırmanın ortak mesajıdır. Rehberlik gerekir; fakat görevi bütünüyle yetişkinlere bırakmak katılımı daraltır."
+  },
+  {
+    "id": "tyt-26",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, Hz. Muhammed’in örnekliğini anlatırken öğrencilerin gündelik hayatta karşılaşabilecekleri üç durumu ele alır: Kendisine güvenilen bir malı korumak, anlaşmazlıkta tarafları dinlemek ve birine verilen sözü yerine getirmek. Öğrenciler bu örneklerin dinî hayatla ilgisini tartışırlar. Tartışmanın sonunda öğrenciler kendi hayatlarından benzer örnekler bularak bunları sınıfta paylaşırlar. Bu çalışmanın öncelikli amacı aşağıdakilerden hangisidir?",
+    "options": [
+      "Peygamberin ahlaki örnekliğini somut davranışlarla ilişkilendirmek",
+      "Peygamberlik öncesindeki toplumsal kurumları sınıflandırmak",
+      "İbadetlerin yerine getirilme şartlarını açıklamak",
+      "Peygamberliğin delillerini tarih sırasına koymak",
+      "Dinî metinlerin aktarılma yollarını karşılaştırmak"
+    ],
+    "explanation": "Emanet, adalet ve sözünde durma günlük hayata yansıyan ahlaki örneklerdir. Çalışmanın odağı peygamberliğin tarihî delilleri veya ibadet şartları değildir."
+  },
+  {
+    "id": "tyt-27",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci Hz. Muhammed’in örnekliğini değerlendirirken, yaşadığı dönemin bütün araç ve giyim biçimlerini bugün aynen kullanmanın yeterli olacağını savunur. Arkadaşı ise aynı döneme ait bir alışkanlık ile dürüstlük ve merhamet gibi hayatı yönlendiren ilkelerin ayırt edilmesi gerektiğini söyler. Arkadaşı, aynı değerin değişen hayat şartlarında farklı uygulamalarla ortaya konabileceğini de belirtir. İkinci öğrencinin temel vurgusu aşağıdakilerden hangisidir?",
+    "options": [
+      "Örnek alırken davranışın taşıdığı ilke ve amacı kavramak",
+      "Tarihî bilgilerin geçerliliğini güncel tercihlere göre belirlemek",
+      "Peygamberin sözlerini toplumsal geleneklerle eşit görmek",
+      "Dinî ilkeleri kişisel beğeni ölçüsünde seçmek",
+      "Geçmişin bütün uygulamalarını ortak bir hükme bağlamak"
+    ],
+    "explanation": "Örnekliği anlamak, davranışın bağlamı ve amaçladığı değer üzerinde düşünmeyi gerektirir. Bu, ilkeleri kişisel beğeniye göre seçmek veya tarihî bilgiyi değersizleştirmek anlamına gelmez."
+  },
+  {
+    "id": "tyt-28",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir grup öğrenci, dinî bir bilgiyi ilk kez öğrenen arkadaşlarına çok sayıda ayrıntıyı aynı anda anlatır. Arkadaşları zorlanınca öğretmenleri, Hz. Muhammed’in öğretiminde muhatabın durumunu dikkate almasına ve bilgiyi anlaşılır biçimde sunmasına dikkat çeker. Öğrencilerden anlatımlarını yeniden düzenlemelerini ister. Öğretmen anlatımın, öğrenenin sorularına yer açacak biçimde yeniden planlanmasını da ister. Aşağıdakilerden hangisi bu önerinin amacına daha uygundur?",
+    "options": [
+      "Öğrenenin hazır bulunuşluğuna göre aşamalı ve açık bir anlatım kurmak",
+      "Öğrenenin ilgisini canlı tutmak için konunun güçlüklerini gizlemek",
+      "Ayrıntıları azaltmak için bilginin doğruluğunu ikinci planda tutmak",
+      "Aynı ifadeleri daha yüksek sesle tekrarlayarak dikkati artırmak",
+      "Kavramları ezberlettikten sonra soruları değerlendirmeyi ertelemek"
+    ],
+    "explanation": "Muhatabın anlayabileceği aşamalı öğretim, pedagojik örnekliğin temelidir. Kolaylaştırmak içeriğin doğruluğundan vazgeçmek veya güçlükleri gizlemek değildir."
+  },
+  {
+    "id": "tyt-29",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir sınıf, Hz. Muhammed’in karar alma süreçlerini inceleyen sunum hazırlar. Sunumda çevresindekilerin fikirlerine başvurmasına, farklı önerileri dinlemesine ve uygun bulunan bir öneriyi uygulamasına yer verirler. Sonuç bölümünde bu örneklerin günümüz ekip çalışmalarına da yol gösterebileceğini söylerler. Öğrenciler görev paylaşımında da herkesin düşüncesini ifade edebileceği bir ortam oluşturmayı önerirler. Sunumun merkezinde hangi kavram bulunmaktadır?",
+    "options": [
+      "İstişare",
+      "Tebliğ",
+      "Hicret",
+      "Tebyin",
+      "İnfak"
+    ],
+    "explanation": "Görüş alma ve ortak değerlendirme istişaredir. Tebyin dinî mesajı açıklamaktır; başkalarının önerisini dinleyerek karar vermekle aynı kavram değildir."
+  },
+  {
+    "id": "tyt-30",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci, Hz. Muhammed’in karşılaştığı güçlükler karşısında ümitsizliğe kapılmadan görevini sürdürmesini anlatır. Ancak bunu, karşılaştığı şartları değiştirmek için hiçbir girişimde bulunmamak şeklinde açıklamaz. Tedbir almasını, uygun zaman ve imkânları değerlendirmesini de aynı örnekliğin parçaları olarak görür. Öğrenci, bir güçlük karşısında gösterilen davranışı o güçlüğe verilen cevaplarla birlikte değerlendirmektedir. Öğrencinin özellikle ayırdığı iki tutum hangisidir?",
+    "options": [
+      "Kararlılıkla çaba göstermek ile edilgen biçimde beklemek",
+      "Toplumsal dayanışma ile bireysel ibadet",
+      "Güvenilir bilgi aktarmak ile görüş alışverişi",
+      "Bağışta bulunmak ile borcu zamanında ödemek",
+      "Bir yanlışı affetmek ile özel hayatı korumak"
+    ],
+    "explanation": "Sabır güçlük içinde sorumlu çabayı sürdürmektir; hareketsiz beklemeye indirgenemez. Metinde affetme değil zorluk karşısında tedbirli kararlılık ele alınır."
+  },
+  {
+    "id": "tyt-31",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Hz. Muhammed’in güvenilirliğini ele alan bir araştırmada, kendisine karşı çıkan insanların bile mallarını ona emanet edebilmesi üzerinde durulur. Araştırmacı, güvenilirliğin yalnızca kişinin kendi çevresinde kazandığı beğeniyle açıklanamayacağını belirtir. Farklı düşünen insanların da onun dürüstlüğüne dayanabilmesini önemli bulur. Güven duymak ile onun bütün düşüncelerini benimsemek arasında bir ayrım yapar. Bu değerlendirmede hangi sonuca ulaşılmaktadır?",
+    "options": [
+      "Ahlaki tutarlılık farklı görüşteki kişiler arasında da güven oluşturabilir.",
+      "Güven ilişkisi düşünce birliğinin zamanla oluşmasını zorunlu kılar.",
+      "Toplumsal itibar dinî mesajın doğruluğunu tek başına kanıtlar.",
+      "Emanet ilişkisi kişisel yakınlığı hukuki sorumluluğun önüne geçirir.",
+      "Bir kişinin dürüstlüğü çevresindeki herkesin davranışını aynılaştırır."
+    ],
+    "explanation": "Araştırmanın odağı fikir ayrılığına rağmen oluşan güvendir. Güven duymak görüş birliğini zorunlu kılmadığı gibi herkesin davranışını da aynılaştırmaz."
+  },
+  {
+    "id": "tyt-32",
+    "topic": "peygamber",
+    "examDomain": "peygamber",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğretmen, peygamberin örnekliğinin yalnızca olağanüstü olaylar üzerinden anlatılmasının öğrencilerin gündelik hayatla bağ kurmasını zorlaştırabildiğini söyler. Aile ilişkileri, komşuluk, alışveriş ve çalışma hayatındaki davranışlarına da yer verilmesini önerir. Böylece öğrencilerden kendi davranışları için uygulanabilir sonuçlar çıkarmalarını bekler. Öğrencilerin örnekliği uzak bir geçmiş bilgisi olarak bırakmamasını, günlük tercihlerine taşımasını ister. Bu yaklaşımda hangi husus öne çıkarılmaktadır?",
+    "options": [
+      "Peygamberin insani yaşantısının ahlaki rehberlik sunması",
+      "Peygamberin beşerî yönünün dinî görevinin yerine geçmesi",
+      "Tarihî anlatıların kişisel deneyimlere indirgenmesi",
+      "Toplumsal kuralların dinî kaynaklardan bağımsızlaştırılması",
+      "Peygamberlik görevinin gündelik ilişkilerle sınırlandırılması"
+    ],
+    "explanation": "Beşerî hayatın anlatılması öğrencinin somut örnek almasını sağlar. Bu yaklaşım peygamberliği gündelik ilişkilere indirgemek veya vahiy görevini dışlamak değildir."
+  },
+  {
+    "id": "tyt-33",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir araştırmacı, aynı dinin mensupları arasında ibadetlerin bazı ayrıntıları hakkında farklı uygulamalar bulunduğunu gözlemler. Bu farklılıkların, kullanılan rivayetlerin değerlendirilmesi ve metinlerin anlaşılmasında izlenen yöntemlerle ilişkisini inceler. Araştırmasının sonunda ortak inanç esaslarının bulunmasının bütün ayrıntılarda aynı yorumun ortaya çıkmasını gerektirmediğini belirtir. Farklı uygulamaları incelerken hangi kaynaklara ve yöntemlere dayanıldığını ayrı ayrı kaydeder. Bu incelemede hangi ayrım temel alınmıştır?",
+    "options": [
+      "Din ile dinin insanlar tarafından anlaşılması",
+      "İbadet ile ibadetin toplumsal yararı",
+      "Ahlaki davranış ile hukuki yaptırım",
+      "Kültür ile coğrafi çevre",
+      "Bilimsel bilgi ile gündelik gözlem"
+    ],
+    "explanation": "Din ile din anlayışı ayrımı, ortak kaynakların insan yorumlarında farklılaşabilmesini açıklar. Coğrafi çevre de yorumları etkileyebilir; ancak bu metinde rivayet ve yöntem üzerinde durulmuştur."
+  },
+  {
+    "id": "tyt-34",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Dinî yorumların oluşmasını inceleyen öğrencilerden biri, farklı bölgelerde yaşayan insanların geçim şartlarını araştırır. Diğeri, metinlerdeki kelimelerin birden fazla anlama gelebilmesi üzerinde durur. Üçüncüsü ise siyasi gelişmelerin toplulukları nasıl etkilediğini inceler. Öğretmen, çalışmaların farklı sebepleri görünür kıldığını söyler. Öğrenciler birbirlerinin çalışmalarındaki açıklamaları da karşılaştırarak bir sonuç tablosu hazırlarlar. Buna göre aşağıdakilerden hangisi bu üç çalışmanın doğrudan konusu değildir?",
+    "options": [
+      "Bireylerin kişilik özellikleri",
+      "Coğrafi şartlar",
+      "Dilsel anlam farklılıkları",
+      "Toplumsal iktidar ilişkileri",
+      "Tarihî siyasi gelişmeler"
+    ],
+    "explanation": "Kişilik özellikleri bu üç araştırmada ele alınmamıştır. Coğrafya, dil ve siyasi gelişmeler ayrı ayrı verilmiştir; iktidar ilişkileri siyasi boyutun içindedir."
+  },
+  {
+    "id": "tyt-35",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci bütün mezhepleri namazın uygulanışına dair ayrıntılarla açıklamaya çalışır. Öğretmeni, bazı ekollerin inanç meseleleri üzerinde yoğunlaştığını; bazılarının ise ibadet ve gündelik davranışlara ilişkin hükümleri sistemleştirdiğini hatırlatır. Öğrenciden karşılaştırmasının ölçütünü yeniden düzenlemesini ister. Öğrenci ilk sınıflandırmasında konu alanlarını karıştırdığını fark ederek örneklerini yeniden gözden geçirir. Öğretmenin düzeltmesinde hangi ayrım esas alınmaktadır?",
+    "options": [
+      "İtikadi yorumlar ile fıkhi yorumlar",
+      "Bireysel ibadetler ile mali ibadetler",
+      "Dinî kurumlar ile kültürel kurumlar",
+      "Ahlaki değerler ile kişilik özellikleri",
+      "Siyasi olaylar ile ekonomik şartlar"
+    ],
+    "explanation": "İtikadi ekoller iman esaslarını, fıkhi ekoller uygulama ve hükümleri konu edinir. Ayrım ibadetin bedensel veya mali oluşuna göre değil yorumun konu alanına göredir."
+  },
+  {
+    "id": "tyt-36",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir tartışmada bir öğrenci, kendi benimsediği yorumla farklı bir yorumun aynı dinin kaynaklarına dayanamayacağını ileri sürer. Arkadaşı, ortak kaynaklardan hareket eden araştırmacıların yöntem ve değerlendirmelerinde ayrılabildiklerini; bu nedenle farklı görüşün önce gerekçeleriyle anlaşılması gerektiğini söyler. Bu tutumun, bir görüşe katılmayı zorunlu kılmadan saygılı bir tartışmayı mümkün kıldığını belirtir. İkinci öğrencinin yaklaşımı hangi tutumla en iyi ifade edilir?",
+    "options": [
+      "Farklı yorumları gerekçeleri içinde anlamaya çalışmak",
+      "Farklı görüşleri içeriklerini incelemeden eşdeğer saymak",
+      "Kendi görüşünü çoğunluğun tercihine göre değiştirmek",
+      "Ortak kaynakların anlamını bütünüyle kişiselleştirmek",
+      "Yorumların tarihî şartlarını değerlendirme dışında tutmak"
+    ],
+    "explanation": "Gerekçeyi anlamak eleştirel ve saygılı değerlendirmedir; her görüşü peşinen eşit ölçüde doğru kabul etmek değildir. İkinci seçenek yakın görünse de incelemeyi dışlar."
+  },
+  {
+    "id": "tyt-37",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir mahallede farklı mezheplere bağlı insanlar aynı yardım çalışmasına katılır. İbadetlerindeki bazı farklılıkları konuşurken bunları kişisel üstünlük iddiasına dönüştürmemeye özen gösterirler. Ortak inançları ve insanlara karşı sorumlulukları üzerinde buluşurlar. Çalışma süresince her katılımcı kendi yorumunu sürdürürken başkasının farklı tercihini küçümsememeye dikkat eder. Bu örnekte aşağıdaki anlayışlardan hangisi daha çok öne çıkmaktadır?",
+    "options": [
+      "Yorum farklılıklarını ortak sorumluluğa engel saymamak",
+      "Farklılıkları gidermek için uygulamaları tek biçime indirmek",
+      "Yardımlaşmayı dinî kimliklerin görünürlüğüne bağlamak",
+      "Ortak çalışma uğruna inanç konularını önemsiz görmek",
+      "Toplumsal uzlaşmayı mezhep tercihinin ölçütü yapmak"
+    ],
+    "explanation": "Birlikte çalışma farklı yorumların yok edilmesini gerektirmemiştir. Ortak sorumlulukta buluşmak, inanç esaslarını önemsizleştirmek veya bütün uygulamaları aynılaştırmak değildir."
+  },
+  {
+    "id": "tyt-38",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir öğrenci dini kültürle aynı kavram olarak kullanır. Öğretmeni, aynı dinin farklı toplumlarda farklı mimari, edebî ve gündelik ifade biçimleriyle yaşanabildiğini örneklerle gösterir. Bunun yanında dinin bazı temel ilkelerinin yerel bir alışkanlığa indirgenemeyeceğini belirtir. Öğrenciden din ile kültür arasındaki ilişkiyi bu iki yönü birlikte gözeterek açıklamasını ister. Aşağıdaki yargılardan hangisi bu ilişkiyi en doğru yansıtır?",
+    "options": [
+      "Din kültürü etkilerken kültürel ortam da dinin yaşanma biçimlerini etkileyebilir.",
+      "Kültürel bir uygulama yaygınlaştığında dinin temel ilkesi niteliği kazanır.",
+      "Dinin farklı toplumlarda yaşanması ortak ilkelerin farklılaşmasını gerektirir.",
+      "Bir toplumun kültürü dinin anlaşılmasında belirleyici tek kaynaktır.",
+      "Kültürel çeşitlilik dinin toplumsal hayatta etkisinin azaldığını gösterir."
+    ],
+    "explanation": "Din ve kültür etkileşir; ancak her kültürel alışkanlık dinin değişmez ilkesi hâline gelmez. Farklı ifade biçimleri ortak ilkelerin zorunlu olarak değiştiği anlamına da gelmez."
+  },
+  {
+    "id": "tyt-39",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir okul kulübü insan hakları üzerine çalışma yapar. Grup, insanın yaşama, inanma, öğrenme ve malını koruma haklarını birlikte ele alır. Bir hakkın korunmasını başka bir temel hakkın gereksiz görülmesi için gerekçe yapmamaya dikkat eder. Öğretmen bu yaklaşımı dinin insan hayatını korumaya yönelik temel amaçlarıyla ilişkilendirir. Aşağıdaki uygulamalardan hangisi bu yaklaşımla bağdaşmaz?",
+    "options": [
+      "Maddi kazanç amacıyla insanların sağlığını riske atan üretimi desteklemek",
+      "Öğrenme imkânını artırırken öğrencilerin güvenliğini de gözetmek",
+      "İnsanların inancını özgürce ifade edebilmesine saygı göstermek",
+      "Emanet edilen malın korunması için şeffaf kayıt tutmak",
+      "Bağımlılıklarla mücadelede bilinçlendirme çalışmaları yürütmek"
+    ],
+    "explanation": "Sağlığı riske atarak kazancı öne almak canın korunmasıyla bağdaşmaz. Malın korunması da önemlidir; fakat maddi çıkar can güvenliğini ihmal etme gerekçesi olamaz."
+  },
+  {
+    "id": "tyt-40",
+    "topic": "yorum",
+    "examDomain": "yorum",
+    "kind": "Paragraf ve çıkarım",
+    "text": "Bir genç, aldığı ürüne ihtiyacı olmadığını fark ettiği hâlde sırf yeni olduğu için yenisini almak ister. Arkadaşı ise imkân sahibi olmanın kaynakları düşüncesizce tüketme hakkı vermediğini, tüketimin hem bireysel hem toplumsal sonuçlarının bulunduğunu hatırlatır. Konuşmalarının sonunda ihtiyaç, ölçü ve sorumluluk arasındaki ilişkiyi değerlendirmeye karar verirler. Bu tartışmanın merkezindeki dinî ve ahlaki mesele hangisidir?",
+    "options": [
+      "İsrafın önlenmesi",
+      "Özel mülkiyetin edinilmesi",
+      "Ticari sözleşmenin biçimi",
+      "Mirasın hak sahiplerine dağıtılması",
+      "Zekâtın ödeme zamanının belirlenmesi"
+    ],
+    "explanation": "İhtiyaç ve ölçü gözetmeden kaynak tüketmek israfla ilgilidir. Mülkiyet hakkına sahip olmak kullanımın ahlaki sorumluluğunu ortadan kaldırmaz; tartışma mal edinmenin yöntemi değildir."
+  }
+]
