@@ -3,9 +3,9 @@ const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/st
 const elements=new Map(),listeners={};
 function element(id){if(!elements.has(id))elements.set(id,{innerHTML:'',textContent:'',value:'',disabled:false,open:false,classList:{add(){},remove(){},toggle(){}},setAttribute(){},removeAttribute(){},querySelector(){return {focus(){}}},addEventListener(){},showModal(){this.open=true},close(){this.open=false}});return elements.get(id);}
 const memory=new Map();
-const ctx={console,Intl,Date,Math,JSON,Number,String,Array,Set,Promise,Error,document:{getElementById:element,querySelectorAll(){return []},addEventListener(n,f){listeners[n]=f}},localStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)},window:{scrollTo(){},addEventListener(){}},setInterval:()=>1,clearInterval(){}};
+const ctx={console,Intl,Date,Math,JSON,Number,String,Array,Set,Promise,Error,document:{body:{classList:{toggle(){}}},querySelector(){return null},getElementById:element,querySelectorAll(){return []},addEventListener(n,f){listeners[n]=f}},localStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)},window:{scrollTo(){},addEventListener(){}},setInterval:()=>1,clearInterval(){}};
 vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(__dirname+'/questions.js','utf8')+fs.readFileSync(__dirname+'/app.js','utf8').replace('/*FEATURES*/',fs.readFileSync(__dirname+'/features.js','utf8')),ctx);
+vm.runInContext(fs.readFileSync(__dirname+'/questions.js','utf8')+fs.readFileSync(__dirname+'/app.js','utf8').replace('/*FEATURES*/',fs.readFileSync(__dirname+'/features.js','utf8')).replace('/*UIV2*/',fs.readFileSync(__dirname+'/ui-v2.js','utf8')),ctx);
 const run=s=>vm.runInContext(s,ctx);
 assert.equal(run('TOPICS.length'),10);
 assert.equal(run('new Set(QUESTIONS.map(q=>q.id)).size===QUESTIONS.length'),true);
@@ -63,4 +63,14 @@ memory.set('din-rotasi-v1',JSON.stringify({points:123,answered:6,correct:4,mista
 assert.equal(run('readProgress().points'),123);assert.equal(run('readProgress().mistakes.length'),0);assert.equal(run('Object.keys(readProgress().topics).length'),0);
 memory.set('din-rotasi-v1','broken');assert.equal(run('readProgress().points'),0);
 assert.equal(run("normalize('İHLÂS')===normalize('ihlas')"),true);
+// New visual layer preserves concept state until an explicit next step.
+run("progress=fresh();conceptCategory='all';conceptQuery='';startMatching()");
+const active=run('matching.activeId');
+run(`handleNewAction('match-choice',{dataset:{id:${JSON.stringify(active)}}})`);
+assert.equal(run('matching.activeId'),active);
+assert.equal(run('matching.solved.includes(matching.activeId)'),true);
+run("handleNewAction('match-next',{dataset:{}})");
+assert.notEqual(run('matching.activeId'),active);
+assert.equal(run('practiceSeen()'),0);
+assert.equal(fs.readFileSync(__dirname+'/classic.html','utf8').includes('Klasik görünüm'),true);
 console.log('PASS: bank integrity, grade filters, balanced rounds, answer locking, wrong review, exam editing/scoring/expiry, concept retries, migration, search normalization.');
