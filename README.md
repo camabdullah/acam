@@ -26,13 +26,17 @@ Sorular ÖSYM'den kopyalanmadı. Zorluklarının ÖSYM sorularıyla eşdeğer ol
 
 10. sınıf: Allah-İnsan İlişkisi; Hz. Muhammed ve Gençlik; Din ve Hayat; Ahlaki Tutum ve Davranışlar; İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar.
 
+## Arayüz v2
+
+Araştırmaya dayalı mobil düzen ve Figma tasarımı eklendi. [Tasarım kararları, kaynaklar ve geri dönüş](design/README.md). Önceki arayüz [Klasik görünüm](https://camabdullah.github.io/acam/classic.html) üzerinden kullanılabilir; ilerleme kayıtları ortaktır.
+
 ## Oynanış
 
 - Öğrenme turları 10 soru; süresiz veya soru başına 30 saniye.
 - Sınıf ve ünite seçilebilir. Karışık tur seçili sınıfın ünitelerinden dengeli seçilir; önce çözülmemiş sorular gelir.
 - Doğru yanıt 100 puan; üçüncü ve sonraki ardışık doğrular 20 puan bonus.
 - Yanlış sorular doğru çözülünce tekrar listesinden çıkar.
-- Eşleştirmede seçili filtrelerden en fazla beş çift gelir. Eş anlamlı kayıtlar aynı turda birlikte seçilmez. Hata yapılan kavramlar aynı tur içinde düzeltilse de yeni bir turda ilk denemede doğru eşleşene kadar tekrar listesinde kalır.
+- Eşleştirmede seçili filtrelerden en fazla beş kavram gelir; her adımda bir tanım ve en fazla dört kavram seçeneği gösterilir. Eş anlamlı kayıtlar aynı turda birlikte seçilmez. Hata yapılan kavramlar aynı tur içinde düzeltilse de yeni bir turda ilk denemede doğru eşleşene kadar tekrar listesinde kalır.
 - Deneme beş alandan birer soru seçer: bilgi-inanç, ibadet, ahlak, peygamber örnekliği, yorumlar. Bu bir çalışma dağılımıdır; sabit resmî dağılım değildir.
 - Denemede cevap değiştirilebilir ve sorular boş bırakılabilir. Açıklamalar yalnız bitince açılır. Net = doğru − yanlış / 4; boşların net cezası yoktur.
 - Deneme için 8/10 dakika veya süresiz seçilebilir. Bunlar çalışma tercihleridir; TYT'de DKAB için ayrı resmî süre bulunmaz.
@@ -49,7 +53,7 @@ node test-game.cjs
 
 Veri kaynakları: `concepts.json` (eski kavram kökleri), `distractors.json` (gözden geçirilmiş seçenekler), `practice.json` (9. sınıf bağlam soruları), `grade10.json`, `exams.json`, `glossary.json`. Doğru cevap veri dosyalarında ilk sıradadır; arayüz her soru için seçenekleri karıştırıp doğru cevapla bağını korur.
 
-Arayüz: `template.html`, `style.css`, `app.js`, `features.js`. Üretilen `questions.js` ve `index.html` de sürüm kontrolündedir. `test-game.cjs` veri bütünlüğü, sınıf seçimi, soru seçimi, cevap kilidi, yanlış tekrarları, deneme puanlaması/süre sonu, eşleştirme ve eski kayıt göçünü kontrol eder.
+Arayüz: `template.html`, `style.css`, `app.js`, `features.js`, `ui-v2.js`, `ui-v2.css`. Önceki tasarım `classic.html` içinde korunur. Üretilen `questions.js` ve `index.html` de sürüm kontrolündedir. `test-game.cjs` veri bütünlüğü, sınıf seçimi, soru seçimi, cevap kilidi, yanlış tekrarları, deneme puanlaması/süre sonu, eşleştirme ve eski kayıt göçünü kontrol eder.
 
 ## Veri davranışı
 

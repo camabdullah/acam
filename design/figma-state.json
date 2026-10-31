@@ -1,0 +1,136 @@
+{
+  "fileKey": "PZ1M604Mz9QyMllpaCvtsZ",
+  "sessionId": "afa3b725-3d50-4b23-b215-e1058aebf70a",
+  "fileUrl": "https://www.figma.com/design/PZ1M604Mz9QyMllpaCvtsZ",
+  "scope": "five composed screens",
+  "foundation": {
+    "createdNodeIds": [
+      "5:2",
+      "5:37",
+      "5:35",
+      "5:36",
+      "5:38",
+      "5:39",
+      "5:40",
+      "5:41",
+      "5:46",
+      "5:42",
+      "5:43",
+      "5:44",
+      "5:45",
+      "5:47",
+      "5:48",
+      "5:49",
+      "5:50",
+      "5:51",
+      "5:52",
+      "5:53",
+      "5:54"
+    ],
+    "pageId": "5:2",
+    "variables": {
+      "navy": "VariableID:5:6",
+      "ink": "VariableID:5:8",
+      "muted": "VariableID:5:10",
+      "orange": "VariableID:5:12",
+      "paper": "VariableID:5:14",
+      "white": "VariableID:5:16",
+      "line": "VariableID:5:18",
+      "purple": "VariableID:5:20",
+      "lavender": "VariableID:5:22",
+      "green": "VariableID:5:24",
+      "space-2": "VariableID:5:25",
+      "space-3": "VariableID:5:26",
+      "space-4": "VariableID:5:27",
+      "space-6": "VariableID:5:28",
+      "space-8": "VariableID:5:29",
+      "radius": "VariableID:5:30"
+    },
+    "styles": {
+      "Body": "S:3c158e36cdfb8be1de91983fe8c898d81b41e9a7,",
+      "Heading": "S:b57a27e382f2e11e517862f8afefdf75d318ab04,",
+      "Caption": "S:f27d3cc76e8346e3793c344ceeff5b1eb70aec90,",
+      "Label": "S:884307aad5f7c334788e0fa12f6ffcd40d1d32ab,"
+    },
+    "components": {
+      "unit": {
+        "set": "5:37",
+        "default": "5:35",
+        "selected": "5:36"
+      },
+      "answer": {
+        "set": "5:46",
+        "default": "5:42",
+        "selected": "5:43",
+        "correct": "5:44",
+        "incorrect": "5:45"
+      }
+    },
+    "font": "Inter",
+    "variantCounts": {
+      "unit": 2,
+      "answer": 4
+    }
+  },
+  "screens": [
+    {
+      "id": "6:1146",
+      "name": "01 / Ana ekran · Mobil",
+      "width": 390,
+      "height": 844,
+      "descendants": 71
+    },
+    {
+      "id": "6:1353",
+      "name": "02 / Soru · Mobil",
+      "width": 390,
+      "height": 844,
+      "descendants": 22
+    },
+    {
+      "id": "6:1380",
+      "name": "03 / Kavram eşleştirme · Mobil",
+      "width": 390,
+      "height": 844,
+      "descendants": 19
+    },
+    {
+      "id": "6:1400",
+      "name": "04 / Sonuç · Mobil",
+      "width": 390,
+      "height": 844,
+      "descendants": 54
+    },
+    {
+      "id": "6:1459",
+      "name": "05 / Ana ekran · Masaüstü",
+      "width": 1440,
+      "height": 1360,
+      "descendants": 65
+    }
+  ],
+  "validation": {
+    "fonts": [
+      "Inter"
+    ],
+    "counts": {
+      "frames": 5,
+      "instances": 51,
+      "texts": 112
+    },
+    "imageNodes": [
+      {
+        "id": "6:1148",
+        "name": "Abdullah Çam / Portrait",
+        "width": 42,
+        "height": 42
+      },
+      {
+        "id": "6:1461",
+        "name": "Abdullah Çam / Portrait",
+        "width": 42,
+        "height": 42
+      }
+    ]
+  }
+}
