@@ -1,0 +1,446 @@
+{
+  "Selim akıl": [
+    "Salim duyular",
+    "Sadık haber",
+    "İlham",
+    "Rüya"
+  ],
+  "Salim duyular": [
+    "Selim akıl",
+    "Sadık haber",
+    "İlham",
+    "Vahiy"
+  ],
+  "Sadık haber": [
+    "Selim akıl",
+    "Salim duyular",
+    "İlham",
+    "Zan"
+  ],
+  "Vahiy": [
+    "Mütevatir haber",
+    "İlham",
+    "Rüya",
+    "Zan"
+  ],
+  "Mütevatir haber": [
+    "Vahiy",
+    "İlham",
+    "Rüya",
+    "Zan"
+  ],
+  "İman": [
+    "İkrar",
+    "Amel",
+    "Nifak",
+    "Zan"
+  ],
+  "Tasdik": [
+    "İkrar",
+    "Tebliğ",
+    "Amel",
+    "Taklit"
+  ],
+  "İkrar": [
+    "Tasdik",
+    "Tefekkür",
+    "İhlas",
+    "Taklit"
+  ],
+  "Taklidî iman": [
+    "Tahkikî iman",
+    "İkrar",
+    "Nifak",
+    "Zan"
+  ],
+  "Tahkikî iman": [
+    "Taklidî iman",
+    "İkrar",
+    "İlham",
+    "Zan"
+  ],
+  "İlme’l-yakîn": [
+    "Ayne’l-yakîn",
+    "Hakka’l-yakîn",
+    "Zan",
+    "Taklidî iman"
+  ],
+  "Ayne’l-yakîn": [
+    "İlme’l-yakîn",
+    "Hakka’l-yakîn",
+    "Zan",
+    "Taklidî iman"
+  ],
+  "Hakka’l-yakîn": [
+    "İlme’l-yakîn",
+    "Ayne’l-yakîn",
+    "Zan",
+    "Taklidî iman"
+  ],
+  "Zan": [
+    "İlme’l-yakîn",
+    "Ayne’l-yakîn",
+    "Hakka’l-yakîn",
+    "Mütevatir haber"
+  ],
+  "Gayb": [
+    "Şehadet âlemi",
+    "Mütevatir haber",
+    "Salim duyular",
+    "Selim akıl"
+  ],
+  "Din": [
+    "Kültür",
+    "Medeniyet",
+    "Ahlak",
+    "Örf ve âdet"
+  ],
+  "İslam": [
+    "Yahudilik",
+    "Hristiyanlık",
+    "Budizm",
+    "Hinduizm"
+  ],
+  "Tevhit": [
+    "Şirk",
+    "Nifak",
+    "Deizm",
+    "Nübüvvet"
+  ],
+  "Fıtrat": [
+    "Mizaç",
+    "Karakter",
+    "Örf ve âdet",
+    "Taklit"
+  ],
+  "Hanif": [
+    "Müşrik",
+    "Münafık",
+    "Deist",
+    "Ateist"
+  ],
+  "Esmâ-i hüsnâ": [
+    "Kelime-i tevhid",
+    "Kelime-i şehadet",
+    "Sünnet",
+    "Suhuf"
+  ],
+  "Mümin": [
+    "Müşrik",
+    "Münafık",
+    "Kâfir",
+    "Deist"
+  ],
+  "Şirk": [
+    "Tevhit",
+    "Nifak",
+    "İhlas",
+    "Haniflik"
+  ],
+  "Ahiret": [
+    "Berzah",
+    "Dünya",
+    "Kader",
+    "Hicret"
+  ],
+  "Nübüvvet": [
+    "Velayet",
+    "İmamet",
+    "Hilafet",
+    "İçtihat"
+  ],
+  "Melek": [
+    "Peygamber",
+    "İnsan",
+    "Cin",
+    "Sufi"
+  ],
+  "Kelime-i tevhid": [
+    "Kelime-i şehadet",
+    "Tekbir",
+    "Salavat",
+    "Besmele"
+  ],
+  "Kelime-i şehadet": [
+    "Kelime-i tevhid",
+    "Tekbir",
+    "Salavat",
+    "Besmele"
+  ],
+  "Dua": [
+    "Tefekkür",
+    "Tebliğ",
+    "İçtihat",
+    "Riya"
+  ],
+  "Tevekkül": [
+    "Tedbirsizlik",
+    "Kadercilik",
+    "Karamsarlık",
+    "Taklit"
+  ],
+  "İbadet": [
+    "Örf ve âdet",
+    "Riya",
+    "İsraf",
+    "Tecessüs"
+  ],
+  "Niyet": [
+    "Tasdik",
+    "İkrar",
+    "İhsan",
+    "Tefekkür"
+  ],
+  "İhlas": [
+    "Riya",
+    "Nifak",
+    "İkrar",
+    "Zan"
+  ],
+  "Riya": [
+    "İhlas",
+    "Kibir",
+    "Haset",
+    "Takva"
+  ],
+  "Mükellef": [
+    "Müçtehit",
+    "Müfessir",
+    "Muhaddis",
+    "Müezzin"
+  ],
+  "Farz": [
+    "Vacip",
+    "Sünnet",
+    "Mubah",
+    "Mekruh"
+  ],
+  "Farz-ı ayn": [
+    "Farz-ı kifaye",
+    "Vacip",
+    "Mendup",
+    "Mubah"
+  ],
+  "Farz-ı kifaye": [
+    "Farz-ı ayn",
+    "Vacip",
+    "Mendup",
+    "Mubah"
+  ],
+  "Vacip": [
+    "Farz",
+    "Sünnet",
+    "Mubah",
+    "Mekruh"
+  ],
+  "Sünnet": [
+    "Farz",
+    "Vacip",
+    "Mubah",
+    "Mekruh"
+  ],
+  "Mendup": [
+    "Farz",
+    "Vacip",
+    "Haram",
+    "Mekruh"
+  ],
+  "Mubah": [
+    "Farz",
+    "Vacip",
+    "Haram",
+    "Mekruh"
+  ],
+  "Haram": [
+    "Farz",
+    "Vacip",
+    "Mubah",
+    "Mendup"
+  ],
+  "Mekruh": [
+    "Farz",
+    "Vacip",
+    "Mubah",
+    "Mendup"
+  ],
+  "Nafile": [
+    "Farz-ı ayn",
+    "Farz-ı kifaye",
+    "Vacip",
+    "Haram"
+  ],
+  "Değer": [
+    "Örf ve âdet",
+    "Mizaç",
+    "Şahsiyet",
+    "Duygu"
+  ],
+  "Örf ve âdet": [
+    "Mizaç",
+    "İçtihat",
+    "Vahiy",
+    "Fıtrat"
+  ],
+  "Ahlak": [
+    "Mizaç",
+    "Hukuk",
+    "Örf ve âdet",
+    "Medeniyet"
+  ],
+  "Erdem": [
+    "Mizaç",
+    "Alışkanlık",
+    "Örf ve âdet",
+    "Duygu"
+  ],
+  "Kişilik": [
+    "Değer",
+    "Örf ve âdet",
+    "Ahlak ilkesi",
+    "Erdem"
+  ],
+  "Mizaç": [
+    "Karakter",
+    "Değer",
+    "Örf ve âdet",
+    "Erdem"
+  ],
+  "Karakter": [
+    "Mizaç",
+    "Örf ve âdet",
+    "Duygu",
+    "Yetenek"
+  ],
+  "Adalet": [
+    "Cömertlik",
+    "Vefa",
+    "İffet",
+    "Şecaat"
+  ],
+  "Hikmet": [
+    "Şecaat",
+    "İffet",
+    "Cömertlik",
+    "Vefa"
+  ],
+  "İffet": [
+    "Hikmet",
+    "Şecaat",
+    "Cömertlik",
+    "Vefa"
+  ],
+  "Şecaat": [
+    "Hikmet",
+    "İffet",
+    "Kanaat",
+    "Tevazu"
+  ],
+  "Liyakat": [
+    "Vefa",
+    "Sadakat",
+    "Cömertlik",
+    "Gıpta"
+  ],
+  "İsraf": [
+    "Cimrilik",
+    "Kanaat",
+    "İsar",
+    "Cömertlik"
+  ],
+  "Cimrilik": [
+    "Kanaat",
+    "İsraf",
+    "İsar",
+    "Cömertlik"
+  ],
+  "Cömertlik": [
+    "Cimrilik",
+    "İsraf",
+    "Haset",
+    "Kanaat"
+  ],
+  "Kültür": [
+    "Örf ve âdet",
+    "Kolektif hafıza",
+    "Sanat",
+    "Toplumsal kurum"
+  ],
+  "Medeniyet": [
+    "Devlet",
+    "Ümmet",
+    "Millet",
+    "Kültürel kimlik"
+  ],
+  "İslam medeniyeti": [
+    "Helen medeniyeti",
+    "Hint medeniyeti",
+    "Çin medeniyeti",
+    "Aztek medeniyeti"
+  ],
+  "Ümmet": [
+    "Millet",
+    "Kabile",
+    "Devlet",
+    "Hanedan"
+  ],
+  "Hicaz": [
+    "Horasan",
+    "Endülüs",
+    "Maveraünnehir",
+    "Balkanlar"
+  ],
+  "Medine": [
+    "Mekke",
+    "Kudüs",
+    "Şam",
+    "Bağdat"
+  ],
+  "Kudüs": [
+    "Mekke",
+    "Medine",
+    "Şam",
+    "Bağdat"
+  ],
+  "Endülüs": [
+    "Hicaz",
+    "Horasan",
+    "Balkanlar",
+    "Anadolu"
+  ],
+  "Türkistan": [
+    "Hicaz",
+    "Endülüs",
+    "Anadolu",
+    "Balkanlar"
+  ],
+  "Maveraünnehir": [
+    "Horasan",
+    "Hicaz",
+    "Endülüs",
+    "Balkanlar"
+  ],
+  "Horasan": [
+    "Maveraünnehir",
+    "Hicaz",
+    "Endülüs",
+    "Balkanlar"
+  ],
+  "Anadolu": [
+    "Balkanlar",
+    "Hicaz",
+    "Endülüs",
+    "Horasan"
+  ],
+  "Balkanlar": [
+    "Anadolu",
+    "Hicaz",
+    "Horasan",
+    "Maveraünnehir"
+  ],
+  "Takva": [
+    "Riya",
+    "Nifak",
+    "Zan",
+    "Gıpta"
+  ]
+}

@@ -1,0 +1,3768 @@
+[
+  {
+    "id": "k001",
+    "term": "Bilgi",
+    "definition": "Bir konu veya varlık hakkında öğrenme, araştırma ve deneyimle edinilen kavrayış.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k002",
+    "term": "Selim akıl",
+    "definition": "Ön yargı ve yanıltıcı etkilerden uzak biçimde doğruyu değerlendirebilen akıl.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Salim duyular algılar; selim akıl veriler arasında ilişki kurar.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k003",
+    "term": "Salim duyular",
+    "definition": "İşlevini sağlıklı biçimde yerine getiren görme, işitme ve diğer duyular.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k004",
+    "term": "Sadık haber",
+    "definition": "Doğruluğu güvenilir biçimde belirlenmiş haber; dinî bilgide vahiy ve güvenilir aktarımlar bu kapsamda ele alınır.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Her yaygın söylenti sadık haber değildir.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k005",
+    "term": "Mütevatir haber",
+    "definition": "Yalan üzerinde birleşmeleri makul görülmeyen çok sayıda kişinin birbirinden aktararak ilettiği haber.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Bir haberin internette çok paylaşılması tek başına mütevatir olduğunu göstermez.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k006",
+    "term": "Vahiy",
+    "definition": "Allah'ın peygamberlerine bildirdiği ilahî bilgi ve rehberlik.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "İlham, vahiy gibi herkes için bağlayıcı dinî delil sayılmaz.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k007",
+    "term": "İlham",
+    "definition": "İnsanın gönlüne doğan sezgi veya anlam; dinî hüküm koyan genel bir bilgi kaynağı değildir.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k008",
+    "term": "Rüya",
+    "definition": "Uykuda yaşanan zihinsel deneyim; tek başına dinî hükmün veya kesin bilginin kaynağı değildir.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k009",
+    "term": "Zan",
+    "definition": "Kesin bilgiye dayanmayan kanaat veya tahmin.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k010",
+    "term": "Tefekkür",
+    "definition": "Varlıklar, olaylar ve bunların anlamları üzerinde dikkatle düşünme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k011",
+    "term": "İman",
+    "definition": "Allah'a ve İslam'da inanılması bildirilen esaslara gönülden inanma.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "İman inanç boyutudur; amel davranış boyutudur.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k012",
+    "term": "Tasdik",
+    "definition": "Bir önermeyi doğru kabul edip gönülden benimseme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Tasdik kalbin onayı, ikrar dil ile açıklamadır.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k013",
+    "term": "İkrar",
+    "definition": "İnancı veya kabulü sözle ifade etme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k014",
+    "term": "Taklidî iman",
+    "definition": "İnanç esaslarını araştırmadan çevreden görüp benimsemeye dayanan iman.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k015",
+    "term": "Tahkikî iman",
+    "definition": "İnanç esaslarını delillerini araştırarak ve anlamını kavrayarak benimseme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k016",
+    "term": "Amel",
+    "definition": "İnsanın bilinçli olarak gerçekleştirdiği iş ve davranışlar.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k017",
+    "term": "Salih amel",
+    "definition": "İmana uygun, iyi niyetle yapılan, kişiye ve çevresine fayda veren doğru davranış.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k018",
+    "term": "İlmelyakin",
+    "definition": "Bir gerçeğe güvenilir bilgi ve akıl yürütmeyle kesinlik kazanarak inanma.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Duman bilgisinden ateşi bilmek ilmelyakine örnek verilebilir.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k019",
+    "term": "Aynelyakin",
+    "definition": "Bir gerçeği doğrudan görme veya gözlemleme yoluyla kesin olarak bilme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k020",
+    "term": "Hakkalyakin",
+    "definition": "Bir gerçeği bizzat yaşayarak ve tecrübe ederek kesin olarak bilme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k021",
+    "term": "Gayb",
+    "definition": "Duyularla doğrudan kavranamayan; bir kısmı vahiy yoluyla bildirilen varlık ve olay alanı.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k022",
+    "term": "Şehadet âlemi",
+    "definition": "Duyularla gözlemlenebilen varlık alanı.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "Buradaki şehadet, tanıklık anlamındadır; şehitlik kavramıyla karıştırılmaz.",
+    "sourceIds": [
+      "meb9-bilgi"
+    ]
+  },
+  {
+    "id": "k023",
+    "term": "İnanç",
+    "definition": "Bir düşünceyi veya değeri doğru kabul edip benimseme.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k024",
+    "term": "Fıtrat",
+    "definition": "İnsanın yaratılıştan getirdiği temel yapı ve eğilimler; hakikate yöneliş bunlar arasında değerlendirilir.",
+    "grade": 9,
+    "unit": "Bilgi ve İnanç",
+    "topic": "bilgi",
+    "category": "Bilgi ve inanç",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-bilgi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k025",
+    "term": "Din",
+    "definition": "İnsanın kutsalla ilişkisini, inançlarını, ibadetlerini ve ahlaki sorumluluklarını düzenleyen ilke ve öğretiler bütünü.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k026",
+    "term": "İslam",
+    "definition": "Allah'ın birliğini kabul edip O'na teslim olmayı esas alan, Hz. Muhammed aracılığıyla bildirilen din.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k027",
+    "term": "Tevhit",
+    "definition": "Allah'ın zatında, sıfatlarında ve ilahlığında bir ve tek olduğunu kabul etme.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k028",
+    "term": "Şirk",
+    "definition": "Allah'a ilahlık veya ibadette ortak koşma.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Şirk ortak koşmadır; küfür daha geniş biçimde iman esaslarını reddetmeyi anlatır.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k029",
+    "term": "Küfür",
+    "definition": "İslam'ın iman esaslarını inkâr etme.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k030",
+    "term": "Nifak",
+    "definition": "İçten inanmadığı hâlde dışarıdan inanmış görünme.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Nifak inançta ikiyüzlülüktür; riya gösteriş amacıyla davranmaktır.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k031",
+    "term": "Mümin",
+    "definition": "İslam'ın iman esaslarını gönülden benimseyen kişi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k032",
+    "term": "Müslüman",
+    "definition": "İslam dinini kabul eden kişi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k033",
+    "term": "Müşrik",
+    "definition": "Allah'a ortak koşan kişi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k034",
+    "term": "Münafık",
+    "definition": "İnanmadığı hâlde inanmış görünen kişi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k035",
+    "term": "Kelimeitevhit",
+    "definition": "Allah'tan başka ilah bulunmadığını ve Hz. Muhammed'in O'nun elçisi olduğunu bildiren ifade.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Kelime-i tevhid",
+      "Kelime-i tevhit"
+    ]
+  },
+  {
+    "id": "k036",
+    "term": "Kelimeişehadet",
+    "definition": "Allah'ın birliğine ve Hz. Muhammed'in kulluğu ile elçiliğine tanıklık bildiren ifade.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Kelime-i şehadet"
+    ]
+  },
+  {
+    "id": "k037",
+    "term": "Nübüvvet",
+    "definition": "Allah'ın insanlar arasından seçtiği kişileri vahiy ve rehberlikle görevlendirmesi; peygamberlik.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k038",
+    "term": "Risalet",
+    "definition": "Allah'ın elçisi olarak ilahî mesajı insanlara ulaştırma görevi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k039",
+    "term": "Peygamber",
+    "definition": "Allah'ın vahyini insanlara bildirmek ve onlara örnek olmakla görevlendirdiği elçi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k040",
+    "term": "Melek",
+    "definition": "Allah'ın verdiği görevleri yerine getiren, İslam inancında duyular ötesi kabul edilen varlık.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k041",
+    "term": "Ahiret",
+    "definition": "Dünya hayatının ardından başlayacak olan ebedî hayat.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k042",
+    "term": "Kader",
+    "definition": "Allah'ın her şeyi bilgisiyle bir ölçü, düzen ve plan içinde takdir etmesi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Kader takdir ve ölçü, kaza bu takdirin gerçekleşmesidir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k043",
+    "term": "Kaza",
+    "definition": "Allah'ın takdir ettiği olayların zamanı geldiğinde gerçekleşmesi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k044",
+    "term": "İbadet",
+    "definition": "Allah'ın rızasını gözeterek O'nun emirlerine uygun davranma ve kulluk görevlerini yerine getirme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "İbadet yalnız belirli törenlerle sınırlı değildir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k045",
+    "term": "Ubudiyet",
+    "definition": "İnsanın Allah'a bağlılık ve kulluk bilinci içinde yaşaması.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k046",
+    "term": "Mükellef",
+    "definition": "Dinî yükümlülükleri yerine getirmekle sorumlu kişi; akıl ve ergenlik temel şartlardandır.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k047",
+    "term": "Niyet",
+    "definition": "Bir davranışın hangi amaçla yapıldığını belirleyen iç yöneliş.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k048",
+    "term": "İhlas",
+    "definition": "İnanç ve davranışlarda samimi olup Allah'ın rızasını gözetme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "İhlas gösterişten arınmış niyet, ihsan Allah'ın gördüğünün bilinciyle davranmaktır.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k049",
+    "term": "İhsan",
+    "definition": "Allah'ın kendisini gördüğünün bilinciyle kulluk etmek; davranışı özenle ve güzelce yapmak.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k050",
+    "term": "Riya",
+    "definition": "İbadeti veya iyi davranışı insanların beğenisini kazanmak için sergileme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k051",
+    "term": "Takva",
+    "definition": "Allah'a karşı sorumluluk bilinciyle kötülükten sakınıp doğru davranmaya çalışma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k052",
+    "term": "Farz",
+    "definition": "Yapılması kesin ve bağlayıcı delille istenen dinî görev.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k053",
+    "term": "Farzıayn",
+    "definition": "Şartlarını taşıyan her bireyin kendisinin yerine getirmesi gereken görev.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k054",
+    "term": "Farzıkifaye",
+    "definition": "Toplumdan yeterli sayıda kişinin yapmasıyla diğerlerinden yükümlülüğü kalkan görev.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k055",
+    "term": "Vacip",
+    "definition": "Hanefi fıkhında, yapılması bağlayıcı olmakla birlikte delili farz kadar kesin olmayan görev.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Farz-vacip ayrımı mezhepler arasında aynı biçimde kullanılmaz.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k056",
+    "term": "Sünnet",
+    "definition": "Hz. Muhammed'in söz, davranış ve onaylarıyla oluşan örnekliği; fıkıhta yapılması teşvik edilen bazı davranışlar.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k057",
+    "term": "Müstehap",
+    "definition": "Yapılması dinen güzel görülen, terk edilmesi günah sayılmayan davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "synonymGroup": "mendup-mustehap"
+  },
+  {
+    "id": "k058",
+    "term": "Nafile",
+    "definition": "Farz ve vacip yükümlülükler dışında Allah'a yakınlaşmak amacıyla yapılan ek ibadet.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k059",
+    "term": "Mubah",
+    "definition": "Yapılması veya yapılmaması bakımından dinen serbest bırakılan davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k060",
+    "term": "Helal",
+    "definition": "Dinen yapılmasına izin verilen şey veya davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k061",
+    "term": "Haram",
+    "definition": "Yapılması kesin biçimde yasaklanan davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k062",
+    "term": "Mekruh",
+    "definition": "Yapılması dinen hoş görülmeyen davranış; hükmünün derecesi fıkıh yorumuna göre farklılaşabilir.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k063",
+    "term": "Dua",
+    "definition": "İnsanın Allah'a yönelerek isteğini, şükrünü ve aczini ifade etmesi.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k064",
+    "term": "Tövbe",
+    "definition": "Yanlışından pişman olup onu bırakma ve tekrar etmemeye yönelme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k065",
+    "term": "İstiğfar",
+    "definition": "Allah'tan bağışlanma dileme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "İstiğfar bağışlanma istemek; tövbe yanlıştan dönme iradesini de içerir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k066",
+    "term": "Şükür",
+    "definition": "Nimeti Allah'tan bilip değerini söz ve davranışla gösterme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k067",
+    "term": "Hamt",
+    "definition": "Allah'ı yüceliği ve nimetleri dolayısıyla övme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k068",
+    "term": "Zikir",
+    "definition": "Allah'ı anma ve O'nu hatırda tutma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k069",
+    "term": "Tesbih",
+    "definition": "Allah'ı her türlü eksiklikten uzak kabul edip yüceltme.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k070",
+    "term": "Namaz",
+    "definition": "Belirli vakit ve kurallarla yerine getirilen, kıyam, kıraat ve secde gibi bölümleri bulunan ibadet.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k071",
+    "term": "Oruç",
+    "definition": "İbadet niyetiyle imsak vaktinden güneş batıncaya kadar yeme, içme ve orucu bozan davranışlardan uzak durma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k072",
+    "term": "Zekât",
+    "definition": "Belirli şartları taşıyan malın belirlenmiş payını hak sahiplerine verme ibadeti.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k073",
+    "term": "Sadaka",
+    "definition": "Allah'ın rızası gözetilerek yapılan maddi veya manevi yardım.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k074",
+    "term": "İnfak",
+    "definition": "Sahip olunan imkânları Allah'ın rızası doğrultusunda paylaşma ve harcama.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k075",
+    "term": "Hac",
+    "definition": "Şartlarını taşıyan Müslümanların belirli zamanda Kâbe ve çevresindeki yerlerde yerine getirdiği ibadet.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k076",
+    "term": "Umre",
+    "definition": "Belirli hac günlerine bağlı olmaksızın ihram, tavaf ve sa‘y ile yapılan ziyaret ibadeti.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k077",
+    "term": "Kurban",
+    "definition": "Allah'a yakınlaşmak amacıyla uygun bir hayvanı dinî usullere göre kesme ibadeti.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k078",
+    "term": "Abdest",
+    "definition": "Belirli organları usulüne uygun yıkayıp mesh ederek yapılan ibadet temizliği.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k079",
+    "term": "Gusül",
+    "definition": "İbadet temizliği amacıyla bütün bedeni usulüne göre yıkama.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k080",
+    "term": "Teyemmüm",
+    "definition": "Su kullanmanın mümkün olmadığı durumlarda temiz toprak veya toprak cinsiyle yapılan hükmî temizlik.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k081",
+    "term": "Nisap",
+    "definition": "Zekât gibi bazı mali yükümlülüklerde esas alınan asgari zenginlik ölçüsü.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k082",
+    "term": "Sadakaicariye",
+    "definition": "Faydası sürdükçe kişiye sevap kazandırdığı kabul edilen kalıcı hayır.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k083",
+    "term": "Değer",
+    "definition": "Bireyin ve toplumun önem verdiği, davranışlara yön veren ölçüt.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k084",
+    "term": "Ahlak",
+    "definition": "İnsanın iyi ve kötü olarak değerlendirilen huyları ve davranışlarını düzenleyen ilkeler.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k085",
+    "term": "Erdem",
+    "definition": "İnsanı iyi davranışa yönelten, yerleşmiş olumlu ahlaki nitelik.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k086",
+    "term": "Adalet",
+    "definition": "Hak sahibine hakkını vermek ve değerlendirmede hakkaniyetli davranmak.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k087",
+    "term": "Hikmet",
+    "definition": "Bilgiyi doğru değerlendirme ve yerinde kullanma erdemi.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k088",
+    "term": "İffet",
+    "definition": "İnsanın istek ve arzularını ahlaki ölçüler içinde yönetmesi.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k089",
+    "term": "Şecaat",
+    "definition": "Öfke ve korkuyu ölçülü yöneterek gerektiğinde doğru olanı cesaretle savunma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k090",
+    "term": "İtidal",
+    "definition": "Duygu ve davranışlarda aşırılıktan uzak, dengeli olma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k091",
+    "term": "İfrat",
+    "definition": "Bir tutum veya davranışta ölçüyü aşma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k092",
+    "term": "Tefrit",
+    "definition": "Gereken ölçünün altında kalma, ihmal ve eksiklik gösterme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k093",
+    "term": "Edep",
+    "definition": "İnsanın ilişkilerinde saygı ve nezaketle doğru davranma ölçüsü.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k094",
+    "term": "Hayâ",
+    "definition": "Çirkin ve yanlış davranışlardan içsel bir duyarlılıkla çekinme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k095",
+    "term": "Tevazu",
+    "definition": "Kendini başkalarından üstün görmeyip alçak gönüllü olma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k096",
+    "term": "Kibir",
+    "definition": "Kendini üstün görerek başkalarını küçümseme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k097",
+    "term": "Sabır",
+    "definition": "Zorluk, bekleyiş ve sorumluluk karşısında doğru tutumu kararlılıkla sürdürme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Sabır haksızlığı kabullenmek veya tedbirden vazgeçmek değildir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k098",
+    "term": "Kanaat",
+    "definition": "Sahip olduklarının değerini bilip ölçüsüz hırstan uzak durma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Kanaat çalışmayı bırakmak değildir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k099",
+    "term": "Tevekkül",
+    "definition": "Gerekli çabayı ve tedbiri gösterdikten sonra sonucu Allah'a bırakma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k100",
+    "term": "İsar",
+    "definition": "İhtiyacı olduğu hâlde başkasını kendine tercih etme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k101",
+    "term": "Cömertlik",
+    "definition": "Sahip olduğu imkânları karşılık beklemeden uygun biçimde paylaşma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k102",
+    "term": "Merhamet",
+    "definition": "Başkasının sıkıntısını önemseyip onu gidermeye yönelme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k103",
+    "term": "Emanet",
+    "definition": "Korunmak veya gereği yapılmak üzere kişiye bırakılan mal, görev ya da sorumluluk.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Peygamberlik sıfatı olarak emanet, peygamberlerin güvenilirliğini ifade eder; aynı kelime korunmak üzere bırakılan görev ve mal için de kullanılır.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k104",
+    "term": "Kul hakkı",
+    "definition": "Başkasının maddi veya manevi hakkı ve bu hakka ilişkin sorumluluk.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k105",
+    "term": "Vefa",
+    "definition": "İyiliği unutmama ve bağlılığı davranışla sürdürme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k106",
+    "term": "Sadakat",
+    "definition": "Söz, ilişki ve sorumluluklarda dürüstçe bağlı kalma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k107",
+    "term": "Sıdk",
+    "definition": "Söz ve davranışlarda doğruluk.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k108",
+    "term": "Gıybet",
+    "definition": "Bir kişinin hoşlanmayacağı kusurunu arkasından söyleme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k109",
+    "term": "İftira",
+    "definition": "Bir kişiye yapmadığı bir kötülüğü veya suçu yakıştırma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Gıybet gerçek bir kusuru anlatabilir; iftira asılsız suçlamadır.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k110",
+    "term": "Haset",
+    "definition": "Başkasındaki nimetin yok olmasını isteme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k111",
+    "term": "Gıpta",
+    "definition": "Başkasındaki iyiliğin onda kalmasını da isteyerek benzerine sahip olmayı dileme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k112",
+    "term": "Hüsnüzan",
+    "definition": "Yeterli gerekçe yokken başkasının davranışını iyiye yorma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k113",
+    "term": "Suizan",
+    "definition": "Sağlam delil olmadan başkası hakkında kötü kanaat besleme.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k114",
+    "term": "Tecessüs",
+    "definition": "Başkalarının özel hayatını ve gizli kusurlarını araştırma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k115",
+    "term": "İsraf",
+    "definition": "Malı, zamanı veya diğer imkânları gereksiz ve ölçüsüz kullanma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k116",
+    "term": "Cimrilik",
+    "definition": "Yapılması gereken veya uygun olan harcama ve paylaşmadan kaçınma.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k117",
+    "term": "Mahremiyet",
+    "definition": "Kişinin özel hayatını ve sınırlarını koruma hakkı.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k118",
+    "term": "Kültür",
+    "definition": "Bir toplumun zaman içinde oluşturup aktardığı maddi ve manevi birikim.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k119",
+    "term": "Medeniyet",
+    "definition": "Toplumların bilgi, kurum, sanat, hukuk ve yaşam biçimlerinde oluşturduğu kapsamlı gelişme ve birikim.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k120",
+    "term": "Gönül coğrafyası",
+    "definition": "Ortak tarih, kültür ve manevi bağlarla ilişkili toplumları anlatan ifade.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k121",
+    "term": "Ümmet",
+    "definition": "Bir peygambere inanan topluluk; İslam bağlamında Müslümanlar topluluğu.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k122",
+    "term": "Hicaz",
+    "definition": "Mekke ve Medine'nin de yer aldığı, İslam'ın doğuşuyla ilişkili Arabistan bölgesi.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k123",
+    "term": "Maveraünnehir",
+    "definition": "Ceyhun ve Seyhun nehirleri arasındaki tarihî ilim ve kültür havzası.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k124",
+    "term": "Horasan",
+    "definition": "İslam düşüncesi ve Türk-İslam kültüründe etkili olmuş tarihî doğu coğrafyası.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k125",
+    "term": "Endülüs",
+    "definition": "İber Yarımadası'nda Müslümanların kurduğu tarihî siyasi ve kültürel varlığın adı.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k126",
+    "term": "Vakıf",
+    "definition": "Bir malın veya gelirin toplum yararına sürekli bir amaca ayrıldığı hayır kurumu.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k127",
+    "term": "Külliye",
+    "definition": "Cami çevresinde eğitim, sağlık ve sosyal hizmet yapılarının birlikte bulunduğu yapı topluluğu.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k128",
+    "term": "Medrese",
+    "definition": "İslam tarihinde çeşitli bilimlerin öğretildiği eğitim kurumu.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k129",
+    "term": "Darüşşifa",
+    "definition": "İslam tarihinde sağlık hizmeti ve kimi zaman tıp eğitimi sunan kurum.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k130",
+    "term": "Ahilik",
+    "definition": "Meslek dayanışmasını, dürüst üretimi ve ahlaki eğitimi birleştiren tarihî esnaf teşkilatı.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k131",
+    "term": "Esmaihüsna",
+    "definition": "Allah'ın güzel isimleri.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "Esma-i Hüsna",
+      "Esmâ-i Hüsnâ"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k132",
+    "term": "Vücut",
+    "definition": "Allah'ın var olması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k133",
+    "term": "Kıdem",
+    "definition": "Allah'ın varlığının başlangıcının olmaması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k134",
+    "term": "Beka",
+    "definition": "Allah'ın varlığının sonunun olmaması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k135",
+    "term": "Vahdaniyet",
+    "definition": "Allah'ın bir ve tek olması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k136",
+    "term": "Muhalefetün lilhavadis",
+    "definition": "Allah'ın sonradan yaratılmış varlıklara benzememesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k137",
+    "term": "Kıyam binefsihi",
+    "definition": "Allah'ın var olmak için başka hiçbir şeye ihtiyaç duymaması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k138",
+    "term": "Hayat",
+    "definition": "Allah'ın diri olması.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k139",
+    "term": "İlim",
+    "definition": "Allah'ın her şeyi bilmesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k140",
+    "term": "Semi",
+    "definition": "Allah'ın her şeyi işitmesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k141",
+    "term": "Basar",
+    "definition": "Allah'ın her şeyi görmesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k142",
+    "term": "İrade",
+    "definition": "Allah'ın dilemesi ve istediğini belirlemesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k143",
+    "term": "Kudret",
+    "definition": "Allah'ın her şeye gücünün yetmesi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k144",
+    "term": "Kelam",
+    "definition": "Allah'ın konuşma sıfatı.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k145",
+    "term": "Tekvin",
+    "definition": "Maturidi kelamında Allah'ın yaratma sıfatı.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k146",
+    "term": "Rahman",
+    "definition": "Allah'ın bütün varlıklara merhametini ve nimetini ulaştırmasını bildiren ismi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k147",
+    "term": "Rahim",
+    "definition": "Allah'ın merhamet sahibi olduğunu bildiren ismi; dinî öğretimde özellikle müminlere yönelik rahmetiyle açıklanır.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k148",
+    "term": "Gafur",
+    "definition": "Allah'ın çok bağışlayıcı olduğunu bildiren ismi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k149",
+    "term": "Rezzak",
+    "definition": "Allah'ın rızık veren olduğunu bildiren ismi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k150",
+    "term": "Marifetullah",
+    "definition": "Allah'ı isimleri, sıfatları ve eserlerinden hareketle tanımaya yönelik bilgi.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Marifet genel olarak derin tanıma ve kavrayışı, marifetullah özellikle Allah’ı tanımayı anlatır.",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "Marifet"
+    ]
+  },
+  {
+    "id": "k151",
+    "term": "Hudûs delili",
+    "definition": "Sonradan var olan evrenin bir var edene ihtiyaç duyduğu düşüncesine dayanan delil.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "scopeNote": "Destekleyici kavram; 2018 10.1.2 kazanımının sınırı gaye-nizam ve ekmel varlık delilleridir."
+  },
+  {
+    "id": "k152",
+    "term": "İmkân delili",
+    "definition": "Varlığı zorunlu olmayan varlıkların var oluşunu zorunlu bir varlığa dayandıran delil.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "scopeNote": "Destekleyici kavram; 2018 10.1.2 kazanımının sınırı gaye-nizam ve ekmel varlık delilleridir."
+  },
+  {
+    "id": "k153",
+    "term": "Gaye ve nizam delili",
+    "definition": "Evrendeki düzen ve amaçlılıktan Allah'ın varlığına ulaşan akıl yürütme.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "Teleolojik delil"
+    ]
+  },
+  {
+    "id": "k154",
+    "term": "Fıtrat delili",
+    "definition": "İnsandaki yaratılıştan gelen inanma ve yüce varlığa yönelme eğilimini esas alan delil.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k155",
+    "term": "Cüzî irade",
+    "definition": "İnsanın mümkün seçenekler arasında tercih yapabilmesini sağlayan sınırlı iradesi.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "İnsanın seçimi sınırlıdır; küllî irade Allah’ın sınırsız iradesini ifade eder.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k156",
+    "term": "Hadis",
+    "definition": "Hz. Muhammed'in söz, davranış ve onaylarını aktaran rivayet.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k157",
+    "term": "Tebliğ",
+    "definition": "Peygamberin aldığı ilahî mesajı insanlara eksiksiz ulaştırması.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k158",
+    "term": "Tebyin",
+    "definition": "Peygamberin vahyin mesajını açıklaması.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k159",
+    "term": "Temsil",
+    "definition": "Peygamberin bildirdiği ilkeleri yaşayarak örnek olması.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k160",
+    "term": "Teşri",
+    "definition": "Dinî hüküm koyma; Hz. Muhammed'in vahyin verdiği yetki çerçevesinde hüküm bildirmesi.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k161",
+    "term": "Üsveihasene",
+    "definition": "Güzel örnek; Kur'an'da Hz. Muhammed'in örnekliği için kullanılan ifade.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k162",
+    "term": "Hatemülenbiya",
+    "definition": "Peygamberlerin sonuncusu; Hz. Muhammed için kullanılan unvan.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k163",
+    "term": "Ehl-i beyt",
+    "definition": "Hz. Muhammed'in ailesi ve yakınları için kullanılan ifade; kapsamı yorumlara göre farklı açıklanır.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k164",
+    "term": "Sahabe",
+    "definition": "Hz. Muhammed ile iman etmiş olarak karşılaşan ve Müslüman olarak vefat eden kişiler.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "Sahabi topluluğun bir üyesini, sahabe bu kişilerin bütününü anlatır.",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "Sahabi"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k165",
+    "term": "Hicret",
+    "definition": "Baskı altındaki Müslümanların inançlarını yaşayabilmek için yer değiştirmesi; özellikle Mekke'den Medine'ye göç.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k166",
+    "term": "Muhacir",
+    "definition": "Mekke'den Medine'ye hicret eden Müslüman.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k167",
+    "term": "Ensar",
+    "definition": "Medine'de muhacirlere yardım eden Müslümanlar.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k168",
+    "term": "Zaruratıhamse",
+    "definition": "Dinin korunmasını hedeflediği can, akıl, din, nesil ve mal şeklindeki beş temel değer.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k169",
+    "term": "Din özgürlüğü",
+    "definition": "Kişinin inancını seçme, açıklama ve dinî hayatını hukuki çerçevede sürdürme hakkı.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k170",
+    "term": "İstişare",
+    "definition": "Bir konuda karar vermeden önce bilgi ve görüş sahiplerine danışma.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k171",
+    "term": "Liyakat",
+    "definition": "Bir göreve gerekli bilgi, beceri ve ahlaki yeterliliğe göre uygun olma.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k172",
+    "term": "Küllî irade",
+    "definition": "Allah’ın dilemesinin sınırsız ve bütün varlığı kuşatıcı olması.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k173",
+    "term": "Din anlayışı",
+    "definition": "İnsanların dinin kaynaklarını kendi bilgi ve şartları içinde anlama ve yorumlama biçimi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "Din ile dinin tarih içindeki insan yorumları aynı düzeyde değildir.",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k174",
+    "term": "Mezhep",
+    "definition": "Dinî meseleleri belirli yöntem ve ilkelerle yorumlayan düşünce veya uygulama ekolü.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k175",
+    "term": "İtikat",
+    "definition": "Dinin inançla ilgili esaslarını benimseme; inanç alanı.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "aliases": [
+      "İtikad"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k176",
+    "term": "Fıkıh",
+    "definition": "İbadet ve günlük hayattaki davranışların dinî hükümlerini yöntemli biçimde inceleyen ilim.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k177",
+    "term": "Kelam ilmi",
+    "definition": "İslam'ın inanç esaslarını açıklayan ve akli delillerle temellendiren ilim.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "Allah'ın kelam sıfatıyla ilim dalı olan kelam farklı bağlamlardır.",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k178",
+    "term": "İçtihat",
+    "definition": "Yetkin bir din bilgininin kaynak ve yöntemlere dayanarak dinî hükme ulaşmak için çaba göstermesi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k179",
+    "term": "Müçtehit",
+    "definition": "İçtihat yapma yeterliliğine sahip din bilgini.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k180",
+    "term": "İcma",
+    "definition": "Belirli bir dönemdeki yetkin İslam bilginlerinin dinî bir hüküm üzerinde görüş birliğine varması.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k181",
+    "term": "Kıyas",
+    "definition": "Hükmü bilinen bir meseleyle ortak gerekçesi bulunan yeni meseleye benzer hüküm uygulama yöntemi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k182",
+    "term": "Tevil",
+    "definition": "Bir dinî ifadeyi gerekçeli biçimde mümkün anlamlarından biriyle yorumlama.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k183",
+    "term": "Ehlisünnet",
+    "definition": "İnanç ve din anlayışında Kur'an ile peygamberin sünnetini esas alan geniş yorum geleneği.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k184",
+    "term": "Maturidilik",
+    "definition": "Ebu Mansur el-Maturidi'nin görüşleri çevresinde gelişen itikadi ekol.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k185",
+    "term": "Eşarilik",
+    "definition": "Ebu'l-Hasan el-Eşari'nin görüşleri çevresinde gelişen itikadi ekol.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k186",
+    "term": "Mutezile",
+    "definition": "İslam düşüncesinde akıl, ilahî adalet ve insanın sorumluluğuna vurgu yapan itikadi ekol.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k187",
+    "term": "Şia",
+    "definition": "Hz. Ali ve soyunun imametine özel önem veren İslam yorum geleneği.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k188",
+    "term": "Hanefilik",
+    "definition": "Ebu Hanife'nin görüşleri ve yöntemi çevresinde gelişen fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k189",
+    "term": "Şafiilik",
+    "definition": "İmam Şafii'nin görüşleri ve yöntemi çevresinde gelişen fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k190",
+    "term": "Malikilik",
+    "definition": "İmam Malik'in görüşleri ve yöntemi çevresinde gelişen fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k191",
+    "term": "Hanbelilik",
+    "definition": "Ahmed bin Hanbel'in görüşleri ve yöntemi çevresinde gelişen fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k192",
+    "term": "Caferilik",
+    "definition": "Cafer es-Sadık'a nispet edilen, Şii gelenekte etkili fıkıh mezhebi.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb10-ders-materyalleri"
+    ]
+  },
+  {
+    "id": "k193",
+    "term": "Kur'an",
+    "definition": "İslam inancına göre Hz. Muhammed'e vahyedilen son ilahî kitap.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k194",
+    "term": "Ayet",
+    "definition": "Kur'an surelerini oluşturan, başlangıcı ve sonu belirli vahiy bölümü.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k195",
+    "term": "Sure",
+    "definition": "Kur'an'da adı bulunan, ayetlerden oluşan bölüm.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k196",
+    "term": "Mushaf",
+    "definition": "Kur'an ayetlerinin iki kapak arasında bir araya getirilmiş kitap hâli.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k197",
+    "term": "Meal",
+    "definition": "Kur'an'ın anlamını başka bir dilde yaklaşık olarak ifade eden çeviri.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "Meal tercüme niteliğindedir; tefsir açıklama ve yorumlamayı içerir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k198",
+    "term": "Tefsir",
+    "definition": "Kur'an ayetlerini dil, bağlam ve ilgili kaynaklardan yararlanarak açıklayan ilim ve eser.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k199",
+    "term": "Hidayet",
+    "definition": "Doğru yola yönelme veya yöneltme; ilahî rehberlik.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k200",
+    "term": "Sıratımüstakim",
+    "definition": "İnanç ve davranışta Allah'ın gösterdiği doğru yol.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k201",
+    "term": "Birr",
+    "definition": "İnanç, ibadet, paylaşma ve ahlaki doğruluğu birlikte içeren kapsamlı iyilik.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k202",
+    "term": "Ba‘s",
+    "definition": "Ölümden sonra yeniden diriltilme.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k203",
+    "term": "Haşir",
+    "definition": "Diriltilen insanların hesap için bir araya toplanması.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k204",
+    "term": "Mahşer",
+    "definition": "Diriltilen insanların hesap için toplandığı yer veya toplanma safhası.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k205",
+    "term": "Mizan",
+    "definition": "Ahirette davranışların adaletle değerlendirilmesini anlatan ölçü.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k206",
+    "term": "Berzah",
+    "definition": "Ölüm ile yeniden diriliş arasındaki hayat veya dönem.",
+    "grade": 11,
+    "unit": "Dünya ve Ahiret",
+    "topic": "ahiret",
+    "category": "Ahiret ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k207",
+    "term": "Tasavvuf",
+    "definition": "İslam'da kişinin nefsini eğitip güzel ahlak ve manevi olgunluk kazanmasını amaçlayan düşünce ve yaşam geleneği.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k208",
+    "term": "Züht",
+    "definition": "Dünyevi imkânları hayatın tek amacı yapmayıp aşırı bağlılıktan uzak durma.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k209",
+    "term": "Sufi",
+    "definition": "Tasavvuf yoluyla ahlaki ve manevi olgunluk arayan kişi.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k210",
+    "term": "Nefis",
+    "definition": "İnsanın benliği; tasavvufta eğitilmesi gereken istek ve yönelişleri için de kullanılan kavram.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k211",
+    "term": "İnsanıkâmil",
+    "definition": "Ahlaki ve manevi bakımdan olgunlaşmış insan ideali.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k212",
+    "term": "Cem",
+    "definition": "Alevi-Bektaşi geleneğinde topluca yürütülen, dua ve erkân içeren ibadet toplantısı.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k213",
+    "term": "Semah",
+    "definition": "Alevi-Bektaşi cemlerinde söz, müzik ve belirli hareketlerle yerine getirilen dinî uygulama.",
+    "grade": 12,
+    "unit": "İslam Düşüncesinde Tasavvufi Yorumlar",
+    "topic": "tasavvuf",
+    "category": "Tasavvuf ve kültür",
+    "distinction": "Mevlevilikteki sema ile aynı uygulama değildir.",
+    "sourceIds": [
+      "meb12-tasavvuf"
+    ]
+  },
+  {
+    "id": "k214",
+    "term": "Teizm",
+    "definition": "Evreni yaratan ve varlıkla ilişkisini sürdüren bir Tanrı’nın varlığını kabul eden yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Deizmden ayrıldığı nokta Tanrı’nın evrenle ve insanla etkin ilişkisidir.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k215",
+    "term": "Deizm",
+    "definition": "Yaratıcı bir Tanrı’yı kabul ederken vahyi ve peygamberlik yoluyla ilahî rehberliği kabul etmeyen yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Tanrı inancı taşır; ateizmle aynı değildir.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k216",
+    "term": "Ateizm",
+    "definition": "Tanrı veya tanrıların varlığını kabul etmeyen yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Agnostisizm Tanrı’nın varlığı konusunda bilginin imkânına odaklanır.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k217",
+    "term": "Agnostisizm",
+    "definition": "Tanrı’nın varlığı veya yokluğu konusunda kesin bilgiye ulaşılamayacağını savunan yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Tanrı’nın kesinlikle olmadığı iddiasıyla eş anlamlı değildir.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k218",
+    "term": "Panteizm",
+    "definition": "Tanrı ile evreni özdeş kabul eden yaklaşım.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Çok sayıda tanrı kabul eden politeizmden farklıdır.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k219",
+    "term": "Monoteizm",
+    "definition": "Tek bir Tanrı’nın varlığını kabul eden inanç biçimi.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Tanrı sayısına ilişkin tek tanrıcılık anlamını taşır.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k220",
+    "term": "Politeizm",
+    "definition": "Birden çok tanrının varlığını kabul eden inanç biçimi.",
+    "grade": 11,
+    "unit": "İnançla İlgili Meseleler",
+    "topic": "inanc-yaklasimlari",
+    "category": "İnançla ilgili yaklaşımlar",
+    "distinction": "Tek tanrıcılık olan monoteizmin karşıtıdır.",
+    "sourceIds": [
+      "meb-inanc-yaklasimlari"
+    ]
+  },
+  {
+    "id": "k221",
+    "term": "Hanif",
+    "definition": "Allah'ın birliğine inanıp şirkten uzak duran kişi; Kur'an'da Hz. İbrahim'in inancı için de kullanılır.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Haniflik"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k222",
+    "term": "Akide",
+    "definition": "Kesin olarak benimsenen dinî inanç esası.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Akide tek bir inanç ilkesini; akaid bu ilkeler bütününü anlatır.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k223",
+    "term": "Havf",
+    "definition": "Allah'a karşı sorumluluğunu yerine getirememe ve O'nun hoşnutluğundan uzak kalma endişesi.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Havf, Allah'ın rahmetinden ümit kesmek anlamına gelmez.",
+    "sourceIds": [
+      "meb-havf-reca"
+    ]
+  },
+  {
+    "id": "k224",
+    "term": "Reca",
+    "definition": "Allah'ın rahmet ve bağışlamasını ümit ederek iyiliğe yönelme.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "Reca, sorumlulukları terk edip koşulsuz bağışlanacağını varsaymak değildir.",
+    "sourceIds": [
+      "meb-havf-reca"
+    ]
+  },
+  {
+    "id": "k225",
+    "term": "Cebrail",
+    "definition": "İslam inancında Allah'ın vahyini peygamberlere ulaştırmakla görevli melek.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k226",
+    "term": "Mikail",
+    "definition": "İslam inancında Allah'ın emriyle tabiat olayları ve rızıkla ilgili görevleri yerine getiren melek.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k227",
+    "term": "İsrafil",
+    "definition": "İslam inancında kıyamet ve yeniden diriliş için sûra üflemekle görevli melek.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k228",
+    "term": "Azrail",
+    "definition": "İslam geleneğinde Allah'ın emriyle canlıların canını almakla görevli ölüm meleğine verilen ad.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k229",
+    "term": "Tevrat",
+    "definition": "İslam inancına göre Hz. Musa'ya verilen ilahî kitap; Yahudi geleneğinde Tora adıyla anılır.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k230",
+    "term": "Zebur",
+    "definition": "İslam inancına göre Hz. Davut'a verilen ilahî kitap.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k231",
+    "term": "İncil",
+    "definition": "İslam inancına göre Hz. İsa'ya verilen ilahî kitap.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "İslam'daki vahyedilmiş İncil anlayışı ile Hristiyanlıktaki dört İncil metni aynı tanımla ele alınmaz.",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k232",
+    "term": "Suhuf",
+    "definition": "İslam geleneğinde bazı peygamberlere verilen ilahî öğütleri içeren sahifeler.",
+    "grade": 9,
+    "unit": "Din ve İslam",
+    "topic": "din",
+    "category": "Din ve İslam",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k233",
+    "term": "Fetanet",
+    "definition": "Peygamberlerin üstün kavrayış, zekâ ve doğru değerlendirme yeteneğine sahip olması.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k234",
+    "term": "İsmet",
+    "definition": "Peygamberlerin dinin tebliğinde yanılmadan ve günahlardan korunmuş olmalarını anlatan sıfat.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-temel-inanc"
+    ]
+  },
+  {
+    "id": "k235",
+    "term": "El-emin",
+    "definition": "Güvenilir kişi anlamındaki unvan; Hz. Muhammed'in peygamberlik öncesinde de tanındığı özelliği.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k236",
+    "term": "Âlim",
+    "definition": "Bir ilim alanında derin bilgi ve yetkinlik sahibi kişi.",
+    "grade": 10,
+    "unit": "Hz. Muhammed ve Gençlik",
+    "topic": "peygamber",
+    "category": "Peygamberlik ve örneklik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k237",
+    "term": "Mendup",
+    "definition": "Dinen yapılması bağlayıcı olmadan teşvik edilen, terk edilmesi günah sayılmayan davranış.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Müstehap ve nafile terimleriyle yakın anlamlarda kullanılır; terimlerin kapsamı fıkıh ekolüne göre değişebilir.",
+    "sourceIds": [
+      "meb9-mendup"
+    ],
+    "synonymGroup": "mendup-mustehap"
+  },
+  {
+    "id": "k238",
+    "term": "Efalimükellefin",
+    "definition": "Dinî sorumluluk taşıyan kişilerin fiillerine ilişkin farz, vacip, haram gibi hüküm sınıfları.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k239",
+    "term": "İhram",
+    "definition": "Hac veya umre niyetiyle, normalde serbest olan bazı davranışları geçici olarak terk ederek girilen ibadet durumu.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "İhram yalnızca giyilen kıyafetin adı değildir.",
+    "sourceIds": [
+      "meb-hac"
+    ]
+  },
+  {
+    "id": "k240",
+    "term": "Tavaf",
+    "definition": "Kâbe'nin çevresinde usulüne göre yedi defa dönülerek yerine getirilen ibadet.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-hac"
+    ]
+  },
+  {
+    "id": "k241",
+    "term": "Sa‘y",
+    "definition": "Hac veya umrede Safa ile Merve arasında belirli usulle yedi geçiş yapma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-hac"
+    ]
+  },
+  {
+    "id": "k242",
+    "term": "Vakfe",
+    "definition": "Hac ibadetinde Arafat ve Müzdelife'de belirlenmiş zamanda bir süre bulunma.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Safa ve Merve arasında yapılan uygulama vakfe değil sa‘ydır.",
+    "sourceIds": [
+      "meb-hac"
+    ]
+  },
+  {
+    "id": "k243",
+    "term": "Taharet",
+    "definition": "İbadet için gerekli maddi ve hükmî temizliği sağlama.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "diyanet-temizlik"
+    ]
+  },
+  {
+    "id": "k244",
+    "term": "Hades",
+    "definition": "Abdest veya gusül gerektiren, bazı ibadetleri yerine getirmeye engel sayılan hükmî durum.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Hades hükmî durumdur; necaset maddi pisliktir.",
+    "sourceIds": [
+      "diyanet-temizlik"
+    ]
+  },
+  {
+    "id": "k245",
+    "term": "Necaset",
+    "definition": "İbadet temizliği bakımından giderilmesi gereken, dinen pis kabul edilen maddeler.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "",
+    "sourceIds": [
+      "diyanet-temizlik"
+    ]
+  },
+  {
+    "id": "k246",
+    "term": "Bidat",
+    "definition": "Dinî bir dayanak bulunmadığı hâlde sonradan ibadet veya dinin gereği olarak ortaya konan uygulama.",
+    "grade": 9,
+    "unit": "İslam ve İbadet",
+    "topic": "ibadet",
+    "category": "İbadet ve hükümler",
+    "distinction": "Her teknolojik yenilik bidat sayılmaz; dinî uygulama niteliği bağlamı belirler.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k247",
+    "term": "Fısk",
+    "definition": "Allah'ın emir ve yasaklarına aykırı davranarak dinî ve ahlaki sınırları aşma.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb9-fasik",
+      "tdv-fasik"
+    ]
+  },
+  {
+    "id": "k248",
+    "term": "Fasık",
+    "definition": "Dinî ve ahlaki yükümlülüklerine aykırı davranışlarıyla tanınan kişi.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "Fasık sözcüğü otomatik olarak inançsız anlamına gelmez.",
+    "sourceIds": [
+      "meb9-fasik",
+      "tdv-fasik"
+    ]
+  },
+  {
+    "id": "k249",
+    "term": "Muttaki",
+    "definition": "Takva bilinciyle sorumluluklarını gözetip kötülüklerden sakınan kişi.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "",
+    "sourceIds": [
+      "meb-muttaki"
+    ]
+  },
+  {
+    "id": "k250",
+    "term": "Cihat",
+    "definition": "Allah'ın rızası doğrultusunda iyiliği gerçekleştirmek, kötülükle mücadele etmek için gösterilen çaba.",
+    "grade": 11,
+    "unit": "Kur’an’da Bazı Kavramlar",
+    "topic": "kuran",
+    "category": "Kur’an kavramları",
+    "distinction": "Kavram yalnız silahlı savaşla sınırlandırılamaz; ilim, ahlak ve toplumsal iyilik çabasını da kapsar.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k251",
+    "term": "Rızık",
+    "definition": "Canlıların hayatını sürdürmelerine yarayan, Allah'ın verdiği maddi ve manevi imkânlar.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "Rızık inancı çalışmayı ve helal kazanç sorumluluğunu kaldırmaz.",
+    "sourceIds": [
+      "meb-kader"
+    ]
+  },
+  {
+    "id": "k252",
+    "term": "Ecel",
+    "definition": "Canlının dünya hayatının son bulduğu, Allah'ın bilgisi dâhilindeki ölüm vakti.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-kader"
+    ]
+  },
+  {
+    "id": "k253",
+    "term": "Emek",
+    "definition": "Bir işin gerçekleşmesi için gösterilen bedensel veya zihinsel çaba.",
+    "grade": 11,
+    "unit": "Kaderle İlgili Kavramlar",
+    "topic": "kader",
+    "category": "İnsan ve sorumluluk",
+    "distinction": "",
+    "sourceIds": [
+      "meb-kader"
+    ]
+  },
+  {
+    "id": "k254",
+    "term": "Zati sıfatlar",
+    "definition": "Allah'a özgü olup yaratılmışlara nispet edilmeyen, O'nun eşsizliğini bildiren sıfatlar.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Vücut, kıdem, beka, vahdaniyet, muhalefetün lilhavadis ve kıyam binefsihi bu grupta öğretilir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Zâtî sıfatlar"
+    ]
+  },
+  {
+    "id": "k255",
+    "term": "Sübuti sıfatlar",
+    "definition": "Allah'ın yetkinliğini bildiren hayat, ilim, semi, basar, irade, kudret, kelam ve tekvin gibi sıfatlar.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Benzer adlar insan için de kullanılsa da Allah'ın sıfatları sınırsız ve kusursuz kabul edilir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Subuti sıfatlar",
+      "Sübûtî sıfatlar"
+    ]
+  },
+  {
+    "id": "k256",
+    "term": "Ekmel varlık delili",
+    "definition": "Zihindeki mutlak yetkin varlık düşüncesinden Allah'ın varlığına ulaşmayı amaçlayan akli delil.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Evrendeki düzenden hareket eden gaye-nizam delilinden farklıdır.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Ontolojik delil"
+    ]
+  },
+  {
+    "id": "k257",
+    "term": "Tilavet",
+    "definition": "Kur'an'ı okuyup takip etme; dinî kullanımda metni özenle okuma ve mesajına yönelme.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k258",
+    "term": "Kıraat",
+    "definition": "Kur'an'ın usulüne uygun okunması; ayrıca bu okuma biçimlerini inceleyen ilim.",
+    "grade": 10,
+    "unit": "Allah-İnsan İlişkisi",
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "Kıraat sesli veya sessiz okumayı ifade edebilir; meal ve tefsirle aynı işlem değildir.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k259",
+    "term": "Makasıd",
+    "definition": "Dinî hükümlerin gözettiği temel amaçlar; insanın maslahatını ve temel haklarını koruma hedefleri.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "Zaruratıhamse, bu amaçların beş temel koruma alanını anlatır.",
+    "sourceIds": [
+      "tubitak-makasid"
+    ]
+  },
+  {
+    "id": "k260",
+    "term": "Sanat",
+    "definition": "Duygu, düşünce ve anlamın estetik bir anlatımla ifade edilmesi.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k261",
+    "term": "İktisat",
+    "definition": "Sınırlı kaynakların üretim, paylaşım ve tüketimini inceleyen alan; günlük dilde ölçülü harcama anlamında da kullanılır.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k262",
+    "term": "Sosyal değişim",
+    "definition": "Bir toplumun kurumlarında, ilişkilerinde ve yaşam biçimlerinde zamanla oluşan dönüşüm.",
+    "grade": 10,
+    "unit": "Din ve Hayat",
+    "topic": "hayat",
+    "category": "Din ve toplumsal hayat",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k263",
+    "term": "Seciye",
+    "definition": "Kişide yerleşmiş ahlaki huy ve eğilimler bütünü.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "Karakter kavramıyla yakın anlamda kullanılır.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "synonymGroup": "seciye-karakter",
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k264",
+    "term": "Şahsiyet",
+    "definition": "Kişiyi başkalarından ayıran düşünce, duygu ve davranış özelliklerinin oluşturduğu bütün; kişilik.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "aliases": [
+      "Kişilik"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k265",
+    "term": "Karakter",
+    "definition": "Kişinin seçim ve davranışlarında süreklilik gösteren ahlaki yönelim ve özellikleri.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "synonymGroup": "seciye-karakter",
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k266",
+    "term": "Terbiye",
+    "definition": "İnsanın yeteneklerini, davranışlarını ve ahlaki duyarlılığını eğitimle geliştirme süreci.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k267",
+    "term": "Mizaç",
+    "definition": "Kişinin doğuştan getirdiği, duygulanma ve tepki verme biçimini etkileyen temel eğilimler.",
+    "grade": 10,
+    "unit": "Ahlaki Tutum ve Davranışlar",
+    "topic": "ahlak",
+    "category": "Ahlak ve kişilik",
+    "distinction": "Kişilik yalnız mizaçtan oluşmaz; öğrenme ve çevreyle de gelişir.",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k268",
+    "term": "Örf",
+    "definition": "Toplumda yerleşmiş, insanlarca uygun kabul edilen yaygın davranış ve uygulamalar.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k269",
+    "term": "Âdet",
+    "definition": "Bir toplumda veya kişide tekrarlanarak alışkanlık hâline gelmiş uygulama.",
+    "grade": 9,
+    "unit": "Gençlik ve Değerler",
+    "topic": "degerler",
+    "category": "Ahlak ve değerler",
+    "distinction": "Bir uygulamanın âdet olması tek başına dinî zorunluluk oluşturmaz.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k270",
+    "term": "Fırka",
+    "definition": "İslam düşünce tarihinde belirli inanç veya siyasi görüşler çevresinde oluşmuş topluluk.",
+    "grade": 10,
+    "unit": "İslam Düşüncesinde İtikadi, Siyasi ve Fıkhi Yorumlar",
+    "topic": "yorumlar",
+    "category": "Dinî yorumlar",
+    "distinction": "Kelime bağlama göre farklı anlamlar taşır; her kullanımı olumsuz bir yargı içermez.",
+    "sourceIds": [
+      "meb-2018"
+    ],
+    "officialKeyTerm2018": true
+  },
+  {
+    "id": "k271",
+    "term": "İslam medeniyeti",
+    "definition": "İslam'ın ilke ve değerlerinin etkisiyle, farklı toplumların katkılarıyla oluşan kültürel ve kurumsal birikim.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k272",
+    "term": "Medine",
+    "definition": "Hz. Muhammed'in hicret ettiği, Mescidinebevi'nin bulunduğu ve ilk Müslüman toplumun geliştiği şehir.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k273",
+    "term": "Kudüs",
+    "definition": "Mescidiaksa'nın bulunduğu, İslam ile Yahudilik ve Hristiyanlık bakımından da önem taşıyan tarihî şehir.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k274",
+    "term": "Türkistan",
+    "definition": "Orta Asya'da Türk topluluklarının ve Türk-İslam ilim hayatının tarihî merkezlerini kapsayan coğrafi ad.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k275",
+    "term": "Anadolu",
+    "definition": "Türk-İslam kültürünün ilim, sanat ve tasavvuf kurumlarıyla geliştiği, Türkiye'nin Asya bölümündeki tarihî coğrafya.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "k276",
+    "term": "Balkanlar",
+    "definition": "İslam medeniyetinin Osmanlı döneminde kurum, sanat ve sosyal hayat bakımından izler bıraktığı Güneydoğu Avrupa bölgesi.",
+    "grade": 9,
+    "unit": "Gönül Coğrafyamız",
+    "topic": "cografya",
+    "category": "Kültür ve medeniyet",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-277",
+    "term": "Hilm",
+    "definition": "Öfke karşısında kendini denetleyip yumuşak ve ölçülü davranma.",
+    "grade": 10,
+    "unit": 4,
+    "topic": "ahlak",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-278",
+    "term": "Müsamaha",
+    "definition": "Farklılıklar karşısında saygılı ve hoşgörülü olma; hak ihlalini onaylamak anlamına gelmez.",
+    "grade": 10,
+    "unit": 4,
+    "topic": "ahlak",
+    "category": "Ahlak ve değerler",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-279",
+    "term": "Hakîm",
+    "definition": "Allah’ın her işi hikmetle ve yerli yerinde yaptığını bildiren güzel ismi.",
+    "grade": 10,
+    "unit": 1,
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-280",
+    "term": "Musavvir",
+    "definition": "Allah’ın varlıklara biçim ve özellik veren olduğunu bildiren güzel ismi.",
+    "grade": 10,
+    "unit": 1,
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-281",
+    "term": "Tevvâb",
+    "definition": "Allah’ın tövbeleri kabul ettiğini bildiren güzel ismi.",
+    "grade": 10,
+    "unit": 1,
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-282",
+    "term": "Samed",
+    "definition": "Her şeyin kendisine muhtaç olduğu, kendisinin hiçbir şeye muhtaç olmadığı anlamında Allah’ın ismi.",
+    "grade": 10,
+    "unit": 1,
+    "topic": "allah",
+    "category": "Allah inancı",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  },
+  {
+    "id": "destek-283",
+    "term": "Taassup",
+    "definition": "Bir düşünceye veya yoruma, gerekçeleri değerlendirmeyi engelleyecek ölçüde körü körüne bağlanma.",
+    "grade": 10,
+    "unit": 5,
+    "topic": "yorum",
+    "category": "Dinî yorumlar",
+    "distinction": "",
+    "sourceIds": [
+      "meb-2018"
+    ]
+  }
+]
